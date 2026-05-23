@@ -1,0 +1,366 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-05-22T14:40:00-07:00",
+    "readArtifacts": [
+      "stardust/current/DESIGN.json",
+      "stardust/current/_brand-extraction.json",
+      "samples/SAMPLES.md",
+      "samples/trait-matrix.json",
+      "stardust/prototypes/home-improvements.md"
+    ],
+    "stardustVersion": "0.7.1",
+    "schemaVersion": 2,
+    "variant": "A",
+    "variantRole": "Faithful + improvements",
+    "variantThesis": "What your site should be tomorrow — same IA, same composition, every improvement applied.",
+    "mode": "A"
+  },
+
+  "colors": {
+    "background": "#ffffff",
+    "surface": "#f8f8f8",
+    "surface-dark": "#000000",
+    "text-primary": "#2c2c2c",
+    "text-secondary": "rgba(0,0,0,0.64)",
+    "text-knockout": "#ffffff",
+    "text-knockout-soft": "rgba(255,255,255,0.64)",
+    "primary": "#3b63fb",
+    "primary-hover": "#274dea",
+    "border-subtle": "rgba(0,0,0,0.08)",
+    "brand-mnemonic-red": "#eb1000"
+  },
+
+  "typography": {
+    "headingFamily": "\"Adobe Clean Display\", \"Adobe Clean\", system-ui, sans-serif",
+    "bodyFamily": "\"Adobe Clean\", system-ui, sans-serif",
+    "monoFamily": null,
+    "weights": [400, 700, 900],
+    "scale": {
+      "title-1": { "size": "clamp(40px, 6.25vw, 80px)", "lineHeight": "0.95", "letterSpacing": "clamp(-1.5px, -0.25vw, -3.2px)", "weight": 900 },
+      "title-2": { "size": "clamp(32px, 4.375vw, 56px)", "lineHeight": "1.0",  "letterSpacing": "clamp(-0.8px, -0.13vw, -1.68px)", "weight": 900 },
+      "title-3": { "size": "clamp(28px, 3.125vw, 48px)", "lineHeight": "1.05", "letterSpacing": "clamp(-0.8px, -0.11vw, -1.2px)", "weight": 900 },
+      "title-4": { "size": "24px", "lineHeight": "1.0",  "letterSpacing": "-0.48px", "weight": 900 },
+      "body-lg": { "size": "20px", "lineHeight": "1.2",  "weight": 400 },
+      "body-md": { "size": "16px", "lineHeight": "1.25", "weight": 400, "letterSpacing": "0.16px" },
+      "body-sm": { "size": "14px", "lineHeight": "1.29", "weight": 400 },
+      "eyebrow": { "size": "16px", "lineHeight": "1.25", "weight": 700, "letterSpacing": "-0.2px" },
+      "label":   { "size": "14px", "lineHeight": "1.29", "weight": 700 }
+    },
+    "scaleAudit": {
+      "kind": "fluid-clamp",
+      "rationale": "Captured site uses ad-hoc scale (improvements list #4). Variant A adopts samples' clamp() fluid scale verbatim — produces perfect-fourth-adjacent ratios at desktop, no collapsed-stack mid-viewport.",
+      "ratiosAtDesktop1440": { "title1-to-title2": 1.43, "title2-to-title3": 1.17, "title3-to-title4": 2.0 }
+    }
+  },
+
+  "rounded": { "primary": "16px", "secondary": "8px", "large": "32px", "pill": "999px", "innerCard": "12px" },
+
+  "spacing": {
+    "base": 8,
+    "sectionPadding": { "desktop": "64px", "tablet": "48px", "mobile": "32px" },
+    "scale": [4, 8, 12, 16, 24, 32, 40, 48, 64, 80, 96],
+    "containerMaxWidth": "1440px",
+    "gridGap": "8px",
+    "densityTier": "balanced",
+    "densityFloor": "multi-audience hard floor — capped at 64px desktop / 40px floor"
+  },
+
+  "components": [
+    { "name": "button-primary",   "treatment": "ds-btn ds-btn--primary",   "css": ".ds-btn { display:inline-flex; align-items:center; gap:6px; height:40px; padding-inline:24px; border-radius:16px; font:700 14px/1.29 var(--ds-body-family); border:1.5px solid transparent; cursor:pointer; transition:background 200ms cubic-bezier(0.42,0,0,1), border-color 200ms; white-space:nowrap; } .ds-btn--sm { height:32px; padding-inline:18px; } .ds-btn--primary { background:#3b63fb; color:#fff; } .ds-btn--primary:hover { background:#274dea; }" },
+    { "name": "button-outline",   "treatment": "ds-btn ds-btn--outline",   "css": ".ds-btn--outline { background:transparent; color:#2c2c2c; border-color:#2c2c2c; } .ds-btn--outline:hover { background:rgba(0,0,0,0.04); }" },
+    { "name": "button-dark",      "treatment": "ds-btn ds-btn--dark",      "css": ".ds-btn--dark { background:#000; color:#fff; } .ds-btn--dark:hover { background:#1a1a1a; }" },
+    { "name": "button-solid-white","treatment": "ds-btn ds-btn--solid-white","css": ".ds-btn--solid-white { background:#fff; color:#000; } .ds-btn--solid-white:hover { background:rgba(255,255,255,0.88); }" },
+    { "name": "button-ghost-white","treatment": "ds-btn ds-btn--ghost-white","css": ".ds-btn--ghost-white { background:transparent; color:#fff; border-color:rgba(255,255,255,0.5); backdrop-filter:blur(16px); } .ds-btn--ghost-white:hover { background:rgba(255,255,255,0.08); }" },
+    { "name": "card",             "treatment": "ds-card",                  "css": ".ds-card { background:#f8f8f8; border-radius:16px; padding:24px; }" },
+    { "name": "card-dark",        "treatment": "ds-card ds-card--dark",    "css": ".ds-card--dark { background:#000; color:#fff; }" },
+    { "name": "card-nested",      "treatment": "ds-card-nested (Stories/Pricing pattern)", "css": ".ds-card-nested { background:#f8f8f8; outline:4px solid #f8f8f8; border-radius:16px; overflow:hidden; } .ds-card-nested__inner { background:#fff; border:4px solid #f8f8f8; border-radius:16px; padding:24px; }" },
+    { "name": "input",            "treatment": "ds-input",                 "css": ".ds-input { height:40px; padding:0 12px; border:1px solid rgba(0,0,0,0.08); border-radius:8px; font:400 16px/1.25 var(--ds-body-family); color:#2c2c2c; background:#fff; } .ds-input:focus { outline:0; box-shadow:0 0 0 3px rgba(59,99,251,0.2); border-color:#3b63fb; }" },
+    { "name": "badge",            "treatment": "ds-badge",                 "css": ".ds-badge { display:inline-flex; height:24px; padding:0 12px; border-radius:999px; font:700 12px/1 var(--ds-body-family); background:#f8f8f8; color:#2c2c2c; }" },
+    { "name": "link",             "treatment": "ds-link",                  "css": ".ds-link { color:inherit; text-decoration:underline; text-underline-offset:2px; } .ds-link:hover { text-decoration-thickness:2px; }" }
+  ],
+
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "value": "#3b63fb",
+        "role": "Saturated CTA on light surfaces — only saturated color in the system.",
+        "wcag": { "aa-normal-on-white": true, "aa-normal-on-surface": false, "aa-large-on-white": true, "aa-large-on-surface": true },
+        "rules": ["Reserve to white grounds. Use primary-hover (#274dea) on #f8f8f8 surfaces to maintain AA contrast."]
+      },
+      "primary-hover": {
+        "value": "#274dea",
+        "role": "Hover state; also doubles as the legal blue CTA on #f8f8f8 surfaces.",
+        "wcag": { "aa-normal-on-white": true, "aa-normal-on-surface": true }
+      },
+      "brand-mnemonic-red": {
+        "value": "#eb1000",
+        "role": "RESERVED — Adobe lockup, AI add-on gradient stop, brand-mark contexts only.",
+        "reservation": "module:adobe-lockup | module:ai-add-on-gradient",
+        "rules": ["Never a CTA color. Never a section background. Triggers the AA contrast warning if used on white at body-sm scale."]
+      }
+    },
+
+    "typographyMeta": {
+      "rules": [
+        "Mixed-case display at weight 900 (Adobe Clean Display) for marquee headlines.",
+        "Period-terminated display sentences ('Transform how you share information.').",
+        "Body max-width 80ch (~13 words/line).",
+        "Fluid clamp() scale produces perfect-fourth-adjacent ratios at desktop."
+      ]
+    },
+
+    "shadows": [
+      { "value": "0 1px 2px rgba(0,0,0,0.06)", "uses": "buttons (rarely; only on dropdown-anchored)" },
+      { "value": "0 4px 16px rgba(0,0,0,0.08)", "uses": "cards on white grounds (subtle)" },
+      { "value": "0 2px 12px rgba(0,0,0,0.08)", "uses": "scrolled-nav" }
+    ],
+
+    "motion": {
+      "lib": "lenis",
+      "version": "1.x",
+      "lerp": 0.1,
+      "globalInstance": "window.__lenis",
+      "loadingPattern": "lenis at end of <body>; lenis.raf in its own rAF loop; page-specific animation loops read window.__lenis.scroll (with window.scrollY fallback)",
+      "required": ["page-load entrances", "scroll-driven section entrances"],
+      "optional": ["scroll-grow hero (variant B amplifies)", "garage-door reveal (variant B amplifies)", "stories mouse-pan (samples)", "tutorial reverse-hero entrance (samples)"],
+      "durations": { "fast": 200, "base": 400, "entrance": 600, "expand": 360 },
+      "easings": {
+        "default": "cubic-bezier(0.42, 0, 0, 1)",
+        "entrance": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      "reducedMotion": "prefers-reduced-motion: reduce → Lenis lerp disabled (instant scroll), scroll-driven animations collapse to immediate display, garage-door fallback to static",
+      "forbidden": ["GSAP", "ScrollTrigger", "IntersectionObserver-driven entrance (use Lenis+rAF instead)"]
+    },
+
+    "breakpoints": {
+      "mobile": "767px",
+      "tablet": "768px",
+      "desktop": "900px",
+      "wide": "1280px",
+      "max": "1441px",
+      "uberWide": "1920px"
+    },
+
+    "divergence": {
+      "schemaVersion": 2,
+      "mode": "A",
+      "modeReason": "Captured brand signal is signal-strong (8 palette colors + Adobe Clean named in both heading and body family). User phrase pins Mode A explicitly.",
+      "seed": {
+        "decade": { "value": "2025-now", "picked_by": "anchor-reference: samples (2026 work)" },
+        "craft": { "value": "web-product", "picked_by": "user-constraint: register=brand + Mode A locks craft to captured" },
+        "register": { "value": "Product/Commerce (multi-audience routing)", "picked_by": "anchor-reference: captured PRODUCT.md" },
+        "ground_family": {
+          "value": "stark-white",
+          "picked_by": "user-constraint: captured ground is #ffffff",
+          "override": "brand-faithful"
+        },
+        "anchors": [
+          { "ref": "samples/SAMPLES.md", "implies": "Lenis stack + s2a token system + 16/20px radius vocabulary + clamp() fluid type scale" },
+          { "ref": "stardust/current/_brand-extraction.json", "implies": "palette + type family + brand-mnemonic red reservation" }
+        ]
+      },
+      "font_deck": { "name": "brand-inherited", "picked_by": "user-constraint", "rationale": "Mode A — type family pinned to captured Adobe Clean / Adobe Clean Display." },
+      "palette": { "source": "inherited from _brand-extraction.json + samples", "picked_by": "user-constraint" },
+      "brand_faithful_inversions": [
+        {
+          "rule": "no pure black/white surfaces",
+          "inversion": "literal #000 and #ffffff are legal and load-bearing",
+          "reason": "Captured on every of 7 extracted www.adobe.com pages. Footer black, body white. Brand-faithful retention."
+        },
+        {
+          "rule": "no glassmorphism / backdrop-filter blur",
+          "inversion": "backdrop-filter: blur(64-128px) over rgba(255,255,255,0.64) on nav is legal",
+          "reason": "Captured on every page; the nav pill carries this treatment. Brand-faithful and load-bearing — removing it would visibly change the brand."
+        },
+        {
+          "rule": "OKLCH-only color tokens",
+          "inversion": "hex color format retained throughout",
+          "reason": "Captured surface uses hex (#3b63fb, #eb1000, #2c2c2c, etc.). Brand-faithful and load-bearing. Migrate may convert to OKLCH per-page if needed but DESIGN tokens stay hex."
+        }
+      ],
+      "antiToolboxAudit": {
+        "ran": true,
+        "guards": [
+          { "name": "generic-2026-SaaS-silhouette", "fired": false, "rationale": "Adobe.com home leads with product demo imagery, not abstract gradient + dual CTA. Captured pattern declines this silhouette already." },
+          { "name": "pre-2024-SaaS-template", "fired": false, "rationale": "No engineers-at-laptop stock + left-CTA pattern observed." },
+          { "name": "editorial-register-vocabulary-on-non-editorial-brands", "fired": false, "rationale": "PRODUCT.md anti-references explicit; samples confirm." },
+          { "name": "size-as-personality (120pt+)", "fired": false, "rationale": "Display caps at 80px via clamp." },
+          { "name": "padding-as-personality (airy on multi-audience)", "fired": false, "rationale": "Multi-audience hard floor caps sectionPadding.desktop at 64px." },
+          { "name": "stock-photography", "fired": false, "rationale": "Captured imagery is product output (Generative Fill brick wall, named creators), not templated stock." }
+        ]
+      }
+    },
+
+    "componentStyle": {
+      "buttons": {
+        "primary": { "background": "#3b63fb", "color": "#ffffff", "borderRadius": "16px", "padding": "8px 24px", "fontWeight": 700, "shadow": null, "hoverDelta": "background → #274dea" },
+        "outline": { "background": "transparent", "color": "#2c2c2c", "border": "1.5px solid #2c2c2c", "borderRadius": "16px", "padding": "8px 24px", "fontWeight": 700, "shadow": null, "hoverDelta": "background → rgba(0,0,0,0.04)" },
+        "dark": { "background": "#000000", "color": "#ffffff", "borderRadius": "16px", "padding": "8px 24px", "fontWeight": 700 },
+        "solid-white": { "background": "#ffffff", "color": "#000000", "borderRadius": "16px", "padding": "8px 24px", "fontWeight": 700 },
+        "ghost-white": { "background": "transparent", "color": "#ffffff", "border": "1.5px solid rgba(255,255,255,0.5)", "borderRadius": "16px", "padding": "8px 24px", "fontWeight": 700, "backdropFilter": "blur(16px)" }
+      },
+      "dualCTAPattern": "primary-then-outline (on light) | solid-white-then-ghost-white (on dark) — exactly one primary per viewport",
+      "cards": { "background": "#f8f8f8", "borderRadius": "16px", "padding": "24px", "shadow": null, "border": null },
+      "cardsNested": { "outerBackground": "#f8f8f8", "outerOutline": "4px solid #f8f8f8", "outerBorderRadius": "16px", "innerBackground": "#ffffff", "innerBorder": "4px solid #f8f8f8", "innerBorderRadius": "16px", "innerPadding": "24px" },
+      "cardsDark": { "background": "#000000", "color": "#ffffff", "borderRadius": "16px", "padding": "24px" },
+      "inputs": { "height": "40px", "borderRadius": "8px", "padding": "0 12px", "border": "1px solid rgba(0,0,0,0.08)", "focusRing": "0 0 0 3px rgba(59,99,251,0.2)" }
+    },
+
+    "systemComponentRoles": [
+      {
+        "role": "site-header",
+        "kind": "header",
+        "purpose": "Audience-track routing + brand mnemonic + global CTAs (View pricing, Sign In)",
+        "position": "fixed top, 8px outer padding, 64px inner pill, backdrop-blur",
+        "constraints": [
+          "Adobe lockup as inline SVG (16px height) on left",
+          "Audience-track nav (4 links: Creativity & Design / PDF & E-signatures / Marketing & Commerce / Help & Support) on left after lockup, hidden below 900px",
+          "Right: icon button (all-apps waffle) + primary CTA + outline CTA",
+          "Glass pill: rgba(255,255,255,0.64) + backdrop-filter: blur(64-128px), 16px radius, 64px inner height",
+          "Scrolled state adds 0 2px 12px rgba(0,0,0,0.08) shadow",
+          "Inverted state legal over dark hero (logo + icon brightness:invert, outline CTA reads on dark)"
+        ]
+      },
+      {
+        "role": "site-footer",
+        "kind": "footer",
+        "purpose": "Comprehensive product/audience link grid + featured products + legal + Adobe wordmark reveal",
+        "position": "static bottom",
+        "constraints": [
+          "Background: #000 literal",
+          "6-column link grid at ≥900px, 2-column at tablet, 1-column accordion on mobile",
+          "Column heading: 16px / weight 700 / white. Links: 16px / weight 400 / rgba(255,255,255,0.64).",
+          "Featured products row (Acrobat Reader / Firefly / Express / Photoshop) with 16×16 icons + 12/700 names",
+          "Bottom bar: legal (region / copyright / Do not sell / AdChoices / CCPA) + social icons (4-5)",
+          "Full-width Adobe wordmark SVG with aspect-ratio 1440/338, clip-path inset reveal on scroll (variant A keeps the wipe baseline)"
+        ]
+      },
+      {
+        "role": "geo-redirect-banner",
+        "kind": "cta-band",
+        "purpose": "Dismissible region-detection banner (replaces the captured intercepting modal per improvements #3)",
+        "position": "above-nav, full-width, dismissible",
+        "constraints": [
+          "Not a modal — does not trap focus. role='region', aria-label='Region detection'",
+          "Dismiss button required; dismissal persists per-session",
+          "Background: surface or subtle accent; respects light/dark hero context"
+        ]
+      },
+      {
+        "role": "persistent-search",
+        "kind": "cta-band",
+        "purpose": "Adobe-wide agentic search — present on home + product hubs per samples' .search-section pattern",
+        "position": "bottom-of-page section before footer (variant A) — variant B may elevate",
+        "constraints": [
+          "Pill search bar at 56h, max-width 768px, rgba(255,255,255,0.10) on dark ground",
+          "Variant A keeps the agentic search on home only; variants B and C may surface it on additional pages"
+        ]
+      }
+    ],
+
+    "iaPriorities": [
+      {
+        "signal": "commercial-conversion",
+        "evidence": "Every captured page has primary CTA pair within first viewport (View plans and pricing, Free trial, Buy now). cta count: home=39, express=23, products=12-18 each.",
+        "preserveAs": "first-viewport",
+        "scope": "site-wide",
+        "mutability": "movable",
+        "constraint": "Variants may relocate the CTA pair within the first viewport but cannot remove it; the canonical 'Free trial' + 'Buy now' (with 'View plans and pricing' as discovery verb) pair is mandatory."
+      },
+      {
+        "signal": "audience-routing",
+        "evidence": "Top nav with 4 audience tracks (Creativity & Design / PDF & E-signatures / Marketing & Commerce / Help & Support) on every page.",
+        "preserveAs": "nav",
+        "scope": "site-wide",
+        "mutability": "movable",
+        "constraint": "Variants may reshape the deployment (mega-nav, drawer, etc.) but cannot remove the 4 tracks. Track labels stay verbatim."
+      },
+      {
+        "signal": "product-mnemonic-discoverability",
+        "evidence": "Product tile grid (Photoshop / Illustrator / Premiere / Express / Acrobat / Firefly) surfaced on home + express + photoshop pages.",
+        "preserveAs": "home-body",
+        "scope": "home + hub pages",
+        "mutability": "movable",
+        "constraint": "Variants must surface ≥6 product mnemonics on home. Variant C's elastic tile mosaic amplifies this; variant B treats it as a section. Variant A keeps current tile-grid composition."
+      },
+      {
+        "signal": "trust-signals",
+        "evidence": "Brand mnemonic + product names + 'It starts with Adobe.' copy + 'Save 50% on Creative Cloud Pro' promotional surfaces.",
+        "preserveAs": "above-mid-page",
+        "scope": "home",
+        "mutability": "movable"
+      },
+      {
+        "signal": "persistent-help",
+        "evidence": "Samples' .search-section (agentic search) pattern; captured Help & Support nav track.",
+        "preserveAs": "footer-adjacent",
+        "scope": "site-wide",
+        "mutability": "movable"
+      }
+    ],
+
+    "voice": {
+      "heroHeadlinePattern": "Verb + period. Mixed case. 5-9 words.",
+      "examples": {
+        "do": [
+          "Transform how you share information.",
+          "Save 50% on Creative Cloud Pro.",
+          "It starts with Adobe.",
+          "Plans that work for you."
+        ],
+        "dont": [
+          "TRANSFORM HOW YOU SHARE INFORMATION (uppercase shout)",
+          "Atelier-grade tools for the discerning creator (editorial register on a product brand)",
+          "Click here to start (vague link verb)",
+          "Discover the magic of Adobe Photoshop AI Generative Fill technology (over-long, claim-led)"
+        ]
+      },
+      "ctaVocabulary": {
+        "conversion": ["Free trial", "Buy now"],
+        "discovery": ["View plans and pricing"],
+        "secondary": ["Sign In", "Learn more"],
+        "routing": ["Creativity & Design", "PDF & E-signatures", "Marketing & Commerce", "Help & Support"]
+      }
+    }
+  },
+
+  "narrative": {
+    "northStar": "adobe.com refined for tomorrow — same multi-audience routing IA, tightened CTA vocabulary, fluid clamp() type scale, Lenis-driven entrance motion baseline, two brand-faithful inversions documented.",
+    "overview": "5-color palette (white/black/text-near-black/Adobe-blue/gray-surface) + brand-mnemonic-red reserved. Adobe Clean Display + Adobe Clean type stack at 3 weights (400/700/900) on a fluid clamp() scale. 8px base spacing, 64px section padding (multi-audience hard floor). 16px primary radius, 8px small, 32px section-transition large, 999px pill. Lenis 1.x mandatory; no GSAP.",
+    "keyCharacteristics": [
+      "Routing IA preserved across all variants.",
+      "One CTA verb pair per audience track.",
+      "Mixed-case display at weight 900.",
+      "Nested-radius card system on pricing.",
+      "Photography-led accent on monochrome surfaces.",
+      "Lenis-driven entrance motion baseline."
+    ],
+    "rules": [
+      "Adobe blue is the only saturated CTA color.",
+      "Adobe red is reserved.",
+      "Mixed-case headings; period-terminated marquee.",
+      "Body lines ≤ 80ch.",
+      "Pure surfaces #000/#ffffff legal (Mode A inversion).",
+      "Backdrop-blur nav legal (Mode A inversion).",
+      "Lenis stack required; no GSAP / no ScrollTrigger / no IntersectionObserver.",
+      "prefers-reduced-motion: reduce respected.",
+      "One primary CTA per viewport."
+    ],
+    "dos": [
+      "Period-terminated short display sentences.",
+      "Verb-led 2-4 word CTAs.",
+      "Product mnemonic eyebrow before benefit headline.",
+      "Pill button shape.",
+      "Adobe Clean Display weight 900 marquee."
+    ],
+    "donts": [
+      "Uppercase display headings.",
+      "Adobe red for CTAs.",
+      "Multiple primary CTAs in one viewport.",
+      "Audience-routing labels styled as buttons.",
+      "Modal geolocation interrupt above the fold.",
+      "GSAP, ScrollTrigger, IntersectionObserver."
+    ]
+  }
+}

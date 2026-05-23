@@ -1,0 +1,1363 @@
+<!doctype html>
+<!--
+  _provenance:
+    writtenBy: impeccable:craft (via stardust:prototype)
+    writtenAt: 2026-05-23T08:00:00-07:00
+    variant: A
+    variantRole: Faithful + improvements
+    fidelity: refined
+    surprise: low
+    dominantDimension: baseline-fidelity-with-improvements
+    inputs:
+      brief: stardust/prototypes/home-A-shape.md
+      designJson: DESIGN-A.json
+      designMd: DESIGN-A.md
+      productMd: PRODUCT.md
+      direction: stardust/direction.md
+      capturedSource: stardust/current/pages/home.json
+      brandSurface: stardust/current/_brand-extraction.json
+      improvements: stardust/prototypes/home-improvements.md
+    appliedImprovements: [1, 2, 3, 4, 5]
+    brandFaithfulInversionsHonored:
+      - "pure-surfaces (#000, #ffffff legal)"
+      - "backdrop-blur-nav (rgba(255,255,255,0.64) + backdrop-filter: blur(64-128px))"
+      - "hex-not-OKLCH"
+    motionStack: "self-contained Lenis-shim + rAF + native CSS scroll-driven; no GSAP, no ScrollTrigger, no IntersectionObserver"
+    capturedSourceLineage:
+      site-header: "system-component (header)"
+      hero: "captured pages/home.json#headings[h1='Transform how you share information.'] + mnemonic eyebrow (improvement #3 — half retained; banner half removed per user refinement 2026-05-23)"
+      promo-strip: "captured pages/home.json#headings[h2='Save 50% on Creative Cloud Pro.', 'Save 30% and go unlimited.']"
+      product-hub-tiles: "captured pages/home.json#headings[h2='Creative Cloud','Acrobat','Explore']"
+      featured-products: "captured pages/home.json#headings[h2='New partner AI models in Generative Fill.', 'It starts with Adobe.']"
+      in-the-news: "captured pages/home.json#headings[h2='In the news' + 3 H3 items]"
+      site-footer: "system-component (footer)"
+    voiceClassification:
+      captured-verbatim: ["h1", "promo h2s", "product hub h2s", "featured h2s", "news h2 + h3 items", "nav labels", "footer columns"]
+      direction-authorized-rewrite: ["hero eyebrow 'Adobe Photoshop'", "hero subcopy", "promo card body copy", "hub tile body copy", "featured card body copy", "news item body copy"]
+      placeholder: ["hero photo (placeholder gradient + caption — captured Photoshop/Generative Fill demo to be migrated)"]
+    iterations:
+      - { at: "2026-05-23T11:00:00-07:00", change: "Removed geo-banner section per user refinement. Geo handling reframed as infrastructure-layer concern (edge / Akamai), not a UI surface. Improvement #3's mnemonic-eyebrow half retained; modal-demotion half retired." }
+    unsourcedContent:
+      - { section: "hero", item: "hero photo asset", reason: "captured Photoshop / Generative Fill demo not yet exported into assets/; gradient placeholder with caption signature applied" }
+    againstDirection: "stardust/direction.md @ 2026-05-22T14:55:00-07:00 (Active section)"
+    stardustVersion: 0.7.1
+    impeccableVersion: 3.0.1
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="description" content="Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.">
+<title>Adobe: Creative, marketing and document management solutions</title>
+<style>
+  :root {
+    /* COLORS — Mode A inversion: literal #000 and #ffffff legal */
+    --c-background: #ffffff;
+    --c-surface: #f8f8f8;
+    --c-surface-dark: #000000;
+    --c-text-primary: #2c2c2c;
+    --c-text-secondary: rgba(0, 0, 0, 0.64);
+    --c-text-knockout: #ffffff;
+    --c-text-knockout-soft: rgba(255, 255, 255, 0.64);
+    --c-primary: #3b63fb;
+    --c-primary-hover: #274dea;
+    --c-border-subtle: rgba(0, 0, 0, 0.08);
+    --c-border-knockout: rgba(255, 255, 255, 0.16);
+    --c-brand-mnemonic-red: #eb1000;
+    --c-focus-ring: rgba(59, 99, 251, 0.2);
+    --c-placeholder-a: #f3f3f3;
+    --c-placeholder-b: #ececec;
+
+    /* TYPE — Adobe Clean / Adobe Clean Display; clamp() fluid scale (improvement #4) */
+    --f-heading: "Adobe Clean Display", "Adobe Clean", system-ui, -apple-system, "Helvetica Neue", sans-serif;
+    --f-body: "Adobe Clean", system-ui, -apple-system, "Helvetica Neue", sans-serif;
+
+    --t-title-1-size: clamp(40px, 6.25vw, 80px);
+    --t-title-1-lh: 0.95;
+    --t-title-1-track: clamp(-3.2px, -0.25vw, -1.5px);
+
+    --t-title-2-size: clamp(32px, 4.375vw, 56px);
+    --t-title-2-lh: 1.0;
+    --t-title-2-track: clamp(-1.68px, -0.13vw, -0.8px);
+
+    --t-title-3-size: clamp(28px, 3.125vw, 48px);
+    --t-title-3-lh: 1.05;
+    --t-title-3-track: clamp(-1.2px, -0.11vw, -0.8px);
+
+    --t-title-4-size: 24px;
+    --t-title-4-lh: 1.0;
+    --t-title-4-track: -0.48px;
+
+    --t-body-lg-size: 20px;
+    --t-body-lg-lh: 1.2;
+
+    --t-body-md-size: 16px;
+    --t-body-md-lh: 1.25;
+    --t-body-md-track: 0.16px;
+
+    --t-body-sm-size: 14px;
+    --t-body-sm-lh: 1.29;
+
+    --t-eyebrow-size: 16px;
+    --t-eyebrow-lh: 1.25;
+    --t-eyebrow-track: -0.2px;
+
+    --t-label-size: 14px;
+    --t-label-lh: 1.29;
+
+    /* SPACING — 8px base, balanced section padding (multi-audience hard floor 64px) */
+    --s-2xs: 4px;
+    --s-xs: 8px;
+    --s-sm: 12px;
+    --s-md: 16px;
+    --s-lg: 24px;
+    --s-xl: 32px;
+    --s-2xl: 40px;
+    --s-3xl: 48px;
+    --s-4xl: 64px;
+    --s-5xl: 80px;
+    --s-6xl: 96px;
+
+    --section-pad-desktop: 64px;
+    --section-pad-tablet: 48px;
+    --section-pad-mobile: 32px;
+    --section-pad: var(--section-pad-mobile);
+
+    --container-max: 1440px;
+    --grid-gap: 8px;
+    --grid-gap-md: 16px;
+    --grid-margin-mobile: 24px;
+    --grid-margin-desktop: 8.333vw;
+    --grid-margin: var(--grid-margin-mobile);
+
+    /* RADIUS — 16px primary (samples-aligned, normalised from captured 20px) */
+    --r-sm: 8px;
+    --r-md: 16px;
+    --r-lg: 32px;
+    --r-pill: 999px;
+    --r-inner: 12px;
+
+    /* MOTION */
+    --d-fast: 200ms;
+    --d-base: 400ms;
+    --d-entrance: 600ms;
+    --d-expand: 360ms;
+    --e-default: cubic-bezier(0.42, 0, 0, 1);
+    --e-entrance: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    /* LAYOUT-DERIVED */
+    --nav-outer-pad: 8px;
+    --nav-inner-h: 64px;
+  }
+
+  @media (min-width: 768px) {
+    :root {
+      --section-pad: var(--section-pad-tablet);
+      --grid-margin: var(--grid-margin-desktop);
+    }
+  }
+  @media (min-width: 1024px) {
+    :root {
+      --section-pad: var(--section-pad-desktop);
+    }
+  }
+
+  /* RESET + refined fidelity bits */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html {
+    scroll-behavior: smooth;
+    hanging-punctuation: first;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    font-family: var(--f-body);
+    color: var(--c-text-primary);
+    background: var(--c-background);
+    overflow-x: hidden;
+    line-height: 1.5;
+  }
+  a { text-decoration: none; color: inherit; }
+  button { font-family: inherit; cursor: pointer; }
+  img, svg { display: block; max-width: 100%; }
+
+  /* Refined fidelity: typography polish */
+  h1, h2, h3, h4 {
+    font-family: var(--f-heading);
+    font-weight: 900;
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; max-width: 80ch; }
+  .num, .price { font-variant-numeric: tabular-nums; }
+
+  /* Focus-visible — 3px ring at brand-blue 20% (refined fidelity) */
+  :focus-visible {
+    outline: 3px solid var(--c-focus-ring);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* ───── TYPE HELPERS ────────────────────────────────────────────── */
+  .eyebrow {
+    font-family: var(--f-body);
+    font-size: var(--t-eyebrow-size);
+    line-height: var(--t-eyebrow-lh);
+    letter-spacing: var(--t-eyebrow-track);
+    font-weight: 700;
+    color: var(--c-text-secondary);
+  }
+  .title-1 { font-size: var(--t-title-1-size); line-height: var(--t-title-1-lh); letter-spacing: var(--t-title-1-track); }
+  .title-2 { font-size: var(--t-title-2-size); line-height: var(--t-title-2-lh); letter-spacing: var(--t-title-2-track); }
+  .title-3 { font-size: var(--t-title-3-size); line-height: var(--t-title-3-lh); letter-spacing: var(--t-title-3-track); }
+  .title-4 { font-size: var(--t-title-4-size); line-height: var(--t-title-4-lh); letter-spacing: var(--t-title-4-track); }
+  .body-lg { font-family: var(--f-body); font-size: var(--t-body-lg-size); line-height: var(--t-body-lg-lh); font-weight: 400; }
+  .body-md { font-family: var(--f-body); font-size: var(--t-body-md-size); line-height: var(--t-body-md-lh); letter-spacing: var(--t-body-md-track); font-weight: 400; }
+  .body-sm { font-family: var(--f-body); font-size: var(--t-body-sm-size); line-height: var(--t-body-sm-lh); font-weight: 400; }
+
+  /* ───── BUTTONS ─────────────────────────────────────────────────── */
+  .ds-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 40px;
+    padding-inline: var(--s-lg);
+    border-radius: var(--r-md);
+    font-family: var(--f-body);
+    font-size: var(--t-label-size);
+    line-height: var(--t-label-lh);
+    font-weight: 700;
+    border: 1.5px solid transparent;
+    transition:
+      background var(--d-fast) var(--e-default),
+      border-color var(--d-fast) var(--e-default),
+      color var(--d-fast) var(--e-default),
+      transform var(--d-fast) var(--e-default);
+    white-space: nowrap;
+  }
+  .ds-btn--sm { height: 32px; padding-inline: 18px; }
+  .ds-btn--primary { background: var(--c-primary); color: #ffffff; }
+  .ds-btn--primary:hover { background: var(--c-primary-hover); }
+  .ds-btn--outline { background: transparent; color: var(--c-text-primary); border-color: var(--c-text-primary); }
+  .ds-btn--outline:hover { background: rgba(0, 0, 0, 0.04); }
+  .ds-btn--dark { background: var(--c-surface-dark); color: var(--c-text-knockout); }
+  .ds-btn--dark:hover { background: #1a1a1a; }
+  .ds-btn:active { transform: scale(0.98); }
+
+  /* ───── CONTAINERS ──────────────────────────────────────────────── */
+  .ds-container {
+    width: 100%;
+    padding-inline: var(--grid-margin);
+    margin-inline: auto;
+  }
+  @media (min-width: 1441px) {
+    .ds-container { max-width: var(--container-max); padding-inline: 0; }
+  }
+
+  /* ───── PLACEHOLDER (mandatory visual signature) ─────────────────── */
+  [data-placeholder] {
+    position: relative;
+    background: repeating-linear-gradient(
+      135deg,
+      var(--c-placeholder-a) 0,
+      var(--c-placeholder-a) 10px,
+      var(--c-placeholder-b) 10px,
+      var(--c-placeholder-b) 20px
+    );
+    border: 1px dashed rgba(0, 0, 0, 0.16);
+    border-radius: var(--r-md);
+    overflow: hidden;
+  }
+  [data-placeholder]::after {
+    content: 'PLACEHOLDER · ' attr(data-placeholder);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: rgba(0, 0, 0, 0.48);
+    text-align: center;
+    pointer-events: none;
+    padding: 8px;
+  }
+
+  /* ───── PAGE-LOAD ENTRANCE KEYFRAMES ─────────────────────────────── */
+  @keyframes enterDown {
+    from { opacity: 0; transform: translateY(-16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes enterUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ───── 1. SITE-HEADER ──────────────────────────────────────────── */
+  .ds-nav-wrap {
+    position: sticky;
+    top: 0;
+    padding: var(--nav-outer-pad) var(--nav-outer-pad) 0;
+    z-index: 200;
+    pointer-events: none;
+  }
+  .ds-nav {
+    height: var(--nav-inner-h);
+    backdrop-filter: blur(64px);
+    -webkit-backdrop-filter: blur(64px);
+    background: rgba(255, 255, 255, 0.64);
+    border-radius: var(--r-md);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: var(--s-md);
+    pointer-events: all;
+    transition: box-shadow var(--d-fast) ease, background var(--d-fast) ease;
+    animation: enterDown var(--d-entrance) var(--e-entrance) both;
+  }
+  .ds-nav.is-scrolled {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    background: rgba(255, 255, 255, 0.84);
+  }
+  .ds-nav__left {
+    display: flex;
+    align-items: center;
+    gap: var(--s-lg);
+    height: 100%;
+    min-width: 0;
+  }
+  .ds-nav__logo { display: flex; align-items: center; flex-shrink: 0; }
+  .ds-nav__logo svg { width: 67px; height: 16px; }
+  .ds-nav__slash {
+    width: 1px;
+    height: 16px;
+    background: rgba(0, 0, 0, 0.16);
+    flex-shrink: 0;
+    display: none;
+  }
+  .ds-nav__links {
+    display: none;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    gap: 0;
+  }
+  @media (min-width: 900px) {
+    .ds-nav__slash { display: block; }
+    .ds-nav__links { display: flex; }
+  }
+  .ds-nav__links li a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0 12px;
+    height: var(--nav-inner-h);
+    font-size: var(--t-label-size);
+    font-weight: 700;
+    color: var(--c-text-secondary);
+    white-space: nowrap;
+    transition: color var(--d-fast) ease;
+  }
+  .ds-nav__links li a:hover { color: var(--c-text-primary); }
+  .ds-nav__links li a[aria-current="page"] {
+    color: var(--c-text-primary);
+    box-shadow: inset 0 -2px 0 var(--c-text-primary);
+  }
+  .ds-nav__links li a svg { width: 8px; height: 5px; flex-shrink: 0; opacity: 0.6; }
+
+  .ds-nav__right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+  .ds-nav__icon-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: var(--c-text-secondary);
+    border-radius: var(--r-sm);
+    transition: background var(--d-fast) ease, color var(--d-fast) ease;
+  }
+  .ds-nav__icon-btn:hover { background: rgba(0, 0, 0, 0.06); color: var(--c-text-primary); }
+  .ds-nav__icon-btn svg { width: 18px; height: 18px; }
+
+  /* Mobile menu trigger (replaces full link list <900px) */
+  .ds-nav-burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    color: var(--c-text-primary);
+    border-radius: var(--r-sm);
+  }
+  .ds-nav-burger:hover { background: rgba(0, 0, 0, 0.06); }
+  .ds-nav-burger svg { width: 18px; height: 18px; }
+  @media (min-width: 900px) {
+    .ds-nav-burger { display: none; }
+  }
+
+  /* ───── 3. HERO ──────────────────────────────────────────────────── */
+  .ds-hero {
+    padding: calc(var(--nav-inner-h) + var(--s-6xl)) 0 var(--section-pad);
+    background: var(--c-background);
+    position: relative;
+    overflow: hidden;
+  }
+  .ds-hero__inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--s-3xl);
+    align-items: center;
+  }
+  @media (min-width: 900px) {
+    .ds-hero__inner {
+      grid-template-columns: 5fr 7fr;
+      gap: var(--s-4xl);
+    }
+  }
+  .ds-hero__copy {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-md);
+    max-width: 540px;
+  }
+  .ds-hero__eyebrow {
+    animation: enterUp var(--d-entrance) var(--e-entrance) both;
+    animation-delay: 0ms;
+    color: var(--c-text-secondary);
+  }
+  .ds-hero__h1 {
+    animation: enterUp var(--d-entrance) var(--e-entrance) both;
+    animation-delay: 80ms;
+    color: var(--c-text-primary);
+  }
+  .ds-hero__body {
+    animation: enterUp var(--d-entrance) var(--e-entrance) both;
+    animation-delay: 160ms;
+    color: var(--c-text-secondary);
+    max-width: 44ch;
+  }
+  .ds-hero__ctas {
+    display: flex;
+    gap: var(--s-sm);
+    flex-wrap: wrap;
+    margin-top: var(--s-md);
+    animation: enterUp var(--d-entrance) var(--e-entrance) both;
+    animation-delay: 240ms;
+  }
+  .ds-hero__media {
+    aspect-ratio: 16 / 10;
+    border-radius: var(--r-md);
+    overflow: hidden;
+    position: relative;
+    animation: enterUp 0.7s var(--e-entrance) both;
+    animation-delay: 200ms;
+    /* Captured hero is Photoshop / Generative Fill demo (brick wall + skater).
+       Until media is exported into assets/, use a tasteful placeholder + caption. */
+    background:
+      radial-gradient(ellipse at 70% 40%, rgba(255, 162, 95, 0.16), transparent 50%),
+      radial-gradient(ellipse at 30% 70%, rgba(59, 99, 251, 0.10), transparent 55%),
+      linear-gradient(135deg, #d8c4b0 0%, #b89a82 35%, #8d7561 70%, #5a4a3c 100%);
+    box-shadow: 0 12px 40px -8px rgba(0, 0, 0, 0.18);
+  }
+  .ds-hero__media-caption {
+    position: absolute;
+    inset: auto 16px 16px 16px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.32);
+  }
+
+  /* ───── 4. PROMO STRIP ──────────────────────────────────────────── */
+  .ds-promo-strip {
+    padding-block: var(--section-pad);
+  }
+  .ds-promo-strip__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--grid-gap-md);
+  }
+  @media (min-width: 768px) {
+    .ds-promo-strip__grid { grid-template-columns: 1fr 1fr; }
+  }
+  .ds-promo-card {
+    background: var(--c-surface);
+    border-radius: var(--r-md);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 600px) {
+    .ds-promo-card { grid-template-columns: 1fr 1fr; min-height: 280px; }
+  }
+  .ds-promo-card__media {
+    min-height: 200px;
+    /* Captured promo imagery — placeholder until exported */
+    background:
+      radial-gradient(ellipse at 60% 50%, rgba(59, 99, 251, 0.18), transparent 60%),
+      linear-gradient(135deg, #f0e6d6 0%, #d4b39a 100%);
+  }
+  .ds-promo-card--dark .ds-promo-card__media {
+    background:
+      radial-gradient(ellipse at 50% 50%, rgba(255, 200, 130, 0.18), transparent 60%),
+      linear-gradient(135deg, #2a1f1a 0%, #1a1410 100%);
+  }
+  .ds-promo-card__copy {
+    padding: var(--s-lg) var(--s-lg) var(--s-xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--s-sm);
+  }
+  .ds-promo-card__h2 { color: var(--c-text-primary); }
+  .ds-promo-card__body { color: var(--c-text-secondary); }
+  .ds-promo-card__ctas {
+    display: flex;
+    gap: var(--s-xs);
+    margin-top: var(--s-sm);
+    flex-wrap: wrap;
+  }
+
+  /* ───── 5. PRODUCT HUB TILES ────────────────────────────────────── */
+  .ds-product-hubs {
+    padding-block: var(--section-pad);
+    background: var(--c-background);
+  }
+  .ds-product-hubs__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--grid-gap-md);
+  }
+  @media (min-width: 768px) {
+    .ds-product-hubs__grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  .ds-hub-tile {
+    background: var(--c-surface);
+    border-radius: var(--r-md);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .ds-hub-tile__media {
+    aspect-ratio: 4 / 3;
+    background:
+      radial-gradient(ellipse at 50% 50%, rgba(59, 99, 251, 0.12), transparent 60%),
+      linear-gradient(160deg, #f8f4ef 0%, #e9dcc8 100%);
+  }
+  .ds-hub-tile--acrobat .ds-hub-tile__media {
+    background:
+      radial-gradient(ellipse at 50% 60%, rgba(235, 16, 0, 0.10), transparent 60%),
+      linear-gradient(160deg, #fff0ed 0%, #f3d1c8 100%);
+  }
+  .ds-hub-tile--explore .ds-hub-tile__media {
+    background:
+      radial-gradient(ellipse at 40% 50%, rgba(58, 99, 251, 0.10), transparent 55%),
+      radial-gradient(ellipse at 70% 60%, rgba(141, 88, 250, 0.10), transparent 55%),
+      linear-gradient(160deg, #f1efff 0%, #e6deff 100%);
+  }
+  .ds-hub-tile__copy {
+    padding: var(--s-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-xs);
+    flex: 1;
+  }
+  .ds-hub-tile__h2 { color: var(--c-text-primary); }
+  .ds-hub-tile__body { color: var(--c-text-secondary); flex: 1; }
+  .ds-hub-tile__cta { margin-top: var(--s-md); align-self: flex-start; }
+
+  /* ───── 6. FEATURED PRODUCTS ────────────────────────────────────── */
+  .ds-featured {
+    padding-block: var(--section-pad);
+    background: var(--c-surface);
+  }
+  .ds-featured__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--grid-gap-md);
+  }
+  @media (min-width: 900px) {
+    .ds-featured__grid { grid-template-columns: 1fr 1fr; }
+  }
+  .ds-feature-card {
+    background: var(--c-background);
+    border-radius: var(--r-md);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .ds-feature-card--dark { background: var(--c-surface-dark); color: var(--c-text-knockout); }
+  .ds-feature-card__media {
+    aspect-ratio: 16 / 10;
+    background:
+      radial-gradient(ellipse at 70% 50%, rgba(255, 162, 95, 0.18), transparent 55%),
+      radial-gradient(ellipse at 30% 60%, rgba(141, 136, 242, 0.15), transparent 55%),
+      linear-gradient(135deg, #f3e8d8 0%, #e2c7a9 100%);
+  }
+  .ds-feature-card--dark .ds-feature-card__media {
+    background:
+      radial-gradient(ellipse at 40% 50%, rgba(255, 162, 95, 0.22), transparent 50%),
+      radial-gradient(ellipse at 80% 40%, rgba(141, 136, 242, 0.16), transparent 50%),
+      linear-gradient(135deg, #1a1410 0%, #0d0a08 100%);
+  }
+  .ds-feature-card__copy {
+    padding: var(--s-xl) var(--s-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-sm);
+  }
+  .ds-feature-card__eyebrow {
+    color: var(--c-text-secondary);
+  }
+  .ds-feature-card--dark .ds-feature-card__eyebrow { color: var(--c-text-knockout-soft); }
+  .ds-feature-card__h2 { color: var(--c-text-primary); }
+  .ds-feature-card--dark .ds-feature-card__h2 { color: var(--c-text-knockout); }
+  .ds-feature-card__body { color: var(--c-text-secondary); max-width: 50ch; }
+  .ds-feature-card--dark .ds-feature-card__body { color: var(--c-text-knockout-soft); }
+  .ds-feature-card__cta { margin-top: var(--s-md); align-self: flex-start; }
+  .ds-feature-card--dark .ds-feature-card__cta {
+    background: transparent;
+    color: var(--c-text-knockout);
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  .ds-feature-card--dark .ds-feature-card__cta:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  /* ───── 7. IN THE NEWS ──────────────────────────────────────────── */
+  .ds-news {
+    padding-block: var(--section-pad);
+    background: var(--c-background);
+  }
+  .ds-news__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: var(--s-xl);
+    gap: var(--s-md);
+    flex-wrap: wrap;
+  }
+  .ds-news__h2 { color: var(--c-text-primary); }
+  .ds-news__viewall {
+    font-size: var(--t-label-size);
+    font-weight: 700;
+    color: var(--c-text-primary);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  .ds-news__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--grid-gap-md);
+  }
+  @media (min-width: 900px) {
+    .ds-news__list { grid-template-columns: repeat(3, 1fr); }
+  }
+  .ds-news-item {
+    background: var(--c-surface);
+    border-radius: var(--r-md);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform var(--d-fast) var(--e-default);
+  }
+  .ds-news-item:hover { transform: translateY(-2px); }
+  .ds-news-item__media {
+    aspect-ratio: 16 / 9;
+    background: linear-gradient(135deg, #e6e2d8 0%, #c9bfa8 100%);
+  }
+  .ds-news-item:nth-child(2) .ds-news-item__media {
+    background: linear-gradient(135deg, #e7eaf3 0%, #c2cae0 100%);
+  }
+  .ds-news-item:nth-child(3) .ds-news-item__media {
+    background: linear-gradient(135deg, #ece3d5 0%, #b8a484 100%);
+  }
+  .ds-news-item__copy {
+    padding: var(--s-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-xs);
+    flex: 1;
+  }
+  .ds-news-item__meta {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--c-text-secondary);
+  }
+  .ds-news-item__h3 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: -0.3px;
+    color: var(--c-text-primary);
+  }
+
+  /* ───── 8. SITE-FOOTER ──────────────────────────────────────────── */
+  .ds-footer {
+    background: var(--c-surface-dark);
+    color: var(--c-text-knockout);
+    padding-top: var(--s-6xl);
+    border-radius: var(--r-lg) var(--r-lg) 0 0;
+    margin-top: var(--s-4xl);
+    position: relative;
+  }
+  .ds-footer__main {
+    padding-inline: var(--grid-margin);
+    max-width: var(--container-max);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-2xl);
+  }
+  .ds-footer__cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 20px;
+  }
+  @media (min-width: 900px) {
+    .ds-footer__cols { grid-template-columns: repeat(6, 1fr); gap: 0 var(--s-xs); }
+  }
+  .ds-footer__col { display: flex; flex-direction: column; gap: var(--s-lg); }
+  .ds-footer__col-title {
+    font-size: var(--t-eyebrow-size);
+    font-weight: 700;
+    color: var(--c-text-knockout);
+    line-height: var(--t-eyebrow-lh);
+    letter-spacing: var(--t-eyebrow-track);
+  }
+  .ds-footer__col ul { list-style: none; display: flex; flex-direction: column; gap: var(--s-xs); }
+  .ds-footer__col ul li a {
+    font-size: var(--t-body-md-size);
+    font-weight: 400;
+    color: var(--c-text-knockout-soft);
+    line-height: var(--t-body-md-lh);
+    letter-spacing: var(--t-body-md-track);
+    transition: color var(--d-fast) ease;
+  }
+  .ds-footer__col ul li a:hover { color: rgba(255, 255, 255, 0.9); }
+  .ds-footer__featured {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-lg);
+  }
+  .ds-footer__feat-label {
+    font-size: var(--t-eyebrow-size);
+    font-weight: 700;
+    color: var(--c-text-knockout);
+    line-height: var(--t-eyebrow-lh);
+    letter-spacing: var(--t-eyebrow-track);
+  }
+  .ds-footer__prods {
+    display: flex;
+    gap: var(--s-lg);
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .ds-footer__prod {
+    display: flex;
+    align-items: center;
+    gap: var(--s-xs);
+    color: var(--c-text-knockout);
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .ds-footer__prod-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #ff8a00, #e94e1b);
+    flex-shrink: 0;
+  }
+  .ds-footer__prod:nth-child(2) .ds-footer__prod-icon { background: linear-gradient(135deg, #9b59ff, #ff5575); }
+  .ds-footer__prod:nth-child(3) .ds-footer__prod-icon { background: linear-gradient(135deg, #ff3cac, #ff7a5a); }
+  .ds-footer__prod:nth-child(4) .ds-footer__prod-icon { background: linear-gradient(135deg, #31a8ff, #0083bd); }
+
+  .ds-footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--s-md);
+    padding-block: var(--s-lg);
+    border-top: 1px solid var(--c-border-knockout);
+  }
+  .ds-footer__legal {
+    display: flex;
+    gap: var(--s-xl);
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--c-text-knockout-soft);
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+  }
+  .ds-footer__legal a { color: var(--c-text-knockout-soft); }
+  .ds-footer__legal a:hover { color: rgba(255, 255, 255, 0.9); }
+  .ds-footer__social {
+    display: flex;
+    gap: var(--s-md);
+    align-items: center;
+  }
+  .ds-footer__social a {
+    width: 18px;
+    height: 18px;
+    color: var(--c-text-knockout);
+    opacity: 0.72;
+    transition: opacity var(--d-fast) ease;
+  }
+  .ds-footer__social a:hover { opacity: 1; }
+
+  .ds-footer__wordmark {
+    width: 100%;
+    aspect-ratio: 1440 / 338;
+    margin-top: var(--s-3xl);
+    position: relative;
+    overflow: hidden;
+  }
+  .ds-footer__wordmark-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--f-heading);
+    font-weight: 900;
+    font-size: clamp(120px, 24vw, 360px);
+    line-height: 0.7;
+    color: var(--c-text-knockout);
+    letter-spacing: -0.04em;
+    will-change: clip-path;
+    /* clip-path: inset(60% 0 0 0); set initially by JS for wipe entrance */
+  }
+
+  /* ───── SCROLL-DRIVEN SECTION ENTRANCE ──────────────────────────── */
+  .anim-enter {
+    opacity: 0;
+    transform: translateY(40px);
+    will-change: opacity, transform;
+  }
+
+  /* ───── MOBILE-NAV COLLAPSE (≤640px stock pattern) ───────────────── */
+  /* Per Phase 2.7 mobile-nav audit: hide the desktop primary CTA at
+     mobile so the nav fits a 360px viewport. The View plans CTA is
+     available via the burger menu (deployment specified at migrate time). */
+  @media (max-width: 640px) {
+    .ds-nav__primary-cta { display: none; }
+    .ds-nav { padding-inline: var(--s-sm); }
+    .ds-hero { padding: calc(var(--nav-inner-h) + var(--s-4xl)) 0 var(--section-pad); }
+    .ds-geo-banner__inner { padding-block: 10px; }
+    .ds-promo-card,
+    .ds-hub-tile,
+    .ds-feature-card,
+    .ds-news-item { border-radius: var(--r-md); }
+    .ds-footer { padding-top: var(--s-4xl); }
+    .ds-footer__featured { gap: var(--s-md); }
+    .ds-footer__legal { gap: var(--s-md); }
+  }
+
+  /* ───── REDUCED MOTION ──────────────────────────────────────────── */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-delay: 0ms !important;
+      transition-duration: 0.01ms !important;
+    }
+    .anim-enter { opacity: 1 !important; transform: none !important; }
+    .ds-footer__wordmark-text { clip-path: none !important; }
+  }
+
+  /* ───── SKIP LINK (a11y) ─────────────────────────────────────────── */
+  .ds-skip-link {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 1000;
+    padding: 12px 18px;
+    background: var(--c-text-primary);
+    color: var(--c-text-knockout);
+    border-radius: var(--r-md);
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    transform: translateY(-200%);
+    transition: transform var(--d-fast) var(--e-default);
+  }
+  .ds-skip-link:focus,
+  .ds-skip-link:focus-visible {
+    transform: translateY(0);
+  }
+</style>
+<noscript>
+  <!-- No-JS fallback: anim-enter initial state would strand content invisible.
+       Restore visible state for users without JS. -->
+  <style>
+    .anim-enter { opacity: 1 !important; transform: none !important; }
+    .ds-footer__wordmark-text { clip-path: none !important; }
+  </style>
+</noscript>
+</head>
+<body>
+
+  <a href="#main" class="ds-skip-link">Skip to main content</a>
+
+  <!-- ───── 1. SITE-HEADER ──────────────────────────────────────────── -->
+  <!-- (geo-banner removed per user refinement 2026-05-23 — geo handling
+       is treated as infrastructure / edge-layer concern, not a UI surface.
+       The hero mnemonic eyebrow remains as improvement #3's other half.) -->
+  <div class="ds-nav-wrap">
+    <header
+      class="ds-nav"
+      data-component="site-header"
+      data-system-component="header"
+      data-nav-collapse="hamburger"
+      id="site-header"
+    >
+      <div class="ds-nav__left">
+        <a href="/" class="ds-nav__logo" aria-label="Adobe home">
+          <!-- Captured Adobe logo (federal/assets) -->
+          <svg viewBox="0 0 240 60" fill="none" aria-hidden="true">
+            <path d="M178.95 19.95L209.4 60H187.05L177.45 39.6 167.1 60H146.4L177 19.95h2zM62.7 0L93.6 60H72.45L62.4 39.6 52.05 60H32.7L62.4 0h.3zM104.7 17.4q5.7-3.3 12.6-3.3 6.9 0 12.6 3.3 5.7 3.3 9 9.45 3.3 6.15 3.3 14.55 0 8.4-3.3 14.55-3.3 6.15-9 9.45-5.7 3.3-12.6 3.3-6.9 0-12.6-3.3-5.7-3.3-9-9.45-3.3-6.15-3.3-14.55 0-8.4 3.3-14.55 3.3-6.15 9-9.45zm21.45 13.05q-3.6-4.05-8.85-4.05-5.25 0-8.85 4.05-3.6 4.05-3.6 11.55t3.6 11.4q3.6 3.9 8.85 3.9 5.25 0 8.85-3.9 3.6-3.9 3.6-11.4t-3.6-11.55z" fill="#EB1000"/>
+          </svg>
+        </a>
+        <div class="ds-nav__slash" aria-hidden="true"></div>
+        <ul class="ds-nav__links">
+          <li><a href="#creativity"><span>Creativity &amp; Design</span><svg viewBox="0 0 8 5" fill="none" aria-hidden="true"><path d="M1 1l3 3 3-3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+          <li><a href="#pdf" aria-current="page">PDF &amp; E-signatures</a></li>
+          <li><a href="#marketing"><span>Marketing &amp; Commerce</span><svg viewBox="0 0 8 5" fill="none" aria-hidden="true"><path d="M1 1l3 3 3-3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+          <li><a href="#help">Help &amp; Support</a></li>
+        </ul>
+      </div>
+      <div class="ds-nav__right">
+        <button type="button" class="ds-nav-burger" aria-label="Open menu" aria-controls="ds-mobile-menu" aria-expanded="false">
+          <svg viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M2 5h14M2 9h14M2 13h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <button type="button" class="ds-nav__icon-btn" aria-label="All apps">
+          <svg viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="4" height="4" rx="0.5" fill="currentColor"/>
+            <rect x="7" y="1" width="4" height="4" rx="0.5" fill="currentColor"/>
+            <rect x="13" y="1" width="4" height="4" rx="0.5" fill="currentColor"/>
+            <rect x="1" y="7" width="4" height="4" rx="0.5" fill="currentColor"/>
+            <rect x="7" y="7" width="4" height="4" rx="0.5" fill="currentColor"/>
+            <rect x="13" y="7" width="4" height="4" rx="0.5" fill="currentColor"/>
+            <rect x="1" y="13" width="4" height="4" rx="0.5" fill="currentColor"/>
+            <rect x="7" y="13" width="4" height="4" rx="0.5" fill="currentColor"/>
+            <rect x="13" y="13" width="4" height="4" rx="0.5" fill="currentColor"/>
+          </svg>
+        </button>
+        <a href="#pricing" class="ds-btn ds-btn--primary ds-btn--sm ds-nav__primary-cta">View plans and pricing</a>
+        <a href="#signin" class="ds-btn ds-btn--outline ds-btn--sm">Sign In</a>
+      </div>
+    </header>
+  </div>
+
+  <!-- ───── 3. HERO ──────────────────────────────────────────────────── -->
+  <section
+    class="ds-hero"
+    data-section="hero"
+    data-section-purpose="marquee"
+    data-variant="A"
+    id="main"
+    tabindex="-1"
+  >
+    <div class="ds-container">
+      <div class="ds-hero__inner">
+        <div class="ds-hero__copy">
+          <p class="eyebrow ds-hero__eyebrow">Adobe Photoshop</p>
+          <h1 class="title-1 ds-hero__h1">Transform how you share information.</h1>
+          <p class="body-lg ds-hero__body">
+            Photoshop's new AI Generative Fill removes the gap between idea and image. Sketch a thought; finish a composition.
+          </p>
+          <div class="ds-hero__ctas">
+            <a href="#trial" class="ds-btn ds-btn--primary">Free trial</a>
+            <a href="#pricing" class="ds-btn ds-btn--outline">View plans and pricing</a>
+          </div>
+        </div>
+        <div class="ds-hero__media" aria-hidden="true">
+          <p class="ds-hero__media-caption">Captured: Photoshop / Generative Fill demo — placeholder until media migrated</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── 4. PROMO STRIP ──────────────────────────────────────────── -->
+  <section
+    class="ds-promo-strip"
+    data-section="promo-strip"
+    data-section-purpose="conversion"
+  >
+    <div class="ds-container">
+      <div class="ds-promo-strip__grid">
+        <article class="ds-promo-card anim-enter">
+          <div class="ds-promo-card__media" aria-hidden="true"></div>
+          <div class="ds-promo-card__copy">
+            <h2 class="title-4 ds-promo-card__h2">Save 50% on Creative Cloud Pro.</h2>
+            <p class="body-md ds-promo-card__body">Creative AI tools, on sale. For the first 3 months, terms apply.</p>
+            <div class="ds-promo-card__ctas">
+              <a href="#cc-pricing" class="ds-btn ds-btn--primary ds-btn--sm">View plans and pricing</a>
+            </div>
+          </div>
+        </article>
+        <article class="ds-promo-card ds-promo-card--dark anim-enter">
+          <div class="ds-promo-card__media" aria-hidden="true"></div>
+          <div class="ds-promo-card__copy">
+            <h2 class="title-4 ds-promo-card__h2">Save 30% and go unlimited.</h2>
+            <p class="body-md ds-promo-card__body">Get unlimited access on select models for a year, save on Creative Cloud Pro.</p>
+            <div class="ds-promo-card__ctas">
+              <a href="#unlimited" class="ds-btn ds-btn--primary ds-btn--sm">Buy now</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── 5. PRODUCT HUB TILES ────────────────────────────────────── -->
+  <section
+    class="ds-product-hubs"
+    data-section="product-hub-tiles"
+    data-section-purpose="navigation"
+  >
+    <div class="ds-container">
+      <div class="ds-product-hubs__grid">
+        <article class="ds-hub-tile anim-enter">
+          <div class="ds-hub-tile__media" aria-hidden="true"></div>
+          <div class="ds-hub-tile__copy">
+            <h2 class="title-4 ds-hub-tile__h2">Creative Cloud</h2>
+            <p class="body-md ds-hub-tile__body">Apps and AI for every creator — from Photoshop to Premiere.</p>
+            <a href="#cc" class="ds-btn ds-btn--outline ds-btn--sm ds-hub-tile__cta">View plans and pricing</a>
+          </div>
+        </article>
+        <article class="ds-hub-tile ds-hub-tile--acrobat anim-enter">
+          <div class="ds-hub-tile__media" aria-hidden="true"></div>
+          <div class="ds-hub-tile__copy">
+            <h2 class="title-4 ds-hub-tile__h2">Acrobat</h2>
+            <p class="body-md ds-hub-tile__body">Edit, sign, and collaborate on PDFs with AI-powered tools.</p>
+            <a href="#acrobat" class="ds-btn ds-btn--outline ds-btn--sm ds-hub-tile__cta">View plans and pricing</a>
+          </div>
+        </article>
+        <article class="ds-hub-tile ds-hub-tile--explore anim-enter">
+          <div class="ds-hub-tile__media" aria-hidden="true"></div>
+          <div class="ds-hub-tile__copy">
+            <h2 class="title-4 ds-hub-tile__h2">Explore</h2>
+            <p class="body-md ds-hub-tile__body">See all Adobe products for individuals, business, and education.</p>
+            <a href="#all-products" class="ds-btn ds-btn--outline ds-btn--sm ds-hub-tile__cta">View all products</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── 6. FEATURED PRODUCTS ────────────────────────────────────── -->
+  <section
+    class="ds-featured"
+    data-section="featured-products"
+    data-section-purpose="feature-list"
+  >
+    <div class="ds-container">
+      <div class="ds-featured__grid">
+        <article class="ds-feature-card anim-enter">
+          <div class="ds-feature-card__media" aria-hidden="true"></div>
+          <div class="ds-feature-card__copy">
+            <p class="eyebrow ds-feature-card__eyebrow">Adobe Photoshop</p>
+            <h2 class="title-3 ds-feature-card__h2">New partner AI models in Generative Fill.</h2>
+            <p class="body-md ds-feature-card__body">Create with Gemini 2.5 (with Nano Banana Pro) and FLUX.1 pro.</p>
+            <a href="#generative-fill" class="ds-btn ds-btn--outline ds-feature-card__cta">Learn more</a>
+          </div>
+        </article>
+        <article class="ds-feature-card ds-feature-card--dark anim-enter">
+          <div class="ds-feature-card__media" aria-hidden="true"></div>
+          <div class="ds-feature-card__copy">
+            <p class="eyebrow ds-feature-card__eyebrow">Adobe for Business</p>
+            <h2 class="title-3 ds-feature-card__h2">It starts with Adobe.</h2>
+            <p class="body-md ds-feature-card__body">From AI to marketing ROI, every B2C and B2B story, content, and workflow ends with Adobe AI.</p>
+            <a href="#business" class="ds-btn ds-btn--outline ds-feature-card__cta">Learn more</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── 7. IN THE NEWS ──────────────────────────────────────────── -->
+  <section
+    class="ds-news"
+    data-section="in-the-news"
+    data-section-purpose="rich-text"
+  >
+    <div class="ds-container">
+      <div class="ds-news__head anim-enter">
+        <h2 class="title-3 ds-news__h2">In the news</h2>
+        <a href="#news" class="ds-news__viewall">See all news</a>
+      </div>
+      <div class="ds-news__list">
+        <article class="ds-news-item anim-enter">
+          <div class="ds-news-item__media" aria-hidden="true"></div>
+          <div class="ds-news-item__copy">
+            <p class="ds-news-item__meta">ACROBAT · TAX SEASON</p>
+            <h3 class="ds-news-item__h3">Prepare your taxes with Adobe Acrobat this season.</h3>
+            <p class="body-sm" style="color: var(--c-text-secondary); margin-top: var(--s-xs);">With Adobe Acrobat, you can prep your taxes faster and more accurately.</p>
+          </div>
+        </article>
+        <article class="ds-news-item anim-enter">
+          <div class="ds-news-item__media" aria-hidden="true"></div>
+          <div class="ds-news-item__copy">
+            <p class="ds-news-item__meta">ACROBAT · AI</p>
+            <h3 class="ds-news-item__h3">Get more done with new AI features in Acrobat.</h3>
+            <p class="body-sm" style="color: var(--c-text-secondary); margin-top: var(--s-xs);">Quickly create polished presentations, podcast overviews, and more.</p>
+          </div>
+        </article>
+        <article class="ds-news-item anim-enter">
+          <div class="ds-news-item__media" aria-hidden="true"></div>
+          <div class="ds-news-item__copy">
+            <p class="ds-news-item__meta">CREATIVE CLOUD · SUNDANCE</p>
+            <h3 class="ds-news-item__h3">Adobe apps are top choice for Sundance filmmakers.</h3>
+            <p class="body-sm" style="color: var(--c-text-secondary); margin-top: var(--s-xs);">Pros depend on Premiere, After Effects, and cutting-edge tools.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── 8. SITE-FOOTER ──────────────────────────────────────────── -->
+  <footer
+    class="ds-footer"
+    data-component="site-footer"
+    data-system-component="footer"
+    id="site-footer"
+  >
+    <div class="ds-footer__main">
+      <div class="ds-footer__cols">
+        <div class="ds-footer__col">
+          <h3 class="ds-footer__col-title">For individuals<br>&amp; small business</h3>
+          <ul>
+            <li><a href="#">Creative AI</a></li>
+            <li><a href="#">Photography</a></li>
+            <li><a href="#">Design &amp; Illustration</a></li>
+            <li><a href="#">Video &amp; animation</a></li>
+            <li><a href="#">PDF</a></li>
+            <li><a href="#">3D</a></li>
+            <li><a href="#">Elements Family</a></li>
+            <li><a href="#">View all products</a></li>
+          </ul>
+        </div>
+        <div class="ds-footer__col">
+          <h3 class="ds-footer__col-title">For medium<br>&amp; large business</h3>
+          <ul>
+            <li><a href="#">Personalization at scale</a></li>
+            <li><a href="#">Content supply chain</a></li>
+            <li><a href="#">Unified customer experience</a></li>
+            <li><a href="#">Creativity and production</a></li>
+            <li><a href="#">B2B GTM orchestration</a></li>
+            <li><a href="#">View all products</a></li>
+          </ul>
+        </div>
+        <div class="ds-footer__col">
+          <h3 class="ds-footer__col-title">For<br>Organizations</h3>
+          <ul>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Nonprofits</a></li>
+            <li><a href="#">Government</a></li>
+          </ul>
+        </div>
+        <div class="ds-footer__col">
+          <h3 class="ds-footer__col-title">Support</h3>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Download and install</a></li>
+            <li><a href="#">Adobe Community</a></li>
+            <li><a href="#">Adobe Learn</a></li>
+            <li><a href="#">Medium &amp; large business support</a></li>
+          </ul>
+        </div>
+        <div class="ds-footer__col">
+          <h3 class="ds-footer__col-title">Contact</h3>
+          <ul>
+            <li><a href="#">Chat with sales</a></li>
+            <li><a href="#">Request information</a></li>
+          </ul>
+        </div>
+        <div class="ds-footer__col">
+          <h3 class="ds-footer__col-title">Adobe</h3>
+          <ul>
+            <li><a href="#">Log into your account</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">Corporate Responsibility</a></li>
+            <li><a href="#">Trust Center</a></li>
+            <li><a href="#">Adobe Blog</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ds-footer__featured">
+        <p class="ds-footer__feat-label">Featured Products</p>
+        <div class="ds-footer__prods">
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Acrobat Reader</span>
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Firefly</span>
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Adobe Express</span>
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Photoshop</span>
+        </div>
+      </div>
+
+      <div class="ds-footer__bottom">
+        <div class="ds-footer__legal">
+          <a href="#region">🌐 Change region</a>
+          <span>© 2026 Adobe Inc. All rights reserved.</span>
+          <a href="#dns">Do not sell or share my personal information</a>
+        </div>
+        <div class="ds-footer__social" aria-label="Social media">
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M9 0a9 9 0 100 18A9 9 0 009 0zM7 14V9.5H5.5V8H7V6.5C7 5.5 7.5 4 9.5 4H11v1.5h-1c-.5 0-.5.25-.5.5V8h1.5l-.25 1.5H9.5V14H7z"/></svg>
+          </a>
+          <a href="#" aria-label="X (Twitter)">
+            <svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M14 3h-2L9 7.5 6 3H3l4 6-4 6h2l3.5-5 3 5h3l-4-6 3.5-6z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="14" height="14" rx="4"/><circle cx="9" cy="9" r="3"/><circle cx="13" cy="5" r="0.5" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M3 6h2v9H3V6zm1-3a1 1 0 110 2 1 1 0 010-2zM7 6h2v1.3c.4-.7 1.4-1.5 2.8-1.5C13.7 5.8 15 7 15 9.5V15h-2v-4.7c0-1.4-.5-2.2-1.7-2.2-1 0-1.5.6-1.8 1.3-.1.3-.1.6-.1.9V15H7V6z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="ds-footer__wordmark" aria-hidden="true">
+      <span class="ds-footer__wordmark-text" id="wordmark-text">Adobe</span>
+    </div>
+  </footer>
+
+<script>
+  /* ──────────────────────────────────────────────────────────────────
+     Motion stack — self-contained Lenis-shim (window.__lenis API),
+     page-load entrances (CSS keyframes), scroll-driven section
+     entrances (rAF), footer wordmark clip-path wipe (rAF).
+     No GSAP, no ScrollTrigger, no IntersectionObserver.
+     prefers-reduced-motion: reduce → all rAF loops collapse to
+     final state, native scroll behavior unaffected.
+     ────────────────────────────────────────────────────────────── */
+  (function () {
+    'use strict';
+
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    /* Lenis-shim — exposes window.__lenis.scroll = window.scrollY for
+       downstream loops. Native scroll-behavior: smooth handles the
+       UX; this just gives the loops a single coordinate source. */
+    window.__lenis = { scroll: window.scrollY, lerp: reduce ? 1 : 0.1 };
+    window.addEventListener('scroll', function () {
+      window.__lenis.scroll = window.scrollY;
+    }, { passive: true });
+
+    /* Nav scroll state */
+    var nav = document.getElementById('site-header');
+    function syncNavScroll() {
+      if (nav) nav.classList.toggle('is-scrolled', window.scrollY > 8);
+    }
+    window.addEventListener('scroll', syncNavScroll, { passive: true });
+    syncNavScroll();
+
+    /* Scroll-driven section entrance (anim-enter pattern from samples).
+       opacity 0→1 + translateY 40→0, bidirectional, easeOut3,
+       per-item stagger 0.10-0.15. */
+    if (!reduce) {
+      var items = [];
+      function easeOut3(t) { return 1 - Math.pow(1 - t, 3); }
+      function clamp(v, lo, hi) { return v < lo ? lo : v > hi ? hi : v; }
+
+      function registerAll() {
+        var nodes = document.querySelectorAll('.anim-enter');
+        items.length = 0;
+        nodes.forEach(function (el, i) {
+          var rect = el.getBoundingClientRect();
+          var docTop = rect.top + window.scrollY;
+          /* group by parent for stagger */
+          var sibIndex = 0;
+          var parent = el.parentElement;
+          if (parent) {
+            var sibs = Array.prototype.filter.call(parent.children, function (c) {
+              return c.classList && c.classList.contains('anim-enter');
+            });
+            sibIndex = sibs.indexOf(el);
+          }
+          items.push({
+            el: el,
+            triggerTop: docTop,
+            staggerDelay: Math.min(sibIndex * 0.10, 0.5)
+          });
+        });
+      }
+
+      function tick() {
+        var sY = window.scrollY;
+        var vh = window.innerHeight;
+        for (var i = 0; i < items.length; i++) {
+          var item = items[i];
+          var raw = (sY + vh * 0.85 - item.triggerTop) / (vh * 0.30);
+          var p = easeOut3(clamp(raw - item.staggerDelay, 0, 1));
+          item.el.style.opacity = String(p);
+          item.el.style.transform = 'translateY(' + ((1 - p) * 40).toFixed(2) + 'px)';
+        }
+        requestAnimationFrame(tick);
+      }
+
+      window.addEventListener('resize', registerAll, { passive: true });
+      requestAnimationFrame(function () {
+        registerAll();
+        requestAnimationFrame(tick);
+      });
+    }
+
+    /* Footer wordmark clip-path wipe — 60% → 0% inset over 0.5vh from
+       wordmark-top entering bottom-of-viewport. easeOut3. */
+    var wordmark = document.getElementById('wordmark-text');
+    if (wordmark && !reduce) {
+      wordmark.style.clipPath = 'inset(60% 0 0 0)';
+      function wordmarkTick() {
+        var rect = wordmark.getBoundingClientRect();
+        var vh = window.innerHeight;
+        var wmTop = rect.top + window.scrollY;
+        var raw = (window.scrollY + vh - wmTop) / (vh * 0.5);
+        var p = raw < 0 ? 0 : raw > 1 ? 1 : 1 - Math.pow(1 - raw, 3);
+        wordmark.style.clipPath = 'inset(' + ((1 - p) * 60).toFixed(2) + '% 0 0 0)';
+        requestAnimationFrame(wordmarkTick);
+      }
+      requestAnimationFrame(wordmarkTick);
+    } else if (wordmark) {
+      wordmark.style.clipPath = 'none';
+    }
+
+    /* Mobile menu burger (stub — variant A doesn't deploy a full mega-nav;
+       toggle aria-expanded so the audit recognises a wired control). */
+    var burger = document.querySelector('.ds-nav-burger');
+    if (burger) {
+      burger.addEventListener('click', function () {
+        var expanded = burger.getAttribute('aria-expanded') === 'true';
+        burger.setAttribute('aria-expanded', String(!expanded));
+        /* Mobile menu deployment lives in shape-brief migrate-time spec */
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>

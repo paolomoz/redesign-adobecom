@@ -1,0 +1,169 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-05-22T14:50:00-07:00",
+    "readArtifacts": ["DESIGN-A.json", "stardust/current/_brand-extraction.json", "samples/SAMPLES.md", "samples/live/snapshots/sr-homepage.html", "samples/live/snapshots/sr-homepage.png", "stardust/prototypes/home-improvements.md"],
+    "stardustVersion": "0.7.1",
+    "schemaVersion": 2,
+    "variant": "C",
+    "variantRole": "One captured trait amplified — elastic tile mosaic",
+    "variantThesis": "adobe.com as creative-product gallery. Asymmetric 4:3/16:9/1:1 photo tiles, hover-revealed background imagery with saturated overlays, intensified dark-section rhythm. Amplifies the trait the sr-homepage live fragment already underplays.",
+    "mode": "A",
+    "amplifiedTrait": "photography-led tile mosaics + elastic hover behavior (samples/live/snapshots/sr-homepage.html)",
+    "inheritsFrom": "DESIGN-A.json"
+  },
+
+  "_inherit": {
+    "from": "DESIGN-A.json",
+    "fields": ["colors", "typography", "spacing.base", "spacing.sectionPadding", "spacing.scale", "spacing.containerMaxWidth", "extensions.colorMeta", "extensions.typographyMeta", "extensions.shadows", "extensions.breakpoints", "extensions.componentStyle.buttons", "extensions.componentStyle.inputs", "extensions.systemComponentRoles", "extensions.iaPriorities", "extensions.divergence.mode", "extensions.divergence.font_deck", "extensions.divergence.palette", "extensions.divergence.brand_faithful_inversions", "extensions.motion (baseline only)"]
+  },
+
+  "rounded": {
+    "primary": "16px",
+    "secondary": "8px",
+    "large": "32px",
+    "pill": "999px",
+    "innerCard": "12px",
+    "tile-feature": "20px",
+    "tile-portrait": "16px",
+    "tile-square": "12px"
+  },
+
+  "spacing": {
+    "_inherit": "DESIGN-A.json#spacing",
+    "tileGridGap": "12px",
+    "_note": "tileGridGap is variant-C-only; standard gridGap (8px) inherited from A applies elsewhere."
+  },
+
+  "components": [
+    { "name": "explore-card-mosaic", "treatment": "ds-explore-card-mosaic (samples' .explore-card + hover-reveal background)", "css": ".ds-explore-card-mosaic { position:relative; } .ds-explore-card-mosaic__container { position:relative; border-radius:12px; overflow:hidden; aspect-ratio:4/3; background:rgba(255,255,255,0.08); } .ds-explore-card-mosaic__link { position:absolute; inset:0; z-index:2; display:flex; flex-direction:column; justify-content:flex-start; padding:24px; text-decoration:none; background:transparent; } .ds-explore-card-mosaic__content { display:flex; flex-direction:column; justify-content:space-between; height:100%; position:relative; z-index:1; } .ds-explore-card-mosaic__bg { position:absolute; inset:0; z-index:1; } .ds-explore-card-mosaic__bg img { width:100%; height:100%; object-fit:cover; opacity:0; transition:opacity 400ms ease, transform 400ms ease; } .ds-explore-card-mosaic__container:hover .ds-explore-card-mosaic__bg img { opacity:1; transform:scale(1.04); } .ds-explore-card-mosaic__link::before { content:''; position:absolute; inset:0; background:linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.18) 55%, transparent 100%); opacity:0; transition:opacity 400ms ease; pointer-events:none; } .ds-explore-card-mosaic__container:hover .ds-explore-card-mosaic__link::before { opacity:1; }" },
+    { "name": "photo-tile-feature", "treatment": "ds-photo-tile--feature (16:9 hero tile)", "css": ".ds-photo-tile { position:relative; overflow:hidden; border-radius:20px; } .ds-photo-tile--feature { aspect-ratio:16/9; } .ds-photo-tile__bg { position:absolute; inset:0; } .ds-photo-tile__bg img { width:100%; height:100%; object-fit:cover; } .ds-photo-tile__overlay { position:absolute; inset:0; display:flex; flex-direction:column; justify-content:flex-end; padding:32px; color:#fff; background:linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 60%); } .ds-photo-tile__eyebrow { font-size:16px; font-weight:700; color:rgba(255,255,255,0.64); margin-bottom:8px; } .ds-photo-tile__title { font-size:clamp(28px, 3.125vw, 48px); font-weight:900; line-height:1.05; letter-spacing:-1.2px; margin-bottom:16px; max-width:50ch; }" },
+    { "name": "photo-tile-square", "treatment": "ds-photo-tile--square (1:1 product mnemonic with hover-reveal)", "css": ".ds-photo-tile--square { aspect-ratio:1/1; border-radius:12px; background:rgba(0,0,0,0.04); display:flex; flex-direction:column; justify-content:space-between; padding:20px; cursor:pointer; transition:background 400ms ease; } .ds-photo-tile--square:hover { background:transparent; } .ds-photo-tile--square .ds-photo-tile__bg { position:absolute; inset:0; opacity:0; transition:opacity 400ms ease; z-index:0; } .ds-photo-tile--square:hover .ds-photo-tile__bg { opacity:1; } .ds-photo-tile--square__icon { width:32px; height:32px; position:relative; z-index:1; } .ds-photo-tile--square__name { font-size:18px; font-weight:900; position:relative; z-index:1; color:#2c2c2c; transition:color 400ms ease; } .ds-photo-tile--square:hover .ds-photo-tile--square__name { color:#fff; }" },
+    { "name": "mosaic-row", "treatment": "ds-mosaic-row (hero layout: 16:9 feature + 2×2 mnemonics)", "css": ".ds-mosaic-row { display:grid; grid-template-columns:1.5fr 1fr; gap:12px; } .ds-mosaic-row__feature { /* contains .ds-photo-tile--feature */ } .ds-mosaic-row__mnemonics { display:grid; grid-template-columns:1fr 1fr; gap:12px; } @media (max-width:767px) { .ds-mosaic-row { grid-template-columns:1fr; } .ds-mosaic-row__mnemonics { grid-template-columns:1fr 1fr; } }" },
+    { "name": "dark-band-section", "treatment": "ds-dark-band (dark-surface section with rounded-top transition)", "css": ".ds-dark-band { background:#000; color:#fff; padding-block:64px; border-radius:32px 32px 0 0; margin-top:-32px; /* visual overlap with previous section */ position:relative; z-index:2; } .ds-dark-band__eyebrow { color:rgba(255,255,255,0.64); } .ds-dark-band__title { color:#fff; }" }
+  ],
+
+  "extensions": {
+    "componentStyle": {
+      "exploreCard": {
+        "aspectRatio": "4:3",
+        "borderRadius": "12px",
+        "defaultBackground": "rgba(255,255,255,0.08) on dark | #f8f8f8 on light",
+        "defaultState": {
+          "icon": "32×32 mnemonic at top",
+          "title": "title-4 (24px / 900)",
+          "body": "body-md / rgba(255,255,255,0.72) on dark | rgba(0,0,0,0.72) on light"
+        },
+        "hoverState": {
+          "backgroundImage": "opacity 0 → 1 + transform scale(1) → scale(1.04)",
+          "gradientScrim": "linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.18) 55%, transparent 100%) opacity 0 → 1",
+          "duration": "400ms ease",
+          "textColor": "remains visible against scrim"
+        },
+        "rules": [
+          "Every tile must have a captured photographic asset for the hover-reveal layer (Mode A image-reuse).",
+          "Default state shows the icon + name + body; hover reveals the photo behind the same content.",
+          "Same hover behavior across all tile aspect ratios (4:3, 16:9, 1:1)."
+        ]
+      },
+      "mosaicHero": {
+        "layout": "2-column grid: 1.5fr feature tile (16:9) + 1fr mnemonic group (2×2 of 1:1 tiles)",
+        "featureTile": "carries current campaign — eyebrow + title-3 headline + CTA overlay button",
+        "mnemonicTiles": "product mnemonic + product name; hover-reveals product imagery",
+        "mobile": "stacks vertically: feature tile full-width, then 2×2 mnemonics",
+        "rules": [
+          "Replaces single-product hero on home + hub pages.",
+          "Single-product hero remains canonical on dedicated product landings (/products/<x>).",
+          "Maximum 4 mnemonics in the 2×2; rotate or paginate if more are needed."
+        ]
+      },
+      "darkBandRhythm": {
+        "minimumDarkBands": 2,
+        "transitionPrimitive": "32px rounded-top corners + negative margin-top + z-index sequencing (samples' rounded-top section pattern)",
+        "alternationPattern": "white → mosaic-hero → dark-band → white → dark-band → white → dark-footer"
+      }
+    },
+
+    "divergence": {
+      "schemaVersion": 2,
+      "mode": "A",
+      "amplifiedTrait": "photography-led tile mosaics + elastic hover-reveal",
+      "amplifiedTraitSource": "samples/live/snapshots/sr-homepage.html — the live fragment renders a color-saturated product-tile row + photo-led explore grid + dark testimonial band + dark product grid + Adobe wordmark. Variant C amplifies these traits which the captured live home (/) underplays.",
+      "seed": {
+        "anchors": [
+          { "ref": "samples/SAMPLES.md § 6.2 (explore-card hover-reveal pattern)", "implies": "background image opacity 0→1 + scale(1.04) + gradient scrim 0→1 on 400ms ease" },
+          { "ref": "samples/live/snapshots/sr-homepage.png (live screenshot)", "implies": "asymmetric tile grid with photographic surfaces + dark-band rhythm + product-grid-on-dark composition" },
+          { "ref": "samples/SAMPLES.md § 4 (border-radius vocabulary)", "implies": "16px-20px outer card / 12px inner / 32px section-transition / 999px pill — extended with tile-aspect-specific values" }
+        ]
+      },
+      "brand_faithful_inversions": "inherits-from-A. Variant C adds no new inversions — the tile-mosaic amplification stays inside the captured color + type + radius vocabulary.",
+      "antiToolboxAudit": {
+        "ran": true,
+        "guards": [
+          { "name": "stock-photography", "fired": false, "rationale": "Mode A image-reuse contract — every tile uses captured Adobe imagery. No templated stock." },
+          { "name": "padding-as-personality", "fired": false, "rationale": "Variant C inherits A's section padding; the amplification is layout (mosaic) + interaction (hover), not spacing." },
+          { "name": "B-but-more", "fired": false, "rationale": "C amplifies a distinct trait from B (photography-led vs motion-led). Each is a defensible standalone proposition." },
+          { "name": "size-as-personality (120pt+)", "fired": false, "rationale": "Variant C explicitly down-sizes display copy in the mosaic context — title-3/title-4 max, never title-1. Type recedes; imagery leads." },
+          { "name": "editorial-register-vocabulary-on-non-editorial-brands", "fired": false, "rationale": "PRODUCT.md anti-references explicit. Mosaic ≠ magazine layout. C calls it 'creative-product gallery' to stay inside the brand register." }
+        ]
+      }
+    },
+
+    "voice": {
+      "examples": {
+        "do": [
+          "Photoshop (eyebrow) / Transform how you share information. (title-3 in feature tile)",
+          "Express (mnemonic tile name) — hover reveals a creator's-workspace photo",
+          "Explore what's new. (dark-band eyebrow)"
+        ],
+        "dont": [
+          "100-character feature claim crammed onto a 1:1 mnemonic tile (mnemonic tiles carry name only, not feature copy)",
+          "Title-1 display on a mosaic tile (use title-3 or title-4)"
+        ]
+      }
+    },
+
+    "motion": {
+      "_inherit": "DESIGN-A.json#extensions.motion (baseline entrance animations)",
+      "tileHover": {
+        "duration": "400ms",
+        "easing": "ease",
+        "transforms": ["background-image opacity 0→1", "transform scale(1)→scale(1.04)", "gradient-scrim opacity 0→1"],
+        "applied": "every mosaic tile + explore-card"
+      },
+      "noScrollGrow": "Variant C does NOT use the scroll-grow hero (that's variant B's amplification). Hero is static-mosaic; motion energy lives in hover, not scroll.",
+      "forbidden": "inherits-from-A (no GSAP / no ScrollTrigger / no IntersectionObserver)"
+    },
+
+    "iaPriorities": "inherit-from-A (commercial-conversion locked first-viewport, audience-routing locked nav, product-mnemonic-discoverability movable but C's mosaic hero directly surfaces this — locks ≥4 mnemonics in first viewport of home)"
+  },
+
+  "narrative": {
+    "northStar": "adobe.com as creative-product gallery — asymmetric photographic tiles, hover-revealed imagery, intensified dark-section rhythm. Photography leads; type recedes.",
+    "overview": "Inherits A's tokens with three new tile-aspect radii (20px/16px/12px) and tileGridGap (12px). New components: explore-card-mosaic, photo-tile-feature, photo-tile-square, mosaic-row, dark-band-section. Hero is asymmetric mosaic (1.5fr feature 16:9 + 1fr 2×2 mnemonic 1:1) replacing single-product hero on home/hub pages. Hover-reveal background imagery on every tile. Minimum 2 dark bands per home/hub page with 32px rounded-top transitions. Title-1 not used in mosaic context (title-3/title-4 max). No scroll-grow hero (that's B).",
+    "keyCharacteristics": [
+      "Asymmetric mosaic hero replaces single-product hero on home + hubs.",
+      "Hover-reveal background imagery is the primary micro-interaction.",
+      "Three legal aspect ratios: 16:9 (feature), 4:3 (default), 1:1 (mnemonic).",
+      "Dark-band rhythm minimum: 2 dark surfaces per home/hub page.",
+      "Photo-led; type recedes (title-3/title-4 max in mosaic context).",
+      "Same motion baseline as A; no scroll-grow."
+    ],
+    "rules": "inherits-from-A + mosaic-hero-canonical-on-home-and-hubs + every-tile-has-captured-photo + three-aspect-ratios-only + hover-reveal-required + ≥2-dark-bands-per-major-page + no-title-1-in-mosaic-context",
+    "dos": [
+      "Asymmetric mosaic hero (1.5fr feature + 1fr 2×2 mnemonics).",
+      "Hover-reveal background imagery on every tile.",
+      "Photo-led explore cards with text-link CTA on hover.",
+      "Dark band sections alternating with white via 32px rounded-top transitions.",
+      "Title-3 / title-4 max in mosaic context."
+    ],
+    "donts": [
+      "Single-product hero on / (reserved for /products/<x> landings).",
+      "Title-1 in mosaic context.",
+      "Abstract gradient tile backgrounds (Mode A image-reuse).",
+      "Aspect ratios outside 16:9 / 4:3 / 1:1.",
+      "Static (non-hover) mosaic tiles.",
+      "Scroll-grow hero (variant B's amplification)."
+    ]
+  }
+}

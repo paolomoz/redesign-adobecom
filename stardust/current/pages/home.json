@@ -1,0 +1,3214 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-22T11:52:07.185Z",
+    "readArtifacts": [
+      "https://www.adobe.com/"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.7.1",
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-05-22T11:51:32.544Z",
+    "waitMode": "medium",
+    "waitMs": 2055,
+    "httpStatus": 200,
+    "contentType": "text/html"
+  },
+  "slug": "home",
+  "url": "https://www.adobe.com/",
+  "finalUrl": "https://www.adobe.com/",
+  "title": "Adobe: Creative, marketing and document management solutions",
+  "metaDescription": "Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.",
+  "og": {
+    "title": "Adobe: Creative, marketing and document management solutions",
+    "description": "Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.",
+    "image": "https://www.adobe.com/homepage/assets/product-icons/jpg/default.jpg?width=1200&format=pjpg&optimize=medium",
+    "type": null,
+    "siteName": null
+  },
+  "themeColor": {
+    "light": null,
+    "dark": null
+  },
+  "language": "en-US",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Transform how you share information.",
+      "id": "transform-how-you-share-information",
+      "domPath": "h1#transform-how-you-share-information",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "44px",
+        "lineHeight": "55px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Save 50% on Creative Cloud Pro.",
+      "id": "save-ccp-intro-offer-percentage-on-creative-cloud-pro",
+      "domPath": "h2#save-ccp-intro-offer-percentage-on-creative-cloud-pro",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Save 30% and go unlimited.",
+      "id": "save-30-and-go-unlimited",
+      "domPath": "h2#save-30-and-go-unlimited",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Creative Cloud",
+      "id": "creative-cloud",
+      "domPath": "h2#creative-cloud",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Acrobat",
+      "id": "acrobat",
+      "domPath": "h2#acrobat",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Explore",
+      "id": "explore",
+      "domPath": "h2#explore",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "New partner AI models in Generative Fill.",
+      "id": "new-partner-ai-models-in-generative-fill",
+      "domPath": "h2#new-partner-ai-models-in-generative-fill",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "It starts with Adobe.",
+      "id": "it-starts-with-adobe",
+      "domPath": "h2#it-starts-with-adobe",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "In the news",
+      "id": "in-the-news",
+      "domPath": "h2#in-the-news",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Prepare your taxes with Adobe Acrobat this season.",
+      "id": "prepareyour-taxes-with-adobe-acrobat-this-season",
+      "domPath": "h3#prepareyour-taxes-with-adobe-acrobat-this-season",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Get more done with new AI features in Acrobat.",
+      "id": "get-more-done-with-new-ai-features-in-acrobat",
+      "domPath": "h3#get-more-done-with-new-ai-features-in-acrobat",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adobe apps are top choice for Sundance filmmakers.",
+      "id": "adobe-apps-are-top-choice-for-sundance-filmmakers",
+      "domPath": "h3#adobe-apps-are-top-choice-for-sundance-filmmakers",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Questo sito Adobe non corrisponde alla tua posizione geografica",
+      "id": null,
+      "domPath": "div#locale-modal-v2 > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Make It Your Own",
+      "id": "onetrust-policy-title",
+      "domPath": "h2#onetrust-policy-title",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(105, 105, 105)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Cookie Settings",
+      "id": "pc-title",
+      "domPath": "h2#pc-title",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "300",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "General information",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "If enabled:",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "If disabled:",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "General information",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "If enabled:",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "If disabled:",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "",
+      "id": "manage-cookies-text",
+      "domPath": "h3#manage-cookies-text",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28.8px",
+        "lineHeight": "37.44px",
+        "letterSpacing": "normal",
+        "color": "rgb(105, 105, 105)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Operate the site and core servicesOperate site and measure engagement",
+      "id": "ot-header-id-C0001",
+      "domPath": "h4#ot-header-id-C0001",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Measure performance",
+      "id": "ot-header-id-C0002",
+      "domPath": "h4#ot-header-id-C0002",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Extend functionality",
+      "id": "ot-header-id-C0003",
+      "domPath": "h4#ot-header-id-C0003",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Personalize advertising",
+      "id": "ot-header-id-C0004",
+      "domPath": "h4#ot-header-id-C0004",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Performance Cookies",
+      "id": "vendors-list-title",
+      "domPath": "h3#vendors-list-title",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(105, 105, 105)"
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "header",
+      "role": null,
+      "id": null,
+      "classes": [
+        "global-navigation",
+        "ready"
+      ],
+      "innerText": "Creativity & Design\nPDF & E-signatures\nMarketing & Commerce\nLearn & Support\nSign in",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-topnav-wrapper"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Creativity & Design\nPDF & E-signatures\nMarketing & Commerce\nLearn & Support\nSign in",
+          "wordCount": 14,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "id": null,
+      "classes": [
+        "feds-topnav"
+      ],
+      "innerText": "Creativity & Design\nPDF & E-signatures\nMarketing & Commerce\nLearn & Support\nSign in",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": "feds-nav-wrapper",
+          "classes": [
+            "feds-nav-wrapper"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Creativity & Design\nPDF & E-signatures\nMarketing & Commerce\nLearn & Support",
+          "wordCount": 12,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-utilities"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Sign in",
+          "wordCount": 2,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "main",
+      "role": null,
+      "id": null,
+      "classes": [],
+      "innerText": "ADOBE ACROBAT\n\nTransform how you share information.\n\nBring together files, ideas, and an AI Assistant into a guided experience with PDF Spaces.\n\nFree trial\nLearn more\n\nSave 50% on Creative Cloud Pro.\n\nGet Photoshop, Illustrator, and more apps plus creative AI. And save for the first 3 months. Terms apply.*\n\nBuy now\n\nADOBE FIREFLY\n\nSave 30% and go unlimited.\n\nGet unlimited generations on select models for a year. Save on Firefly plans until June 17.\n\nLearn more\n\nCreative Cloud\n\nCreative Cloud Pro free trial\n\nCreative Cloud for business\n\nStudent pricing\n\nAcrobat\n\nAcrobat free trial\n\nOnline PDF tools\n\nExplore\n\nView all products\n\nSee all plans and pricing\n\nADOBE PHOTOSHOP\n\nNew partner AI models in Generative Fill.\n\nCreate with Gemini 3 (with Nano Banana Pro) and FLUX.2 pro.\n\nLearn more\n\nADOBE FOR BUSINESS\n\nIt starts with Adobe.\n\nFrom AI frenzy to marketing ROI. Unify data, content, and workflows with Adobe AI.\n\nLearn more\n\nIn the news\nPrepare your taxes with Adobe Acrobat this season.\n\nWith Adobe Acrobat, tax prep can be easier, faster and more secure.\n\nRead the story\n\nGet more done with new AI features in Acrobat.\n\nQuickly create polished presentations, audio summaries, and more.\n\nRead the story\n\nAdobe apps are top choice for Sundance filmmakers.\n\nPros depend on Premiere, After Effects, and cutting-edge creative AI.\n\nRead the story\n\n* Creative Cloud for individuals offer available for new subscribers. Requires a 12-month commitment. See terms.",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 0,
+          "innerTextSummary": "ADOBE ACROBAT\n\nTransform how you share information.\n\nBring together files, ideas, and an AI Assistant into a guided experience with PDF Spaces.\n\nFree trial\nLearn more",
+          "wordCount": 26,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section",
+            "masonry",
+            "masonry-up"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 1,
+          "innerTextSummary": "Save 50% on Creative Cloud Pro.\n\nGet Photoshop, Illustrator, and more apps plus creative AI. And save for the first 3 months. Terms apply.*\n\nBuy now\n\nADOBE FIREFLY\n\nSave 30% and go unlimited.\n\nGet unlimited generations on select models for ",
+          "wordCount": 192,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "* Creative Cloud for individuals offer available for new subscribers. Requires a 12-month commitment. See terms.",
+          "wordCount": 16,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "footer",
+      "role": null,
+      "id": null,
+      "classes": [
+        "global-footer"
+      ],
+      "innerText": "For individuals & small business\nCreative AI\nPhotography\nDesign and illustration\nVideo and animation\nPDF\n3D\nElements Family\nStock images and video\nView all products\nFor medium & large business\nPersonalization at scale\nContent supply chain\nUnified customer experience\nCreativity and production\nB2B GTM orchestration\nView all products\nFor organizations\nEducation\nNonprofits\nGovernment\nSupport\nHelp Center\nDownload and install\nAdobe Community\nAdobe Learn\nMedium and large business support\nContact\nChat with sales\nRequest information\nAdobe\nLog into your account\nAbout\nCareers\nEvents\nNewsroom\nCorporate responsibility\nInvestor Relations\nSupply chain\nTrust Center\nIntegrity\nAdobe for All\nAdobe Blog\nFeatured products\nAcrobat Reader\nFirefly\nAdobe Express\nPhotoshop\nChange region\nCopyright © 2026 Adobe. All rights reserved./\nPrivacy/\nTerms of Use/\nCookie preferences/\nDo not sell or share my personal information/\nAdChoices",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-footer-wrapper"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "For individuals & small business\nCreative AI\nPhotography\nDesign and illustration\nVideo and animation\nPDF\n3D\nElements Family\nStock images and video\nView all products\nFor medium & large business\nPersonalization at scale\nContent supply chain\nU",
+          "wordCount": 129,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "role": "region",
+      "id": "onetrust-banner-sdk",
+      "classes": [
+        "otFlat",
+        "bottom",
+        "vertical-align-content"
+      ],
+      "innerText": "Make It Your Own\n    Adobe and its vendors use cookies and similar technologies to improve your experience and measure your interactions with our websites, products and services.  We also use them to provide you more relevant information in searches and in ads on this and other sites. If that’s okay, click “Enable all\". Clicking “Don’t enable” will set only cookies that are strictly necessary. You can also view our vendors and customize your choices by clicking \"Cookie Settings\".\n\n\n\n    Adobe and its vendors use cookies and similar technologies to improve your experience and measure your interactions with our websites, products and services. We also use them to provide you more relevant information in searches and in ads on this and other sites. If that's okay, click \"Enable all.\" Clicking \"Don't enable\" will set only cookies that operate the site and core services and collect statistics about user engagement. You can also view our vendors and customize your choices by clicking \"Cookie Settings.\"\nCookie Settings Don't Enable Enable all",
+      "children": [
+        {
+          "tag": "div",
+          "role": "dialog",
+          "id": null,
+          "classes": [],
+          "purpose": "rich-text",
+          "headlineRef": 13,
+          "innerTextSummary": "Make It Your Own\n    Adobe and its vendors use cookies and similar technologies to improve your experience and measure your interactions with our websites, products and services.  We also use them to provide you more relevant information in",
+          "wordCount": 167,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "role": "region",
+      "id": "onetrust-pc-sdk",
+      "classes": [
+        "ot-sdk-container",
+        "otPcCenter",
+        "ot-hide",
+        "ot-fade-in",
+        "ot-accordions-pc"
+      ],
+      "innerText": "Cookie Settings \n     Don’t enable  \n     Enable all  \n    Confirm my choices \n \n\n\n \n     \n         General information  \n         \n             \n                 You are in control of your data.  \n                 \n                     You can control how Adobe websites use cookies and similar technologies by making choices below. But note that if you disable cookies and similar technologies entirely, Adobe websites may not function properly.  \n                 \n             \n             \n                 What are cookies and why does Adobe use them?  \n                  Cookies are small text files stored by your web browser when you use websites. There are also other technologies that can be used for similar purposes like HTML5 Local Storage and local shared objects, web beacons, and embedded scripts. These technologies help us do things like remembering you and your preferences when you return to our sites, measure how you use the website, conduct market research, and gather information about the ads you see and interact with.  \n                 \n             \n             \n                 How do I make choices?  \n                 \n                     You can make choices in the menu below about what cookies and other technologies you want us to use on Adobe sites when you visit them from this browser. You can always change those choices later by clicking on the Cookie Preferences link at the bottom of the page.  \n                 \n             \n         \n     \n     \n     \n \n \n     \n         If enabled:  \n         \n             We can improve your experience by tailoring the site and the content to things we think might be of interest  \n             We can better keep track of your preferences — like what language you prefer to use  \n             We will better understand your likely interests so we can provide you more relevant Adobe ads and content on non-Adobe websites and in non-Adobe apps  \n             It will help us improve the performance of our website and those of our partners who use the Adobe Experience Cloud  \n         \n     \n     \n         If disabled:  \n         \n             We won’t be able to remember you from session to session so the experience may not be tailored to your interests  \n             You’ll still have access to the content of the site but certain features that depend on cookies may not function  \n             You’ll still see ads, they just may not be as relevant to you  \n         \n     \n     \n     \n \n\n\n\n \n     \n         General information  \n         \n             \n                 You are in control of your data.  \n                 \n                     You can control how Adobe websites use cookies and similar technologies by making choices below. But note that if you disable cookies and similar technologies entirely, Adobe websites may not function properly.  \n                 \n             \n             \n                 What are cookies and why does Adobe use them?  \n                  Cookies are small text files stored by your web browser when you use websites. There are also other technologies that can be used for similar purposes like HTML5 Local Storage, web beacons, and embedded scripts. These technologies help us do things like remembering you and your preferences when you return to our sites, measure how you use the website, conduct market research, and gather information about the ads you see and interact with.  \n                 \n             \n             \n                 How do I make choices?  \n                 \n                     You can make choices in the menu below about what cookies and other technologies you want us to use on Adobe sites when you visit them from this browser. You can always change those choices later by clicking on the Cookie Preferences link at the bottom of the page.  \n                 \n             \n         \n     \n     \n     \n \n \n     \n         If enabled:  \n         \n             We can improve your experience by tailoring the site and the content to things we think might be of interest  \n             We can better keep track of your preferences — like what language you prefer to use  \n             We will better understand your likely interests so we can provide you more relevant Adobe ads and content on non-Adobe websites and in non-Adobe apps  \n             It will help us improve the performance of our website and those of our partners who use the Adobe Experience Cloud  \n         \n     \n     \n         If disabled:  \n         \n             We won’t be able to remember you from session to session so the experience may not be tailored to your interests  \n             We’ll still count your use of our site and services \n             You’ll still have access to the content of the site but certain features that depend on cookies may not function  \n             You’ll still see ads, they just may not be as relevant to you  \n         \n     \n     \n     \n \n\n\n   \n    .default-content { display: block; }\n    .mau-content { display: none; }\n    .mau-template-active .default-content { display: none; }\n    .mau-template-active .mau-content { display: block; }\n    .mau-template-active .default-title { display: none; }\n    .mau-template-active .mau-title { display: inline !important; }\n    .mau-template-active .default-description { display: none; }\n    .mau-template-active .mau-description { display: block !important; }\n\n    .ot-cookie-settings .cs-text::before {\n       content: \"We’ve saved your settings\"\n       }\n   .ot-cookie-settings .cs-settings-text::before {\n       content: \"Manage Cookie Settings\"\n       }\n   .always-active::after {\n       content: \"First party cookies always active when the category is enabled\"\n       }\n   #onetrust-pc-sdk #select-all-container::before {\n       /* FOR WEBKIT */\n       content: \"Host\"\n       }\n   #onetrust-pc-sdk #select-all-container::after {\n       /* FOR WEBKIT */\n       content: \"Description\"\n       }\n   #onetrust-pc-sdk.ot-sdk-not-webkit #select-all-container::before {\n       content: \"Host\"\n       }\n   #onetrust-pc-sdk.ot-sdk-not-webkit #select-all-container::after {\n       content: \"Description\"\n       }\n   #onetrust-pc-sdk .accordion-text .ot-switch::before {\n       content: \"Enable\"\n       }\n   #onetrust-pc-sdk .accordion-text .ot-switch {\n       direction:ltr;\n       }\n   #onetrust-pc-sdk .accordion-text .ot-switch.checked::before {\n       content: \"Enabled\"\n       }\n   #onetrust-pc-sdk #vendor-list-content [type=\"checkbox\"]:disabled + label::before {\n       content: \"Always active\"\n       }\n   #vendors-list.strictly .always-active::after {\n       content: \"Always active\"\n       }\n   Enable allOperate the site and core servicesOperate site and measure engagementAlways active   Operate the site and core servicesOperate site and measure engagement  These cookies are required, and they are used to enable the site and related services core functionality. Without them the site could not operate, so they cannot be disabled.   These cookies enable the site and related services’ core functionality and collect statistics about user engagement, such as counting active use to help us understand trends. These cookies cannot be disabled.  Cookie details‎Measure performance   Measure performance  These cookies are used to analyze site usage to measure and improve performance. Without them Adobe cannot know what content is most valued and how often unique visitors return to the site, making it hard to improve information we offer to you.   These cookies are used to analyze site usage to measure and improve performance. Without them Adobe cannot know what content is most valued, making it hard to improve information we offer to you.  Cookie details‎Extend functionality   Extend functionalityThese cookies are used to enhance the functionality of Adobe sites such as remembering your settings and preferences to deliver a personalized experience; for example, your username, your repeated visits, preferred language, your country, or any other saved preference.Cookie details‎Personalize advertising   Personalize advertisingThese cookies are used to enable Adobe and our partners to serve ads more relevant to your interests. Without them you will still see ads, but they might not be as relevant to you. Cookie details‎ Confirm my choicesBack ButtonBack Performance CookiesVendor Search  Search Icon Filter IconClear Filters Information storage and accessApplyConsent Leg.InterestAll Consent Allowed Select All Vendors Select All Vendors All Consent Allowed Confirm my choices",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": "ot-content",
+          "classes": [
+            "ot-main-content"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 14,
+          "innerTextSummary": "Cookie Settings \n     Don’t enable  \n     Enable all  \n    Confirm my choices \n \n\n\n \n     \n         General information  \n         \n             \n                 You are in control of your data.  \n                 \n                     You",
+          "wordCount": 1052,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "section",
+          "role": null,
+          "id": "vendors-list",
+          "classes": [
+            "ot-hide",
+            "hosts-list"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 26,
+          "innerTextSummary": "Back ButtonBack Performance CookiesVendor Search  Search Icon Filter IconClear Filters Information storage and accessApplyConsent Leg.InterestAll Consent Allowed Select All Vendors Select All Vendors All Consent Allowed Confirm my choices",
+          "wordCount": 29,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Creativity & Design",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > section:nth-of-type(1) > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "View plans and pricing",
+      "href": "/creativecloud/plans.html",
+      "tag": "a",
+      "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Get started",
+      "href": "/creativecloud/plan-recommender/quiz.html",
+      "tag": "a",
+      "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(4) > div > div > div > div > div > p > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "PDF & E-signatures",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > section:nth-of-type(2) > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Acrobat plans and pricing",
+      "href": "/acrobat/pricing.html",
+      "tag": "a",
+      "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Marketing & Commerce",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > section:nth-of-type(3) > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "View all products",
+      "href": "https://business.adobe.com/products.html",
+      "tag": "a",
+      "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Find a product",
+      "href": "https://business.adobe.com/",
+      "tag": "a",
+      "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(3) > div > div > div > div > div > p > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Learn & Support",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > section:nth-of-type(4) > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Contact us",
+      "href": "https://helpx.adobe.com/#open-jarvis-chat",
+      "tag": "a",
+      "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "App switcher",
+      "href": null,
+      "tag": "div",
+      "domPath": "div#unav-app-switcher",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(44, 44, 44)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "5.008px",
+        "padding": "6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Sign in",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#unav-profile > div > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "6px 16px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Free trial",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=creative&ctx=if&co=US&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=PA-1806&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "25px",
+        "padding": "10px 24px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Change region",
+      "href": "#langnav",
+      "tag": "a",
+      "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div > a",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Italia",
+      "href": "/it/",
+      "tag": "a",
+      "domPath": "div#locale-modal-v2 > div:nth-of-type(1) > div > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Chat with us",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#adbmsgCta",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(52, 73, 94)",
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "borderRadius": "60px",
+        "padding": "0px",
+        "boxShadow": "rgba(0, 0, 0, 0.15) 0px 2px 4px 0px"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie Settings",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#onetrust-pc-btn-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Don't Enable",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#onetrust-reject-all-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Enable all",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#onetrust-accept-btn-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Don’t enable",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#ot-pc-logo-button > button:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "5px 15px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Enable all",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#enable-recommended-btn-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "5px 15px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Confirm my choices",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#ot-pc-logo-button > button:nth-of-type(3)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "5px 15px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "You are in control of your data.",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-1",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "What are cookies and why does Adobe use them?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-2",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "How do I make choices?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "You are in control of your data.",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-1",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "What are cookies and why does Adobe use them?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-2",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "How do I make choices?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Enable all",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#accept-recommended-btn-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(105, 105, 105)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "2px",
+        "padding": "12px 30px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie details‎",
+      "href": null,
+      "tag": "button",
+      "domPath": "section#cookie-preferences > div:nth-of-type(1) > div:nth-of-type(3) > button",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(20, 115, 230)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "500",
+        "borderRadius": "2px",
+        "padding": "5px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie details‎",
+      "href": null,
+      "tag": "button",
+      "domPath": "section#cookie-preferences > div:nth-of-type(2) > div:nth-of-type(2) > button",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(20, 115, 230)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "500",
+        "borderRadius": "2px",
+        "padding": "5px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie details‎",
+      "href": null,
+      "tag": "button",
+      "domPath": "section#cookie-preferences > div:nth-of-type(3) > div:nth-of-type(2) > button",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(20, 115, 230)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "500",
+        "borderRadius": "2px",
+        "padding": "5px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie details‎",
+      "href": null,
+      "tag": "button",
+      "domPath": "section#cookie-preferences > div:nth-of-type(4) > div:nth-of-type(2) > button",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(20, 115, 230)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "500",
+        "borderRadius": "2px",
+        "padding": "5px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Confirm my choices",
+      "href": null,
+      "tag": "button",
+      "domPath": "section#cookie-preferences > div:nth-of-type(5) > button",
+      "style": {
+        "backgroundColor": "rgb(20, 115, 230)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "9px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Back ButtonBack",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#vendors-list-header > button:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(105, 105, 105)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "2px",
+        "padding": "30px 0px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Filter Icon",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#filter-btn-handler",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(85, 85, 85)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "17px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Clear Filters",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#clear-filters-handler",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(105, 105, 105)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Apply",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#filter-apply-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(105, 105, 105)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "10px",
+        "boxShadow": "rgb(204, 225, 255) 0px 0px 10px 1px"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Confirm my choices",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#vendor-list-save-btn > button",
+      "style": {
+        "backgroundColor": "rgb(20, 115, 230)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "9px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "href": "/",
+        "text": "",
+        "domPath": "header > div:nth-of-type(2) > nav > div:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud.html",
+        "text": "What is Creative Cloud?\n      Creative apps and services for everyone",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud/photography.html",
+        "text": "Photographers\n      Lightroom, Photoshop, and more",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/creativecloud/all-apps.html",
+        "text": "Individuals\n      20+ creative apps, Acrobat, and more",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/creativecloud/business.html",
+        "text": "Business\n      Solutions for teams and enterprises",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/education.html",
+        "text": "Students and teachers\n      Save 71% on Creative Cloud",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/creativecloud/plans.html",
+        "text": "View plans and pricing",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > div > a"
+      },
+      {
+        "href": "/products/photoshop.html",
+        "text": "Photoshop\n      Image editing and design",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/premiere.html",
+        "text": "Premiere\n      Video editing and production",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "Adobe Firefly\n      AI-powered content creation",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/illustrator.html",
+        "text": "Illustrator\n      Vector graphics and illustration",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/?promoid=Y69SGP43&mv=other",
+        "text": "Adobe Express\n      All-in-one design, video, photo, and PDF app",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom.html",
+        "text": "Lightroom\n      Photo editing and organization",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/products/catalog.html",
+        "text": "View all products",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/express/feature/image/remove-background",
+        "text": "Remove background",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/firefly/features/text-to-image.html",
+        "text": "Generate AI images",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-video-generator.html",
+        "text": "Generate AI videos",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-art-generator.html",
+        "text": "Generate AI art",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-photo-editor.html",
+        "text": "Edit photos with AI",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/creativecloud/plan-recommender/quiz.html",
+        "text": "",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(4) > div > div > div > a"
+      },
+      {
+        "href": "/creativecloud/plan-recommender/quiz.html",
+        "text": "Get started",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(4) > div > div > div > div > div > p > div > a"
+      },
+      {
+        "href": "/acrobat.html",
+        "text": "Adobe Acrobat\n      The AI-powered productivity and creation platform",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/acrobat/acrobat-studio.html",
+        "text": "Adobe Acrobat Studio\n      The AI-powered PDF and design solution for business workflows",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/acrobat/acrobat-pro.html",
+        "text": "Adobe Acrobat Pro\n      The secure solution for PDF and e-signature workflows",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/acrobat/acrobat-express.html",
+        "text": "Acrobat Express\n      AI-powered insights, sharing, and content creation",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/sign.html",
+        "text": "Acrobat Sign\n      The essential e-signature solution",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/acrobat/pdf-reader.html",
+        "text": "Acrobat Reader\n      The trusted standard for viewing and annotating PDFs",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/acrobat/pricing.html",
+        "text": "Acrobat plans and pricing",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > div > a"
+      },
+      {
+        "href": "/acrobat/business.html",
+        "text": "Business",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/education.html",
+        "text": "Student & Teachers",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/acrobat/personal-document-management.html",
+        "text": "Home & Personal",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/acrobat/business/industries/government.html",
+        "text": "Government",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/nonprofits/acrobat.html",
+        "text": "Nonprofits",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/acrobat/online/pdf-editor.html",
+        "text": "Edit PDF",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/acrobat/online/ai-chat-pdf.html",
+        "text": "Chat with PDF",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/acrobat/online/pdf-to-word.html",
+        "text": "PDF to Word",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/acrobat/online/compress-pdf.html",
+        "text": "Compress PDF",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/acrobat/online/merge-pdf.html",
+        "text": "Merge PDF",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/acrobat/online/word-to-pdf.html",
+        "text": "Word to PDF",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/acrobat/online.html",
+        "text": "View all tools",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/acrobat/free-trial-download.html",
+        "text": "",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(4) > div > div > div > a"
+      },
+      {
+        "href": "/acrobat/free-trial-download.html",
+        "text": "Start free trial",
+        "domPath": "div#feds-popup-1 > div > div > div:nth-of-type(4) > div > div > div > div > div > p:nth-of-type(2) > a"
+      },
+      {
+        "href": "/community",
+        "text": "Adobe Community\n      Connect and get inspired",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/learn?locale=en&learnIn=1",
+        "text": "Adobe Learn\n      Develop your creative skills with Adobe apps",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/learn/express?learnIn=1",
+        "text": "Express Tutorials\n      Quick steps to start a project",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/learn/acrobat?learnIn=1",
+        "text": "Acrobat Tutorials\n      Short lessons to improve your Acrobat skills",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/express/learn/tutorials?promoid=Z9X3FKHM&mv=other",
+        "text": "",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(4) > div > div > div > a"
+      },
+      {
+        "href": "/express/learn/tutorials?promoid=Z9X3FKHM&mv=other",
+        "text": "Get started",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(4) > div > div > div > div > div > p > a"
+      },
+      {
+        "href": "/acrobat/generative-ai-pdf.html",
+        "text": "Learn more",
+        "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > p > a:nth-of-type(2)"
+      },
+      {
+        "href": "/creativecloud/plans.html?promoid=TBJRLL8W&mv=other",
+        "text": "Save 50% on Creative Cloud Pro.\n\nGet Photoshop, Illustrator, and more apps plus creative AI. And save for the first 3 months. Terms apply.*\n\nBuy now",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div > a"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "ADOBE FIREFLY\n\nSave 30% and go unlimited.\n\nGet unlimited generations on select models for a year. Save on Firefly plans until June 17.\n\nLearn more",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div > a"
+      },
+      {
+        "href": "/creativecloud/business.html",
+        "text": "Creative Cloud for business",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(2) > a"
+      },
+      {
+        "href": "/creativecloud/buy/students.html",
+        "text": "Student pricing",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(3) > a"
+      },
+      {
+        "href": "/acrobat/online.html",
+        "text": "Online PDF tools",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(2) > a"
+      },
+      {
+        "href": "/creativecloud/plans.html",
+        "text": "See all plans and pricing",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(4) > a"
+      },
+      {
+        "href": "/products/photoshop.html",
+        "text": "ADOBE PHOTOSHOP\n\nNew partner AI models in Generative Fill.\n\nCreate with Gemini 3 (with Nano Banana Pro) and FLUX.2 pro.\n\nLearn more",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(4) > div > div > div > a"
+      },
+      {
+        "href": "/offer-terms/cc_full_special_offer.html",
+        "text": "See terms.",
+        "domPath": "main > div:nth-of-type(4) > div > div > div > div > div > div > a"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "Creative AI",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud/photography/apps.html",
+        "text": "Photography",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/creativecloud/design.html",
+        "text": "Design and illustration",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/creativecloud/video.html",
+        "text": "Video and animation",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/acrobat.html",
+        "text": "PDF",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/products/substance3d.html",
+        "text": "3D",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/products/elements-family.html",
+        "text": "Elements Family",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/education.html",
+        "text": "Education",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/nonprofits.html",
+        "text": "Nonprofits",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/howtobuy/buying-programs/government.html",
+        "text": "Government",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/community.html",
+        "text": "Adobe Community",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/learn",
+        "text": "Adobe Learn",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/",
+        "text": "Chat with sales",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/about-adobe.html",
+        "text": "About",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/careers.html",
+        "text": "Careers",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/events.html",
+        "text": "Events",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/corporate-responsibility.html",
+        "text": "Corporate responsibility",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/investor-relations.html",
+        "text": "Investor Relations",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/corporate-responsibility/supply-chain.html",
+        "text": "Supply chain",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/trust.html",
+        "text": "Trust Center",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(9) > a"
+      },
+      {
+        "href": "/about-adobe/integrity.html",
+        "text": "Integrity",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(10) > a"
+      },
+      {
+        "href": "/diversity.html",
+        "text": "Adobe for All",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(11) > a"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "Firefly",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/?promoid=Z2G1FSYV&mv=other",
+        "text": "Adobe Express",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/photoshop/free-trial-download.html",
+        "text": "Photoshop",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/privacy.html",
+        "text": "Privacy",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/legal/terms.html",
+        "text": "Terms of Use",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/",
+        "text": "Cookie preferences",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/privacy/location-specific-notice.html",
+        "text": "Do not sell or share my personal information",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/privacy/opt-out.html",
+        "text": "AdChoices",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/it/",
+        "text": "Italia",
+        "domPath": "div#locale-modal-v2 > div:nth-of-type(1) > div > a:nth-of-type(1)"
+      }
+    ],
+    "external": [
+      {
+        "href": "https://stock.adobe.com/?as_channel=adobe_com&as_source=profile_menu&as_campclass=brand&as_campaign=may2017&as_audience=users&as_content=globalnav",
+        "text": "Adobe Stock\n      High-quality licensable assets",
+        "domPath": "div#feds-popup-2 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/brand-intelligence.html",
+        "text": "Brand Intelligence",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/engagement-intelligence.html",
+        "text": "Engagement Intelligence",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/genstudio/content-marketing.html",
+        "text": "GenStudio for Content Marketing",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/firefly-business/firefly-creative-production.html",
+        "text": "Firefly Creative Production",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/cx-enterprise-coworker.html",
+        "text": "CX Enterprise Coworker",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/customer-engagement.html",
+        "text": "Customer engagement",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/content-supply-chain.html",
+        "text": "Content supply chain",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/brand-visibility.html",
+        "text": "Brand visibility",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/b2b-marketing.html",
+        "text": "B2B GTM orchestration",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/experience-platform/adobe-experience-platform.html",
+        "text": "Adobe Experience Platform",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/experience-platform/agent-orchestrator.html",
+        "text": "Experience Platform Agent Orchestrator\n      Boost brand impact with AI-powered agents",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/brand-concierge.html",
+        "text": "Brand Concierge\n      AI-powered conversation agent",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/llm-optimizer.html",
+        "text": "LLM Optimizer\n      Shape how your brand shows up in AI search",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/genstudio/performance-marketing.html",
+        "text": "GenStudio for Performance Marketing\n      Accelerate your content supply chain",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/experience-manager/sites.html",
+        "text": "Experience Manager Sites\n      Content management system (CMS)",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/workfront.html",
+        "text": "Workfront\n      Work and project management",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/real-time-customer-data-platform/rtcdp.html",
+        "text": "Real-Time CDP\n      Customer data platform (CDP)",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/adobe-analytics.html",
+        "text": "Adobe Analytics\n      Advanced CX analytics solutions",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/journey-optimizer.html",
+        "text": "Journey Optimizer\n      Customer journey management",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/journey-optimizer-b2b-edition.html",
+        "text": "Journey Optimizer B2B Edition\n      Increase buying group engagement",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/marketo.html",
+        "text": "Marketo Engage\n      Marketing automation",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products.html",
+        "text": "View all products",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > div > a"
+      },
+      {
+        "href": "https://business.adobe.com/",
+        "text": "Find a product",
+        "domPath": "div#feds-popup-4 > div > div > div:nth-of-type(3) > div > div > div > div > div > p > div > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/support.html",
+        "text": "Help Center\n      Troubleshooting and how-tos",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/contact/enterprise-support.html",
+        "text": "Enterprise Support\n      Dedicated help for large organizations",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://adobe.com/events",
+        "text": "Adobe Events\n      Explore in-person and online events",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://developer.adobe.com/",
+        "text": "Adobe Developer\n      Resources to empower developer creativity",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://creativecloud.adobe.com/apps/download/creative-cloud",
+        "text": "Download and install",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/#open-jarvis-chat",
+        "text": "Contact us",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > div > a"
+      },
+      {
+        "href": "https://account.adobe.com/",
+        "text": "Manage my account",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://account.adobe.com/plans",
+        "text": "Manage my plan",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://status.adobe.com/help/proactivesubscriptions",
+        "text": "Subscribe to Adobe Status",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://experienceleague.adobe.com/",
+        "text": "Adobe Experience League\n      Build Experience Cloud skills with personalized learning",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://certifiedprofessional.adobe.com/en/home",
+        "text": "Adobe Certified Professional\n      Grow your career with Adobe",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://edex.adobe.com/",
+        "text": "Adobe Education Exchange\n      Discover free teaching resources for your class",
+        "domPath": "div#feds-popup-3 > div > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/segmentation?cli=creative&ctx=if&co=US&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=PA-1806&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+        "text": "Free trial",
+        "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > p > a:nth-of-type(1)"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/segmentation?cli=creative&ctx=if&co=US&rf=uc_segmentation_hide_tabs_cr&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=ccsn_direct_individual&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+        "text": "Creative Cloud Pro free trial",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/segmentation?cli=creative&ctx=if&co=US&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=apcc_direct_individual&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+        "text": "Acrobat free trial",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://business.adobe.com/",
+        "text": "ADOBE FOR BUSINESS\n\nIt starts with Adobe.\n\nFrom AI frenzy to marketing ROI. Unify data, content, and workflows with Adobe AI.\n\nLearn more",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(5) > div > div > div > a"
+      },
+      {
+        "href": "https://blog.adobe.com/en/publish/2026/02/17/how-small-businesses-individual-filers-use-adobe-acrobat-prepare-their-taxes-this-season",
+        "text": "Read the story",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(6) > div > div > div > div:nth-of-type(2) > div > p:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://news.adobe.com/news/2026/01/adobe-acrobat-studio-transforms",
+        "text": "Read the story",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(6) > div > div > div > div:nth-of-type(2) > div > p:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://news.adobe.com/news/2026/01/sundance-filmmakers-choose-adobe",
+        "text": "Read the story",
+        "domPath": "main > div:nth-of-type(3) > div:nth-of-type(6) > div > div > div > div:nth-of-type(2) > div > p:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://stock.adobe.com/",
+        "text": "Stock images and video",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/personalization-at-scale.html",
+        "text": "Personalization at scale",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/unified-customer-experience.html",
+        "text": "Unified customer experience",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/content-supply-chain/creation-production.html",
+        "text": "Creativity and production",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/support.html",
+        "text": "Help Center",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/download-install.html",
+        "text": "Download and install",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://business.adobe.com/support/main.html",
+        "text": "Medium and large business support",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://business.adobe.com/request-consultation.html",
+        "text": "Request information",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://account.adobe.com/",
+        "text": "Log into your account",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://news.adobe.com/",
+        "text": "Newsroom",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://blog.adobe.com/",
+        "text": "Adobe Blog",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(12) > a"
+      },
+      {
+        "href": "https://get.adobe.com/reader/",
+        "text": "Acrobat Reader",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.facebook.com/adobe",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.instagram.com/adobe/",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://twitter.com/Adobe",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.linkedin.com/company/adobe",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner",
+        "text": "",
+        "domPath": "section#cookie-preferences > div:nth-of-type(5) > div > a"
+      }
+    ]
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.adobe.com/federal/assets/svgs/adobe-logo.svg",
+        "srcset": null,
+        "alt": "Adobe, Inc.",
+        "naturalWidth": 277,
+        "naturalHeight": 150,
+        "localPath": "stardust/current/assets/media/adobe-logo-54213e.svg"
+      },
+      {
+        "src": "https://www.adobe.com/federal/assets/svgs/creative-cloud-40.svg",
+        "srcset": null,
+        "alt": "Adobe Creative Cloud",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/globalnav/acom/fragments/cc/cc-promo/media_1af073e5a0cd7dec058e62d473269d930634a83a9.png",
+        "srcset": null,
+        "alt": "Get started | decorative image",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/assets/svgs/acrobat-pro-40.svg",
+        "srcset": null,
+        "alt": "Adobe Acrobat Studio",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/globalnav/acom/fragments/dc/dc-promo/media_163956389f4c818ceb5aa15d706e06da3b7dadcc7.png",
+        "srcset": null,
+        "alt": "decorative image",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/media_171db344fcd93da208956f698c9f66f20253753e2.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": "decorative image",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/globalnav/acom/fragments/help/help-promo/media_10cd78c92c1e7055f352846809d585603662ac6c3.png",
+        "srcset": null,
+        "alt": "decorative image",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/upp-shared/media_17abefe49968ccc0817819e60af1bc944a4239359.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 1080,
+        "naturalHeight": 810,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/upp-shared/media_1275694ca155b78ce3b5bc816e0b8887da3d83ed9.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/upp-shared/media_1393af2d1206af82052e8366aa1d72d8905f79460.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 2000,
+        "naturalHeight": 1458,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/cc-ip-promo-q1-jan-26/media_18e39cd2eb27838d7a098143c5d78dd1661872339.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/cc-ip-promo-q1-jan-26/media_1a4da02d7ba3e2e09ea8fca23c2cde87dbd01b257.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/cc-ip-promo-q1-jan-26/media_170db6867c044273e2d5d760909670ab66f1c52e9.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 1160,
+        "naturalHeight": 582,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/2026/ff-promo/media_1124c2c83e89f28c053394185ea325176d672b919.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/2026/ff-promo/media_1124c2c83e89f28c053394185ea325176d672b919.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/2026/ff-promo/media_11ebc19f3bc2719a69e1e0420b8bdc61a573db2e8.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 1857,
+        "naturalHeight": 966,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/superbowl-us-02-05-26/media_147bcf656643a766f8be60a99e7ad1e8b2003bd1a.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/superbowl-us-02-05-26/media_101ac13081f11a71e11131a61c4bf459b8c11b947.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/superbowl-us-02-05-26/media_1ab39dc6bdbb41609497f2ffa266c535658857ca6.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 1857,
+        "naturalHeight": 1500,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/max-2025/media_1280d383cbefe740d319edb752d512a8fbf32cad1.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/max-2025/media_165f5c9100fd158ccd1ad200b17b778a6d0692596.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/homepage/fragments/loggedout/pods/max-2025/media_1869b11c5e5bfb9e736d4e457b1f5c035661275ed.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 1857,
+        "naturalHeight": 1500,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_13514981498f3fa40f16d4005bc5604b3030e8b4b.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_15856c21886cb3333ec5b6b02c8f4d08627ad59fe.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_187073d53c6db77acad4d7d8d1909fb04cc9cb071.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_1af87c70b29a2210b320389840ec88bb257b44572.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/libs/img/georouting/flag-it.svg",
+        "srcset": null,
+        "alt": "Italia",
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "localPath": null
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+        "srcset": null,
+        "alt": "Company Logo",
+        "naturalWidth": 2042,
+        "naturalHeight": 280,
+        "localPath": null
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "srcset": null,
+        "alt": "Powered by Onetrust",
+        "naturalWidth": 568,
+        "naturalHeight": 53,
+        "localPath": null
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "srcset": null,
+        "alt": "Powered by Onetrust",
+        "naturalWidth": 568,
+        "naturalHeight": 53,
+        "localPath": null
+      }
+    ],
+    "inlineSvgs": [
+      {
+        "viewBox": "0 0 20 20",
+        "domPath": "div#unav-app-switcher > svg",
+        "markupHash": "sha256:0747f47fdd59c4ca"
+      },
+      {
+        "viewBox": "0 0 11 5",
+        "domPath": "div#unav-app-switcher > div > div:nth-of-type(1) > svg",
+        "markupHash": "sha256:7c6de12b25c76b3c"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(1) > svg",
+        "markupHash": "sha256:297b3d2aaa7e0379"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div > a > svg",
+        "markupHash": "sha256:04ec84f86fd9d56b"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a > svg",
+        "markupHash": "sha256:b6880f7a9ba8df46"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(2) > a > svg",
+        "markupHash": "sha256:3b66fc1abf15dff2"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(3) > a > svg",
+        "markupHash": "sha256:8835a8824322139e"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(4) > a > svg",
+        "markupHash": "sha256:69951a6faebd6dad"
+      },
+      {
+        "viewBox": "0 0 179.35 46.86",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > span > span > svg",
+        "markupHash": "sha256:5083f0d2da3293fe"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a > svg",
+        "markupHash": "sha256:010aea10b699e2ab"
+      },
+      {
+        "viewBox": "0 0 20 20",
+        "domPath": "div#locale-modal-v2 > button > svg",
+        "markupHash": "sha256:0747f47fdd59c4ca"
+      },
+      {
+        "viewBox": "0 0 444.531 444.531",
+        "domPath": "svg#ot-back-arrow",
+        "markupHash": "sha256:46890ba827224e3b"
+      },
+      {
+        "viewBox": "0 -30 110 110",
+        "domPath": "div#search-container > svg",
+        "markupHash": "sha256:73ab6cc4c6536b8f"
+      },
+      {
+        "viewBox": "0 0 402.577 402.577",
+        "domPath": "svg#filter-icon",
+        "markupHash": "sha256:325e9b0cfdec6d3f"
+      }
+    ],
+    "cssBackgrounds": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://commerce.adobe.com/store/iframe/preload-optimized.html",
+        "title": null
+      },
+      {
+        "src": "",
+        "title": null
+      },
+      {
+        "src": "",
+        "title": "onetrust-text-resize"
+      }
+    ]
+  },
+  "forms": [],
+  "widgets": {
+    "modals": [
+      {
+        "trigger": null,
+        "domPath": "div#unav-app-switcher-dialog-id"
+      },
+      {
+        "trigger": null,
+        "domPath": "div#locale-modal-v2"
+      },
+      {
+        "trigger": null,
+        "domPath": "div#onetrust-banner-sdk > div:nth-of-type(1)"
+      }
+    ],
+    "accordions": [],
+    "tabs": []
+  },
+  "components": {
+    "cards": {
+      "count": 0,
+      "examples": []
+    },
+    "grids": {
+      "count": 9,
+      "examples": [
+        ".row-text.con-block",
+        ".row-wrapper"
+      ]
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 0,
+      "examples": []
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 3,
+      "examples": [
+        ".unav-comp-app-switcher-popover",
+        ".dialog-modal.locale-modal-v2"
+      ]
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 3,
+      "examples": [
+        "iframe",
+        ".adbmsgContentIframe"
+      ]
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 0,
+      "examples": []
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "main > div:nth-of-type(1)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(2)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(3)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "32px",
+        "paddingInline": "56px",
+        "gap": "32px"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(4)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [
+    {
+      "name": "--global-height-nav",
+      "value": "64px"
+    },
+    {
+      "name": "--feds-height-nav",
+      "value": "63px"
+    },
+    {
+      "name": "--global-height-breadcrumbs",
+      "value": "33px"
+    },
+    {
+      "name": "--scroll-padding-block",
+      "value": "0"
+    },
+    {
+      "name": "--global-height-navPromo",
+      "value": "72px"
+    },
+    {
+      "name": "--feds-totalheight-nav",
+      "value": "calc(63px + 33px)"
+    },
+    {
+      "name": "--feds-localnav-height",
+      "value": "40px"
+    },
+    {
+      "name": "--feds-language-banner-height",
+      "value": "44px"
+    },
+    {
+      "name": "--link-color",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--link-hover-color",
+      "value": "rgb(29, 62, 207)"
+    },
+    {
+      "name": "--link-color-dark",
+      "value": "rgb(59, 99, 251)"
+    },
+    {
+      "name": "--link-hover-color-dark",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--background-color",
+      "value": "#fff"
+    },
+    {
+      "name": "--overlay-background-color",
+      "value": "#ffffff20"
+    },
+    {
+      "name": "--highlight-background-color",
+      "value": "#ffffff40"
+    },
+    {
+      "name": "--text-color",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--color-white",
+      "value": "#FFF"
+    },
+    {
+      "name": "--color-gray-100",
+      "value": "#F8F8F8"
+    },
+    {
+      "name": "--color-gray-200",
+      "value": "#E8E8E8"
+    },
+    {
+      "name": "--color-gray-300",
+      "value": "#D4D4D4"
+    },
+    {
+      "name": "--color-gray-400",
+      "value": "#B6B6B6"
+    },
+    {
+      "name": "--color-gray-500",
+      "value": "#909090"
+    },
+    {
+      "name": "--color-gray-600",
+      "value": "#686868"
+    },
+    {
+      "name": "--color-gray-700",
+      "value": "#444"
+    },
+    {
+      "name": "--color-gray-800",
+      "value": "#242424"
+    },
+    {
+      "name": "--color-black",
+      "value": "#000"
+    },
+    {
+      "name": "--color-brand-title",
+      "value": "#000B1D"
+    },
+    {
+      "name": "--color-accent",
+      "value": "rgb(59, 99, 251)"
+    },
+    {
+      "name": "--color-accent-hover",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--color-accent-down",
+      "value": "#095aba"
+    },
+    {
+      "name": "--color-accent-focus-ring",
+      "value": "#378ef0"
+    },
+    {
+      "name": "--color-info-accent",
+      "value": "#5C5CE0"
+    },
+    {
+      "name": "--color-info-accent-hover",
+      "value": "#4646C6"
+    },
+    {
+      "name": "--color-info-accent-down",
+      "value": "#3D3DB4"
+    },
+    {
+      "name": "--color-info-accent-light",
+      "value": "#DEDEF9"
+    },
+    {
+      "name": "--body-font-family",
+      "value": "'Adobe Clean', adobe-clean, 'Trebuchet MS', sans-serif"
+    },
+    {
+      "name": "--fixed-font-family",
+      "value": "'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace"
+    },
+    {
+      "name": "--spacing-xxs",
+      "value": "8px"
+    },
+    {
+      "name": "--spacing-xs",
+      "value": "16px"
+    },
+    {
+      "name": "--spacing-s",
+      "value": "24px"
+    },
+    {
+      "name": "--spacing-m",
+      "value": "32px"
+    },
+    {
+      "name": "--spacing-l",
+      "value": "40px"
+    },
+    {
+      "name": "--spacing-xl",
+      "value": "56px"
+    },
+    {
+      "name": "--spacing-xxl",
+      "value": "80px"
+    },
+    {
+      "name": "--spacing-xxxl",
+      "value": "104px"
+    },
+    {
+      "name": "--spacing-l-static",
+      "value": "48px"
+    },
+    {
+      "name": "--spacing-xl-static",
+      "value": "56px"
+    },
+    {
+      "name": "--spacing-xxl-static",
+      "value": "80px"
+    },
+    {
+      "name": "--spacing-xxxl-static",
+      "value": "104px"
+    },
+    {
+      "name": "--type-heading-all-weight",
+      "value": "700"
+    },
+    {
+      "name": "--type-heading-xxxl-size",
+      "value": "calc(1 * 80px)"
+    },
+    {
+      "name": "--type-heading-xxxl-lh",
+      "value": "88px"
+    },
+    {
+      "name": "--type-heading-xxl-size",
+      "value": "calc(1 * 44px)"
+    },
+    {
+      "name": "--type-heading-xxl-lh",
+      "value": "55px"
+    },
+    {
+      "name": "--type-heading-xl-size",
+      "value": "calc(1 * 36px)"
+    },
+    {
+      "name": "--type-heading-xl-lh",
+      "value": "45px"
+    },
+    {
+      "name": "--type-heading-l-size",
+      "value": "calc(1 * 28px)"
+    },
+    {
+      "name": "--type-heading-l-lh",
+      "value": "35px"
+    },
+    {
+      "name": "--type-heading-m-size",
+      "value": "calc(1 * 24px)"
+    },
+    {
+      "name": "--type-heading-m-lh",
+      "value": "30px"
+    },
+    {
+      "name": "--type-heading-s-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-heading-s-lh",
+      "value": "25px"
+    },
+    {
+      "name": "--type-heading-xs-size",
+      "value": "calc(1 * 18px)"
+    },
+    {
+      "name": "--type-heading-xs-lh",
+      "value": "22.5px"
+    },
+    {
+      "name": "--type-heading-xxs-size",
+      "value": "calc(1 * 14px)"
+    },
+    {
+      "name": "--type-heading-xxs-lh",
+      "value": "18px"
+    },
+    {
+      "name": "--type-heading-base-lh",
+      "value": "1.2"
+    },
+    {
+      "name": "--type-body-xxl-size",
+      "value": "calc(1 * 28px)"
+    },
+    {
+      "name": "--type-body-xxl-lh",
+      "value": "42px"
+    },
+    {
+      "name": "--type-body-xl-size",
+      "value": "calc(1 * 22px)"
+    },
+    {
+      "name": "--type-body-xl-lh",
+      "value": "33px"
+    },
+    {
+      "name": "--type-body-l-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-body-l-lh",
+      "value": "30px"
+    },
+    {
+      "name": "--type-body-m-size",
+      "value": "calc(1 * 18px)"
+    },
+    {
+      "name": "--type-body-m-lh",
+      "value": "27px"
+    },
+    {
+      "name": "--type-body-s-size",
+      "value": "calc(1 * 16px)"
+    },
+    {
+      "name": "--type-body-s-lh",
+      "value": "24px"
+    },
+    {
+      "name": "--type-body-xs-size",
+      "value": "calc(1 * 14px)"
+    },
+    {
+      "name": "--type-body-xs-lh",
+      "value": "21px"
+    },
+    {
+      "name": "--type-body-xxs-size",
+      "value": "calc(1 * 12px)"
+    },
+    {
+      "name": "--type-body-xxs-lh",
+      "value": "18px"
+    },
+    {
+      "name": "--type-detail-all-weight",
+      "value": "700"
+    },
+    {
+      "name": "--type-detail-all-transform",
+      "value": "uppercase"
+    },
+    {
+      "name": "--type-detail-xl-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-detail-xl-lh",
+      "value": "25px"
+    },
+    {
+      "name": "--type-detail-l-size",
+      "value": "calc(1 * 16px)"
+    },
+    {
+      "name": "--type-detail-l-lh",
+      "value": "20px"
+    },
+    {
+      "name": "--type-detail-m-size",
+      "value": "calc(1 * 12px)"
+    },
+    {
+      "name": "--type-detail-m-lh",
+      "value": "15px"
+    },
+    {
+      "name": "--type-detail-s-size",
+      "value": "calc(1 * 10px)"
+    },
+    {
+      "name": "--type-detail-s-lh",
+      "value": "12px"
+    },
+    {
+      "name": "--grid-container-width",
+      "value": "1200px"
+    },
+    {
+      "name": "--grid-column-width",
+      "value": "calc(1200px / 12)"
+    },
+    {
+      "name": "--grid-margins-width",
+      "value": "calc((100% - 1200px) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-10",
+      "value": "calc((100vw - (calc(1200px / 12) * 10)) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-8",
+      "value": "calc((100vw - (calc(1200px / 12) * 8)) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-6",
+      "value": "calc((100vw - (calc(1200px / 12) * 6)) / 2)"
+    },
+    {
+      "name": "--aspect-ratio-square",
+      "value": "1/1"
+    },
+    {
+      "name": "--aspect-ratio-standard",
+      "value": "4/3"
+    },
+    {
+      "name": "--aspect-ratio-wide",
+      "value": "16/9"
+    },
+    {
+      "name": "--aspect-ratio-tall",
+      "value": "9/16"
+    },
+    {
+      "name": "--icon-size-xxl",
+      "value": "80px"
+    },
+    {
+      "name": "--icon-size-xl",
+      "value": "64px"
+    },
+    {
+      "name": "--icon-size-l",
+      "value": "56px"
+    },
+    {
+      "name": "--icon-size-m",
+      "value": "40px"
+    },
+    {
+      "name": "--icon-size-s",
+      "value": "32px"
+    },
+    {
+      "name": "--icon-size-xs",
+      "value": "24px"
+    },
+    {
+      "name": "--icon-size-xxs",
+      "value": "16px"
+    },
+    {
+      "name": "--feds-maxWidth-nav",
+      "value": "1440px"
+    },
+    {
+      "name": "--feds-minWidth-menu",
+      "value": "1200px"
+    },
+    {
+      "name": "--feds-height-breadcrumbs",
+      "value": "33px"
+    },
+    {
+      "name": "--feds-gutter",
+      "value": "8px"
+    },
+    {
+      "name": "--feds-background-nav",
+      "value": "#f8f8f8"
+    },
+    {
+      "name": "--feds-background-popup",
+      "value": "#f3f3f3"
+    },
+    {
+      "name": "--feds-background-promo",
+      "value": "#fff"
+    },
+    {
+      "name": "--feds-background-promo--dark",
+      "value": "#000"
+    },
+    {
+      "name": "--feds-borderColor",
+      "value": "#eaeaea"
+    },
+    {
+      "name": "--feds-borderColor-menu",
+      "value": "#e1e1e1"
+    },
+    {
+      "name": "--feds-borderColor-navLink",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--feds-color-adobeBrand",
+      "value": "#eb1000"
+    },
+    {
+      "name": "--feds-color-headline",
+      "value": "#505050"
+    },
+    {
+      "name": "--feds-color-hamburger",
+      "value": "#2d2d2d"
+    },
+    {
+      "name": "--feds-color-breadcrumbs--current",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--feds-color-signIn",
+      "value": "#4b4b4b"
+    },
+    {
+      "name": "--feds-radius-utilityIcon",
+      "value": "4px"
+    },
+    {
+      "name": "--feds-background-link--hover",
+      "value": "#e9e9e9"
+    },
+    {
+      "name": "--feds-borderColor-link",
+      "value": "#e9e9e9"
+    },
+    {
+      "name": "--feds-color-link",
+      "value": "#292929"
+    },
+    {
+      "name": "--feds-color-blue-link",
+      "value": "#274dea"
+    },
+    {
+      "name": "--feds-color-link--hover",
+      "value": "#1d3ecf"
+    },
+    {
+      "name": "--feds-color-link-dark",
+      "value": "#DBDBDB"
+    },
+    {
+      "name": "--feds-borderColor-link-dark",
+      "value": "#393939"
+    },
+    {
+      "name": "--feds-color-navLink-description",
+      "value": "#505050"
+    },
+    {
+      "name": "--feds-color-link-breadcrumbs",
+      "value": "#707070"
+    },
+    {
+      "name": "--feds-cta-primary-bg",
+      "value": "#3b63fb"
+    },
+    {
+      "name": "--feds-cta-primary-bg--hover",
+      "value": "#274dea"
+    },
+    {
+      "name": "--feds-background-footer",
+      "value": "#fafafa"
+    },
+    {
+      "name": "--feds-borderColor-featuredProducts",
+      "value": "#999"
+    },
+    {
+      "name": "--feds-gutter-footer",
+      "value": "32px"
+    },
+    {
+      "name": "--feds-color-white-v2",
+      "value": "#fff"
+    },
+    {
+      "name": "--feds-color-black-v2",
+      "value": "#000"
+    },
+    {
+      "name": "--feds-background-cloudmenu-v2",
+      "value": "#111"
+    },
+    {
+      "name": "--feds-borderColor-link-v2",
+      "value": "#eaeaea"
+    },
+    {
+      "name": "--feds-backgroundColor-tabs-v2",
+      "value": "#f8f8f8"
+    },
+    {
+      "name": "--feds-backgroundColor-tabContent-v2",
+      "value": "#f3f3f3"
+    },
+    {
+      "name": "--feds-borderColor-localnav-v2",
+      "value": "#eee"
+    },
+    {
+      "name": "--app-banner-height",
+      "value": "76px"
+    },
+    {
+      "name": "--feds-skeleton-color-1",
+      "value": "#D3D3D3"
+    },
+    {
+      "name": "--feds-skeleton-color-2",
+      "value": "#EAEAEA"
+    },
+    {
+      "name": "--feds-skeleton-color-3",
+      "value": "#D3D3D3"
+    },
+    {
+      "name": "--feds-skeleton-opacity",
+      "value": "0.7"
+    },
+    {
+      "name": "--modal-focus-color",
+      "value": "#109cde"
+    },
+    {
+      "name": "--modal-max-height",
+      "value": "calc((100vh - 6px) - 2em)"
+    },
+    {
+      "name": "--modal-max-height-mobile",
+      "value": "calc((100% - 6px) - 2em)"
+    },
+    {
+      "name": "--modal-z-index",
+      "value": "102"
+    },
+    {
+      "name": "--modal-z-index-curtain",
+      "value": "101"
+    },
+    {
+      "name": "--modal-close-accent-color",
+      "value": "#707070"
+    },
+    {
+      "name": "--jarvis-z-index-override",
+      "value": "100"
+    },
+    {
+      "name": "--tall-video-padding",
+      "value": "56px"
+    },
+    {
+      "name": "--ot-privacy-cta-color",
+      "value": "#3B63FB"
+    },
+    {
+      "name": "--ot-privacy-cta-hover-color",
+      "value": "#274DEA"
+    },
+    {
+      "name": "--ot-privacy-cta-ring-color",
+      "value": "#378EF0"
+    }
+  ],
+  "screenshot": "stardust/current/assets/screenshots/home.png",
+  "stats": {
+    "wordCount": 415,
+    "ctaCount": 39,
+    "internalLinkCount": 88,
+    "externalLinkCount": 60,
+    "imageCount": 30
+  }
+}

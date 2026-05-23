@@ -1,0 +1,214 @@
+{
+  "_provenance": {
+    "writtenBy": "distillation pass (manual, conversational)",
+    "writtenAt": "2026-05-22T13:00:00-07:00",
+    "readArtifacts": [
+      "samples/static/bizpro-hub-prototype/bizpro-hub.html",
+      "samples/static/plan-page/Acrobat Plans — PDF & Productivity.html",
+      "samples/live/snapshots/sr-homepage.html",
+      "samples/live/snapshots/sr-homepage.png"
+    ],
+    "consumedBy": "stardust:direct — Phase 2 anchor resolution + Phase 4 token + componentStyle authoring"
+  },
+
+  "sharedTokens": {
+    "type": {
+      "headingFamily": "adobe-clean-display",
+      "headingWeight": 900,
+      "bodyFamily": "adobe-clean",
+      "bodyWeight": 400,
+      "labelWeight": 700,
+      "scale": {
+        "title-1": { "size": 80, "lineHeight": 76, "tracking": -3.2, "fluidMin": 40, "fluidVw": 6.25 },
+        "title-2": { "size": 56, "lineHeight": 56, "tracking": -1.68, "fluidMin": 32, "fluidVw": 4.375 },
+        "title-3": { "size": 48, "lineHeight": 48, "tracking": -1.2, "fluidMin": 28, "fluidVw": 3.125 },
+        "title-4": { "size": 24, "lineHeight": 24, "tracking": -0.48 },
+        "eyebrow": { "size": 16, "lineHeight": 20, "tracking": -0.2, "weight": 700 },
+        "body-lg": { "size": 20, "lineHeight": 24 },
+        "body-md": { "size": 16, "lineHeight": 20, "tracking": 0.16 },
+        "body-sm": { "size": 14, "lineHeight": 18, "tracking": 0.16 },
+        "label":   { "size": 14, "lineHeight": 18, "weight": 700 }
+      },
+      "rules": [
+        "Mixed-case headings at weight 900 (not uppercase).",
+        "Period-terminated display sentences.",
+        "Body max-width 80ch (~13 words/line).",
+        "Eyebrow + heading + body triplet is the dominant section anatomy."
+      ]
+    },
+    "color": {
+      "grayScale": ["#f8f8f8","#f3f3f3","#e9e9e9","#e1e1e1","#dadada","#c6c6c6","#8f8f8f","#717171","#505050","#292929","#131313"],
+      "brand": {
+        "blue-900": "#3b63fb",
+        "blue-1000": "#274dea",
+        "brand-adobe-red": "#eb1000"
+      },
+      "surfaces": {
+        "default": "#ffffff",
+        "subtle": "#f8f8f8",
+        "darkSection": "#000000",
+        "contentDefault": "#000000",
+        "contentSubtle": "rgba(0,0,0,0.64)"
+      },
+      "reservations": [
+        { "color": "#eb1000", "reservedFor": ["brand-mnemonic","ai-sparkle-gradient-stop","lockup"] },
+        { "gradient": "linear-gradient(135deg, #8D88F2, #EB1000)", "reservedFor": ["ai-addon-row"] }
+      ],
+      "rules": [
+        "Brand-faithful inversions required vs stardust hard-rules: literal #000 and #ffffff are load-bearing.",
+        "Adobe blue (#3b63fb) is the CTA primary, not Adobe red.",
+        "Adobe red is reserved to brand mnemonic / AI-sparkle / lockup contexts."
+      ]
+    },
+    "spacing": {
+      "base": 4,
+      "scale": { "2xs": 4, "xs": 8, "sm": 12, "md": 16, "lg": 24, "xl": 32, "2xl": 40, "3xl": 48, "4xl": 64, "5xl": 80, "6xl": 96 },
+      "layout": { "sm": 80, "lg": 124 },
+      "sectionPadding": { "primary": 96, "secondary": 80, "footer": 64 },
+      "densityTier": "balanced-to-packed",
+      "grid": {
+        "cols": { "mobile": 6, "desktop": 12 },
+        "outerPad": { "mobile": "24px", "desktop": "8.333vw" },
+        "gutter": "8px",
+        "maxContentWidth": 1920
+      }
+    },
+    "radius": { "sm": 8, "md": 16, "lg": 32, "pill": 999 },
+    "easing": { "default": "cubic-bezier(0.42, 0, 0, 1)", "entrance": "cubic-bezier(0.25, 0.46, 0.45, 0.94)" },
+    "duration": { "fast": 200, "base": 400, "entrance": 600, "expand": 360 }
+  },
+
+  "stack": {
+    "smoothScroll": { "lib": "lenis", "version": "1.x", "config": { "lerp": 0.1 }, "exposesGlobal": "window.__lenis" },
+    "gsap": { "used": false },
+    "scrollTrigger": { "used": false },
+    "cssScrollDriven": { "used": true, "usedFor": ["studio-banner garage-door"] },
+    "intersectionObserver": { "used": false }
+  },
+
+  "components": {
+    "btn": {
+      "height": 40, "smHeight": 32, "radius": 999, "padInline": 24,
+      "variants": ["primary","outline","dark","ghost-white","solid-white","full","sm"],
+      "pairs": { "onLight": ["primary","outline"], "onDark": ["solid-white","ghost-white"] },
+      "transition": "200ms cubic-bezier(0.42,0,0,1)"
+    },
+    "nav": {
+      "outerPad": 8, "innerHeight": 64, "radius": 16,
+      "glass": { "bg": "rgba(255,255,255,0.64)", "blur": "64–128px" },
+      "scrolled": { "shadow": "0 2px 12px rgba(0,0,0,0.08)" },
+      "anatomy": "logo + slash + linkList (≥900px) | iconBtn + primaryCTA + outlineCTA",
+      "inversion": "starts transparent over dark hero; logo + icon become white via filter:invert; adopts glass on scroll",
+      "entranceAnim": "enterDown 600ms cubic-bezier(0.25,0.46,0.45,0.94)"
+    },
+    "footer": {
+      "background": "#000",
+      "blocks": ["linkGrid","featuredProducts","bottomBar","wordmark"],
+      "linkGrid": { "cols": { "mobile": 1, "tablet": 2, "desktop": 6 }, "titleColor": "#fff", "linkColor": "rgba(255,255,255,0.64)" },
+      "wordmark": { "aspectRatio": "1440/338", "revealEffect": "clipPath inset 60%→0% on Lenis-scroll" }
+    },
+    "cards": {
+      "story-card": { "dim": "351x468", "radius": 16, "layers": ["photo bg","gradient","icon top-left","footer category+title"], "hover": "photo scale(1.03) 500ms" },
+      "explore-card": { "aspect": "4:3", "radius": 12, "darkBg": "rgba(255,255,255,0.08)", "hover": "bgImg opacity 0→1 + scale(1.04) + gradient scrim 0→1 400ms" },
+      "merch-card": { "radius": 16, "outline": "4px solid bg", "subgrid": true, "modes": ["light","dark"], "features": "accordion <1280px", "extensions": ["license-dropdown","ai-addon gradient-border"] },
+      "price-card": { "radius": 16, "innerBorder": "4px solid #f8f8f8", "modes": ["light"], "features": "always-on list" },
+      "acrobat-card": { "assetAspect": "488/366", "radius": 16, "anatomy": "image + copy + cta" },
+      "included-card": { "assetAspect": "488/366", "radius": 16, "anatomy": "image + copy" }
+    },
+    "tabBar": {
+      "height": 40, "radius": 24, "background": "rgba(0,0,0,0.04–0.05)", "padding": 4,
+      "tab": { "height": 32, "padInline": 20, "radius": 50, "active": { "bg": "#000", "color": "#fff" } }
+    },
+    "searchBar": {
+      "height": 56, "maxWidth": 768, "radius": 999, "bg": "rgba(255,255,255,0.10)", "context": "dark-section"
+    },
+    "carousel": {
+      "stories-mouse-pan": { "trigger": "mousemove proximity", "transition": "transform 400ms cubic-bezier(0.42,0,0,1)" },
+      "tutorial-infinite": { "track": "[clone-prev | …reals… | clone-next]", "snapBack": "transitionend → goTo(real, animate=false) with double-rAF", "scrollEntrance": "reverse-hero (width 100vw→1068/1440, gap 60→8, radius 0→16)" }
+    },
+    "comparison": {
+      "grid": "5-col (label + 4 plans)", "mobile": "2-col label-on-top",
+      "stickyHeader": "clone appended to <body>, fixed top:96px, collapse-on-down, expand-on-up over 360ms"
+    },
+    "faq": {
+      "pattern": "single-open accordion (closes others on open)",
+      "transition": "max-height 0→400px 400ms cubic-bezier(0.42,0,0,1)"
+    },
+    "studioBanner": {
+      "pattern": "garage-door reveal via CSS scroll-driven animations",
+      "ranges": "entry 0%→cover 40% (banner), entry 0%→cover 100% (bg scale), cover -10%→cover 100% (content)"
+    },
+    "hero": {
+      "video-scroll-grow": { "where": "bizpro-hub", "container": "300vh", "child": "sticky 100vh", "anim": "video bounded→fullbleed via JS rAF reading Lenis scroll" },
+      "marquee-parallax": { "where": "plan-page", "height": "50vh / 35vw@1280+", "anim": "--parallax-progress CSS var drives fade-to-dark overlay" },
+      "tile-mosaic": { "where": "sr-homepage (inferred from snapshot)", "anim": "static photography tiles with hover reveals" }
+    }
+  },
+
+  "samples": [
+    {
+      "id": "bizpro-hub",
+      "label": "BizPro Hub — PDF & Productivity",
+      "path": "samples/static/bizpro-hub-prototype/bizpro-hub.html",
+      "register": "business-pro",
+      "audience": ["SMB","enterprise"],
+      "componentsPresent": ["nav (light glass)","hero (video scroll-grow)","story-card carousel (mouse-pan)","acrobat-card 3-up","tutorial-infinite carousel","tab-bar","price-card grid","studio-banner garage-door","explore-card grid (dark)","search-section (agentic, dark)","footer (full)"],
+      "motionsPresent": ["lenis","page-load enter","scroll-driven section entrance","hero scroll-grow","stories mouse-pan","tutorial reverse-hero entrance","studio garage-door (CSS)","wordmark clip-path wipe"],
+      "characterTraits": ["motion-cinema","feature-led","conversion-pricing","editorial-product"],
+      "amplifiesB": true,
+      "amplifiesC": false
+    },
+    {
+      "id": "plan-page",
+      "label": "Acrobat Plans — PDF & Productivity",
+      "path": "samples/static/plan-page/Acrobat Plans — PDF & Productivity.html",
+      "register": "conversion-pricing",
+      "audience": ["individuals","businesses","students-teachers"],
+      "componentsPresent": ["nav (inverted-over-hero)","hero (marquee parallax)","tab-bar (3-tabs)","merch-card grid (subgrid + license-dropdown + ai-addon)","compare-section (sticky header, 5-col)","included-section (3-up)","faq accordion","footer (with accordion on mobile)","copy edit-mode system"],
+      "motionsPresent": ["lenis","page-load enter","fade+slide-up entrances","hero marquee parallax (--parallax-progress)","sticky-header collapse on scroll-down","merch-card features accordion","faq single-open"],
+      "characterTraits": ["pricing-clarity","comparison-table","trust-signals","author-tooling"],
+      "amplifiesB": false,
+      "amplifiesC": false
+    },
+    {
+      "id": "sr-homepage",
+      "label": "Adobe — UPP sr-homepage (fragment)",
+      "path": "samples/live/snapshots/sr-homepage.html",
+      "screenshot": "samples/live/snapshots/sr-homepage.png",
+      "register": "consumer-creative-hub",
+      "audience": ["consumers","creators","visitors"],
+      "componentsPresent": ["nav","hero (tile mosaic + modal)","color-tile-row (saturated)","explore-grid (3-up with photography)","testimonial-dark","tools-band gradient-transition","product-grid (dark)","footer (with wordmark)"],
+      "motionsPresent": ["lenis (inferred)","tile hover reveals (inferred)","section transitions over dark ground"],
+      "characterTraits": ["photography-led","color-saturation","editorial-mosaic","aspirational"],
+      "amplifiesB": false,
+      "amplifiesC": true
+    }
+  ],
+
+  "amplifiedTraits": {
+    "B": {
+      "trait": "scroll-driven cinema",
+      "thesis": "adobe.com as a piece of motion cinema — every scroll is a directed sequence, not a passive scroll. Hero video scroll-grow, reverse-hero carousels, CSS garage-door reveals on banners, per-card stagger entrances, footer wordmark wipe. Lenis stack mandatory.",
+      "sourceSample": "bizpro-hub",
+      "loadBearingPatterns": ["video-scroll-grow","reverse-hero-entrance","garage-door","wordmark-clip-wipe","scroll-section-entrance"]
+    },
+    "C": {
+      "trait": "elastic tile mosaic",
+      "thesis": "adobe.com as a creative-product gallery — full-bleed photography tiles in 4:3/16:9/1:1 asymmetric mosaics. Hover-revealed background imagery with saturated overlays. Type recedes, imagery leads. Dark-section rhythm intensifies.",
+      "sourceSample": "sr-homepage",
+      "loadBearingPatterns": ["explore-card-hover-reveal","asymmetric-tile-grid","saturated-photography","dark-section-rhythm"]
+    }
+  },
+
+  "directionHints": {
+    "mode": "A",
+    "modeReason": "Adobe brand surface is signal-strong; palette + type pin to captured surface; samples drive expressive / motion / density axes only.",
+    "iaFidelity": "reimagined",
+    "density": "balanced (lean toward 64–72px primary section padding under the multi-audience floor)",
+    "iaPriorities": ["commercial-conversion","audience-routing","trust-signals","product-mnemonic-discoverability","persistent-help"],
+    "brandFaithfulInversions": [
+      { "rule": "no pure black/white", "reason": "Adobe brand uses literal #000 and #ffffff on every sample; load-bearing surfaces" },
+      { "rule": "no glassmorphism", "reason": "nav pill uses backdrop-filter blur(64–128px) with rgba(255,255,255,0.64); brand-faithful and load-bearing" }
+    ]
+  }
+}

@@ -1,0 +1,4616 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-22T11:53:57.552Z",
+    "readArtifacts": [
+      "https://www.adobe.com/express/"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.7.1",
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-05-22T11:52:07.287Z",
+    "waitMode": "medium",
+    "waitMs": 2175,
+    "httpStatus": 200,
+    "contentType": "text/html"
+  },
+  "slug": "express",
+  "url": "https://www.adobe.com/express/",
+  "finalUrl": "https://www.adobe.com/express/",
+  "title": "Free Design, Photo, and Video Tool – The quick and easy app to create on-brand content | Adobe Express",
+  "metaDescription": "Adobe Express is an all-in-one design, photo, and video tool to make content creation easy. Quickly and easily make stunning social content, videos, logos, and more to stand out on social and beyond.",
+  "og": {
+    "title": "Free Design, Photo, and Video Tool – The quick and easy app to create on-brand content | Adobe Express",
+    "description": "Adobe Express is an all-in-one design, photo, and video tool to make content creation easy. Quickly and easily make stunning social content, videos, logos, and more to stand out on social and beyond.",
+    "image": "https://www.adobe.com/express/media_1fcab73980cfc55a24701342170da2c2098771fd4.png?width=1200&format=pjpg&optimize=medium",
+    "type": null,
+    "siteName": null
+  },
+  "themeColor": {
+    "light": null,
+    "dark": null
+  },
+  "language": "en-US",
+  "headings": [
+    {
+      "level": 1,
+      "text": "The quick and easy create-anything app.",
+      "id": "the-quick-and-easy-create-anything-app",
+      "domPath": "h1#the-quick-and-easy-create-anything-app",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "900",
+        "fontSize": "45px",
+        "lineHeight": "58.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Adobe Express works for Teams, Enterprise, and Students.",
+      "id": null,
+      "domPath": "main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > h2",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "800",
+        "fontSize": "36px",
+        "lineHeight": "46.8px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Teams",
+      "id": null,
+      "domPath": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "letterSpacing": "normal",
+        "color": "rgb(33, 33, 33)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Enterprise",
+      "id": null,
+      "domPath": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "letterSpacing": "normal",
+        "color": "rgb(33, 33, 33)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Students",
+      "id": null,
+      "domPath": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "letterSpacing": "normal",
+        "color": "rgb(33, 33, 33)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Discover the top features that everyone loves.",
+      "id": "discover-the-top-features-that-everyone-loves",
+      "domPath": "h3#discover-the-top-features-that-everyone-loves",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "800",
+        "fontSize": "36px",
+        "lineHeight": "46.8px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "All-new AI Assistant (beta).",
+      "id": "all-new-ai-assistant-beta",
+      "domPath": "h4#all-new-ai-assistant-beta",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "800",
+        "fontSize": "28px",
+        "lineHeight": "36.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Works with Photoshop, Firefly, and more.",
+      "id": "works-with-photoshop-firefly-and-more",
+      "domPath": "h4#works-with-photoshop-firefly-and-more",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "800",
+        "fontSize": "28px",
+        "lineHeight": "36.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Video made easy.",
+      "id": "video-made-easy",
+      "domPath": "h4#video-made-easy",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "800",
+        "fontSize": "28px",
+        "lineHeight": "36.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Resize any asset.",
+      "id": "resize-any-asset",
+      "domPath": "h4#resize-any-asset",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "800",
+        "fontSize": "28px",
+        "lineHeight": "36.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Create anytime, anywhere.",
+      "id": "create-anytime-anywhere",
+      "domPath": "h4#create-anytime-anywhere",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "800",
+        "fontSize": "28px",
+        "lineHeight": "36.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Easily stay on brand.",
+      "id": "easily-stay-on-brand",
+      "domPath": "h4#easily-stay-on-brand",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "800",
+        "fontSize": "28px",
+        "lineHeight": "36.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Compare Plans",
+      "id": "compare-plans",
+      "domPath": "h2#compare-plans",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "800",
+        "fontSize": "36px",
+        "lineHeight": "46.8px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adobe Express Free",
+      "id": null,
+      "domPath": "merch-card#469f6294-f1c5-41de-9b35-ca77d4058c36 > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adobe Express Premium",
+      "id": null,
+      "domPath": "merch-card#31315176-7dae-45f7-bc96-877c8d1b9125 > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adobe Firefly Pro",
+      "id": null,
+      "domPath": "merch-card#79ec2d54-0fc4-4170-a82c-2708b9432873 > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adobe Express Teams",
+      "id": null,
+      "domPath": "merch-card#58bb87e8-141c-4eec-9c20-caa8b36d9cc6 > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adobe Express Enterprise",
+      "id": null,
+      "domPath": "merch-card#140c5d42-5e31-4f82-a44b-7aa16c09fc41 > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adobe Express Free",
+      "id": null,
+      "domPath": "merch-card#469f6294-f1c5-41de-9b35-ca77d4058c36 > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adobe Express Premium",
+      "id": null,
+      "domPath": "merch-card#5cb37d1a-f054-4d31-aa3a-648038e99d6a > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adobe Creative Cloud Pro",
+      "id": null,
+      "domPath": "merch-card#33d1a008-eee4-49a4-af10-1032d3720a8c > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "23.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 5,
+      "text": "The world's leading businesses use Adobe Express.",
+      "id": "the-worlds-leading-businesses-use-adobe-express",
+      "domPath": "h5#the-worlds-leading-businesses-use-adobe-express",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "800",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Content creation made easy.",
+      "id": "content-creation-made-easy",
+      "domPath": "h2#content-creation-made-easy",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "900",
+        "fontSize": "45px",
+        "lineHeight": "58.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(36, 36, 36)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Make It Your Own",
+      "id": "onetrust-policy-title",
+      "domPath": "h2#onetrust-policy-title",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(105, 105, 105)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Cookie Settings",
+      "id": "pc-title",
+      "domPath": "h2#pc-title",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "300",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "General information",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "If enabled:",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "If disabled:",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h3",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "General information",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "If enabled:",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "If disabled:",
+      "id": null,
+      "domPath": "div#pc-policy-text > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > h3",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "",
+      "id": "manage-cookies-text",
+      "domPath": "h3#manage-cookies-text",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28.8px",
+        "lineHeight": "37.44px",
+        "letterSpacing": "normal",
+        "color": "rgb(105, 105, 105)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Operate the site and core servicesOperate site and measure engagement",
+      "id": "ot-header-id-C0001",
+      "domPath": "h4#ot-header-id-C0001",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Measure performance",
+      "id": "ot-header-id-C0002",
+      "domPath": "h4#ot-header-id-C0002",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Extend functionality",
+      "id": "ot-header-id-C0003",
+      "domPath": "h4#ot-header-id-C0003",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Personalize advertising",
+      "id": "ot-header-id-C0004",
+      "domPath": "h4#ot-header-id-C0004",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(50, 50, 50)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Performance Cookies",
+      "id": "vendors-list-title",
+      "domPath": "h3#vendors-list-title",
+      "style": {
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(105, 105, 105)"
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "header",
+      "role": null,
+      "id": null,
+      "classes": [
+        "global-navigation",
+        "ready",
+        "local-nav"
+      ],
+      "innerText": "Creativity & Design\nAdobe Express\nCreate\nEdit\nPrint\nBusiness\nEducation\nPlans\nGo to Adobe Express\nSign in",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-topnav-wrapper"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Creativity & Design\nAdobe Express\nCreate\nEdit\nPrint\nBusiness\nEducation\nPlans\nGo to Adobe Express\nSign in",
+          "wordCount": 17,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "id": null,
+      "classes": [
+        "feds-topnav"
+      ],
+      "innerText": "Creativity & Design\nAdobe Express\nCreate\nEdit\nPrint\nBusiness\nEducation\nPlans\nGo to Adobe Express\nSign in",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": "feds-nav-wrapper",
+          "classes": [
+            "feds-nav-wrapper"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Creativity & Design\nAdobe Express\nCreate\nEdit\nPrint\nBusiness\nEducation\nPlans",
+          "wordCount": 11,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-cta-wrapper",
+            "feds-product-entry-cta"
+          ],
+          "purpose": "feature-list",
+          "headlineRef": null,
+          "innerTextSummary": "Go to Adobe Express",
+          "wordCount": 4,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-utilities"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Sign in",
+          "wordCount": 2,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "main",
+      "role": null,
+      "id": null,
+      "classes": [],
+      "innerText": "The quick and easy create-anything app.\n\nMake stunning social posts, images, videos, flyers, and more with Adobe Express. Dream it. Make it. Easy.\n\nStart 30-day free trial\nGet Adobe Express Free\n\nCreate anything, quickly and easily\n\nEdit with one click\n\nCreate fast with generative AI\n\nStart from standout content\n\n4.8\n345.6K ratings\n4.6\n574k ratings\nAdobe Express works for Teams, Enterprise, and Students.\n\nSee how Adobe Express makes it easy to create standout content using AI that's designed to be commercially safe.\n\nTeams\n\nKeep projects on brand and streamline workflows with real-time collaboration and Adobe Creative Cloud integration.\n\nLearn more\nEnterprise\n\nCreate on-brand content with easy collaboration, security, and admin features built for large organizations.\n\nLearn more\nStudents\n\nGo from basic to bold content for your classes, clubs, and career with professional templates and generative AI.\n\nLearn more\nDiscover the top features that everyone loves.\nAll-new AI Assistant (beta).\n\nAI Assistant2 allows you to prompt, create and edit anything. Make quick edits and refine every layer, all while keeping the parts you love intact.\n\nTry AI Assistant\nWorks with Photoshop, Firefly, and more.\n\nSync content and keep brand assets in reach, all without leaving the app you're already in.\n\nGet started\nVideo made easy.\n\nMake video editing effortless with drag-and-drop content, bulk editing, self-recording, and direct exporting and publishing to Vimeo.\n\nGet started\nResize any asset.\n\nTurn your design into a social campaign instantly. Resize for any channel in one click, all in a single design file. Download it. Schedule it.\n\nResize now\nCreate anytime, anywhere.\n\nCreate content seamlessly across your desktop browser and phone. Files stay synced so you can work wherever you are.\n\nCreate now\nEasily stay on brand.\n\nWith brand kits3, your team can apply brand fonts and colors to designs, images, and illustrations in a click. Lock elements to keep everyone in sync.\n\nDiscover brand kits\n\n“I love using Adobe Express to create flyers for my small business. All the tools in Adobe Express, such as the different fonts and graphics help bring my vision to life.”\n\nErica X., Owner at Photoshoots by Erica\nCompare Plans\nFor Individuals\nFor Business\nFor Students\nAdobe Express Free\n\n0,00 €incl. VAT\n\nBasic content creation tools, limited generative AI credits and assets.\n\nFree to use. No credit card required.\n\nGet free plan\nAdobe Express Premium\n\n12,19 €/moincl. VAT\n\nAccess millions of assets, more AI credits, and premium tools.\n\nNo annual commitment, billed monthly.1\n\nStart 30-day free trial\nAdobe Firefly Pro\n\n22,55 €/moincl. VAT\n\nGet Adobe Express Premium plus 4,000 credits for creative AI and Adobe Photoshop on web and mobile for advanced image editing.\n\nNo annual commitment, billed monthly.1\n\nStart 7-day free trial\nCompare all plans\nThe world's leading businesses use Adobe Express.\n\nContent creation made easy.\n\nGet Adobe Express Free\n\n1 Billing begins when your free trial ends. Cancel before free trial ends and you won’t be charged. Subscription automatically renews until you cancel. Cancel anytime.\n\n2 Limited beta availability: Adobe Express Premium, Desktop and English (US) only.\n\n3 Available on the Premium plan.\n\nGet Adobe Express Free",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 0,
+          "innerTextSummary": "The quick and easy create-anything app.\n\nMake stunning social posts, images, videos, flyers, and more with Adobe Express. Dream it. Make it. Easy.\n\nStart 30-day free trial\nGet Adobe Express Free\n\nCreate anything, quickly and easily\n\nEdit wi",
+          "wordCount": 55,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 1,
+          "innerTextSummary": "Adobe Express works for Teams, Enterprise, and Students.\n\nSee how Adobe Express makes it easy to create standout content using AI that's designed to be commercially safe.\n\nTeams\n\nKeep projects on brand and streamline workflows with real-tim",
+          "wordCount": 83,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 5,
+          "innerTextSummary": "Discover the top features that everyone loves.\nAll-new AI Assistant (beta).\n\nAI Assistant2 allows you to prompt, create and edit anything. Make quick edits and refine every layer, all while keeping the parts you love intact.\n\nTry AI Assista",
+          "wordCount": 172,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section",
+            "xxs-spacing"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 12,
+          "innerTextSummary": "“I love using Adobe Express to create flyers for my small business. All the tools in Adobe Express, such as the different fonts and graphics help bring my vision to life.”\n\nErica X., Owner at Photoshoots by Erica\nCompare Plans\nFor Individua",
+          "wordCount": 136,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "The world's leading businesses use Adobe Express.",
+          "wordCount": 7,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 22,
+          "innerTextSummary": "Content creation made easy.\n\nGet Adobe Express Free",
+          "wordCount": 8,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "1 Billing begins when your free trial ends. Cancel before free trial ends and you won’t be charged. Subscription automatically renews until you cancel. Cancel anytime.\n\n2 Limited beta availability: Adobe Express Premium, Desktop and English",
+          "wordCount": 44,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section",
+            "floating-button-wrapper",
+            "floating-button--scrolled",
+            "floating-button--below-the-fold",
+            "floating-button--intersecting"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Get Adobe Express Free",
+          "wordCount": 4,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "role": "region",
+      "id": null,
+      "classes": [
+        "cards-container",
+        "gallery"
+      ],
+      "innerText": "All-new AI Assistant (beta).\n\nAI Assistant2 allows you to prompt, create and edit anything. Make quick edits and refine every layer, all while keeping the parts you love intact.\n\nTry AI Assistant\nWorks with Photoshop, Firefly, and more.\n\nSync content and keep brand assets in reach, all without leaving the app you're already in.\n\nGet started\nVideo made easy.\n\nMake video editing effortless with drag-and-drop content, bulk editing, self-recording, and direct exporting and publishing to Vimeo.\n\nGet started\nResize any asset.\n\nTurn your design into a social campaign instantly. Resize for any channel in one click, all in a single design file. Download it. Schedule it.\n\nResize now\nCreate anytime, anywhere.\n\nCreate content seamlessly across your desktop browser and phone. Files stay synced so you can work wherever you are.\n\nCreate now\nEasily stay on brand.\n\nWith brand kits3, your team can apply brand fonts and colors to designs, images, and illustrations in a click. Lock elements to keep everyone in sync.\n\nDiscover brand kits",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "card",
+            "gallery--item",
+            "curr"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 6,
+          "innerTextSummary": "All-new AI Assistant (beta).\n\nAI Assistant2 allows you to prompt, create and edit anything. Make quick edits and refine every layer, all while keeping the parts you love intact.\n\nTry AI Assistant",
+          "wordCount": 32,
+          "body": [
+            "AI Assistant2 allows you to prompt, create and edit anything. Make quick edits and refine every layer, all while keeping the parts you love intact."
+          ],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "card",
+            "gallery--item"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 7,
+          "innerTextSummary": "Works with Photoshop, Firefly, and more.\n\nSync content and keep brand assets in reach, all without leaving the app you're already in.\n\nGet started",
+          "wordCount": 24,
+          "body": [
+            "Sync content and keep brand assets in reach, all without leaving the app you're already in."
+          ],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "card",
+            "gallery--item"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 8,
+          "innerTextSummary": "Video made easy.\n\nMake video editing effortless with drag-and-drop content, bulk editing, self-recording, and direct exporting and publishing to Vimeo.\n\nGet started",
+          "wordCount": 22,
+          "body": [
+            "Make video editing effortless with drag-and-drop content, bulk editing, self-recording, and direct exporting and publishing to Vimeo."
+          ],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "card",
+            "gallery--item"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 9,
+          "innerTextSummary": "Resize any asset.\n\nTurn your design into a social campaign instantly. Resize for any channel in one click, all in a single design file. Download it. Schedule it.\n\nResize now",
+          "wordCount": 30,
+          "body": [
+            "Turn your design into a social campaign instantly. Resize for any channel in one click, all in a single design file. Download it. Schedule it."
+          ],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "card",
+            "gallery--item"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 10,
+          "innerTextSummary": "Create anytime, anywhere.\n\nCreate content seamlessly across your desktop browser and phone. Files stay synced so you can work wherever you are.\n\nCreate now",
+          "wordCount": 24,
+          "body": [
+            "Create content seamlessly across your desktop browser and phone. Files stay synced so you can work wherever you are."
+          ],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "card",
+            "gallery--item"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 11,
+          "innerTextSummary": "Easily stay on brand.\n\nWith brand kits3, your team can apply brand fonts and colors to designs, images, and illustrations in a click. Lock elements to keep everyone in sync.\n\nDiscover brand kits",
+          "wordCount": 33,
+          "body": [
+            "With brand kits3, your team can apply brand fonts and colors to designs, images, and illustrations in a click. Lock elements to keep everyone in sync."
+          ],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "footer",
+      "role": null,
+      "id": null,
+      "classes": [
+        "global-footer"
+      ],
+      "innerText": "",
+      "children": []
+    },
+    {
+      "tag": "div",
+      "role": "region",
+      "id": "onetrust-banner-sdk",
+      "classes": [
+        "otFlat",
+        "bottom",
+        "vertical-align-content"
+      ],
+      "innerText": "Make It Your Own\nAdobe and its vendors use cookies and similar technologies to improve your experience and measure your interactions with our websites, products and services. We also use them to provide you more relevant information in searches and in ads on this and other sites. If that’s okay, click “Enable all\". Clicking “Don’t enable” will set only cookies that are strictly necessary. You can also view our vendors and customize your choices by clicking \"Cookie Settings\".\nCookie Settings\nDon't Enable Enable all",
+      "children": [
+        {
+          "tag": "div",
+          "role": "dialog",
+          "id": null,
+          "classes": [],
+          "purpose": "rich-text",
+          "headlineRef": 23,
+          "innerTextSummary": "Make It Your Own\nAdobe and its vendors use cookies and similar technologies to improve your experience and measure your interactions with our websites, products and services. We also use them to provide you more relevant information in sear",
+          "wordCount": 84,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "role": "region",
+      "id": "onetrust-pc-sdk",
+      "classes": [
+        "ot-sdk-container",
+        "otPcCenter",
+        "ot-hide",
+        "ot-fade-in",
+        "ot-accordions-pc"
+      ],
+      "innerText": "Cookie Settings \n     Don’t enable  \n     Enable all  \n    Confirm my choices \n \n\n\n \n     \n         General information  \n         \n             \n                 You are in control of your data.  \n                 \n                     You can control how Adobe websites use cookies and similar technologies by making choices below. But note that if you disable cookies and similar technologies entirely, Adobe websites may not function properly.  \n                 \n             \n             \n                 What are cookies and why does Adobe use them?  \n                  Cookies are small text files stored by your web browser when you use websites. There are also other technologies that can be used for similar purposes like HTML5 Local Storage and local shared objects, web beacons, and embedded scripts. These technologies help us do things like remembering you and your preferences when you return to our sites, measure how you use the website, conduct market research, and gather information about the ads you see and interact with.  \n                 \n             \n             \n                 How do I make choices?  \n                 \n                     You can make choices in the menu below about what cookies and other technologies you want us to use on Adobe sites when you visit them from this browser. You can always change those choices later by clicking on the Cookie Preferences link at the bottom of the page.  \n                 \n             \n         \n     \n     \n     \n \n \n     \n         If enabled:  \n         \n             We can improve your experience by tailoring the site and the content to things we think might be of interest  \n             We can better keep track of your preferences — like what language you prefer to use  \n             We will better understand your likely interests so we can provide you more relevant Adobe ads and content on non-Adobe websites and in non-Adobe apps  \n             It will help us improve the performance of our website and those of our partners who use the Adobe Experience Cloud  \n         \n     \n     \n         If disabled:  \n         \n             We won’t be able to remember you from session to session so the experience may not be tailored to your interests  \n             You’ll still have access to the content of the site but certain features that depend on cookies may not function  \n             You’ll still see ads, they just may not be as relevant to you  \n         \n     \n     \n     \n \n\n\n\n \n     \n         General information  \n         \n             \n                 You are in control of your data.  \n                 \n                     You can control how Adobe websites use cookies and similar technologies by making choices below. But note that if you disable cookies and similar technologies entirely, Adobe websites may not function properly.  \n                 \n             \n             \n                 What are cookies and why does Adobe use them?  \n                  Cookies are small text files stored by your web browser when you use websites. There are also other technologies that can be used for similar purposes like HTML5 Local Storage, web beacons, and embedded scripts. These technologies help us do things like remembering you and your preferences when you return to our sites, measure how you use the website, conduct market research, and gather information about the ads you see and interact with.  \n                 \n             \n             \n                 How do I make choices?  \n                 \n                     You can make choices in the menu below about what cookies and other technologies you want us to use on Adobe sites when you visit them from this browser. You can always change those choices later by clicking on the Cookie Preferences link at the bottom of the page.  \n                 \n             \n         \n     \n     \n     \n \n \n     \n         If enabled:  \n         \n             We can improve your experience by tailoring the site and the content to things we think might be of interest  \n             We can better keep track of your preferences — like what language you prefer to use  \n             We will better understand your likely interests so we can provide you more relevant Adobe ads and content on non-Adobe websites and in non-Adobe apps  \n             It will help us improve the performance of our website and those of our partners who use the Adobe Experience Cloud  \n         \n     \n     \n         If disabled:  \n         \n             We won’t be able to remember you from session to session so the experience may not be tailored to your interests  \n             We’ll still count your use of our site and services \n             You’ll still have access to the content of the site but certain features that depend on cookies may not function  \n             You’ll still see ads, they just may not be as relevant to you  \n         \n     \n     \n     \n \n\n\n   \n    .default-content { display: block; }\n    .mau-content { display: none; }\n    .mau-template-active .default-content { display: none; }\n    .mau-template-active .mau-content { display: block; }\n    .mau-template-active .default-title { display: none; }\n    .mau-template-active .mau-title { display: inline !important; }\n    .mau-template-active .default-description { display: none; }\n    .mau-template-active .mau-description { display: block !important; }\n\n    .ot-cookie-settings .cs-text::before {\n       content: \"We’ve saved your settings\"\n       }\n   .ot-cookie-settings .cs-settings-text::before {\n       content: \"Manage Cookie Settings\"\n       }\n   .always-active::after {\n       content: \"First party cookies always active when the category is enabled\"\n       }\n   #onetrust-pc-sdk #select-all-container::before {\n       /* FOR WEBKIT */\n       content: \"Host\"\n       }\n   #onetrust-pc-sdk #select-all-container::after {\n       /* FOR WEBKIT */\n       content: \"Description\"\n       }\n   #onetrust-pc-sdk.ot-sdk-not-webkit #select-all-container::before {\n       content: \"Host\"\n       }\n   #onetrust-pc-sdk.ot-sdk-not-webkit #select-all-container::after {\n       content: \"Description\"\n       }\n   #onetrust-pc-sdk .accordion-text .ot-switch::before {\n       content: \"Enable\"\n       }\n   #onetrust-pc-sdk .accordion-text .ot-switch {\n       direction:ltr;\n       }\n   #onetrust-pc-sdk .accordion-text .ot-switch.checked::before {\n       content: \"Enabled\"\n       }\n   #onetrust-pc-sdk #vendor-list-content [type=\"checkbox\"]:disabled + label::before {\n       content: \"Always active\"\n       }\n   #vendors-list.strictly .always-active::after {\n       content: \"Always active\"\n       }\n   Enable allOperate the site and core servicesOperate site and measure engagementAlways active   Operate the site and core servicesOperate site and measure engagement  These cookies are required, and they are used to enable the site and related services core functionality. Without them the site could not operate, so they cannot be disabled.   These cookies enable the site and related services’ core functionality and collect statistics about user engagement, such as counting active use to help us understand trends. These cookies cannot be disabled.  Cookie details‎Measure performance   Measure performance  These cookies are used to analyze site usage to measure and improve performance. Without them Adobe cannot know what content is most valued and how often unique visitors return to the site, making it hard to improve information we offer to you.   These cookies are used to analyze site usage to measure and improve performance. Without them Adobe cannot know what content is most valued, making it hard to improve information we offer to you.  Cookie details‎Extend functionality   Extend functionalityThese cookies are used to enhance the functionality of Adobe sites such as remembering your settings and preferences to deliver a personalized experience; for example, your username, your repeated visits, preferred language, your country, or any other saved preference.Cookie details‎Personalize advertising   Personalize advertisingThese cookies are used to enable Adobe and our partners to serve ads more relevant to your interests. Without them you will still see ads, but they might not be as relevant to you. Cookie details‎ Confirm my choicesBack ButtonBack Performance CookiesVendor Search  Search Icon Filter IconClear Filters Information storage and accessApplyConsent Leg.InterestAll Consent Allowed Select All Vendors Select All Vendors All Consent Allowed Confirm my choices",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": "ot-content",
+          "classes": [
+            "ot-main-content"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 24,
+          "innerTextSummary": "Cookie Settings \n     Don’t enable  \n     Enable all  \n    Confirm my choices \n \n\n\n \n     \n         General information  \n         \n             \n                 You are in control of your data.  \n                 \n                     You",
+          "wordCount": 1052,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "section",
+          "role": null,
+          "id": "vendors-list",
+          "classes": [
+            "ot-hide",
+            "hosts-list"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 36,
+          "innerTextSummary": "Back ButtonBack Performance CookiesVendor Search  Search Icon Filter IconClear Filters Information storage and accessApplyConsent Leg.InterestAll Consent Allowed Select All Vendors Select All Vendors All Consent Allowed Confirm my choices",
+          "wordCount": 29,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Creativity & Design",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > section > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "View plans and pricing",
+      "href": "/creativecloud/plans.html",
+      "tag": "a",
+      "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Get started",
+      "href": "/creativecloud/plan-recommender/quiz.html",
+      "tag": "a",
+      "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div > div > p > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Create",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Get Adobe Express Free",
+      "href": "https://adobesparkpost.app.link/GJrBPFUWBBb",
+      "tag": "a",
+      "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Edit",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Get Adobe Express Free",
+      "href": "https://adobesparkpost.app.link/GJrBPFUWBBb",
+      "tag": "a",
+      "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(12) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Print",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Business",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(5) > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Education",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(6) > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Plans",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(7) > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Go to Adobe Express",
+      "href": "https://adobesparkpost.app.link/AnkNdGxthOb",
+      "tag": "a",
+      "domPath": "header > div:nth-of-type(2) > nav > div:nth-of-type(3) > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "App switcher",
+      "href": null,
+      "tag": "div",
+      "domPath": "div#unav-app-switcher",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(44, 44, 44)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "5.008px",
+        "padding": "6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Sign in",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#unav-profile > div > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "6px 16px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Adobe Express",
+      "href": null,
+      "tag": "button",
+      "domPath": "div:nth-of-type(1) > button",
+      "style": {
+        "backgroundColor": "rgb(248, 248, 248)",
+        "color": "rgb(44, 44, 44)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "boxShadow": "rgba(0, 0, 0, 0.2) 0px 2px 4px 0px"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Create",
+      "href": null,
+      "tag": "button",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > button",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Social Media",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Marketing",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Document",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Design with AI",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Get Adobe Express Free",
+      "href": "https://adobesparkpost.app.link/GJrBPFUWBBb",
+      "tag": "a",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Edit",
+      "href": null,
+      "tag": "button",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > button",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Image Quick Actions",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Video Quick Actions",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Get Adobe Express Free",
+      "href": "https://adobesparkpost.app.link/GJrBPFUWBBb",
+      "tag": "a",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(12) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Print",
+      "href": null,
+      "tag": "button",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > button",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Apparel & Lifestyle",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Business & Events",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Business",
+      "href": null,
+      "tag": "button",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > button",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Solutions by company size",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div > div > div:nth-of-type(1) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Contact Sales",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Education",
+      "href": null,
+      "tag": "button",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > button",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "K-12 schools",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div > div > div:nth-of-type(1) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Higher Ed",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div > div > div:nth-of-type(2) > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Plans",
+      "href": null,
+      "tag": "button",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(7) > button",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Compare plans",
+      "href": null,
+      "tag": "div",
+      "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(7) > div > div > div > div:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(243, 243, 243)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "12px 46px 12px 38px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Start 30-day free trial",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=cc_express&ctx=fp&co=IT&svar=express_M2M&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=PA-55",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > p:nth-of-type(2) > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(92, 92, 224)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "50px",
+        "padding": "12px 24px 13px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Get Adobe Express Free",
+      "href": "https://adobesparkpost.app.link/GJrBPFUWBBb?url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > p:nth-of-type(2) > a:nth-of-type(2)",
+      "style": {
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "50px",
+        "padding": "12px 24px 13px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Create anything, quickly and easily",
+      "href": null,
+      "tag": "button",
+      "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "16px",
+        "padding": "16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Edit with one click",
+      "href": null,
+      "tag": "button",
+      "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(2)",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "16px",
+        "padding": "16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Create fast with generative AI",
+      "href": null,
+      "tag": "button",
+      "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(3)",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "16px",
+        "padding": "16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Start from standout content",
+      "href": null,
+      "tag": "button",
+      "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(4)",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "16px",
+        "padding": "16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Learn more",
+      "href": "/express/business/teams",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a",
+      "style": {
+        "backgroundColor": "rgb(82, 88, 228)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "18px",
+        "padding": "5px 16.8px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Learn more",
+      "href": "/express/business",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > a",
+      "style": {
+        "backgroundColor": "rgb(82, 88, 228)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "18px",
+        "padding": "5px 16.8px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Learn more",
+      "href": "/express/learn/students",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > a",
+      "style": {
+        "backgroundColor": "rgb(82, 88, 228)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "18px",
+        "padding": "5px 16.8px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Try AI Assistant",
+      "href": "https://adobesparkpost.app.link/XyUY6j9ZwWb?url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > a",
+      "style": {
+        "backgroundColor": "rgb(41, 41, 41)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "18px",
+        "padding": "5px 16.8px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Get started",
+      "href": "https://adobesparkpost.app.link/MpnN0Ue0wWb?url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > a",
+      "style": {
+        "backgroundColor": "rgb(41, 41, 41)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "18px",
+        "padding": "5px 16.8px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Get started",
+      "href": "https://adobesparkpost.app.link/K7QlvIv7FDb?category=media&height=1080&width=1080&unit=px&sceneline=true&tab=videos&isVideoMaker=true&url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(3) > a",
+      "style": {
+        "backgroundColor": "rgb(41, 41, 41)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "18px",
+        "padding": "5px 16.8px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Resize now",
+      "href": "https://adobesparkpost.app.link/K7QlvIv7FDb?category=media&height=1080&width=1080&unit=px&sceneline=true&tab=images&url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(3) > a",
+      "style": {
+        "backgroundColor": "rgb(41, 41, 41)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "18px",
+        "padding": "5px 16.8px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Create now",
+      "href": "https://adobesparkpost.app.link/K7QlvIv7FDb?category=templates&height=1080&width=1080&unit=px&url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(3) > a",
+      "style": {
+        "backgroundColor": "rgb(41, 41, 41)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "18px",
+        "padding": "5px 16.8px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Discover brand kits",
+      "href": "https://adobesparkpost.app.link/NlWkfRp7FDb?url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(3) > a",
+      "style": {
+        "backgroundColor": "rgb(41, 41, 41)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "18px",
+        "padding": "5px 16.8px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "For Individuals",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-button-1",
+      "style": {
+        "backgroundColor": "rgb(36, 36, 36)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "8px",
+        "padding": "12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "For Business",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-button-2",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "0px",
+        "padding": "12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "For Students",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-button-3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "0px",
+        "padding": "12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Get free plan",
+      "href": "https://adobesparkpost.app.link/GJrBPFUWBBb?showCsatOnExportOnce=True&promoid=GCWTYG5N&mv=other&referrer=https://www.adobe.com/express/&url=/express/pricing&ctaid=plans-card",
+      "tag": "a",
+      "domPath": "merch-card#469f6294-f1c5-41de-9b35-ca77d4058c36 > div:nth-of-type(4) > a",
+      "style": {
+        "backgroundColor": "rgb(36, 36, 36)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "26px",
+        "padding": "10px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Start 30-day free trial",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=cc_express&ctx=fp&co=IT&svar=express_M2M&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=PA-55",
+      "tag": "a",
+      "domPath": "merch-card#31315176-7dae-45f7-bc96-877c8d1b9125 > div:nth-of-type(4) > a",
+      "style": {
+        "backgroundColor": "rgb(92, 92, 224)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "26px",
+        "padding": "10px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Start 7-day free trial",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=cc_express&ctx=fp&co=IT&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=PA-1929",
+      "tag": "a",
+      "domPath": "merch-card#79ec2d54-0fc4-4170-a82c-2708b9432873 > div:nth-of-type(5) > a",
+      "style": {
+        "backgroundColor": "rgb(92, 92, 224)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "26px",
+        "padding": "10px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Compare all plans",
+      "href": "/express/pricing",
+      "tag": "a",
+      "domPath": "div#tab-1 > div:nth-of-type(3) > div > div > div > a",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "22px",
+        "padding": "10px 21px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Start 14-day free trial",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=cc_express&ctx=fp&co=IT&svar=express_ABM&lang=en&ms=COM&ot=TRIAL&cs=TEAM&pa=PA-71",
+      "tag": "a",
+      "domPath": "merch-card#58bb87e8-141c-4eec-9c20-caa8b36d9cc6 > div:nth-of-type(5) > a",
+      "style": {
+        "backgroundColor": "rgb(92, 92, 224)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "26px",
+        "padding": "10px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Request Information",
+      "href": "/express/business/request-info",
+      "tag": "a",
+      "domPath": "merch-card#140c5d42-5e31-4f82-a44b-7aa16c09fc41 > div:nth-of-type(4) > a",
+      "style": {
+        "backgroundColor": "rgb(92, 92, 224)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "26px",
+        "padding": "10px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Compare all plans",
+      "href": "/express/pricing?tab=2",
+      "tag": "a",
+      "domPath": "div#tab-2 > div:nth-of-type(3) > div > div > div > a",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "22px",
+        "padding": "10px 21px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Get free plan",
+      "href": "https://adobesparkpost.app.link/GJrBPFUWBBb?showCsatOnExportOnce=True&promoid=GCWTYG5N&mv=other&referrer=https://www.adobe.com/express/&url=/express/pricing&ctaid=plans-card",
+      "tag": "a",
+      "domPath": "merch-card#469f6294-f1c5-41de-9b35-ca77d4058c36 > div:nth-of-type(4) > a",
+      "style": {
+        "backgroundColor": "rgb(36, 36, 36)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "26px",
+        "padding": "10px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Start 30-day free trial",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=cc_express&ctx=fp&co=IT&svar=express_M2M&lang=en&ms=EDU&ot=TRIAL&cs=INDIVIDUAL&pa=PA-484",
+      "tag": "a",
+      "domPath": "merch-card#5cb37d1a-f054-4d31-aa3a-648038e99d6a > div:nth-of-type(4) > a",
+      "style": {
+        "backgroundColor": "rgb(92, 92, 224)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "26px",
+        "padding": "10px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Start 7-day free trial",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=cc_express&ctx=fp&co=IT&svar=express_ABM&lang=en&ms=EDU&ot=TRIAL&cs=INDIVIDUAL&pa=ccsn_direct_individual",
+      "tag": "a",
+      "domPath": "merch-card#33d1a008-eee4-49a4-af10-1032d3720a8c > div:nth-of-type(4) > a",
+      "style": {
+        "backgroundColor": "rgb(92, 92, 224)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "26px",
+        "padding": "10px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Compare all plans",
+      "href": "/express/pricing?tab=3",
+      "tag": "a",
+      "domPath": "div#tab-3 > div:nth-of-type(3) > div > div > div > a",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "22px",
+        "padding": "10px 21px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Get Adobe Express Free",
+      "href": "https://adobesparkpost.app.link/GJrBPFUWBBb?url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(6) > div > div > div > div > div > p > a",
+      "style": {
+        "backgroundColor": "rgb(36, 36, 36)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "22px",
+        "padding": "10px 31.35px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Cookie Settings",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#onetrust-pc-btn-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Don't Enable",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#onetrust-reject-all-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Enable all",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#onetrust-accept-btn-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Don’t enable",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#ot-pc-logo-button > button:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "5px 15px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Enable all",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#enable-recommended-btn-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "5px 15px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Confirm my choices",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#ot-pc-logo-button > button:nth-of-type(3)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "5px 15px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "You are in control of your data.",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-1",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "What are cookies and why does Adobe use them?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-2",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "How do I make choices?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "You are in control of your data.",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-1",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "What are cookies and why does Adobe use them?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-2",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "How do I make choices?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#ot-question-3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(80, 80, 80)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Enable all",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#accept-recommended-btn-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(105, 105, 105)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "2px",
+        "padding": "12px 30px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie details‎",
+      "href": null,
+      "tag": "button",
+      "domPath": "section#cookie-preferences > div:nth-of-type(1) > div:nth-of-type(3) > button",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(20, 115, 230)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "500",
+        "borderRadius": "2px",
+        "padding": "5px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie details‎",
+      "href": null,
+      "tag": "button",
+      "domPath": "section#cookie-preferences > div:nth-of-type(2) > div:nth-of-type(2) > button",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(20, 115, 230)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "500",
+        "borderRadius": "2px",
+        "padding": "5px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie details‎",
+      "href": null,
+      "tag": "button",
+      "domPath": "section#cookie-preferences > div:nth-of-type(3) > div:nth-of-type(2) > button",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(20, 115, 230)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "500",
+        "borderRadius": "2px",
+        "padding": "5px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie details‎",
+      "href": null,
+      "tag": "button",
+      "domPath": "section#cookie-preferences > div:nth-of-type(4) > div:nth-of-type(2) > button",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(20, 115, 230)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "500",
+        "borderRadius": "2px",
+        "padding": "5px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Confirm my choices",
+      "href": null,
+      "tag": "button",
+      "domPath": "section#cookie-preferences > div:nth-of-type(5) > button",
+      "style": {
+        "backgroundColor": "rgb(20, 115, 230)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "9px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Back ButtonBack",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#vendors-list-header > button:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(105, 105, 105)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "2px",
+        "padding": "30px 0px",
+        "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Filter Icon",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#filter-btn-handler",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(85, 85, 85)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "17px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Clear Filters",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#clear-filters-handler",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(105, 105, 105)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "2px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Apply",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#filter-apply-handler",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(105, 105, 105)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "10px",
+        "boxShadow": "rgb(204, 225, 255) 0px 0px 10px 1px"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Confirm my choices",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#vendor-list-save-btn > button",
+      "style": {
+        "backgroundColor": "rgb(20, 115, 230)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "20px",
+        "padding": "9px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "href": "/",
+        "text": ".cls-1{fill: #eb1000;}",
+        "domPath": "header > div:nth-of-type(2) > nav > div:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud.html",
+        "text": "What is Creative Cloud?\n      Creative apps and services for everyone",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud/photography.html",
+        "text": "Photographers\n      Lightroom, Photoshop, and more",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/creativecloud/all-apps.html",
+        "text": "Individuals\n      20+ creative apps, Acrobat, and more",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/creativecloud/business.html",
+        "text": "Business\n      Solutions for teams and enterprises",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/education.html",
+        "text": "Students and teachers\n      Save 71% on Creative Cloud",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/creativecloud/plans.html",
+        "text": "View plans and pricing",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > div > a"
+      },
+      {
+        "href": "/products/photoshop.html",
+        "text": "Photoshop\n      Image editing and design",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/premiere.html",
+        "text": "Premiere\n      Video editing and production",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "Adobe Firefly\n      AI-powered content creation",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/illustrator.html",
+        "text": "Illustrator\n      Vector graphics and illustration",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/?promoid=Y69SGP43&mv=other",
+        "text": "Adobe Express\n      All-in-one design, video, photo, and PDF app",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom.html",
+        "text": "Lightroom\n      Photo editing and organization",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/products/catalog.html",
+        "text": "View all products",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/express/feature/image/remove-background",
+        "text": "Remove background",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/firefly/features/text-to-image.html",
+        "text": "Generate AI images",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-video-generator.html",
+        "text": "Generate AI videos",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-art-generator.html",
+        "text": "Generate AI art",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-photo-editor.html",
+        "text": "Edit photos with AI",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/creativecloud/plan-recommender/quiz.html",
+        "text": "",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > a"
+      },
+      {
+        "href": "/creativecloud/plan-recommender/quiz.html",
+        "text": "Get started",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div > div > div > div > p > div > a"
+      },
+      {
+        "href": "/index.html",
+        "text": "Adobe.com",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/acrobat.html",
+        "text": "PDF & E-signatures",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/create/story/instagram",
+        "text": "Instagram Story",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/express/create/video/instagram/reel",
+        "text": "Instagram Reel",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/create/post/instagram",
+        "text": "Instagram Post",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/express/create/video/tiktok",
+        "text": "TikTok Video",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/create/story/facebook",
+        "text": "Facebook Story",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/express/create/post/facebook",
+        "text": "Facebook Post",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/express/create/video/youtube",
+        "text": "YouTube Video",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/express/create/thumbnail/youtube",
+        "text": "YouTube Thumbnail",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/express/create/banner/youtube",
+        "text": "YouTube Banner",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(9) > a"
+      },
+      {
+        "href": "/express/create/meme",
+        "text": "Meme",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(10) > a"
+      },
+      {
+        "href": "/express/feature/content-scheduler",
+        "text": "Content Scheduler",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(11) > a"
+      },
+      {
+        "href": "/express/create/business-card",
+        "text": "Business Card",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/express/create/flyer",
+        "text": "Flyer",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/create/logo",
+        "text": "Logo",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/express/create/advertisement",
+        "text": "Advertisement",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/create/photo-collage",
+        "text": "Collage",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/express/create/presentation",
+        "text": "Presentation",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/express/create/profile-picture",
+        "text": "Profile Picture",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/express/feature/image/qr-code-generator",
+        "text": "Create a QR code",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/express/create/poster",
+        "text": "Poster",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/express/create/brochure",
+        "text": "Brochure",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/create/invitation",
+        "text": "Invitation",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/express/create/menu",
+        "text": "Menu",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/create/card",
+        "text": "Card",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/express/create/certificate",
+        "text": "Certificate",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/express/create/resume",
+        "text": "Resume",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/express/create/invoice",
+        "text": "Invoice",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/express/create/ai/template-generator",
+        "text": "Generate Template",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/express/create/ai/text-effects",
+        "text": "Generate Text Effect",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/create/ai/logo",
+        "text": "Generate Logo",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/create/ai/presentation",
+        "text": "Generate Presentation",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/express/create/worksheet/drawing",
+        "text": "AI Drawing",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/express/create",
+        "text": "Learn more",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > ul > li:nth-of-type(7) > div > a"
+      },
+      {
+        "href": "/express/photos",
+        "text": "Adobe Express Photos",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/feature/image/editor",
+        "text": "Image Editor",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/express/feature/video/editor",
+        "text": "Video Editor",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/templates/",
+        "text": "Templates",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/express/learn/blog",
+        "text": "Blog",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/express/feature/image/remove-background",
+        "text": "Remove Background",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/express/feature/image/resize",
+        "text": "Resize Image",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/feature/image/convert/png-to-jpg",
+        "text": "Convert to JPG",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/express/feature/image/convert/jpg-to-png",
+        "text": "Convert to PNG",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/feature/image/convert/jpg-to-svg",
+        "text": "Convert to SVG",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/express/feature/image/crop",
+        "text": "Crop Image",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/express/feature/ai/image/change-background",
+        "text": "Change Background",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/express/feature/video/convert/video-to-gif",
+        "text": "Convert Video to GIF",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/express/feature/video/crop",
+        "text": "Crop Video",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/feature/video/trim",
+        "text": "Trim Video",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/express/feature/video/resize",
+        "text": "Resize Video",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/feature/video/merge",
+        "text": "Merge Video",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/express/feature/video/convert/mp4",
+        "text": "Convert Video to MP4",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/express/feature/video/animation/audio",
+        "text": "Animate Characters",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/express/feature/video/add-caption",
+        "text": "Caption Video",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/express/feature/ai/image/remove-background",
+        "text": "Remove Video Background",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(9) > a"
+      },
+      {
+        "href": "/express/feature/ai/video/convert/long-to-short",
+        "text": "Clip Maker",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(10) > a"
+      },
+      {
+        "href": "/express/feature",
+        "text": "Learn more",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(11) > div > a"
+      },
+      {
+        "href": "/express/create/print/t-shirt",
+        "text": "T-shirts",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/express/create/print/hoodie",
+        "text": "Hoodies",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/create/print/pillow",
+        "text": "Pillows",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/express/create/label/mug",
+        "text": "Mugs",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/create/print/tote-bag",
+        "text": "Tote bags",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/express/create/print/business-card",
+        "text": "Business Cards",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/express/create/print/flyer",
+        "text": "Flyers",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/create/print/poster",
+        "text": "Posters",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/express/create/print/sticker",
+        "text": "Stickers",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/create/print/invitation",
+        "text": "Invitations",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/express/create/print/card",
+        "text": "Cards",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/express/print",
+        "text": "Print with Adobe Express",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/express/business/teams",
+        "text": "Small businesses",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(5) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li > a"
+      },
+      {
+        "href": "/express/business/request-info",
+        "text": "Request information",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li > a"
+      },
+      {
+        "href": "/express/business",
+        "text": "Chat with Sales",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(5) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(2) > li > a"
+      },
+      {
+        "href": "/education/express",
+        "text": "Educators",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(6) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/education/express/deployment",
+        "text": "Administrators",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(6) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/learn/students",
+        "text": "Students",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(6) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud/buy/education",
+        "text": "Educators and Administrators",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(6) > div > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/pricing?tab=1",
+        "text": "Individuals",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/express/pricing?tab=2",
+        "text": "Businesses",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/pricing?tab=3",
+        "text": "Students",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/express/pricing?tab=4",
+        "text": "Educators",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/entitled",
+        "text": "For Creative Cloud subscribers",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/express/why-choose-express",
+        "text": "Why Choose Adobe Express",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/express/business/teams",
+        "text": "Learn more",
+        "domPath": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/business",
+        "text": "Learn more",
+        "domPath": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/learn/students",
+        "text": "Learn more",
+        "domPath": "main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/pricing",
+        "text": "Compare all plans",
+        "domPath": "div#tab-1 > div:nth-of-type(3) > div > div > div > a"
+      },
+      {
+        "href": "/offer-terms/express-terms-direct-teams.html",
+        "text": "See terms.",
+        "domPath": "merch-card#58bb87e8-141c-4eec-9c20-caa8b36d9cc6 > div:nth-of-type(4) > p:nth-of-type(4) > u > a"
+      },
+      {
+        "href": "/express/business/request-info",
+        "text": "Request Information",
+        "domPath": "merch-card#140c5d42-5e31-4f82-a44b-7aa16c09fc41 > div:nth-of-type(4) > a"
+      },
+      {
+        "href": "/creativecloud/buy/students.html",
+        "text": "See terms.",
+        "domPath": "merch-card#33d1a008-eee4-49a4-af10-1032d3720a8c > div:nth-of-type(3) > p:nth-of-type(3) > u > a"
+      }
+    ],
+    "external": [
+      {
+        "href": "https://stock.adobe.com/?as_channel=adobe_com&as_source=profile_menu&as_campclass=brand&as_campaign=may2017&as_audience=users&as_content=globalnav",
+        "text": "Adobe Stock\n      High-quality licensable assets",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "https://business.adobe.com/",
+        "text": "Marketing & Commerce",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/support.html",
+        "text": "Learn & Support",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/c4bWARQhWAb?category=media&action=text+to+image&width=1080&height=1080",
+        "text": "Generate Image",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/GJrBPFUWBBb",
+        "text": "Get Adobe Express Free",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > ul > li:nth-of-type(8) > div > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/GJrBPFUWBBb",
+        "text": "Adobe Express",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > ul:nth-of-type(1) > li > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/XyUY6j9ZwWb",
+        "text": "AI Assistant (beta)",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/wzG8ncMFZHb",
+        "text": "Documents",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/OP3wIsSFZHb",
+        "text": "AI Tools",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products/express-business.html",
+        "text": "Medium and large businesses",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(5) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(2) > li > a"
+      },
+      {
+        "href": "https://new.express.adobe.com/classrooms/join?source=atc&role=student",
+        "text": "Student class code",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(6) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.airtel.in/adobeexpress",
+        "text": "For Airtel users",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(7) > div > div > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/AnkNdGxthOb",
+        "text": "Go to Adobe Express",
+        "domPath": "header > div:nth-of-type(2) > nav > div:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/segmentation?cli=cc_express&ctx=fp&co=IT&svar=express_M2M&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=PA-55",
+        "text": "Start 30-day free trial",
+        "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > p:nth-of-type(2) > a:nth-of-type(1)"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/GJrBPFUWBBb?url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+        "text": "",
+        "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/XyUY6j9ZwWb?url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+        "text": "Try AI Assistant",
+        "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/MpnN0Ue0wWb?url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+        "text": "Get started",
+        "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/K7QlvIv7FDb?category=media&height=1080&width=1080&unit=px&sceneline=true&tab=videos&isVideoMaker=true&url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+        "text": "Get started",
+        "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/K7QlvIv7FDb?category=media&height=1080&width=1080&unit=px&sceneline=true&tab=images&url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+        "text": "Resize now",
+        "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/K7QlvIv7FDb?category=templates&height=1080&width=1080&unit=px&url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+        "text": "Create now",
+        "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/NlWkfRp7FDb?url=%2Fexpress%2F&placement=outside-blocks&locale=en-US&contentRegion=us",
+        "text": "Discover brand kits",
+        "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://adobesparkpost.app.link/GJrBPFUWBBb?showCsatOnExportOnce=True&promoid=GCWTYG5N&mv=other&referrer=https://www.adobe.com/express/&url=/express/pricing&ctaid=plans-card",
+        "text": "Get free plan",
+        "domPath": "merch-card#469f6294-f1c5-41de-9b35-ca77d4058c36 > div:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/segmentation?cli=cc_express&ctx=fp&co=IT&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=PA-1929",
+        "text": "Start 7-day free trial",
+        "domPath": "merch-card#79ec2d54-0fc4-4170-a82c-2708b9432873 > div:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/segmentation?cli=cc_express&ctx=fp&co=IT&svar=express_ABM&lang=en&ms=COM&ot=TRIAL&cs=TEAM&pa=PA-71",
+        "text": "Start 14-day free trial",
+        "domPath": "merch-card#58bb87e8-141c-4eec-9c20-caa8b36d9cc6 > div:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner",
+        "text": "",
+        "domPath": "section#cookie-preferences > div:nth-of-type(5) > div > a"
+      }
+    ]
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.adobe.com/federal/assets/svgs/creative-cloud-40.svg",
+        "srcset": null,
+        "alt": "Adobe Creative Cloud",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/globalnav/acom/fragments/cc/cc-promo/media_1af073e5a0cd7dec058e62d473269d930634a83a9.png",
+        "srcset": null,
+        "alt": "Get started | decorative image",
+        "naturalWidth": 520,
+        "naturalHeight": 384,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/assets/svgs/express.svg",
+        "srcset": null,
+        "alt": "Adobe Express",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/assets/svgs/express.svg",
+        "srcset": null,
+        "alt": "Adobe Express",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_11a6d037c34b18552b0501aae71a97271609274b2.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 76,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/code/icons/adobe-express-logo.svg",
+        "srcset": null,
+        "alt": "adobe-express-logo",
+        "naturalWidth": 300,
+        "naturalHeight": 55,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_1c173e61b26b4c5c2fb07f4279d54f6e6ab5ebfd7.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 512,
+        "naturalHeight": 385,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_1f3dbf1cd874e05650134b32c41874f353b57ef46.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 512,
+        "naturalHeight": 385,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_139d77ad751257a6445dc504fd7fad609339d181d.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 260,
+        "naturalHeight": 202,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_15dcf06bef71e56b6959aabd2708a9457244e0968.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 512,
+        "naturalHeight": 385,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/code/icons/apple-store.svg",
+        "srcset": null,
+        "alt": "apple-store",
+        "naturalWidth": 135,
+        "naturalHeight": 40,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/code/icons/google-store.svg",
+        "srcset": null,
+        "alt": "google-store",
+        "naturalWidth": 300,
+        "naturalHeight": 89,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_17cf7f6474fe12727dc188525b547cbce53115d4f.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 703,
+        "naturalHeight": 548,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_1e3e46ed6d2e261925bdc9d516ebe3d20e182e609.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 703,
+        "naturalHeight": 548,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_1b1796a6b1fda9c1a2bef0758423c47350aad666c.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 682,
+        "naturalHeight": 531,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_15ea6288d986ec2719a0ca2fd834b25d0842a4050.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 702,
+        "naturalHeight": 395,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_12de83e22be8b19c2071f4a88335b05fa69238cb3.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 702,
+        "naturalHeight": 395,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_1ac78d27e175dd39cf5219f39652f8da7cbc55f2b.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 1404,
+        "naturalHeight": 790,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_133d33526c932390f966f008d353fb09f529cf766.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 1404,
+        "naturalHeight": 790,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_14e21b9ffa58508adcd31f2f736d13901d411cafa.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_17511c2e515ab819e8b748c1fcb98b98bc2ff3ea3.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_1e40eded204e2f9574f4c00014931d57fe86e1c2e.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 399,
+        "naturalHeight": 658,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/media_1e40eded204e2f9574f4c00014931d57fe86e1c2e.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 399,
+        "naturalHeight": 658,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/fragments/media_11462bd5b62fc83d252b04741bee4246c7ddde1b8.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "IBM",
+        "naturalWidth": 200,
+        "naturalHeight": 72,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/fragments/media_18482acf278aa73d6c811998823be3c709a080862.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Havas",
+        "naturalWidth": 200,
+        "naturalHeight": 72,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/fragments/media_17e9915a34882880086d2d4210c7a4483d326b6fa.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Accenture",
+        "naturalWidth": 200,
+        "naturalHeight": 72,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/fragments/media_1e8a0080a2663201ddb62f2147b3b7bb2bf8ce0b1.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Red Hat",
+        "naturalWidth": 200,
+        "naturalHeight": 72,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/express/fragments/media_12ed9b1ca1aab32a7fed2e86602e80e3041347b41.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "ABB",
+        "naturalWidth": 200,
+        "naturalHeight": 72,
+        "localPath": null
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+        "srcset": null,
+        "alt": "Company Logo",
+        "naturalWidth": 2042,
+        "naturalHeight": 280,
+        "localPath": null
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "srcset": null,
+        "alt": "Powered by Onetrust",
+        "naturalWidth": 568,
+        "naturalHeight": 53,
+        "localPath": null
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "srcset": null,
+        "alt": "Powered by Onetrust",
+        "naturalWidth": 568,
+        "naturalHeight": 53,
+        "localPath": null
+      }
+    ],
+    "inlineSvgs": [
+      {
+        "viewBox": "0 0 64.57 35",
+        "domPath": "svg#Layer_1",
+        "markupHash": "sha256:f1dbed68c21a8d99"
+      },
+      {
+        "viewBox": "0 0 18 18",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > a > svg",
+        "markupHash": "sha256:18ec7968ffe3df53"
+      },
+      {
+        "viewBox": "0 0 20 20",
+        "domPath": "div#unav-app-switcher > svg",
+        "markupHash": "sha256:0747f47fdd59c4ca"
+      },
+      {
+        "viewBox": "0 0 11 5",
+        "domPath": "div#unav-app-switcher > div > div:nth-of-type(1) > svg",
+        "markupHash": "sha256:7c6de12b25c76b3c"
+      },
+      {
+        "viewBox": null,
+        "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > span > span:nth-of-type(1) > svg",
+        "markupHash": "sha256:60c99a470959993b"
+      },
+      {
+        "viewBox": null,
+        "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > span > span:nth-of-type(1) > svg",
+        "markupHash": "sha256:232068757034ce69"
+      },
+      {
+        "viewBox": "0 0 32 32",
+        "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(3) > button:nth-of-type(1) > svg",
+        "markupHash": "sha256:2966b7923b7bae31"
+      },
+      {
+        "viewBox": "0 0 32 32",
+        "domPath": "main > div:nth-of-type(3) > div > div:nth-of-type(3) > button:nth-of-type(2) > svg",
+        "markupHash": "sha256:2966b7923b7bae31"
+      },
+      {
+        "viewBox": "0 0 444.531 444.531",
+        "domPath": "svg#ot-back-arrow",
+        "markupHash": "sha256:46890ba827224e3b"
+      },
+      {
+        "viewBox": "0 -30 110 110",
+        "domPath": "div#search-container > svg",
+        "markupHash": "sha256:73ab6cc4c6536b8f"
+      },
+      {
+        "viewBox": "0 0 402.577 402.577",
+        "domPath": "svg#filter-icon",
+        "markupHash": "sha256:325e9b0cfdec6d3f"
+      }
+    ],
+    "cssBackgrounds": [
+      {
+        "url": "https://www.adobe.com/express/code/blocks/discover-cards/img/cards-bg-large.webp",
+        "domPath": "main > div:nth-of-type(3) > div",
+        "boundingClientRect": {
+          "x": 0,
+          "y": 1387,
+          "width": 1440,
+          "height": 627
+        },
+        "backgroundSize": "cover, cover, cover",
+        "backgroundPosition": "50% 50%, 50% 50%, 50% 50%",
+        "backgroundRepeat": "no-repeat, no-repeat, no-repeat",
+        "localPath": "stardust/current/assets/media/cards-bg-large-3f68ee.webp"
+      },
+      {
+        "url": "https://www.adobe.com/express/media_1d1903faedc8c7a389c9d8fa9e30368434f661c6d.png?width=750&format=png&optimize=medium",
+        "domPath": "main > div:nth-of-type(4) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(1)",
+        "boundingClientRect": {
+          "x": 0,
+          "y": 2014,
+          "width": 1440,
+          "height": 315
+        },
+        "backgroundSize": "640px, 640px",
+        "backgroundPosition": "calc(25% - 400px) -20px, calc(75% + 450px) -20px",
+        "backgroundRepeat": "no-repeat, no-repeat",
+        "localPath": null
+      },
+      {
+        "url": "https://www.adobe.com/express/media_1d1903faedc8c7a389c9d8fa9e30368434f661c6d.png?width=750&format=png&optimize=medium",
+        "domPath": "main > div:nth-of-type(4) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(1)",
+        "boundingClientRect": {
+          "x": 0,
+          "y": 2014,
+          "width": 1440,
+          "height": 315
+        },
+        "backgroundSize": "640px, 640px",
+        "backgroundPosition": "calc(25% - 400px) -20px, calc(75% + 450px) -20px",
+        "backgroundRepeat": "no-repeat, no-repeat",
+        "localPath": null
+      }
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "",
+        "title": "onetrust-text-resize"
+      }
+    ]
+  },
+  "forms": [],
+  "widgets": {
+    "modals": [
+      {
+        "trigger": null,
+        "domPath": "div#unav-app-switcher-dialog-id"
+      },
+      {
+        "trigger": null,
+        "domPath": "div#onetrust-banner-sdk > div:nth-of-type(1)"
+      }
+    ],
+    "accordions": [],
+    "tabs": [
+      {
+        "domPath": "main > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div",
+        "tabCount": 3
+      }
+    ]
+  },
+  "components": {
+    "cards": {
+      "count": 30,
+      "examples": [
+        ".cards-container",
+        ".card"
+      ]
+    },
+    "grids": {
+      "count": 15,
+      "examples": [
+        ".grid-marquee.ratings",
+        ".carousel-fader-left.arrow-hidden"
+      ]
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 1,
+      "examples": [
+        ".content-toggle-carousel-container"
+      ]
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 2,
+      "examples": [
+        ".unav-comp-app-switcher-popover",
+        "div"
+      ]
+    },
+    "carousels": {
+      "count": 23,
+      "examples": [
+        ".carousel-container",
+        ".carousel-platform"
+      ]
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 1,
+      "examples": [
+        ".ot-text-resize"
+      ]
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 2,
+      "examples": [
+        "blockquote",
+        "blockquote"
+      ]
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 0,
+      "examples": []
+    },
+    "statRow": {
+      "count": 2,
+      "examples": [
+        ".ratings-metric",
+        ".ratings-metric"
+      ]
+    },
+    "ctaBand": {
+      "count": 6,
+      "examples": [
+        ".button-container.cta-section",
+        ".button-container.cta-section"
+      ]
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "main > div:nth-of-type(1)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(36, 36, 36)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(2)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(36, 36, 36)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(3)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(36, 36, 36)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(4)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(36, 36, 36)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(5)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(36, 36, 36)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(6)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(36, 36, 36)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(7)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgb(248, 248, 248)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(36, 36, 36)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(8)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(36, 36, 36)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(9)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": true
+      },
+      "text": {
+        "dominantColor": "rgb(36, 36, 36)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "6px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "adobe-clean, \"Adobe Clean\", adobe-clean-fallback, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [
+    {
+      "name": "--global-height-nav",
+      "value": "64px"
+    },
+    {
+      "name": "--feds-height-nav",
+      "value": "63px"
+    },
+    {
+      "name": "--global-height-breadcrumbs",
+      "value": "33px"
+    },
+    {
+      "name": "--scroll-padding-block",
+      "value": "0"
+    },
+    {
+      "name": "--global-height-navPromo",
+      "value": "72px"
+    },
+    {
+      "name": "--feds-totalheight-nav",
+      "value": "calc(63px + 33px)"
+    },
+    {
+      "name": "--feds-localnav-height",
+      "value": "40px"
+    },
+    {
+      "name": "--feds-language-banner-height",
+      "value": "44px"
+    },
+    {
+      "name": "--link-color",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--link-hover-color",
+      "value": "rgb(29, 62, 207)"
+    },
+    {
+      "name": "--link-color-dark",
+      "value": "rgb(59, 99, 251)"
+    },
+    {
+      "name": "--link-hover-color-dark",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--background-color",
+      "value": "#fff"
+    },
+    {
+      "name": "--overlay-background-color",
+      "value": "#ffffff20"
+    },
+    {
+      "name": "--highlight-background-color",
+      "value": "#ffffff40"
+    },
+    {
+      "name": "--text-color",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--color-white",
+      "value": "#fff"
+    },
+    {
+      "name": "--color-gray-100",
+      "value": "#F8F8F8"
+    },
+    {
+      "name": "--color-gray-200",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "--color-gray-300",
+      "value": "#d4d4d4"
+    },
+    {
+      "name": "--color-gray-400",
+      "value": "#b6b6b6"
+    },
+    {
+      "name": "--color-gray-500",
+      "value": "#909090"
+    },
+    {
+      "name": "--color-gray-600",
+      "value": "#686868"
+    },
+    {
+      "name": "--color-gray-700",
+      "value": "#444"
+    },
+    {
+      "name": "--color-gray-800",
+      "value": "#242424"
+    },
+    {
+      "name": "--color-black",
+      "value": "#000"
+    },
+    {
+      "name": "--color-brand-title",
+      "value": "#000b1d"
+    },
+    {
+      "name": "--color-accent",
+      "value": "rgb(59, 99, 251)"
+    },
+    {
+      "name": "--color-accent-hover",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--color-accent-down",
+      "value": "#095aba"
+    },
+    {
+      "name": "--color-accent-focus-ring",
+      "value": "#378ef0"
+    },
+    {
+      "name": "--color-info-accent",
+      "value": "#5c5ce0"
+    },
+    {
+      "name": "--color-info-accent-hover",
+      "value": "#4646c6"
+    },
+    {
+      "name": "--color-info-accent-down",
+      "value": "#3d3db4"
+    },
+    {
+      "name": "--color-info-accent-light",
+      "value": "#dedef9"
+    },
+    {
+      "name": "--body-font-family",
+      "value": "'adobe-clean', 'Adobe Clean', 'adobe-clean-fallback', 'Trebuchet MS', sans-serif"
+    },
+    {
+      "name": "--fixed-font-family",
+      "value": "'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace"
+    },
+    {
+      "name": "--spacing-xxs",
+      "value": "8px"
+    },
+    {
+      "name": "--spacing-xs",
+      "value": "16px"
+    },
+    {
+      "name": "--spacing-s",
+      "value": "24px"
+    },
+    {
+      "name": "--spacing-m",
+      "value": "32px"
+    },
+    {
+      "name": "--spacing-l",
+      "value": "40px"
+    },
+    {
+      "name": "--spacing-xl",
+      "value": "56px"
+    },
+    {
+      "name": "--spacing-xxl",
+      "value": "80px"
+    },
+    {
+      "name": "--spacing-xxxl",
+      "value": "104px"
+    },
+    {
+      "name": "--spacing-l-static",
+      "value": "48px"
+    },
+    {
+      "name": "--spacing-xl-static",
+      "value": "56px"
+    },
+    {
+      "name": "--spacing-xxl-static",
+      "value": "80px"
+    },
+    {
+      "name": "--spacing-xxxl-static",
+      "value": "104px"
+    },
+    {
+      "name": "--type-heading-all-weight",
+      "value": "700"
+    },
+    {
+      "name": "--type-heading-xxxl-size",
+      "value": "calc(1 * 80px)"
+    },
+    {
+      "name": "--type-heading-xxxl-lh",
+      "value": "88px"
+    },
+    {
+      "name": "--type-heading-xxl-size",
+      "value": "calc(1 * 44px)"
+    },
+    {
+      "name": "--type-heading-xxl-lh",
+      "value": "55px"
+    },
+    {
+      "name": "--type-heading-xl-size",
+      "value": "calc(1 * 36px)"
+    },
+    {
+      "name": "--type-heading-xl-lh",
+      "value": "45px"
+    },
+    {
+      "name": "--type-heading-l-size",
+      "value": "calc(1 * 28px)"
+    },
+    {
+      "name": "--type-heading-l-lh",
+      "value": "35px"
+    },
+    {
+      "name": "--type-heading-m-size",
+      "value": "calc(1 * 24px)"
+    },
+    {
+      "name": "--type-heading-m-lh",
+      "value": "30px"
+    },
+    {
+      "name": "--type-heading-s-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-heading-s-lh",
+      "value": "25px"
+    },
+    {
+      "name": "--type-heading-xs-size",
+      "value": "calc(1 * 18px)"
+    },
+    {
+      "name": "--type-heading-xs-lh",
+      "value": "22.5px"
+    },
+    {
+      "name": "--type-heading-xxs-size",
+      "value": "11px"
+    },
+    {
+      "name": "--type-heading-xxs-lh",
+      "value": "18px"
+    },
+    {
+      "name": "--type-heading-base-lh",
+      "value": "1.2"
+    },
+    {
+      "name": "--type-body-xxl-size",
+      "value": "calc(1 * 28px)"
+    },
+    {
+      "name": "--type-body-xxl-lh",
+      "value": "42px"
+    },
+    {
+      "name": "--type-body-xl-size",
+      "value": "calc(1 * 22px)"
+    },
+    {
+      "name": "--type-body-xl-lh",
+      "value": "33px"
+    },
+    {
+      "name": "--type-body-l-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-body-l-lh",
+      "value": "30px"
+    },
+    {
+      "name": "--type-body-m-size",
+      "value": "calc(1 * 18px)"
+    },
+    {
+      "name": "--type-body-m-lh",
+      "value": "27px"
+    },
+    {
+      "name": "--type-body-s-size",
+      "value": "calc(1 * 16px)"
+    },
+    {
+      "name": "--type-body-s-lh",
+      "value": "24px"
+    },
+    {
+      "name": "--type-body-xs-size",
+      "value": "calc(1 * 14px)"
+    },
+    {
+      "name": "--type-body-xs-lh",
+      "value": "21px"
+    },
+    {
+      "name": "--type-body-xxs-size",
+      "value": "calc(1 * 12px)"
+    },
+    {
+      "name": "--type-body-xxs-lh",
+      "value": "18px"
+    },
+    {
+      "name": "--type-detail-all-weight",
+      "value": "700"
+    },
+    {
+      "name": "--type-detail-all-transform",
+      "value": "uppercase"
+    },
+    {
+      "name": "--type-detail-xl-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-detail-xl-lh",
+      "value": "25px"
+    },
+    {
+      "name": "--type-detail-l-size",
+      "value": "calc(1 * 16px)"
+    },
+    {
+      "name": "--type-detail-l-lh",
+      "value": "20px"
+    },
+    {
+      "name": "--type-detail-m-size",
+      "value": "calc(1 * 12px)"
+    },
+    {
+      "name": "--type-detail-m-lh",
+      "value": "15px"
+    },
+    {
+      "name": "--type-detail-s-size",
+      "value": "calc(1 * 10px)"
+    },
+    {
+      "name": "--type-detail-s-lh",
+      "value": "12px"
+    },
+    {
+      "name": "--grid-container-width",
+      "value": "1200px"
+    },
+    {
+      "name": "--grid-column-width",
+      "value": "calc(1200px / 12)"
+    },
+    {
+      "name": "--grid-margins-width",
+      "value": "calc((100% - 1200px) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-10",
+      "value": "calc((100vw - (calc(1200px / 12) * 10)) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-8",
+      "value": "calc((100vw - (calc(1200px / 12) * 8)) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-6",
+      "value": "calc((100vw - (calc(1200px / 12) * 6)) / 2)"
+    },
+    {
+      "name": "--aspect-ratio-square",
+      "value": "1/1"
+    },
+    {
+      "name": "--aspect-ratio-standard",
+      "value": "4/3"
+    },
+    {
+      "name": "--aspect-ratio-wide",
+      "value": "16/9"
+    },
+    {
+      "name": "--aspect-ratio-tall",
+      "value": "9/16"
+    },
+    {
+      "name": "--icon-size-xxl",
+      "value": "80px"
+    },
+    {
+      "name": "--icon-size-xl",
+      "value": "64px"
+    },
+    {
+      "name": "--icon-size-l",
+      "value": "56px"
+    },
+    {
+      "name": "--icon-size-m",
+      "value": "40px"
+    },
+    {
+      "name": "--icon-size-s",
+      "value": "32px"
+    },
+    {
+      "name": "--icon-size-xs",
+      "value": "24px"
+    },
+    {
+      "name": "--icon-size-xxs",
+      "value": "16px"
+    },
+    {
+      "name": "--color-light-gray",
+      "value": "#E9E9E9"
+    },
+    {
+      "name": "--color-gray-150",
+      "value": "#f3f3f3"
+    },
+    {
+      "name": "--color-gray-250",
+      "value": "#e1e1e1"
+    },
+    {
+      "name": "--color-gray-300-variant",
+      "value": "#dadada"
+    },
+    {
+      "name": "--color-gray-325",
+      "value": "#D5D5D5"
+    },
+    {
+      "name": "--color-gray-350",
+      "value": "#9e9e9e"
+    },
+    {
+      "name": "--color-gray-350-variant",
+      "value": "#b1b1b1"
+    },
+    {
+      "name": "--color-gray-400-variant",
+      "value": "#C6C6C6"
+    },
+    {
+      "name": "--text-color-secondary",
+      "value": "#6e6e6e"
+    },
+    {
+      "name": "--color-gray-750",
+      "value": "#717171"
+    },
+    {
+      "name": "--color-gray-700-variant",
+      "value": "#464646"
+    },
+    {
+      "name": "--color-gray-800-variant",
+      "value": "#292929"
+    },
+    {
+      "name": "--color-gray-900",
+      "value": "#222"
+    },
+    {
+      "name": "--color-gray-950",
+      "value": "#131313"
+    },
+    {
+      "name": "--color-blue-600",
+      "value": "#0066CC"
+    },
+    {
+      "name": "--color-focus-ring-strong",
+      "value": "#4B75FF"
+    },
+    {
+      "name": "--color-content-neutral",
+      "value": "#222222"
+    },
+    {
+      "name": "--color-info-accent-reverse",
+      "value": "#eeeefc"
+    },
+    {
+      "name": "--color-info-accent-reverse-down",
+      "value": "#e6e6f4"
+    },
+    {
+      "name": "--color-info-primary",
+      "value": "#242424"
+    },
+    {
+      "name": "--color-info-primary-hover",
+      "value": "#090909"
+    },
+    {
+      "name": "--color-info-primary-down",
+      "value": "#000"
+    },
+    {
+      "name": "--color-info-secondary",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "--color-info-secondary-hover",
+      "value": "#d4d4d4"
+    },
+    {
+      "name": "--color-info-secondary-down",
+      "value": "#cdcdcd"
+    },
+    {
+      "name": "--color-info-premium",
+      "value": "#ebcf2d"
+    },
+    {
+      "name": "--gradient-highlight-vertical",
+      "value": "linear-gradient(15deg, #7c84fc, #ff4dd2)"
+    },
+    {
+      "name": "--gradient-highlight-horizontal",
+      "value": "linear-gradient(90deg, #ff4dd2, #7c84fc)"
+    },
+    {
+      "name": "--gradient-highlight-diagonal",
+      "value": "linear-gradient(45deg, #7c84fc, #ff4dd2)"
+    },
+    {
+      "name": "--cyan-1600",
+      "value": "#000E14"
+    },
+    {
+      "name": "--cyan-1500",
+      "value": "#001F2B"
+    },
+    {
+      "name": "--transparent-white-400",
+      "value": "rgba(255, 255, 255, 0.21)"
+    },
+    {
+      "name": "--transparent-white-500",
+      "value": "rgba(255, 255, 255, 0.39)"
+    },
+    {
+      "name": "--palette-indigo-200",
+      "value": "#E0E2FF"
+    },
+    {
+      "name": "--palette-indigo-1000",
+      "value": "#4046CA"
+    },
+    {
+      "name": "--palette-gray-200",
+      "value": "#E6E6E6"
+    },
+    {
+      "name": "--palette-gray-600",
+      "value": "#717171"
+    },
+    {
+      "name": "--palette-gray-700",
+      "value": "#505050"
+    },
+    {
+      "name": "--palette-gray-900",
+      "value": "#131313"
+    },
+    {
+      "name": "--background-positive-default",
+      "value": "#007A4D"
+    },
+    {
+      "name": "--c1-text-text",
+      "value": "#2C2C2C"
+    },
+    {
+      "name": "--color-background-accent-default",
+      "value": "#5258E4"
+    },
+    {
+      "name": "--color-background-accent-hover",
+      "value": "#4046CA"
+    },
+    {
+      "name": "--color-background-accent-down",
+      "value": "#3236A8"
+    },
+    {
+      "name": "--color-background-accent-focus",
+      "value": "#4046CA"
+    },
+    {
+      "name": "--body-background-color",
+      "value": "#fff"
+    },
+    {
+      "name": "--body-alt-background-color",
+      "value": "#e8e8e8"
+    },
+    {
+      "name": "--body-font-weight",
+      "value": "normal"
+    },
+    {
+      "name": "--body-color",
+      "value": "#242424"
+    },
+    {
+      "name": "--body-line-height",
+      "value": "1.5"
+    },
+    {
+      "name": "--body-font-size-xxl",
+      "value": "1.5rem"
+    },
+    {
+      "name": "--body-font-size-xl",
+      "value": "1.25rem"
+    },
+    {
+      "name": "--body-font-size-l",
+      "value": "1.125rem"
+    },
+    {
+      "name": "--body-font-size-m",
+      "value": "1rem"
+    },
+    {
+      "name": "--body-font-size-s",
+      "value": "0.875rem"
+    },
+    {
+      "name": "--body-font-size-xs",
+      "value": "0.75rem"
+    },
+    {
+      "name": "--heading-font-weight-regular",
+      "value": "400"
+    },
+    {
+      "name": "--heading-font-weight-medium",
+      "value": "700"
+    },
+    {
+      "name": "--heading-font-weight",
+      "value": "800"
+    },
+    {
+      "name": "--heading-font-weight-extra",
+      "value": "900"
+    },
+    {
+      "name": "--subheading-font-weight",
+      "value": "700"
+    },
+    {
+      "name": "--heading-color",
+      "value": "#242424"
+    },
+    {
+      "name": "--heading-line-height",
+      "value": "130%"
+    },
+    {
+      "name": "--heading-font-size-xxxl",
+      "value": "2.8125rem"
+    },
+    {
+      "name": "--heading-font-size-xxl",
+      "value": "3.75rem"
+    },
+    {
+      "name": "--heading-font-size-xl",
+      "value": "2.8125rem"
+    },
+    {
+      "name": "--heading-font-size-l",
+      "value": "2.25rem"
+    },
+    {
+      "name": "--heading-font-size-2xl",
+      "value": "45px"
+    },
+    {
+      "name": "--heading-font-size-m",
+      "value": "1.75rem"
+    },
+    {
+      "name": "--heading-font-size-s",
+      "value": "1.375rem"
+    },
+    {
+      "name": "--heading-font-size-xs",
+      "value": "1.25rem"
+    },
+    {
+      "name": "--heading-font-size-ml",
+      "value": "2rem"
+    },
+    {
+      "name": "--block-sm-max-width",
+      "value": "375px"
+    },
+    {
+      "name": "--block-md-max-width",
+      "value": "830px"
+    },
+    {
+      "name": "--block-lg-max-width",
+      "value": "1024px"
+    },
+    {
+      "name": "--block-wd-grid-max-width",
+      "value": "1600px"
+    },
+    {
+      "name": "--block-wd-max-width",
+      "value": "1440px"
+    },
+    {
+      "name": "--spacing-0",
+      "value": "0px"
+    },
+    {
+      "name": "--spacing-50",
+      "value": "2px"
+    },
+    {
+      "name": "--spacing-75",
+      "value": "4px"
+    },
+    {
+      "name": "--spacing-80",
+      "value": "6px"
+    },
+    {
+      "name": "--spacing-100",
+      "value": "8px"
+    },
+    {
+      "name": "--spacing-200",
+      "value": "12px"
+    },
+    {
+      "name": "--spacing-250",
+      "value": "14px"
+    },
+    {
+      "name": "--spacing-300",
+      "value": "16px"
+    },
+    {
+      "name": "--spacing-325",
+      "value": "18px"
+    },
+    {
+      "name": "--spacing-350",
+      "value": "20px"
+    },
+    {
+      "name": "--spacing-400",
+      "value": "24px"
+    },
+    {
+      "name": "--spacing-500",
+      "value": "32px"
+    },
+    {
+      "name": "--spacing-600",
+      "value": "40px"
+    },
+    {
+      "name": "--spacing-700",
+      "value": "48px"
+    },
+    {
+      "name": "--spacing-800",
+      "value": "64px"
+    },
+    {
+      "name": "--spacing-900",
+      "value": "80px"
+    }
+  ],
+  "screenshot": "stardust/current/assets/screenshots/express.png",
+  "stats": {
+    "wordCount": 610,
+    "ctaCount": 89,
+    "internalLinkCount": 111,
+    "externalLinkCount": 25,
+    "imageCount": 31
+  }
+}

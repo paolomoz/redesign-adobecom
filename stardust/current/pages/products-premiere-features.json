@@ -1,0 +1,4256 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-22T12:01:38.801Z",
+    "readArtifacts": [
+      "https://www.adobe.com/products/premiere/features.html"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.7.1",
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-05-22T11:59:48.879Z",
+    "waitMode": "medium",
+    "waitMs": 2116,
+    "httpStatus": 200,
+    "contentType": "text/html"
+  },
+  "slug": "products-premiere-features",
+  "url": "https://www.adobe.com/products/premiere/features.html",
+  "finalUrl": "https://www.adobe.com/products/premiere/features.html",
+  "title": "Explore Premiere features | Adobe",
+  "metaDescription": "Learn all about the tools and techniques you can use to edit videos, animate titles, add effects, mix sound and more.",
+  "og": {
+    "title": "Explore Premiere features | Adobe",
+    "description": "Learn all about the tools and techniques you can use to edit videos, animate titles, add effects, mix sound and more.",
+    "image": "https://www.adobe.com/products/premiere/media_194491d432541ae99128f4fdc41510c7e0fdf3185.jpg?width=1200&format=pjpg&optimize=medium",
+    "type": null,
+    "siteName": null
+  },
+  "themeColor": {
+    "light": null,
+    "dark": null
+  },
+  "language": "en-US",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Explore Adobe Premiere features.",
+      "id": "explore-adobe-premiere-features",
+      "domPath": "h1#explore-adobe-premiere-features",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "36px",
+        "lineHeight": "45px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Improve your workflow and take your videos to the next level with powerful, timesaving tools and AI features.",
+      "id": "improve-your-workflow-and-take-your-videos-to-the-next-level-with-powerful-timesaving-tools-and-ai-features",
+      "domPath": "h2#improve-your-workflow-and-take-your-videos-to-the-next-level-with-powerful-timesaving-tools-and-ai-features",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Color Mode — a new era starts now.",
+      "id": "color-mode--a-new-era-starts-now",
+      "domPath": "h3#color-mode--a-new-era-starts-now",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Fast track how you mask with AI.",
+      "id": "fast-track-how-you-mask-with-ai",
+      "domPath": "h3#fast-track-how-you-mask-with-ai",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Any shape mask. All the control.",
+      "id": "any-shape-mask-all-the-control",
+      "domPath": "h3#any-shape-mask-all-the-control",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Over 100 next-level effects and transitions.",
+      "id": "over-100-next-level-effects-and-transitions",
+      "domPath": "h3#over-100-next-level-effects-and-transitions",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Media Intelligence. A better way to search.",
+      "id": "media-intelligence-a-better-way-to-search",
+      "domPath": "h3#media-intelligence-a-better-way-to-search",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Go from generating to editing, fast.",
+      "id": "go-from-generating-to-editing-fast",
+      "domPath": "h3#go-from-generating-to-editing-fast",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Stay in your creative flow with precise, intuitive editing and trimming tools.",
+      "id": "stay-in-your-creative-flow-with-precise-intuitive-editing-and-trimming-tools",
+      "domPath": "h2#stay-in-your-creative-flow-with-precise-intuitive-editing-and-trimming-tools",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Describe it and find it.",
+      "id": "describe-it-and-find-it",
+      "domPath": "h3#describe-it-and-find-it",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Importing. Now easier than ever.",
+      "id": "importing-now-easier-than-ever",
+      "domPath": "h3#importing-now-easier-than-ever",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Trim with industry-standard tools.",
+      "id": "trim-with-industry-standard-tools",
+      "domPath": "h3#trim-with-industry-standard-tools",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Work faster with Text-Based Editing.",
+      "id": "work-faster-with-text-based-editing",
+      "domPath": "h3#work-faster-with-text-based-editing",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Magically extend your clips with Generative Extend.",
+      "id": "magically-extend-your-clips-with-generative-extend",
+      "domPath": "h3#magically-extend-your-clips-with-generative-extend",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Edit multiple clips at once.",
+      "id": "edit-multiple-clips-at-once",
+      "domPath": "h3#edit-multiple-clips-at-once",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Choose from hundreds of built-in transitions and effects. Or customize a professionally designed filter to create your own look.",
+      "id": "choose-from-hundreds-of-built-in-transitions-and-effects-or-customize-a-professionally-designed-filter-to-create-your-own-look",
+      "domPath": "h2#choose-from-hundreds-of-built-in-transitions-and-effects-or-customize-a-professionally-designed-filter-to-create-your-own-look",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Add transitions easily.",
+      "id": "add-transitions-easily",
+      "domPath": "h3#add-transitions-easily",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Apply built-in effects.",
+      "id": "apply-built-in-effects",
+      "domPath": "h3#apply-built-in-effects",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Dial in your effects game.",
+      "id": "dial-in-your-effects-game",
+      "domPath": "h3#dial-in-your-effects-game",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Replace the background.",
+      "id": "replace-the-background",
+      "domPath": "h3#replace-the-background",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Easy animation tools for any video editor.",
+      "id": "easy-animation-tools-for-any-video-editor",
+      "domPath": "h3#easy-animation-tools-for-any-video-editor",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Link assets between apps.",
+      "id": "link-assets-between-apps",
+      "domPath": "h3#link-assets-between-apps",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Craft compelling titles, graphics, and captions quickly and easily without leaving Premiere.",
+      "id": "craft-compelling-titles-graphics-and-captions-quickly-and-easily-without-leaving-premiere",
+      "domPath": "h2#craft-compelling-titles-graphics-and-captions-quickly-and-easily-without-leaving-premiere",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Add titles to your videos.",
+      "id": "add-titles-to-your-videos",
+      "domPath": "h3#add-titles-to-your-videos",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Design custom motion graphics.",
+      "id": "design-custom-motion-graphics",
+      "domPath": "h3#design-custom-motion-graphics",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adapt and align titles responsively.",
+      "id": "adapt-and-align-titles-responsively",
+      "domPath": "h3#adapt-and-align-titles-responsively",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Create captions with Speech to Text.",
+      "id": "create-captions-with-speech-to-text",
+      "domPath": "h3#create-captions-with-speech-to-text",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Use motion graphics templates.",
+      "id": "use-motion-graphics-templates",
+      "domPath": "h3#use-motion-graphics-templates",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Import imagery from other apps.",
+      "id": "import-imagery-from-other-apps",
+      "domPath": "h3#import-imagery-from-other-apps",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Convey the right mood with advanced tools for color correction, adjustments to color grading, and more.",
+      "id": "convey-the-right-mood-with-advanced-tools-for-color-correction-adjustments-to-color-grading-and-more",
+      "domPath": "h2#convey-the-right-mood-with-advanced-tools-for-color-correction-adjustments-to-color-grading-and-more",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Get a head start with color management.",
+      "id": "get-a-head-start-with-color-management",
+      "domPath": "h3#get-a-head-start-with-color-management",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Match colors in different clips.",
+      "id": "match-colors-in-different-clips",
+      "domPath": "h3#match-colors-in-different-clips",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Set a mood with color.",
+      "id": "set-a-mood-with-color",
+      "domPath": "h3#set-a-mood-with-color",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Give your footage a signature look.",
+      "id": "give-your-footage-a-signature-look",
+      "domPath": "h3#give-your-footage-a-signature-look",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Refine colors with advanced tools.",
+      "id": "refine-colors-with-advanced-tools",
+      "domPath": "h3#refine-colors-with-advanced-tools",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Edit sound, clean up dialogue, add audio effects, record voiceovers, mix your soundtrack, and more.",
+      "id": "edit-sound-clean-up-dialogue-add-audio-effects-record-voiceovers-mix-your-soundtrack-and-more",
+      "domPath": "h2#edit-sound-clean-up-dialogue-add-audio-effects-record-voiceovers-mix-your-soundtrack-and-more",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Add clarity with Enhance Speech.",
+      "id": "add-clarity-with-enhance-speech",
+      "domPath": "h3#add-clarity-with-enhance-speech",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Sculpt your sound with audio effects.",
+      "id": "sculpt-your-sound-with-audio-effects",
+      "domPath": "h3#sculpt-your-sound-with-audio-effects",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Find the perfect music track.",
+      "id": "find-the-perfect-music-track",
+      "domPath": "h3#find-the-perfect-music-track",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "AI category tagging.",
+      "id": "ai-category-tagging",
+      "domPath": "h3#ai-category-tagging",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Mix sound like a pro.",
+      "id": "mix-sound-like-a-pro",
+      "domPath": "h3#mix-sound-like-a-pro",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Sync music to edited clips.",
+      "id": "sync-music-to-edited-clips",
+      "domPath": "h3#sync-music-to-edited-clips",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Finalize and share videos fast without ever leaving Premiere.",
+      "id": "finalize-and-share-videos-fast-without-ever-leaving-premiere",
+      "domPath": "h2#finalize-and-share-videos-fast-without-ever-leaving-premiere",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Export straight to social media.",
+      "id": "export-straight-to-social-media",
+      "domPath": "h3#export-straight-to-social-media",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Change aspect ratios easily with AI.",
+      "id": "change-aspect-ratios-easily-with-ai",
+      "domPath": "h3#change-aspect-ratios-easily-with-ai",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Collaborate and deliver faster with Frame.io.",
+      "id": "collaborate-and-deliver-faster-with-frameio",
+      "domPath": "h3#collaborate-and-deliver-faster-with-frameio",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Collaborate simultaneously.",
+      "id": "collaborate-simultaneously",
+      "domPath": "h3#collaborate-simultaneously",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Keep assets handy.",
+      "id": "keep-assets-handy",
+      "domPath": "h3#keep-assets-handy",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Find third-party apps and integrations.",
+      "id": "find-third-party-apps-and-integrations",
+      "domPath": "h3#find-third-party-apps-and-integrations",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Now available from Adobe and YouTube: A dedicated space and exclusive content to create YouTube Shorts — right inside Premiere on iPhone.",
+      "id": "now-available-from-adobe-and-youtube-a-dedicated-space-and-exclusive-content-to-create-youtube-shorts--right-inside-premiere-on-iphone",
+      "domPath": "h2#now-available-from-adobe-and-youtube-a-dedicated-space-and-exclusive-content-to-create-youtube-shorts--right-inside-premiere-on-iphone",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28px",
+        "lineHeight": "35px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "What can you create in Premiere?",
+      "id": "what-can-you-create-in-premiere",
+      "domPath": "h2#what-can-you-create-in-premiere",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28px",
+        "lineHeight": "35px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Video editing for social media: 5 tips to follow.",
+      "id": "video-editing-for-social-media-5-tips-to-follow",
+      "domPath": "h3#video-editing-for-social-media-5-tips-to-follow",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Create effective training videos that keep the viewer’s attention.",
+      "id": "create-effective-training-videos-that-keep-the-viewers-attention",
+      "domPath": "h3#create-effective-training-videos-that-keep-the-viewers-attention",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Make a documentary film.",
+      "id": "make-a-documentary-film",
+      "domPath": "h3#make-a-documentary-film",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Create vlogs that build engagement.",
+      "id": "create-vlogs-that-build-engagement",
+      "domPath": "h3#create-vlogs-that-build-engagement",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Create travel videos that inspire wanderlust.",
+      "id": "create-travel-videos-that-inspire-wanderlust",
+      "domPath": "h3#create-travel-videos-that-inspire-wanderlust",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Make a movie.",
+      "id": "make-a-movie",
+      "domPath": "h3#make-a-movie",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Make a music video that rocks (or swings, grooves, or jams)",
+      "id": "make-a-music-video-that-rocks-or-swings-grooves-or-jams",
+      "domPath": "h3#make-a-music-video-that-rocks-or-swings-grooves-or-jams",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Create a calming ASMR video.",
+      "id": "create-a-calming-asmr-video",
+      "domPath": "h3#create-a-calming-asmr-video",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Edit creative video transitions.",
+      "id": "edit-creative-video-transitions",
+      "domPath": "h3#edit-creative-video-transitions",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Get Premiere.",
+      "id": "get-premiere",
+      "domPath": "h2#get-premiere",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "36px",
+        "lineHeight": "45px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Premiere",
+      "id": "premiere",
+      "domPath": "h3#premiere",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Creative Cloud Pro",
+      "id": "creative-cloud-pro",
+      "domPath": "h3#creative-cloud-pro",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Creative Cloud Pro for students and teachers",
+      "id": "creative-cloud-pro-for-students-and-teachers",
+      "domPath": "h3#creative-cloud-pro-for-students-and-teachers",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Premiere for teams",
+      "id": "premiere-for-teams",
+      "domPath": "h3#premiere-for-teams",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Creative Cloud Pro for teams",
+      "id": "creative-cloud-pro-for-teams",
+      "domPath": "h3#creative-cloud-pro-for-teams",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Try the Premiere (beta) desktop app.",
+      "id": "try-the-premiere-beta-desktop-app",
+      "domPath": "h2#try-the-premiere-beta-desktop-app",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "36px",
+        "lineHeight": "45px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Adobe Premiere",
+      "id": "adobe-premiere",
+      "domPath": "h2#adobe-premiere",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Explore Adobe Premiere plans.",
+      "id": "explore-adobe-premiere-plans",
+      "domPath": "h2#explore-adobe-premiere-plans",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Questo sito Adobe non corrisponde alla tua posizione geografica",
+      "id": null,
+      "domPath": "div#locale-modal-v2 > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "header",
+      "role": null,
+      "id": null,
+      "classes": [
+        "global-navigation",
+        "has-breadcrumbs",
+        "ready",
+        "local-nav"
+      ],
+      "innerText": "Creativity & Design\nPremiere\nFeatures\nMobile\nCompare Plans\nFree Trial Details\nSign in\nHome\n/\nAdobe Creative Cloud\n/\nAdobe Premiere\n/\nFeatures",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-topnav-wrapper"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Creativity & Design\nPremiere\nFeatures\nMobile\nCompare Plans\nFree Trial Details\nSign in\nHome\n/\nAdobe Creative Cloud\n/\nAdobe Premiere\n/\nFeatures",
+          "wordCount": 23,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "id": null,
+      "classes": [
+        "feds-topnav"
+      ],
+      "innerText": "Creativity & Design\nPremiere\nFeatures\nMobile\nCompare Plans\nFree Trial Details\nSign in",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": "feds-nav-wrapper",
+          "classes": [
+            "feds-nav-wrapper"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Creativity & Design\nPremiere\nFeatures\nMobile\nCompare Plans\nFree Trial Details",
+          "wordCount": 11,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-utilities"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Sign in",
+          "wordCount": 2,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "id": null,
+      "classes": [
+        "feds-breadcrumbs"
+      ],
+      "innerText": "Home\n/\nAdobe Creative Cloud\n/\nAdobe Premiere\n/\nFeatures",
+      "children": []
+    },
+    {
+      "tag": "main",
+      "role": null,
+      "id": null,
+      "classes": [],
+      "innerText": "Premiere\n\nExplore Adobe Premiere features.\n\nLearn all about the tools and techniques you can use to edit videos, animate titles, add effects, mix sound, and more.\n\nUpdate Premiere\n\nWhat's new\nEditing\nEffects\nTitle\nColor\nAudio\nExporting\nImprove your workflow and take your videos to the next level with powerful, timesaving tools and AI features.\nColor Mode — a new era starts now.\n\nExperience a first-of-its-kind color grading system — purpose-built for editors — in Premiere (beta). Shape, explore, and push your look like never before. Learn more\n\nFast track how you mask with AI.\n\nSay hello to Object Mask and goodbye to hours of painful rotoscoping. Just hover over your subject, click, and watch as AI accurately masks and tracks it.\n\nAny shape mask. All the control.\n\nRedesigned shape masks now track motion faster across frames with pinpoint accuracy. Perfect for tackling precise color and effects work with ease.\n\nOver 100 next-level effects and transitions.\n\nElevate your edit with all-new transitions, effects, and animations — they're cinematic and GPU-accelerated for real-time playback.\n\nMedia Intelligence. A better way to search.\n\nSearch footage in seconds by describing sound effects, like barking dogs or rain — or by keying in specific dialogue. Quickly locate alt takes and visually similar clips. And censor any unwanted words with a click.\n\nGo from generating to editing, fast.\n\nGenerate video in Adobe Firefly Boards or on the web app, then send your project-ready clip directly to Premiere on desktop. Generate eye-grabbing visual effects, beautiful b-roll to fill timeline gaps, or anything you can imagine.\n\nExplore the Premiere User Guide\nNow available from Adobe and YouTube: A dedicated space and exclusive content to create YouTube Shorts — right inside Premiere on iPhone.\n\nLearn more\n\nWhat can you create in Premiere?\n\nFind out how to use the tools and features in Premiere to make professional movies, music videos, podcasts, commercials, and more.\n\nPremiere FEATURES\n\nVideo editing for social media: 5 tips to follow.\n\nPremiere FEATURES\n\nCreate effective training videos that keep the viewer’s attention.\n\nPremiere FEATURES\n\nMake a documentary film.\n\nPremiere FEATURES\n\nCreate vlogs that build engagement.\n\nPremiere FEATURES\n\nCreate travel videos that inspire wanderlust.\n\nPremiere FEATURES\n\nMake a movie.\n\nPremiere FEATURES\n\nMake a music video that rocks (or swings, grooves, or jams)\n\nPremiere FEATURES\n\nCreate a calming ASMR video.\n\nPremiere FEATURES\n\nEdit creative video transitions.\n\nMembership plans\n\nGet Premiere.\n\nStart with just Premiere, or get Premiere and 20+ other apps with the Creative Cloud Pro plan.\n\nIndividuals\nStudents and teachers\nTeams\n\nPremiere on desktop and iPhone plus the Adobe Express Premium plan.\n\nAnnual, billed monthly\n\nPremiere\n\nUS$22.99/mo\n\nBuy now\nFree trial\n\nSee what’s included:\nPremiere for video editing, title animation, effects, sound mixing, and more\nAdobe Express Premium plan for making thumbnails, cropping videos, creating standout content, and more\nTutorials, fonts, templates, and more\nFrame.io for Creative Cloud and 100GB cloud storage\n25 monthly generative credits\n\nSave 50% on Premiere and 20+ apps, plus creative AI. Pay US$34.99/mo for the first 3 months, then US$69.99/mo after that. New subscribers only. See terms.\n\nAnnual, billed monthly\n\nCreative Cloud Pro\n\nRegularly at\nUS$69.99/mo \nAlternatively at\nUS$34.99/mo\n\nBuy now\nFree trial\n\nSee what’s included:\nPremiere for video editing, title animation, effects, sound mixing, and more\n20+ photo, graphic design, and video apps\nUnlimited access to standard creative AI image and vector features like Generative Fill in Photoshop\n4,000 generative credits for premium creative AI video and audio features like Text to Video\nUnlimited access to Firefly Boards for exploring ideas and developing storyboards\nAccess to non-Adobe generative AI models in Firefly\nAdobe Express Premium, Frame.io for Creative Cloud, tutorials, fonts, templates, and 100GB of cloud storage\nCompare Premiere plans\nTry the Premiere (beta) desktop app.\n1. Start a free trial of Premiere.\n2. Open the Creative Cloud app.\n3. Install the Premiere (beta).\nGet the beta",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 0,
+          "innerTextSummary": "Premiere\n\nExplore Adobe Premiere features.\n\nLearn all about the tools and techniques you can use to edit videos, animate titles, add effects, mix sound, and more.\n\nUpdate Premiere",
+          "wordCount": 28,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section",
+            "tablist-features-section"
+          ],
+          "purpose": "feature-list",
+          "headlineRef": 1,
+          "innerTextSummary": "What's new\nEditing\nEffects\nTitle\nColor\nAudio\nExporting\nImprove your workflow and take your videos to the next level with powerful, timesaving tools and AI features.\nColor Mode — a new era starts now.\n\nExperience a first-of-its-kind color gr",
+          "wordCount": 234,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 49,
+          "innerTextSummary": "Now available from Adobe and YouTube: A dedicated space and exclusive content to create YouTube Shorts — right inside Premiere on iPhone.\n\nLearn more\n\nWhat can you create in Premiere?\n\nFind out how to use the tools and features in Premiere ",
+          "wordCount": 125,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 60,
+          "innerTextSummary": "Membership plans\n\nGet Premiere.\n\nStart with just Premiere, or get Premiere and 20+ other apps with the Creative Cloud Pro plan.\n\nIndividuals\nStudents and teachers\nTeams\n\nPremiere on desktop and iPhone plus the Adobe Express Premium plan.\n\nA",
+          "wordCount": 221,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 66,
+          "innerTextSummary": "Try the Premiere (beta) desktop app.\n1. Start a free trial of Premiere.\n2. Open the Creative Cloud app.\n3. Install the Premiere (beta).\nGet the beta",
+          "wordCount": 27,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section",
+            "promo-sticky-section",
+            "sticky-bottom",
+            "static-links",
+            "hide-sticky-section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 67,
+          "innerTextSummary": "Buy now Free trial\n      \n      Adobe Premiere\n        \n        \n        Buy now Free trial\n      \n      Explore Adobe Premiere plans.Browse plans for businesses or students and teachers.\n        \n        \n        \n        Buy now Free tria",
+          "wordCount": 30,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "footer",
+      "role": null,
+      "id": null,
+      "classes": [
+        "global-footer"
+      ],
+      "innerText": "For individuals & small business\nCreative AI\nPhotography\nDesign and illustration\nVideo and animation\nPDF\n3D\nElements Family\nStock images and video\nView all products\nFor medium & large business\nPersonalization at scale\nContent supply chain\nUnified customer experience\nCreativity and production\nB2B GTM orchestration\nView all products\nFor organizations\nEducation\nNonprofits\nGovernment\nSupport\nHelp Center\nDownload and install\nAdobe Community\nAdobe Learn\nMedium and large business support\nContact\nChat with sales\nRequest information\nAdobe\nLog into your account\nAbout\nCareers\nEvents\nNewsroom\nCorporate responsibility\nInvestor Relations\nSupply chain\nTrust Center\nIntegrity\nAdobe for All\nAdobe Blog\nFeatured products\nAcrobat Reader\nFirefly\nAdobe Express\nPhotoshop\nChange region\nCopyright © 2026 Adobe. All rights reserved./\nPrivacy/\nTerms of Use/\nCookie preferences/\nDo not sell or share my personal information/\nAdChoices",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-footer-wrapper"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "For individuals & small business\nCreative AI\nPhotography\nDesign and illustration\nVideo and animation\nPDF\n3D\nElements Family\nStock images and video\nView all products\nFor medium & large business\nPersonalization at scale\nContent supply chain\nU",
+          "wordCount": 129,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Creativity & Design",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > section > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "View plans and pricing",
+      "href": "/creativecloud/plans.html",
+      "tag": "a",
+      "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "App switcher",
+      "href": null,
+      "tag": "div",
+      "domPath": "div#unav-app-switcher",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(44, 44, 44)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "5.008px",
+        "padding": "6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Sign in",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#unav-profile > div > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "6px 16px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Premiere",
+      "href": null,
+      "tag": "button",
+      "domPath": "div:nth-of-type(1) > button",
+      "style": {
+        "backgroundColor": "rgb(248, 248, 248)",
+        "color": "rgb(44, 44, 44)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "boxShadow": "rgba(0, 0, 0, 0.2) 0px 2px 4px 0px"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Update Premiere",
+      "href": "https://creativecloud.adobe.com/campaign/premiere-pro?workflow=launch&min-version=25.00&source=acom",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > p:nth-of-type(3) > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "25px",
+        "padding": "10px 24px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "What's new",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-1",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(44, 44, 44)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Editing",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-2",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(104, 104, 104)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Effects",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(104, 104, 104)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Title",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-4",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(104, 104, 104)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Color",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-5",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(104, 104, 104)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Audio",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-6",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(104, 104, 104)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Exporting",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-7",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(104, 104, 104)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Individuals",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-mini-compare-1",
+      "style": {
+        "backgroundColor": "rgb(41, 41, 41)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "8px",
+        "padding": "10px 16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Students and teachers",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-mini-compare-2",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "8px",
+        "padding": "10px 16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Teams",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-mini-compare-3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "8px",
+        "padding": "10px 16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=19AEE5AC1C9242C37657987E009E6553&cli=adobe_com&ctx=fp&co=US&lang=en",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(1) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=creative&ctx=if&co=US&lang=en&ms=COM&ot=BASE&cs=INDIVIDUAL&pa=ccsn_direct_individual&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(2) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=951DCCB08194F40B9C79951675547DF5&cli=adobe_com&ctx=fp&co=US&lang=en",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-2 > div > div:nth-of-type(1) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=acom_biz&cs=t&co=US&pa=ccsn_direct_individual",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-3 > div > div:nth-of-type(1) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=acom_biz&cs=t&co=US&pa=ccsn_direct_individual",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-3 > div > div:nth-of-type(2) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "/creativecloud/plans.html?plan=individual&filter=video-audio&single_app=premiere",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div:nth-of-type(1) > p:nth-of-type(2) > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "/creativecloud/plans.html?plan=individual&filter=video-audio&single_app=premiere",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div:nth-of-type(2) > p:nth-of-type(2) > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "/creativecloud/plans.html?plan=individual&filter=video-audio&single_app=premiere",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div:nth-of-type(3) > p:nth-of-type(2) > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Change region",
+      "href": "#langnav",
+      "tag": "a",
+      "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div > a",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Italia",
+      "href": "/it/products/premiere/features.html",
+      "tag": "a",
+      "domPath": "div#locale-modal-v2 > div:nth-of-type(1) > div > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "href": "/",
+        "text": "",
+        "domPath": "header > div:nth-of-type(2) > nav > div:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud.html",
+        "text": "What is Creative Cloud?\n      Creative apps and services for everyone",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud/photography.html",
+        "text": "Photographers\n      Lightroom, Photoshop, and more",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/creativecloud/all-apps.html",
+        "text": "Individuals\n      20+ creative apps, Acrobat, and more",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/creativecloud/business.html",
+        "text": "Business\n      Solutions for teams and enterprises",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/education.html",
+        "text": "Students and teachers\n      Save 71% on Creative Cloud",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/creativecloud/plans.html",
+        "text": "View plans and pricing",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > div > a"
+      },
+      {
+        "href": "/products/photoshop.html",
+        "text": "Photoshop\n      Image editing and design",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/premiere.html",
+        "text": "Premiere\n      Video editing and production",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "Adobe Firefly\n      AI-powered content creation",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/illustrator.html",
+        "text": "Illustrator\n      Vector graphics and illustration",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/?promoid=Y69SGP43&mv=other",
+        "text": "Adobe Express\n      All-in-one design, video, photo, and PDF app",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom.html",
+        "text": "Lightroom\n      Photo editing and organization",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/products/catalog.html",
+        "text": "View all products",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/express/feature/image/remove-background",
+        "text": "Remove background",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/firefly/features/text-to-image.html",
+        "text": "Generate AI images",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-video-generator.html",
+        "text": "Generate AI videos",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-art-generator.html",
+        "text": "Generate AI art",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-photo-editor.html",
+        "text": "Edit photos with AI",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/products/special-offers.html",
+        "text": "",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div:nth-of-type(1) > div > a"
+      },
+      {
+        "href": "/products/special-offers.html",
+        "text": "Buy now",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > p:nth-of-type(2) > a"
+      },
+      {
+        "href": "/index.html",
+        "text": "Adobe.com",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/acrobat.html",
+        "text": "PDF & E-signatures",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/premiere.html",
+        "text": "Premiere",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/premiere/app.html",
+        "text": "Mobile",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/premiere/plans.html",
+        "text": "Compare Plans",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > a"
+      },
+      {
+        "href": "/products/premiere/free-trial-download.html",
+        "text": "Free Trial Details",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(5) > a"
+      },
+      {
+        "href": "/",
+        "text": "Home",
+        "domPath": "header > div:nth-of-type(2) > div > nav > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud.html",
+        "text": "Adobe Creative Cloud",
+        "domPath": "header > div:nth-of-type(2) > div > nav > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/premiere.html",
+        "text": "Adobe Premiere",
+        "domPath": "header > div:nth-of-type(2) > div > nav > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/premiere.html",
+        "text": "Overview",
+        "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/premiere/ai-video-editing.html",
+        "text": "timesaving tools and AI features",
+        "domPath": "h2#improve-your-workflow-and-take-your-videos-to-the-next-level-with-powerful-timesaving-tools-and-ai-features > a"
+      },
+      {
+        "href": "/products/premiere/color-mode.html",
+        "text": "Learn more",
+        "domPath": "div#tab-panel-features-1 > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > p > a"
+      },
+      {
+        "href": "/products/premiere/editing-and-trimming.html",
+        "text": "editing and trimming tools",
+        "domPath": "h2#stay-in-your-creative-flow-with-precise-intuitive-editing-and-trimming-tools > a"
+      },
+      {
+        "href": "/products/premiere/speech-to-text.html",
+        "text": "AI to automatically transcribe your video",
+        "domPath": "div#tab-panel-features-2 > div > div:nth-of-type(3) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > div > p > a"
+      },
+      {
+        "href": "/products/premiere/extend-video.html",
+        "text": "Generative Extend",
+        "domPath": "div#tab-panel-features-2 > div > div:nth-of-type(3) > div > div > div:nth-of-type(5) > div:nth-of-type(2) > div > p > a"
+      },
+      {
+        "href": "/products/premiere/video-effects.html",
+        "text": "built-in transitions and effects",
+        "domPath": "h2#choose-from-hundreds-of-built-in-transitions-and-effects-or-customize-a-professionally-designed-filter-to-create-your-own-look > a"
+      },
+      {
+        "href": "/products/premiere/motion-graphics-templates.html",
+        "text": "Craft compelling titles, graphics,",
+        "domPath": "h2#craft-compelling-titles-graphics-and-captions-quickly-and-easily-without-leaving-premiere > a"
+      },
+      {
+        "href": "/products/premiere/color-correction.html",
+        "text": "Learn more about color features in Premiere.",
+        "domPath": "div#tab-panel-features-5 > div > div:nth-of-type(2) > div > div > p > a"
+      },
+      {
+        "href": "/products/premiere/edit-audio.html",
+        "text": "Learn more about audio features in Premiere.",
+        "domPath": "div#tab-panel-features-6 > div > div:nth-of-type(2) > div > div > p > a"
+      },
+      {
+        "href": "/products/premiere/collaboration.html",
+        "text": "Learn more about exporting features.",
+        "domPath": "div#tab-panel-features-7 > div > div:nth-of-type(2) > div > div > p > a"
+      },
+      {
+        "href": "/products/premiere/app/youtube.html",
+        "text": "Learn more",
+        "domPath": "main > div:nth-of-type(4) > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > p > a"
+      },
+      {
+        "href": "/creativecloud/video/discover/editing-for-social.html",
+        "text": "Video editing for social media: 5 tips to follow.",
+        "domPath": "h3#video-editing-for-social-media-5-tips-to-follow > a"
+      },
+      {
+        "href": "/creativecloud/video/discover/training-videos.html",
+        "text": "Create effective training videos that keep the viewer’s attention.",
+        "domPath": "h3#create-effective-training-videos-that-keep-the-viewers-attention > a"
+      },
+      {
+        "href": "/creativecloud/video/discover/how-to-make-a-documentary-video.html",
+        "text": "Make a documentary film.",
+        "domPath": "h3#make-a-documentary-film > a"
+      },
+      {
+        "href": "/creativecloud/video/discover/vlogging.html",
+        "text": "Create vlogs that build engagement.",
+        "domPath": "h3#create-vlogs-that-build-engagement > a"
+      },
+      {
+        "href": "/creativecloud/video/discover/travel-videos.html",
+        "text": "Create travel videos that inspire wanderlust.",
+        "domPath": "h3#create-travel-videos-that-inspire-wanderlust > a"
+      },
+      {
+        "href": "/creativecloud/video/discover/how-to-make-movie.html",
+        "text": "Make a movie.",
+        "domPath": "h3#make-a-movie > a"
+      },
+      {
+        "href": "/creativecloud/video/discover/how-to-make-a-music-video.html",
+        "text": "Make a music video that rocks (or swings, grooves, or jams)",
+        "domPath": "h3#make-a-music-video-that-rocks-or-swings-grooves-or-jams > a"
+      },
+      {
+        "href": "/creativecloud/video/discover/asmr.html",
+        "text": "Create a calming ASMR video.",
+        "domPath": "h3#create-a-calming-asmr-video > a"
+      },
+      {
+        "href": "/creativecloud/video/post-production/transitions.html",
+        "text": "Edit creative video transitions.",
+        "domPath": "h3#edit-creative-video-transitions > a"
+      },
+      {
+        "href": "/go/acomfirefly_generativecredits",
+        "text": "generative credits",
+        "domPath": "ul#premiere-list > li:nth-of-type(5) > div > a"
+      },
+      {
+        "href": "/offer-terms/cc-full-special-offer.html",
+        "text": "See terms",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(2) > div > div > merch-card > div:nth-of-type(1) > p > a"
+      },
+      {
+        "href": "/products/premiere/plans.html",
+        "text": "Compare Premiere plans",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(3) > div > div > div > a"
+      },
+      {
+        "href": "/products/premiere.html",
+        "text": "",
+        "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div:nth-of-type(1) > p:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud/plans.html?plan=individual&filter=video-audio&single_app=premiere",
+        "text": "Buy now",
+        "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div:nth-of-type(1) > p:nth-of-type(2) > a:nth-of-type(1)"
+      },
+      {
+        "href": "/creativecloud/business/teams/premiere-pro",
+        "text": "businesses",
+        "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div:nth-of-type(3) > p:nth-of-type(1) > p:nth-of-type(2) > p > a:nth-of-type(1)"
+      },
+      {
+        "href": "/creativecloud/buy/students",
+        "text": "students and teachers",
+        "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div:nth-of-type(3) > p:nth-of-type(1) > p:nth-of-type(2) > p > a:nth-of-type(2)"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "Creative AI",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud/photography/apps.html",
+        "text": "Photography",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/creativecloud/design.html",
+        "text": "Design and illustration",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/creativecloud/video.html",
+        "text": "Video and animation",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/acrobat.html",
+        "text": "PDF",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/products/substance3d.html",
+        "text": "3D",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/products/elements-family.html",
+        "text": "Elements Family",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/education.html",
+        "text": "Education",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/nonprofits.html",
+        "text": "Nonprofits",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/howtobuy/buying-programs/government.html",
+        "text": "Government",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/community.html",
+        "text": "Adobe Community",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/learn",
+        "text": "Adobe Learn",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/",
+        "text": "Chat with sales",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/about-adobe.html",
+        "text": "About",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/careers.html",
+        "text": "Careers",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/events.html",
+        "text": "Events",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/corporate-responsibility.html",
+        "text": "Corporate responsibility",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/investor-relations.html",
+        "text": "Investor Relations",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/corporate-responsibility/supply-chain.html",
+        "text": "Supply chain",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/trust.html",
+        "text": "Trust Center",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(9) > a"
+      },
+      {
+        "href": "/about-adobe/integrity.html",
+        "text": "Integrity",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(10) > a"
+      },
+      {
+        "href": "/diversity.html",
+        "text": "Adobe for All",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(11) > a"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "Firefly",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/?promoid=Z2G1FSYV&mv=other",
+        "text": "Adobe Express",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/photoshop/free-trial-download.html",
+        "text": "Photoshop",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/privacy.html",
+        "text": "Privacy",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/legal/terms.html",
+        "text": "Terms of Use",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/",
+        "text": "Cookie preferences",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/privacy/location-specific-notice.html",
+        "text": "Do not sell or share my personal information",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/privacy/opt-out.html",
+        "text": "AdChoices",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/it/products/premiere/features.html",
+        "text": "Italia",
+        "domPath": "div#locale-modal-v2 > div:nth-of-type(1) > div > a:nth-of-type(1)"
+      }
+    ],
+    "external": [
+      {
+        "href": "https://stock.adobe.com/?as_channel=adobe_com&as_source=profile_menu&as_campclass=brand&as_campaign=may2017&as_audience=users&as_content=globalnav",
+        "text": "Adobe Stock\n      High-quality licensable assets",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "https://business.adobe.com/",
+        "text": "Marketing & Commerce",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/support.html",
+        "text": "Learn & Support",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://creativecloud.adobe.com/campaign/premiere-pro?workflow=launch&min-version=25.00&source=acom",
+        "text": "Update Premiere",
+        "domPath": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > p:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/premiere-pro/user-guide.html",
+        "text": "Explore the Premiere User Guide",
+        "domPath": "div#tab-panel-features-1 > div > div:nth-of-type(4) > div > div > a"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=19AEE5AC1C9242C37657987E009E6553&cli=adobe_com&ctx=fp&co=US&lang=en",
+        "text": "Buy now",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(1) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=0D55F09EEA2E00977BCC3171A5B86333&cli=adobe_com&ctx=fp&co=US&lang=en",
+        "text": "Free trial",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(1) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(2)"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/segmentation?cli=creative&ctx=if&co=US&lang=en&ms=COM&ot=BASE&cs=INDIVIDUAL&pa=ccsn_direct_individual&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+        "text": "Buy now",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(2) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/segmentation?cli=mini_plans&ctx=if&co=US&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=ccsn_direct_individual&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+        "text": "Free trial",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(2) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(2)"
+      },
+      {
+        "href": "https://creativecloud.adobe.com/campaign/creative-cloud?workflow=route-to-path&route-path=/apps/beta-apps/&source=acom",
+        "text": "Get the beta",
+        "domPath": "main > div:nth-of-type(6) > div > div > div:nth-of-type(3) > div > div > div > a"
+      },
+      {
+        "href": "https://stock.adobe.com/",
+        "text": "Stock images and video",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/personalization-at-scale.html",
+        "text": "Personalization at scale",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/content-supply-chain.html",
+        "text": "Content supply chain",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/unified-customer-experience.html",
+        "text": "Unified customer experience",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/content-supply-chain/creation-production.html",
+        "text": "Creativity and production",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/b2b-marketing.html",
+        "text": "B2B GTM orchestration",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products.html",
+        "text": "View all products",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/support.html",
+        "text": "Help Center",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/download-install.html",
+        "text": "Download and install",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://business.adobe.com/support/main.html",
+        "text": "Medium and large business support",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://business.adobe.com/request-consultation.html",
+        "text": "Request information",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://account.adobe.com/",
+        "text": "Log into your account",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://news.adobe.com/",
+        "text": "Newsroom",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://blog.adobe.com/",
+        "text": "Adobe Blog",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(12) > a"
+      },
+      {
+        "href": "https://get.adobe.com/reader/",
+        "text": "Acrobat Reader",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.facebook.com/adobe",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.instagram.com/adobe/",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://twitter.com/Adobe",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.linkedin.com/company/adobe",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(4) > a"
+      }
+    ]
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.adobe.com/federal/assets/svgs/adobe-logo.svg",
+        "srcset": null,
+        "alt": "Adobe, Inc.",
+        "naturalWidth": 277,
+        "naturalHeight": 150,
+        "localPath": "stardust/current/assets/media/adobe-logo-54213e.svg"
+      },
+      {
+        "src": "https://www.adobe.com/federal/assets/svgs/creative-cloud-40.svg",
+        "srcset": null,
+        "alt": "Adobe Creative Cloud",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/globalnav/acom/fragments/promos/2026/americas/cc-pro-intro-us/media_13163512f79298e92f1524c391b110e1c66360ccb.jpg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/products/premiere/media_1b148225b72a22726d4c68a3b916087628e88993f.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro-40.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 42,
+        "naturalHeight": 42,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1bfba3b2dd21df965f81d7ce0d76402c342cac58b.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 1160,
+        "naturalHeight": 656,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1cb6a165251f53a77c840c81cb910a34351862557.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 758,
+        "naturalHeight": 428,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_15789bec3ea8e1c50774ba3e37430366df3c8fb18.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 758,
+        "naturalHeight": 428,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_16b0f398b2faebb1bed223de7168b3ea4344878db.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 758,
+        "naturalHeight": 453,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_13599c81e4683107f89db0405641e53813514c8a1.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 2000,
+        "naturalHeight": 1126,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_10294145599fad2b56d7da7e13b9aa185202fc4d2.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 2000,
+        "naturalHeight": 1125,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_16ee78771276528780ec0fa94198190e2869b7d68.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_15cafdf74c381f03b9d36f180ef8d6b993a1f50a5.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1d9f047936475f8475f239407ed18f51712c9c579.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_13a1bde8a7d26bcadf35a8f93e7c94247ade8313e.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_195e0b06b0e8848c4168a8a6f08799883dd32ad5a.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_16948b9e3dbb80f8053f43696bed5204e94b1e5ab.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1982c5088eadd226e15ba62ddea618376aaf80378.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1577b41e63ec91c8f0aa6539e8a41b0c0e26ce946.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_190fcc5b7324426a4e66cbfae69baf87b93f53934.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_137f246d73c143e7c1280d7c0b66f31c7729cb631.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1abbdc693ac3cf55d90d1d6e8fe3bee68d89615b0.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1bc62ce80fbd1b26ad7d94697b4564443bbfad954.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1ac54a400aa7d7ec15c84c01e5f58d68a65249921.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_106bb8f3be82112a7d0036a0a688c6b75d1dc9000.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_15a5decd9cfe80cc791e629b9cb1556fd6016ee8d.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1488f476d7c74cf1d0c4cd5ab4377215b4cdb50f9.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_11fe48b9ec5ffff8ccc377cd85ae53d3b7117d80d.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1c48aa063edc0618d79820982cb7835013059c915.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_14953eec00b46f4af731756e833ccd015edcfa05e.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1258ca04c5a3a1ca614d029fac00ed3f589b7117c.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_10f0a8c23876b4996e8c119c1d3288aeab5c6ddc6.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1933aba49731646084ad009f4e4d91a49695c4850.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_16c182aec1b783e2cd352972bf880660b394c9f75.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_13b8e128789cb7b4b0a27b9461589dda913cda471.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_18fba878fee880b1633393d9d144b9e2b39b4c265.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_16d5c81e69b98aba32cf87eb3009b16a5b6018faa.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1ddb9278694ef3d8c1620bb03dc2e831a8f74dc0b.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_17d97d3592625b4e082e8c3a70848cffdf50192fd.png?width=750&format=png&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1c461faa106c60620e34d5b8dd949b4e6048b4d40.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_13c9963ca3c5f2b890544b07999b5338334ad5b71.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1871b2c51ada4e7e60849080329b7d2089f21c70d.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1c22a83ed9b563089b93b22ab41b59e3328b74d24.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1c63c70ee81c497efe690eaad2b39ece1aa62cf2e.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_195d59532be4958631ec971b7a34beeb6c9dbf8a8.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_16db0c3388573663b8523c8e9608ab9d8917a1081.jpg?width=750&format=jpg&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/app/media_122b9a955f2207e5661e28cbb27c8cc4905280db4.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 500,
+        "naturalHeight": 375,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1b1e1363b9e53834cffbb967375079d7c31e0bb95.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 310,
+        "naturalHeight": 435,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_16027c1d0236f02dc5e1122a6fb44c3e3291b416f.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 310,
+        "naturalHeight": 435,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_11e5095ce61c167d9d5b953bdafd55fad79eb9383.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 180,
+        "naturalHeight": 260,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_12e22b261440e0d6a643dc8d3328ee6d53f2b8a20.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 310,
+        "naturalHeight": 435,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_15ded3d67b3ec3fcc546a39e83822178076adc867.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 310,
+        "naturalHeight": 435,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1b65bd0f4ca5ac42e4bfa881322a7af0cf7ac2a67.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 180,
+        "naturalHeight": 260,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1890ebd50bfee045f540a3a3ecec391408a87784c.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 310,
+        "naturalHeight": 435,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_13ebaef8587deba5b374a88095fd6b31e5b153829.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 302,
+        "naturalHeight": 418,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/premiere/features/media_1f7f13de5ae7915852560d6d1129b435911cd111a.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 310,
+        "naturalHeight": 435,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/merch/products/premiere/mini-compare/media_17e83906d316b476a5ec299afdbc739308a228d26.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 2000,
+        "naturalHeight": 784,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/merch/products/premiere/mini-compare/media_17e83906d316b476a5ec299afdbc739308a228d26.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 2000,
+        "naturalHeight": 784,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/merch/products/premiere/mini-compare/media_17e83906d316b476a5ec299afdbc739308a228d26.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 2000,
+        "naturalHeight": 784,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro-40.svg",
+        "srcset": null,
+        "alt": "Premiere",
+        "naturalWidth": 42,
+        "naturalHeight": 42,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro-40.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 42,
+        "naturalHeight": 42,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro-40.svg",
+        "srcset": null,
+        "alt": "Premiere",
+        "naturalWidth": 42,
+        "naturalHeight": 42,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_13514981498f3fa40f16d4005bc5604b3030e8b4b.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_15856c21886cb3333ec5b6b02c8f4d08627ad59fe.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_187073d53c6db77acad4d7d8d1909fb04cc9cb071.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_1af87c70b29a2210b320389840ec88bb257b44572.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/libs/img/georouting/flag-it.svg",
+        "srcset": null,
+        "alt": "Italia",
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "localPath": null
+      }
+    ],
+    "inlineSvgs": [
+      {
+        "viewBox": "0 0 18 18",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > a > svg",
+        "markupHash": "sha256:18ec7968ffe3df53"
+      },
+      {
+        "viewBox": "0 0 20 20",
+        "domPath": "div#unav-app-switcher > svg",
+        "markupHash": "sha256:0747f47fdd59c4ca"
+      },
+      {
+        "viewBox": "0 0 11 5",
+        "domPath": "div#unav-app-switcher > div > div:nth-of-type(1) > svg",
+        "markupHash": "sha256:7c6de12b25c76b3c"
+      },
+      {
+        "viewBox": "0 0 18 18",
+        "domPath": "svg#open-in",
+        "markupHash": "sha256:18ec7968ffe3df53"
+      },
+      {
+        "viewBox": "0 0 8 14",
+        "domPath": "div#tabs-features > button:nth-of-type(1) > svg",
+        "markupHash": "sha256:549f181a0174ef2a"
+      },
+      {
+        "viewBox": "0 0 8 14",
+        "domPath": "div#tabs-features > button:nth-of-type(2) > svg",
+        "markupHash": "sha256:549f181a0174ef2a"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(1) > svg",
+        "markupHash": "sha256:297b3d2aaa7e0379"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div > a > svg",
+        "markupHash": "sha256:04ec84f86fd9d56b"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a > svg",
+        "markupHash": "sha256:b6880f7a9ba8df46"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(2) > a > svg",
+        "markupHash": "sha256:3b66fc1abf15dff2"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(3) > a > svg",
+        "markupHash": "sha256:8835a8824322139e"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(4) > a > svg",
+        "markupHash": "sha256:69951a6faebd6dad"
+      },
+      {
+        "viewBox": "0 0 179.35 46.86",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > span > span > svg",
+        "markupHash": "sha256:5083f0d2da3293fe"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a > svg",
+        "markupHash": "sha256:010aea10b699e2ab"
+      },
+      {
+        "viewBox": "0 0 20 20",
+        "domPath": "div#locale-modal-v2 > button > svg",
+        "markupHash": "sha256:0747f47fdd59c4ca"
+      }
+    ],
+    "cssBackgrounds": [],
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [],
+  "widgets": {
+    "modals": [
+      {
+        "trigger": null,
+        "domPath": "div#unav-app-switcher-dialog-id"
+      },
+      {
+        "trigger": null,
+        "domPath": "div#locale-modal-v2"
+      }
+    ],
+    "accordions": [],
+    "tabs": [
+      {
+        "domPath": "div#tabs-features > div:nth-of-type(1)",
+        "tabCount": 7
+      },
+      {
+        "domPath": "div#tabs-mini-compare > div:nth-of-type(1) > div",
+        "tabCount": 3
+      }
+    ]
+  },
+  "components": {
+    "cards": {
+      "count": 67,
+      "examples": [
+        ".editorial-card.open",
+        ".editorial-card.open"
+      ]
+    },
+    "grids": {
+      "count": 134,
+      "examples": [
+        ".media-row",
+        ".media-row"
+      ]
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 4,
+      "examples": [
+        ".tabs.quiet",
+        ".tabList"
+      ]
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 2,
+      "examples": [
+        ".unav-comp-app-switcher-popover",
+        ".dialog-modal.locale-modal-v2"
+      ]
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 0,
+      "examples": []
+    },
+    "dataVizEmbeds": {
+      "count": 8,
+      "examples": [
+        ".section.xl-spacing",
+        ".merch-card.mini-compare-chart"
+      ]
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 3,
+      "examples": [
+        ".global-navigation.has-breadcrumbs",
+        ".feds-breadcrumbs-wrapper"
+      ]
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "main > div:nth-of-type(1)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(2)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(3)",
+      "purpose": "feature-list",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(4)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(5)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(6)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(7)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(8)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [
+    {
+      "name": "--global-height-nav",
+      "value": "64px"
+    },
+    {
+      "name": "--feds-height-nav",
+      "value": "63px"
+    },
+    {
+      "name": "--global-height-breadcrumbs",
+      "value": "33px"
+    },
+    {
+      "name": "--scroll-padding-block",
+      "value": "0"
+    },
+    {
+      "name": "--global-height-navPromo",
+      "value": "72px"
+    },
+    {
+      "name": "--feds-totalheight-nav",
+      "value": "calc(63px + 33px)"
+    },
+    {
+      "name": "--feds-localnav-height",
+      "value": "40px"
+    },
+    {
+      "name": "--feds-language-banner-height",
+      "value": "44px"
+    },
+    {
+      "name": "--link-color",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--link-hover-color",
+      "value": "rgb(29, 62, 207)"
+    },
+    {
+      "name": "--link-color-dark",
+      "value": "rgb(59, 99, 251)"
+    },
+    {
+      "name": "--link-hover-color-dark",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--background-color",
+      "value": "#fff"
+    },
+    {
+      "name": "--overlay-background-color",
+      "value": "#ffffff20"
+    },
+    {
+      "name": "--highlight-background-color",
+      "value": "#ffffff40"
+    },
+    {
+      "name": "--text-color",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--color-white",
+      "value": "#FFF"
+    },
+    {
+      "name": "--color-gray-100",
+      "value": "#F8F8F8"
+    },
+    {
+      "name": "--color-gray-200",
+      "value": "#E8E8E8"
+    },
+    {
+      "name": "--color-gray-300",
+      "value": "#D4D4D4"
+    },
+    {
+      "name": "--color-gray-400",
+      "value": "#B6B6B6"
+    },
+    {
+      "name": "--color-gray-500",
+      "value": "#909090"
+    },
+    {
+      "name": "--color-gray-600",
+      "value": "#686868"
+    },
+    {
+      "name": "--color-gray-700",
+      "value": "#444"
+    },
+    {
+      "name": "--color-gray-800",
+      "value": "#242424"
+    },
+    {
+      "name": "--color-black",
+      "value": "#000"
+    },
+    {
+      "name": "--color-brand-title",
+      "value": "#000B1D"
+    },
+    {
+      "name": "--color-accent",
+      "value": "rgb(59, 99, 251)"
+    },
+    {
+      "name": "--color-accent-hover",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--color-accent-down",
+      "value": "#095aba"
+    },
+    {
+      "name": "--color-accent-focus-ring",
+      "value": "#378ef0"
+    },
+    {
+      "name": "--color-info-accent",
+      "value": "#5C5CE0"
+    },
+    {
+      "name": "--color-info-accent-hover",
+      "value": "#4646C6"
+    },
+    {
+      "name": "--color-info-accent-down",
+      "value": "#3D3DB4"
+    },
+    {
+      "name": "--color-info-accent-light",
+      "value": "#DEDEF9"
+    },
+    {
+      "name": "--body-font-family",
+      "value": "'Adobe Clean', adobe-clean, 'Trebuchet MS', sans-serif"
+    },
+    {
+      "name": "--fixed-font-family",
+      "value": "'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace"
+    },
+    {
+      "name": "--spacing-xxs",
+      "value": "8px"
+    },
+    {
+      "name": "--spacing-xs",
+      "value": "16px"
+    },
+    {
+      "name": "--spacing-s",
+      "value": "24px"
+    },
+    {
+      "name": "--spacing-m",
+      "value": "32px"
+    },
+    {
+      "name": "--spacing-l",
+      "value": "40px"
+    },
+    {
+      "name": "--spacing-xl",
+      "value": "56px"
+    },
+    {
+      "name": "--spacing-xxl",
+      "value": "80px"
+    },
+    {
+      "name": "--spacing-xxxl",
+      "value": "104px"
+    },
+    {
+      "name": "--spacing-l-static",
+      "value": "48px"
+    },
+    {
+      "name": "--spacing-xl-static",
+      "value": "56px"
+    },
+    {
+      "name": "--spacing-xxl-static",
+      "value": "80px"
+    },
+    {
+      "name": "--spacing-xxxl-static",
+      "value": "104px"
+    },
+    {
+      "name": "--type-heading-all-weight",
+      "value": "700"
+    },
+    {
+      "name": "--type-heading-xxxl-size",
+      "value": "calc(1 * 80px)"
+    },
+    {
+      "name": "--type-heading-xxxl-lh",
+      "value": "88px"
+    },
+    {
+      "name": "--type-heading-xxl-size",
+      "value": "calc(1 * 44px)"
+    },
+    {
+      "name": "--type-heading-xxl-lh",
+      "value": "55px"
+    },
+    {
+      "name": "--type-heading-xl-size",
+      "value": "calc(1 * 36px)"
+    },
+    {
+      "name": "--type-heading-xl-lh",
+      "value": "45px"
+    },
+    {
+      "name": "--type-heading-l-size",
+      "value": "calc(1 * 28px)"
+    },
+    {
+      "name": "--type-heading-l-lh",
+      "value": "35px"
+    },
+    {
+      "name": "--type-heading-m-size",
+      "value": "calc(1 * 24px)"
+    },
+    {
+      "name": "--type-heading-m-lh",
+      "value": "30px"
+    },
+    {
+      "name": "--type-heading-s-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-heading-s-lh",
+      "value": "25px"
+    },
+    {
+      "name": "--type-heading-xs-size",
+      "value": "calc(1 * 18px)"
+    },
+    {
+      "name": "--type-heading-xs-lh",
+      "value": "22.5px"
+    },
+    {
+      "name": "--type-heading-xxs-size",
+      "value": "11px"
+    },
+    {
+      "name": "--type-heading-xxs-lh",
+      "value": "18px"
+    },
+    {
+      "name": "--type-heading-base-lh",
+      "value": "1.2"
+    },
+    {
+      "name": "--type-body-xxl-size",
+      "value": "calc(1 * 28px)"
+    },
+    {
+      "name": "--type-body-xxl-lh",
+      "value": "42px"
+    },
+    {
+      "name": "--type-body-xl-size",
+      "value": "calc(1 * 22px)"
+    },
+    {
+      "name": "--type-body-xl-lh",
+      "value": "33px"
+    },
+    {
+      "name": "--type-body-l-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-body-l-lh",
+      "value": "30px"
+    },
+    {
+      "name": "--type-body-m-size",
+      "value": "calc(1 * 18px)"
+    },
+    {
+      "name": "--type-body-m-lh",
+      "value": "27px"
+    },
+    {
+      "name": "--type-body-s-size",
+      "value": "calc(1 * 16px)"
+    },
+    {
+      "name": "--type-body-s-lh",
+      "value": "24px"
+    },
+    {
+      "name": "--type-body-xs-size",
+      "value": "calc(1 * 14px)"
+    },
+    {
+      "name": "--type-body-xs-lh",
+      "value": "21px"
+    },
+    {
+      "name": "--type-body-xxs-size",
+      "value": "calc(1 * 12px)"
+    },
+    {
+      "name": "--type-body-xxs-lh",
+      "value": "18px"
+    },
+    {
+      "name": "--type-detail-all-weight",
+      "value": "700"
+    },
+    {
+      "name": "--type-detail-all-transform",
+      "value": "uppercase"
+    },
+    {
+      "name": "--type-detail-xl-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-detail-xl-lh",
+      "value": "25px"
+    },
+    {
+      "name": "--type-detail-l-size",
+      "value": "calc(1 * 16px)"
+    },
+    {
+      "name": "--type-detail-l-lh",
+      "value": "20px"
+    },
+    {
+      "name": "--type-detail-m-size",
+      "value": "calc(1 * 12px)"
+    },
+    {
+      "name": "--type-detail-m-lh",
+      "value": "15px"
+    },
+    {
+      "name": "--type-detail-s-size",
+      "value": "calc(1 * 10px)"
+    },
+    {
+      "name": "--type-detail-s-lh",
+      "value": "12px"
+    },
+    {
+      "name": "--grid-container-width",
+      "value": "1200px"
+    },
+    {
+      "name": "--grid-column-width",
+      "value": "calc(1200px / 12)"
+    },
+    {
+      "name": "--grid-margins-width",
+      "value": "calc((100% - 1200px) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-10",
+      "value": "calc((100vw - (calc(1200px / 12) * 10)) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-8",
+      "value": "calc((100vw - (calc(1200px / 12) * 8)) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-6",
+      "value": "calc((100vw - (calc(1200px / 12) * 6)) / 2)"
+    },
+    {
+      "name": "--aspect-ratio-square",
+      "value": "1/1"
+    },
+    {
+      "name": "--aspect-ratio-standard",
+      "value": "4/3"
+    },
+    {
+      "name": "--aspect-ratio-wide",
+      "value": "16/9"
+    },
+    {
+      "name": "--aspect-ratio-tall",
+      "value": "9/16"
+    },
+    {
+      "name": "--icon-size-xxl",
+      "value": "80px"
+    },
+    {
+      "name": "--icon-size-xl",
+      "value": "64px"
+    },
+    {
+      "name": "--icon-size-l",
+      "value": "56px"
+    },
+    {
+      "name": "--icon-size-m",
+      "value": "40px"
+    },
+    {
+      "name": "--icon-size-s",
+      "value": "32px"
+    },
+    {
+      "name": "--icon-size-xs",
+      "value": "24px"
+    },
+    {
+      "name": "--icon-size-xxs",
+      "value": "16px"
+    },
+    {
+      "name": "--type-lockup-all-weight",
+      "value": "700"
+    },
+    {
+      "name": "--type-lockup-xxl-size",
+      "value": "55px"
+    },
+    {
+      "name": "--type-lockup-xxl-ls",
+      "value": "-0.01em"
+    },
+    {
+      "name": "--type-lockup-xl-size",
+      "value": "44px"
+    },
+    {
+      "name": "--type-lockup-xl-ls",
+      "value": "-0.01em"
+    },
+    {
+      "name": "--type-lockup-l-size",
+      "value": "38px"
+    },
+    {
+      "name": "--type-lockup-l-ls",
+      "value": "-0.01em"
+    },
+    {
+      "name": "--type-lockup-m-size",
+      "value": "27px"
+    },
+    {
+      "name": "--type-lockup-m-ls",
+      "value": "-0.02em"
+    },
+    {
+      "name": "--type-lockup-s-size",
+      "value": "22px"
+    },
+    {
+      "name": "--type-lockup-s-ls",
+      "value": "-0.02em"
+    },
+    {
+      "name": "--type-lockup-xs-size",
+      "value": "16px"
+    },
+    {
+      "name": "--type-lockup-xs-ls",
+      "value": "0"
+    },
+    {
+      "name": "--type-lockup-xxs-size",
+      "value": "11px"
+    },
+    {
+      "name": "--type-lockup-xxs-ls",
+      "value": "-0.01em"
+    },
+    {
+      "name": "--avatar-size-xxl",
+      "value": "80px"
+    },
+    {
+      "name": "--avatar-size-xl",
+      "value": "64px"
+    },
+    {
+      "name": "--avatar-size-l",
+      "value": "56px"
+    },
+    {
+      "name": "--feds-maxWidth-nav",
+      "value": "1440px"
+    },
+    {
+      "name": "--feds-minWidth-menu",
+      "value": "1200px"
+    },
+    {
+      "name": "--feds-height-breadcrumbs",
+      "value": "33px"
+    },
+    {
+      "name": "--feds-gutter",
+      "value": "8px"
+    },
+    {
+      "name": "--feds-background-nav",
+      "value": "#f8f8f8"
+    },
+    {
+      "name": "--feds-background-popup",
+      "value": "#f3f3f3"
+    },
+    {
+      "name": "--feds-background-promo",
+      "value": "#fff"
+    },
+    {
+      "name": "--feds-background-promo--dark",
+      "value": "#000"
+    },
+    {
+      "name": "--feds-borderColor",
+      "value": "#eaeaea"
+    },
+    {
+      "name": "--feds-borderColor-menu",
+      "value": "#e1e1e1"
+    },
+    {
+      "name": "--feds-borderColor-navLink",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--feds-color-adobeBrand",
+      "value": "#eb1000"
+    },
+    {
+      "name": "--feds-color-headline",
+      "value": "#505050"
+    },
+    {
+      "name": "--feds-color-hamburger",
+      "value": "#2d2d2d"
+    },
+    {
+      "name": "--feds-color-breadcrumbs--current",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--feds-color-signIn",
+      "value": "#4b4b4b"
+    },
+    {
+      "name": "--feds-radius-utilityIcon",
+      "value": "4px"
+    },
+    {
+      "name": "--feds-background-link--hover",
+      "value": "#e9e9e9"
+    },
+    {
+      "name": "--feds-borderColor-link",
+      "value": "#e9e9e9"
+    },
+    {
+      "name": "--feds-color-link",
+      "value": "#292929"
+    },
+    {
+      "name": "--feds-color-blue-link",
+      "value": "#274dea"
+    },
+    {
+      "name": "--feds-color-link--hover",
+      "value": "#1d3ecf"
+    },
+    {
+      "name": "--feds-color-link-dark",
+      "value": "#DBDBDB"
+    },
+    {
+      "name": "--feds-borderColor-link-dark",
+      "value": "#393939"
+    },
+    {
+      "name": "--feds-color-navLink-description",
+      "value": "#505050"
+    },
+    {
+      "name": "--feds-color-link-breadcrumbs",
+      "value": "#707070"
+    },
+    {
+      "name": "--feds-cta-primary-bg",
+      "value": "#3b63fb"
+    },
+    {
+      "name": "--feds-cta-primary-bg--hover",
+      "value": "#274dea"
+    },
+    {
+      "name": "--feds-background-footer",
+      "value": "#fafafa"
+    },
+    {
+      "name": "--feds-borderColor-featuredProducts",
+      "value": "#999"
+    },
+    {
+      "name": "--feds-gutter-footer",
+      "value": "32px"
+    },
+    {
+      "name": "--feds-color-white-v2",
+      "value": "#fff"
+    },
+    {
+      "name": "--feds-color-black-v2",
+      "value": "#000"
+    },
+    {
+      "name": "--feds-background-cloudmenu-v2",
+      "value": "#111"
+    },
+    {
+      "name": "--feds-borderColor-link-v2",
+      "value": "#eaeaea"
+    },
+    {
+      "name": "--feds-backgroundColor-tabs-v2",
+      "value": "#f8f8f8"
+    },
+    {
+      "name": "--feds-backgroundColor-tabContent-v2",
+      "value": "#f3f3f3"
+    },
+    {
+      "name": "--feds-borderColor-localnav-v2",
+      "value": "#eee"
+    },
+    {
+      "name": "--app-banner-height",
+      "value": "76px"
+    },
+    {
+      "name": "--feds-skeleton-color-1",
+      "value": "#D3D3D3"
+    },
+    {
+      "name": "--feds-skeleton-color-2",
+      "value": "#EAEAEA"
+    },
+    {
+      "name": "--feds-skeleton-color-3",
+      "value": "#D3D3D3"
+    },
+    {
+      "name": "--feds-skeleton-opacity",
+      "value": "0.7"
+    },
+    {
+      "name": "--tabs-active-color",
+      "value": "#1473e6"
+    },
+    {
+      "name": "--tabs-border-color",
+      "value": "#909090"
+    },
+    {
+      "name": "--tabs-border-hover-color",
+      "value": "#acacac"
+    },
+    {
+      "name": "--tabs-text-color",
+      "value": "#686868"
+    },
+    {
+      "name": "--tabs-active-text-color",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--tabs-bg-color",
+      "value": "#f1f1f1"
+    },
+    {
+      "name": "--tabs-active-bg-color",
+      "value": "#fff"
+    },
+    {
+      "name": "--tabs-list-bg-gradient",
+      "value": "linear-gradient(\n    to bottom, \n    rgba(136, 136, 136, 0) 0%,\n    rgba(136, 136, 136, 0) 60%,\n    rgba(136, 136, 136, 0.03) 80%,\n    rgba(136, 136, 136, 0.08) 100%\n  )"
+    },
+    {
+      "name": "--tabs-mobile-stacked-bg-color",
+      "value": "#242424"
+    },
+    {
+      "name": "--tabs-mobile-stacked-text-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--tabs-pill-bg-color",
+      "value": "#292929"
+    },
+    {
+      "name": "--tabs-pill-bg-color-hover",
+      "value": "#e1e1e1"
+    },
+    {
+      "name": "--tabs-pill-bg-focus",
+      "value": "#505050"
+    },
+    {
+      "name": "--tabs-pill-bg-color-active",
+      "value": "#505050"
+    },
+    {
+      "name": "--tabs-pill-text-focus-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--tabs-pill-text-color",
+      "value": "#505050"
+    },
+    {
+      "name": "--tabs-pill-text-selected-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--tabs-paddle-bs-color",
+      "value": "#0000001a"
+    },
+    {
+      "name": "--tabs-radio-gray",
+      "value": "#6d6d6d"
+    },
+    {
+      "name": "--tabs-radio-blue",
+      "value": "#0265dc"
+    },
+    {
+      "name": "--tabs-radio-bg",
+      "value": "#fff"
+    },
+    {
+      "name": "--tabs-radio-button-bg",
+      "value": "#fdfdfd"
+    },
+    {
+      "name": "--m-rounded-corners-tabs",
+      "value": "8px"
+    },
+    {
+      "name": "--modal-focus-color",
+      "value": "#109cde"
+    },
+    {
+      "name": "--modal-max-height",
+      "value": "calc((100vh - 6px) - 2em)"
+    },
+    {
+      "name": "--modal-max-height-mobile",
+      "value": "calc((100% - 6px) - 2em)"
+    },
+    {
+      "name": "--modal-z-index",
+      "value": "102"
+    },
+    {
+      "name": "--modal-z-index-curtain",
+      "value": "101"
+    },
+    {
+      "name": "--modal-close-accent-color",
+      "value": "#707070"
+    },
+    {
+      "name": "--jarvis-z-index-override",
+      "value": "100"
+    },
+    {
+      "name": "--tall-video-padding",
+      "value": "56px"
+    },
+    {
+      "name": "--s-rounded-corners",
+      "value": "4px"
+    }
+  ],
+  "screenshot": "stardust/current/assets/screenshots/products-premiere-features.png",
+  "stats": {
+    "wordCount": 825,
+    "ctaCount": 26,
+    "internalLinkCount": 89,
+    "externalLinkCount": 29,
+    "imageCount": 100
+  }
+}

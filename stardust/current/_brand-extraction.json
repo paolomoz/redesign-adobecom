@@ -1,0 +1,661 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-22T12:04:50.718Z",
+    "readArtifacts": [
+      "https://www.adobe.com/express/",
+      "https://www.adobe.com/",
+      "https://www.adobe.com/products/illustrator/features.html",
+      "https://www.adobe.com/products/photoshop/features.html",
+      "https://www.adobe.com/products/photoshop-lightroom/features.html",
+      "https://www.adobe.com/products/photoshop.html",
+      "https://www.adobe.com/products/premiere/features.html"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.7.1",
+    "notes": "Cross-page aggregation across 7 pinned www.adobe.com pages. Palette aggregated from heading colors + CTA backgrounds + per-section style. Voice samples from home page. System-component detection limited to header/footer at this crawl size; richer detection would require >3 pages of the same template."
+  },
+  "site": {
+    "name": "Adobe",
+    "tagline": "Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.",
+    "originUrl": "https://www.adobe.com"
+  },
+  "logo": {
+    "source": "inline-svg",
+    "sourceSelector": "header svg",
+    "localPath": null,
+    "format": "svg",
+    "intrinsicWidth": null,
+    "intrinsicHeight": null,
+    "synthesized": false,
+    "synthesizedBasis": null
+  },
+  "palette": [
+    {
+      "role": "accent-0",
+      "value": "#2c2c2c",
+      "occurrences": 342,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "sources": [
+        "express",
+        "home",
+        "products-illustrator-features",
+        "products-photoshop-features",
+        "products-photoshop-lightroom-features",
+        "products-photoshop",
+        "products-premiere-features"
+      ]
+    },
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 161,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "sources": [
+        "express",
+        "home",
+        "products-illustrator-features",
+        "products-photoshop-features",
+        "products-photoshop-lightroom-features",
+        "products-photoshop",
+        "products-premiere-features"
+      ]
+    },
+    {
+      "role": "primary",
+      "value": "#3b63fb",
+      "occurrences": 91,
+      "usedAs": [
+        "background"
+      ],
+      "sources": [
+        "express",
+        "home",
+        "products-illustrator-features",
+        "products-photoshop-features",
+        "products-photoshop-lightroom-features",
+        "products-photoshop",
+        "products-premiere-features"
+      ]
+    },
+    {
+      "role": "accent-1",
+      "value": "#292929",
+      "occurrences": 69,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "sources": [
+        "express",
+        "home",
+        "products-illustrator-features",
+        "products-photoshop-features",
+        "products-photoshop-lightroom-features",
+        "products-photoshop",
+        "products-premiere-features"
+      ]
+    },
+    {
+      "role": "accent-2",
+      "value": "#323232",
+      "occurrences": 33,
+      "usedAs": [
+        "text"
+      ],
+      "sources": [
+        "express",
+        "home",
+        "products-photoshop"
+      ]
+    },
+    {
+      "role": "accent-3",
+      "value": "#242424",
+      "occurrences": 27,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "sources": [
+        "express",
+        "products-photoshop"
+      ]
+    },
+    {
+      "role": "accent-4",
+      "value": "#696969",
+      "occurrences": 21,
+      "usedAs": [
+        "text"
+      ],
+      "sources": [
+        "express",
+        "home",
+        "products-photoshop"
+      ]
+    },
+    {
+      "role": "accent-5",
+      "value": "#505050",
+      "occurrences": 20,
+      "usedAs": [
+        "text"
+      ],
+      "sources": [
+        "express",
+        "home",
+        "products-photoshop"
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Adobe Clean",
+      "stack": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+      "weights": [
+        300,
+        600,
+        700,
+        800,
+        900
+      ],
+      "sizes": [
+        "36px",
+        "28px",
+        "20px",
+        "28px",
+        "22px"
+      ],
+      "lineHeights": [
+        "58.5px",
+        "46.8px",
+        "20.8px",
+        "36.4px",
+        "23.4px"
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "h1",
+        "h2",
+        "h3"
+      ]
+    },
+    "bodyFamily": {
+      "name": "Adobe Clean",
+      "stack": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+      "weights": [
+        400,
+        700
+      ],
+      "sizes": [
+        "16px",
+        "14px"
+      ],
+      "lineHeights": [
+        "1.5"
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "p",
+        "a",
+        "button"
+      ]
+    },
+    "monoFamily": null,
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.286,
+        1,
+        1.273,
+        1.1
+      ],
+      "matchedScale": null
+    },
+    "loadStrategy": "swap",
+    "files": []
+  },
+  "spacing": {
+    "baseUnit": 8,
+    "scale": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96
+    ],
+    "sectionPadding": "32px",
+    "containerMaxWidth": "1440px",
+    "gridGap": "24px"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "20px",
+      "secondary": "16px",
+      "pill": null,
+      "primarySources": [
+        "express",
+        "home",
+        "products-illustrator-features"
+      ],
+      "occurrences": {
+        "20px": 65,
+        "16px": 42,
+        "2px": 39,
+        "4px 4px 0px 0px": 24,
+        "8px": 16,
+        "18px": 9,
+        "26px": 8,
+        "5.008px": 7,
+        "25px": 7,
+        "22px": 4
+      }
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.2) 0px 2px 4px 0px",
+        "uses": "aggregated",
+        "count": 6
+      },
+      {
+        "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px",
+        "uses": "aggregated",
+        "count": 3
+      },
+      {
+        "value": "rgb(204, 225, 255) 0px 0px 10px 1px",
+        "uses": "aggregated",
+        "count": 3
+      }
+    ],
+    "gradients": [],
+    "patterns": [
+      {
+        "name": "card-grid",
+        "evidence": "express: 30 cards detected"
+      },
+      {
+        "name": "carousel",
+        "evidence": "express: 23 carousels"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#3b63fb",
+        "color": "#ffffff",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "fontWeight": 700,
+        "shadow": null,
+        "hoverDelta": null
+      },
+      "secondary": {
+        "background": null,
+        "color": "#292929",
+        "borderRadius": "0px",
+        "padding": "0px 20px",
+        "fontWeight": 400,
+        "shadow": null,
+        "hoverDelta": null
+      },
+      "ghost": null
+    },
+    "dualCTAPattern": "primary-then-outline",
+    "cards": {
+      "background": null,
+      "borderRadius": "20px",
+      "padding": null,
+      "shadow": null,
+      "border": null
+    },
+    "inputs": {
+      "borderRadius": "20px",
+      "padding": null,
+      "border": null,
+      "focusRing": null
+    }
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 7,
+      "headingSequence": [
+        "Creativity & Design",
+        "PDF & E-signatures",
+        "Marketing & Commerce",
+        "Help & Support"
+      ],
+      "ctaLabels": [
+        "Sign In"
+      ],
+      "domFingerprintHash": null,
+      "exampleSlug": "home",
+      "exampleSelector": "header",
+      "examplePages": [
+        "express",
+        "home",
+        "products-illustrator-features",
+        "products-photoshop-features",
+        "products-photoshop-lightroom-features",
+        "products-photoshop",
+        "products-premiere-features"
+      ]
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 7,
+      "headingSequence": [
+        "Prepare your taxes with Adobe Acrobat this season.",
+        "Get more done with new AI features in Acrobat.",
+        "Adobe apps are top choice for Sundance filmmakers.",
+        "Questo sito Adobe non corrisponde alla tua posizione geografica",
+        "General information"
+      ],
+      "ctaLabels": [],
+      "domFingerprintHash": null,
+      "exampleSlug": "home",
+      "exampleSelector": "footer",
+      "examplePages": [
+        "express",
+        "home",
+        "products-illustrator-features",
+        "products-photoshop-features",
+        "products-photoshop-lightroom-features",
+        "products-photoshop",
+        "products-premiere-features"
+      ]
+    }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "Transform how you share information.",
+    "heroSubcopy": null,
+    "heroImage": {
+      "url": "https://www.adobe.com/upp-shared/media_1393af2d1206af82052e8366aa1d72d8905f79460.png?width=2000&format=webply&optimize=medium",
+      "alt": null,
+      "source": "img",
+      "domPath": null,
+      "localPath": null,
+      "rect": null
+    },
+    "primaryCTALabel": "View plans and pricing",
+    "ctaSamples": [
+      "Creativity & Design",
+      "View plans and pricing",
+      "Get started",
+      "PDF & E-signatures",
+      "Acrobat plans and pricing",
+      "Marketing & Commerce"
+    ],
+    "navItems": [
+      "What is Creative Cloud?\n      Creative apps and services for everyone",
+      "Photographers\n      Lightroom, Photoshop, and more",
+      "Individuals\n      20+ creative apps, Acrobat, and more",
+      "Business\n      Solutions for teams and enterprises",
+      "Students and teachers\n      Save 71% on Creative Cloud",
+      "View plans and pricing",
+      "Photoshop\n      Image editing and design",
+      "Premiere\n      Video editing and production",
+      "Adobe Firefly\n      AI-powered content creation",
+      "Illustrator\n      Vector graphics and illustration",
+      "Adobe Express\n      All-in-one design, video, photo, and PDF app"
+    ],
+    "footerHeadings": [
+      "Prepare your taxes with Adobe Acrobat this season.",
+      "Get more done with new AI features in Acrobat.",
+      "Adobe apps are top choice for Sundance filmmakers.",
+      "Questo sito Adobe non corrisponde alla tua posizione geografica",
+      "General information",
+      "If enabled:",
+      "If disabled:",
+      "General information"
+    ],
+    "firstParagraph": null,
+    "tone": {
+      "guess": "professional-warm",
+      "evidence": "Short sentences, verb-led CTAs, mixed-case headings, product-feature register. Examples: \"Transform how you share information.\", \"Save 50% on Creative Cloud Pro.\""
+    }
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Buy now",
+        "total": 26,
+        "pageCount": 5,
+        "pages": [
+          "products-illustrator-features",
+          "products-photoshop-features",
+          "products-photoshop-lightroom-features",
+          "products-photoshop",
+          "products-premiere-features"
+        ]
+      },
+      {
+        "label": "Cookie details‎",
+        "total": 12,
+        "pageCount": 3,
+        "pages": [
+          "express",
+          "home",
+          "products-photoshop"
+        ]
+      },
+      {
+        "label": "Free trial",
+        "total": 12,
+        "pageCount": 3,
+        "pages": [
+          "home",
+          "products-photoshop-features",
+          "products-photoshop"
+        ]
+      },
+      {
+        "label": "Enable all",
+        "total": 9,
+        "pageCount": 3,
+        "pages": [
+          "express",
+          "home",
+          "products-photoshop"
+        ]
+      },
+      {
+        "label": "Confirm my choices",
+        "total": 9,
+        "pageCount": 3,
+        "pages": [
+          "express",
+          "home",
+          "products-photoshop"
+        ]
+      },
+      {
+        "label": "Creativity & Design",
+        "total": 7,
+        "pageCount": 7,
+        "pages": [
+          "express",
+          "home",
+          "products-illustrator-features",
+          "products-photoshop-features",
+          "products-photoshop-lightroom-features",
+          "products-photoshop",
+          "products-premiere-features"
+        ]
+      },
+      {
+        "label": "View plans and pricing",
+        "total": 7,
+        "pageCount": 7,
+        "pages": [
+          "express",
+          "home",
+          "products-illustrator-features",
+          "products-photoshop-features",
+          "products-photoshop-lightroom-features",
+          "products-photoshop",
+          "products-premiere-features"
+        ]
+      },
+      {
+        "label": "App switcher",
+        "total": 7,
+        "pageCount": 7,
+        "pages": [
+          "express",
+          "home",
+          "products-illustrator-features",
+          "products-photoshop-features",
+          "products-photoshop-lightroom-features",
+          "products-photoshop",
+          "products-premiere-features"
+        ]
+      }
+    ],
+    "headingFrequency": [
+      {
+        "text": "General information",
+        "total": 6,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "If enabled:",
+        "total": 6,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "If disabled:",
+        "total": 6,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "Questo sito Adobe non corrisponde alla tua posizione geografica",
+        "total": 6,
+        "pageCount": 6,
+        "level": 3
+      },
+      {
+        "text": "Creative Cloud Pro",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3
+      },
+      {
+        "text": "Creative Cloud Pro for students and teachers",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3
+      },
+      {
+        "text": "Creative Cloud Pro for teams",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3
+      },
+      {
+        "text": "Go bigger and sharper with Topaz Labs.",
+        "total": 4,
+        "pageCount": 2,
+        "level": 3
+      },
+      {
+        "text": "Make It Your Own",
+        "total": 3,
+        "pageCount": 3,
+        "level": 2
+      },
+      {
+        "text": "Cookie Settings",
+        "total": 3,
+        "pageCount": 3,
+        "level": 2
+      },
+      {
+        "text": "Operate the site and core servicesOperate site and measure engagement",
+        "total": 3,
+        "pageCount": 3,
+        "level": 4
+      },
+      {
+        "text": "Measure performance",
+        "total": 3,
+        "pageCount": 3,
+        "level": 4
+      }
+    ],
+    "toneMetrics": {
+      "headingsTotal": 340,
+      "headingsUppercasePercent": 0,
+      "distinctHeadings": 275,
+      "distinctCtaLabels": 114
+    }
+  },
+  "crossPromo": {
+    "detected": true,
+    "anchorHeading": "General information",
+    "cluster": [
+      {
+        "text": "General information",
+        "total": 6,
+        "pageCount": 3,
+        "overlap": 3
+      },
+      {
+        "text": "If enabled:",
+        "total": 6,
+        "pageCount": 3,
+        "overlap": 3
+      },
+      {
+        "text": "If disabled:",
+        "total": 6,
+        "pageCount": 3,
+        "overlap": 3
+      },
+      {
+        "text": "Questo sito Adobe non corrisponde alla tua posizione geografica",
+        "total": 6,
+        "pageCount": 6,
+        "overlap": 6
+      },
+      {
+        "text": "Creative Cloud Pro",
+        "total": 5,
+        "pageCount": 5,
+        "overlap": 5
+      }
+    ],
+    "pages": [
+      "express",
+      "home",
+      "products-photoshop"
+    ],
+    "pageCount": 3,
+    "totalPages": 7
+  },
+  "register": "brand"
+}

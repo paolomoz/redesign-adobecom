@@ -1,0 +1,121 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-22T13:40:00-07:00",
+    "stardustVersion": "0.7.1",
+    "readArtifacts": [
+      "https://www.adobe.com/"
+    ]
+  },
+  "site": {
+    "originUrl": "https://www.adobe.com",
+    "extractedAt": "2026-05-22T12:01:38.811Z",
+    "pageCap": null,
+    "totalDiscovered": 7,
+    "crawled": 7
+  },
+  "discovery": {
+    "method": "user-pinned (--pages)",
+    "sitemapUsed": null,
+    "fetchTechnique": "playwright + headed Chrome (channel: 'chrome', headless: false) — bot-management fallback for adobe.com Akamai TLS/H2 fingerprint",
+    "waitMode": "medium",
+    "userChoice": "User pinned 7 URLs explicitly via --pages; sitemap discovery bypassed. www.adobe.com origin only; business.adobe.com pages deferred to sister project.",
+    "filteredAsJunk": [],
+    "totalDiscovered": 7,
+    "pages": [
+      {
+        "slug": "home",
+        "url": "https://www.adobe.com/"
+      },
+      {
+        "slug": "express",
+        "url": "https://www.adobe.com/express/"
+      },
+      {
+        "slug": "products-photoshop",
+        "url": "https://www.adobe.com/products/photoshop.html"
+      },
+      {
+        "slug": "products-photoshop-features",
+        "url": "https://www.adobe.com/products/photoshop/features.html"
+      },
+      {
+        "slug": "products-illustrator-features",
+        "url": "https://www.adobe.com/products/illustrator/features.html"
+      },
+      {
+        "slug": "products-photoshop-lightroom-features",
+        "url": "https://www.adobe.com/products/photoshop-lightroom/features.html"
+      },
+      {
+        "slug": "products-premiere-features",
+        "url": "https://www.adobe.com/products/premiere/features.html"
+      }
+    ]
+  },
+  "consent": {
+    "method": "none-detected",
+    "attempted": true
+  },
+  "crawl": {
+    "successes": [
+      {
+        "slug": "home",
+        "url": "https://www.adobe.com/",
+        "waitMode": "medium",
+        "waitMs": 2055,
+        "httpStatus": 200,
+        "fetchedAt": "2026-05-22T11:51:32.544Z"
+      },
+      {
+        "slug": "express",
+        "url": "https://www.adobe.com/express/",
+        "waitMode": "medium",
+        "waitMs": 2175,
+        "httpStatus": 200,
+        "fetchedAt": "2026-05-22T11:52:07.287Z"
+      },
+      {
+        "slug": "products-photoshop",
+        "url": "https://www.adobe.com/products/photoshop.html",
+        "waitMode": "medium",
+        "waitMs": 2262,
+        "httpStatus": 200,
+        "fetchedAt": "2026-05-22T11:53:57.636Z"
+      },
+      {
+        "slug": "products-photoshop-features",
+        "url": "https://www.adobe.com/products/photoshop/features.html",
+        "waitMode": "medium",
+        "waitMs": 2083,
+        "httpStatus": 200,
+        "fetchedAt": "2026-05-22T11:54:04.382Z"
+      },
+      {
+        "slug": "products-illustrator-features",
+        "url": "https://www.adobe.com/products/illustrator/features.html",
+        "waitMode": "medium",
+        "waitMs": 2193,
+        "httpStatus": 200,
+        "fetchedAt": "2026-05-22T11:55:54.172Z"
+      },
+      {
+        "slug": "products-photoshop-lightroom-features",
+        "url": "https://www.adobe.com/products/photoshop-lightroom/features.html",
+        "waitMode": "medium",
+        "waitMs": 2167,
+        "httpStatus": 200,
+        "fetchedAt": "2026-05-22T11:57:29.154Z"
+      },
+      {
+        "slug": "products-premiere-features",
+        "url": "https://www.adobe.com/products/premiere/features.html",
+        "waitMode": "medium",
+        "waitMs": 2116,
+        "httpStatus": 200,
+        "fetchedAt": "2026-05-22T11:59:48.879Z"
+      }
+    ],
+    "failures": []
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-05-22T14:45:00-07:00",
+    "readArtifacts": ["DESIGN-A.json", "stardust/current/_brand-extraction.json", "samples/SAMPLES.md", "stardust/prototypes/home-improvements.md"],
+    "stardustVersion": "0.7.1",
+    "schemaVersion": 2,
+    "variant": "B",
+    "variantRole": "One captured trait amplified — scroll cinema",
+    "variantThesis": "adobe.com as motion cinema. Sticky scroll-grow hero, reverse-hero carousels, CSS garage-door reveals, footer wordmark wipe — every primary section is a directed sequence under scroll. Lenis mandatory.",
+    "mode": "A",
+    "amplifiedTrait": "scroll-driven choreography (samples/static/bizpro-hub-prototype/bizpro-hub.html)",
+    "inheritsFrom": "DESIGN-A.json"
+  },
+
+  "_inherit": {
+    "from": "DESIGN-A.json",
+    "fields": ["colors", "typography", "rounded", "spacing", "extensions.colorMeta", "extensions.typographyMeta", "extensions.shadows", "extensions.breakpoints", "extensions.componentStyle.buttons", "extensions.componentStyle.cards", "extensions.componentStyle.cardsNested", "extensions.componentStyle.inputs", "extensions.systemComponentRoles", "extensions.iaPriorities", "extensions.divergence.mode", "extensions.divergence.font_deck", "extensions.divergence.palette", "extensions.divergence.brand_faithful_inversions"]
+  },
+
+  "components": [
+    { "name": "hero-scroll-grow", "treatment": "ds-hero-scroll + ds-hero-sticky + ds-hero-video-wrap (samples' .hero-scroll/.hero-sticky/.hero-video-wrap pattern)", "css": ".ds-hero-scroll { height:300vh; position:relative; isolation:isolate; } .ds-hero-sticky { position:sticky; top:0; height:100vh; background:#fff; z-index:1; overflow:hidden; } .ds-hero-text { position:relative; z-index:1; display:flex; flex-direction:column; align-items:center; text-align:center; gap:16px; padding-top:calc(72px + 124px); padding-inline:var(--ds-grid-margin); padding-bottom:80px; will-change:opacity, transform; } .ds-hero-video-wrap { position:absolute; z-index:2; overflow:hidden; background:#000; will-change:top, left, width, height, border-radius, box-shadow; } .ds-hero__video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }" },
+    { "name": "tutorial-carousel-reverse-hero", "treatment": "ds-tutorial section with reverse-hero entrance + infinite-loop carousel (samples' .tutorial/.tutorial__viewport/.tutorial__track pattern)", "css": ".ds-tutorial-scroll { position:relative; isolation:isolate; z-index:1; } .ds-tutorial { background:#fff; padding-block:80px; min-height:100vh; overflow:hidden; display:flex; flex-direction:column; justify-content:center; } .ds-tutorial__viewport { overflow:hidden; } .ds-tutorial__track { display:flex; gap:8px; transition:transform 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94); will-change:transform; } .ds-tutorial__slide { aspect-ratio:1068/600; border-radius:16px; overflow:hidden; background:#eceae7; position:relative; flex:0 0 calc(100vw - 2 * 8.333vw); }" },
+    { "name": "studio-banner-garage-door", "treatment": "ds-banner with CSS scroll-driven animations (samples' .studio-banner pattern)", "css": ".ds-banner { --gd-grow-from: -50vh; --gd-reveal-from: 20vh; position:relative; background:#000; height:min(100vh, 860px); display:flex; flex-direction:column; align-items:center; justify-content:flex-start; overflow:clip; isolation:isolate; transform-origin:top center; animation:ds-gd-grow ease-out both; animation-timeline:view(block); animation-range:entry 0% cover 40%; } @keyframes ds-gd-grow { from { transform:translateY(var(--gd-grow-from)); } to { transform:translateY(0); } } @keyframes ds-gd-bg-scale { from { transform:scale(1); } to { transform:scale(1.1); } } @keyframes ds-gd-reveal { from { transform:translateY(var(--gd-reveal-from)); } }" },
+    { "name": "wordmark-reveal-section", "treatment": "ds-wordmark with clip-path reveal driven by Lenis scroll", "css": ".ds-wordmark { aspect-ratio:1440/338; width:100%; position:relative; overflow:hidden; margin-top:40px; } .ds-wordmark img { position:absolute; inset:0; width:100%; height:100%; display:block; clip-path:inset(60% 0 0 0); will-change:clip-path; } /* JS: scroll-driven reveal updates clip-path inset from 60% → 0% over 0.5vh */" },
+    { "name": "stories-mouse-pan", "treatment": "ds-stories with mouse-proximity pan (samples' .stories pattern)", "css": ".ds-stories__viewport { overflow:hidden; display:flex; justify-content:center; max-width:1920px; margin-inline:auto; } .ds-stories__track { display:flex; gap:8px; flex-shrink:0; will-change:transform; transition:transform 400ms cubic-bezier(0.42,0,0,1); } /* JS attaches mousemove handler to viewport: t = (clientX - rectL) / rectW; range = (trackW - sectionW + 16) / 2; translateX = (t < 0.5 ? range : -range) */" },
+    { "name": "scroll-driven-section-entrance", "treatment": "Universal anim-enter pattern — opacity 0→1 + translateY 40→0, bidirectional, easeOut3, per-group stagger 0.10-0.15", "css": "/* JS: animList registers { el, triggerTop, staggerDelay }. rAF tick: raw = (sY + vh*0.85 - triggerTop) / (vh*0.3); p = easeOut3(clamp(raw - staggerDelay, 0, 1)); el.style.opacity = p; el.style.transform = `translateY(${(1-p)*40}px)`; */" }
+  ],
+
+  "extensions": {
+    "motion": {
+      "lib": "lenis",
+      "version": "1.x",
+      "lerp": 0.1,
+      "globalInstance": "window.__lenis",
+      "required": [
+        "lenis (mandatory; not optional like A)",
+        "page-load entrances (inherited from A)",
+        "scroll-driven section entrances (inherited from A)",
+        "hero-scroll-grow on home and major landing pages",
+        "tutorial-carousel-reverse-hero on every multi-slide carousel",
+        "studio-banner-garage-door on every full-bleed banner section",
+        "footer wordmark clip-path wipe on every page",
+        "stories-mouse-pan on every horizontal-overflow card track"
+      ],
+      "durations": { "fast": 200, "base": 400, "entrance": 600, "expand": 360, "heroScrollGrow": "300vh-bound (variable)", "garageDoor": "view(block) entry 0% → cover 40%" },
+      "easings": {
+        "default": "cubic-bezier(0.42, 0, 0, 1)",
+        "entrance": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+        "easeOut3": "1 - (1 - t)^3 (cubic ease-out used in all scroll-driven progress mappings)"
+      },
+      "heroChoreography": {
+        "container": "300vh height",
+        "child": "position:sticky; top:0; height:100vh",
+        "horizP": "easeOut3(clamp(rawP * 2, 0, 1)) — completes at rawP=0.5",
+        "vertP": "easeOut3(rawP) — completes at rawP=1.0",
+        "videoLeft": "lerp(boundedLeft, 0, horizP)",
+        "videoWidth": "lerp(boundedWidth, vw, horizP)",
+        "videoHeight": "lerp(boundedHeight, vw * 0.5625, horizP)",
+        "videoTop": "lerp(boundedTop, 0, vertP)",
+        "videoRadius": "lerp(16, 0, max(leftProximity40px, topProximity40px))",
+        "videoShadow": "easeOut3(clamp(rawP / 0.5, 0, 1)) → upward-cast shadow on text",
+        "textFade": "clamp(rawP / 0.6, 0, 1) → opacity 1→0",
+        "textParallax": "translateY(-40 * textP)",
+        "scrimIn": "clamp((rawP - 0.25) / 0.6, 0, 1)",
+        "overlayIn": "clamp((rawP - 0.35) / 0.6, 0, 1)",
+        "nextSectionCover": "clamp(1 - storiesTop / vh, 0, 1) — subtracts from scrim and overlay as next section slides up"
+      },
+      "carouselReverseHero": {
+        "trackLayout": "[clone-prev | real-0 | real-1 | real-2 | clone-next]",
+        "snapBack": "transitionend → goTo(real-equivalent, animate=false) with double-rAF suppression",
+        "entrance": {
+          "trigger": "tutSectionTop enters bottom-of-viewport",
+          "complete": "at 75% of section height entered viewport",
+          "slideWidthFrom": "100vw",
+          "slideWidthTo": "calc(100vw - 2 * 8.333vw)",
+          "gapFrom": 60,
+          "gapTo": 8,
+          "gapEntranceComplete": "60% of overall progress",
+          "activeSlideRadiusFrom": 0,
+          "activeSlideRadiusTo": 16
+        }
+      },
+      "garageDoor": {
+        "css": "animation-timeline: view(block)",
+        "ranges": {
+          "banner": "entry 0% → cover 40% (or 50% at ≥1280px)",
+          "bgScale": "entry 0% → cover 100%",
+          "content": "cover -10% → cover 100%"
+        },
+        "growFrom": "-50vh (≥1280px: -110vh)",
+        "bgScale": "1.0 → 1.1",
+        "contentRevealFrom": "20vh (≥1280px: 50vh)"
+      },
+      "wordmarkWipe": {
+        "method": "Lenis scroll → clip-path inset(60% 0 0 0) → inset(0% 0 0 0)",
+        "trigger": "wordmark.top enters bottom-of-viewport",
+        "complete": "0.5vh of scroll",
+        "easing": "easeOut3"
+      },
+      "reducedMotion": "prefers-reduced-motion: reduce → Lenis disabled (instant scroll), hero shows bounded final state (no scroll-grow), all CSS scroll-driven animations fall back to 'to' state immediately, JS scroll-coupled progress maps to p=1.0 (final state)",
+      "forbidden": ["GSAP", "ScrollTrigger", "IntersectionObserver-driven entrance", "framer-motion", "anime.js"]
+    },
+
+    "componentStyle": {
+      "heroOverlay": {
+        "scrim": "linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 31%, transparent 97%)",
+        "overlayLayout": "flex-column; justify-content:flex-end; opacity 0→1 via scroll (overlayIn)",
+        "overlayContent": "flex-column; gap:24px; padding:40px",
+        "productLockup": {
+          "title": "title-3 (clamp(28, 3.125vw, 48px) / 900 / -1.2)",
+          "body": "body-md / rgba(255,255,255,0.8)",
+          "ctaPair": "solid-white-button + ghost-white-button (right-aligned bottom)"
+        }
+      }
+    },
+
+    "divergence": {
+      "schemaVersion": 2,
+      "mode": "A",
+      "amplifiedTrait": "scroll-driven choreography",
+      "amplifiedTraitSource": "samples/static/bizpro-hub-prototype/bizpro-hub.html — captured hero-scroll-grow + tutorial reverse-hero + studio-banner garage-door + wordmark clip-wipe + stories mouse-pan are all present in the captured-sample brand surface",
+      "seed": {
+        "anchors": [
+          { "ref": "samples/SAMPLES.md § 9.4 (hero scroll choreography)", "implies": "300vh container + sticky child + Lenis-driven scroll mapping" },
+          { "ref": "samples/SAMPLES.md § 9.7 (tutorial infinite-loop carousel + reverse-hero entrance)", "implies": "reverse-hero carousel entrance pattern" },
+          { "ref": "samples/SAMPLES.md § 9.8 (studio-banner garage-door)", "implies": "CSS animation-timeline: view(block) on full-bleed banners" },
+          { "ref": "samples/SAMPLES.md § 9.9 (footer wordmark wipe)", "implies": "clip-path inset reveal driven by Lenis scroll" }
+        ]
+      },
+      "brand_faithful_inversions": "inherits-from-A (3 inversions: pure-surfaces + backdrop-blur-nav + hex-not-oklch). No additional inversions required — the motion amplification doesn't introduce new color/type/radius patterns.",
+      "antiToolboxAudit": {
+        "ran": true,
+        "guards": [
+          { "name": "motion-as-personality (overuse of scroll-choreography)", "fired": "checked", "rationale": "Variant B caps choreographed sequences at 3 per page (per § Rules); below-fold sections use baseline entrance only. Motion is a captured trait from samples, not invented — passes the captured-trait amplification rule." },
+          { "name": "B-but-more", "fired": false, "rationale": "Variant B amplifies a distinct captured trait (scroll choreography) vs A's baseline. Not a slider position." }
+        ]
+      }
+    }
+  },
+
+  "narrative": {
+    "northStar": "adobe.com as motion cinema — a trait Adobe owns the bench for but doesn't yet deploy. Every primary section is a directed sequence under scroll.",
+    "overview": "Inherits all of A's tokens unchanged. Variant-local: Lenis stack mandatory, hero-scroll-grow on every landing page, reverse-hero carousels on every multi-slide section, CSS garage-door reveals on every full-bleed banner, footer wordmark wipe on every page. No new colors, no new typography, no new radii — the visual identity is in the motion.",
+    "keyCharacteristics": [
+      "Scroll-grow hero canonical on home + landing.",
+      "Reverse-hero carousel entrance before user-controllable carousel.",
+      "CSS scroll-driven banner garage-door.",
+      "Wordmark wipe on every page footer.",
+      "Stories mouse-pan on horizontal-overflow tracks.",
+      "Lenis mandatory; ≤ 3 choreographed sequences per page; reduced-motion strict."
+    ],
+    "rules": "inherits-from-A + lenis-mandatory + ≤3-choreographed-sequences-per-page + below-fold-baseline-motion-only + animation-timeline:view-only-declarative + Lenis+rAF-only-imperative",
+    "dos": [
+      "Hero is scroll-grow (300vh container + sticky child).",
+      "Carousels enter reverse-hero.",
+      "Banners get garage-door reveal.",
+      "Wordmark wipe on every page footer.",
+      "Stories use mouse-proximity pan."
+    ],
+    "donts": [
+      "Inner question-answering pages (FAQ, comparison) do not get scroll-grow hero.",
+      "More than 3 scroll-coupled sequences per page.",
+      "Motion patterns invented outside samples/SAMPLES.md § 9 vocabulary.",
+      "Reduced-motion non-compliance."
+    ]
+  }
+}

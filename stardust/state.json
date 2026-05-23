@@ -1,0 +1,125 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct",
+    "writtenAt": "2026-05-22T14:55:00-07:00",
+    "stardustVersion": "0.7.1"
+  },
+  "site": {
+    "originUrl": "https://www.adobe.com",
+    "extractedAt": "2026-05-22T14:00:00-07:00",
+    "pageCap": null,
+    "totalDiscovered": 7,
+    "crawled": 7
+  },
+  "direction": {
+    "resolvedAt": "2026-05-22T14:55:00-07:00",
+    "phrase": "redesign adobe.com's marketing surface guided by samples/SAMPLES.md — three variants: A faithful + improvements, B amplifies scroll cinema, C amplifies elastic tile mosaic — Mode A with the two brand-faithful inversions documented in stardust/current/DESIGN.json (pure black/white, glassmorphism on nav)",
+    "directionFile": "stardust/direction.md",
+    "mode": "A",
+    "iaFidelity": "reimagined",
+    "density": "balanced",
+    "variantMode": "multi",
+    "variants": [
+      {
+        "id": "A",
+        "role": "Faithful + improvements",
+        "designMd": "DESIGN-A.md",
+        "designJson": "DESIGN-A.json"
+      },
+      {
+        "id": "B",
+        "role": "One captured trait amplified — scroll cinema",
+        "designMd": "DESIGN-B.md",
+        "designJson": "DESIGN-B.json",
+        "amplifiedTrait": "scroll-driven choreography (samples' bizpro-hub patterns)"
+      },
+      {
+        "id": "C",
+        "role": "One captured trait amplified — elastic tile mosaic",
+        "designMd": "DESIGN-C.md",
+        "designJson": "DESIGN-C.json",
+        "amplifiedTrait": "photography-led tile vocabulary (samples' sr-homepage patterns)"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "url": "https://www.adobe.com/",
+      "type": null,
+      "status": "prototyped",
+      "currentStatePath": "stardust/current/pages/home.json",
+      "prototypePath": "stardust/prototypes/home-A-proposed.html",
+      "prototypeVariant": "A",
+      "shapeBrief": "stardust/prototypes/home-A-shape.md",
+      "validation": "stardust/validation/home-A/",
+      "migratedPath": null,
+      "stale": false,
+      "history": [
+        { "status": "extracted", "at": "2026-05-22T14:00:00-07:00" },
+        { "status": "directed", "at": "2026-05-22T14:55:00-07:00" },
+        { "status": "prototyped", "at": "2026-05-23T08:30:00-07:00", "variant": "A" }
+      ]
+    },
+    {
+      "slug": "express",
+      "url": "https://www.adobe.com/express/",
+      "type": null,
+      "status": "directed",
+      "currentStatePath": "stardust/current/pages/express.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "stale": false
+    },
+    {
+      "slug": "products-photoshop",
+      "url": "https://www.adobe.com/products/photoshop.html",
+      "type": null,
+      "status": "directed",
+      "currentStatePath": "stardust/current/pages/products-photoshop.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "stale": false
+    },
+    {
+      "slug": "products-photoshop-features",
+      "url": "https://www.adobe.com/products/photoshop/features.html",
+      "type": null,
+      "status": "directed",
+      "currentStatePath": "stardust/current/pages/products-photoshop-features.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "stale": false
+    },
+    {
+      "slug": "products-illustrator-features",
+      "url": "https://www.adobe.com/products/illustrator/features.html",
+      "type": null,
+      "status": "directed",
+      "currentStatePath": "stardust/current/pages/products-illustrator-features.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "stale": false
+    },
+    {
+      "slug": "products-photoshop-lightroom-features",
+      "url": "https://www.adobe.com/products/photoshop-lightroom/features.html",
+      "type": null,
+      "status": "directed",
+      "currentStatePath": "stardust/current/pages/products-photoshop-lightroom-features.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "stale": false
+    },
+    {
+      "slug": "products-premiere-features",
+      "url": "https://www.adobe.com/products/premiere/features.html",
+      "type": null,
+      "status": "directed",
+      "currentStatePath": "stardust/current/pages/products-premiere-features.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "stale": false
+    }
+  ]
+}

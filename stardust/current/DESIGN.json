@@ -1,0 +1,257 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-22T13:50:00-07:00",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/pages/*.json"
+    ],
+    "stardustVersion": "0.7.1",
+    "schemaVersion": 2,
+    "notes": "Descriptive snapshot of adobe.com's marketing surface. Token values aggregated from 7 captured pages; voice block sampled from home. Two brand-faithful inversions vs stardust hard-rules: pure black/white and backdrop-blur glassmorphism on nav. Adobe red (#eb1000) is reserved to brand-mnemonic + AI add-on contexts and is NOT a CTA color in any captured surface."
+  },
+
+  "colors": {
+    "background": "#ffffff",
+    "surface": "#f8f8f8",
+    "text-primary": "#2c2c2c",
+    "text-secondary": "rgba(0,0,0,0.64)",
+    "primary": "#3b63fb",
+    "primary-hover": "#274dea",
+    "brand-mnemonic-red": "#eb1000"
+  },
+
+  "typography": {
+    "headingFamily": "\"Adobe Clean\", \"Adobe Clean Display\", system-ui, sans-serif",
+    "bodyFamily": "\"Adobe Clean\", system-ui, sans-serif",
+    "monoFamily": null,
+    "weights": [300, 400, 600, 700, 800, 900],
+    "scaleAudit": { "kind": "ad-hoc", "ratios": [1.286, 1.0, 1.273, 1.1], "matchedScale": null },
+    "scaleRatio": null,
+    "sizes": {
+      "title-1": "80px",
+      "title-2": "56px",
+      "title-3": "48px",
+      "title-4": "24px",
+      "h1-captured": "36px (cross-page weighted mode)",
+      "body-md": "16px",
+      "body-sm": "14px",
+      "label": "14px"
+    }
+  },
+
+  "rounded": {
+    "primary": "20px",
+    "secondary": "16px",
+    "small": "8px",
+    "pill": "999px"
+  },
+
+  "spacing": {
+    "base": 8,
+    "scale": [4, 8, 12, 16, 24, 32, 48, 64, 96],
+    "sectionPadding": "64px",
+    "containerMaxWidth": "1440px"
+  },
+
+  "components": [
+    { "name": "button-primary", "selector": ".btn--primary", "treatment": "Adobe blue solid, white label, 16px radius, 40h (32h --sm), pill not used here despite radius999 in samples — adobe.com inner uses 16-20px" },
+    { "name": "button-outline", "selector": ".btn--outline", "treatment": "1.5px black border, transparent bg, black label, 16px radius" },
+    { "name": "card", "selector": ".card / [class*=\"card\"]", "treatment": "Surface bg #f8f8f8, 20px radius (Adobe.com inner) or 16px (samples), 24px inset padding" },
+    { "name": "link", "selector": "a", "treatment": "Inherits color; underline on hover; CTA-like links classified as buttons in extract" },
+    { "name": "badge", "selector": ".badge", "treatment": "8px radius, 12px font-size, 700 weight" }
+  ],
+
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "Saturated CTA on light surfaces; the only saturated color in the system", "wcag": { "aa-normal-on-white": true, "aa-normal-on-black": "borderline" } },
+      "brand-mnemonic-red": { "role": "RESERVED — Adobe lockup, AI add-on lockup gradient stop; NOT a CTA color", "reservation": "module:adobe-lockup | module:ai-add-on-gradient" }
+    },
+
+    "typographyMeta": {
+      "rules": [
+        "Mixed-case display at weight 900 (Adobe Clean Display) for marquee headlines.",
+        "Period-terminated display sentences (\"Transform how you share information.\").",
+        "Body max-width 80ch (~13 words/line).",
+        "Tight letter-spacing on display (clamp negative values per samples)."
+      ],
+      "scaleNote": "ad-hoc scale (ratios 1.286, 1.0, 1.273, 1.1). Adobe.com uses fluid clamp() sizing in the design samples; the cross-page weighted mode aggregates to discrete sizes (36/28/22/20/16/14)."
+    },
+
+    "shadows": [
+      { "value": "0 1px 2px rgba(0,0,0,0.06)", "uses": "buttons" },
+      { "value": "0 4px 16px rgba(0,0,0,0.08)", "uses": "cards" },
+      { "value": "0 2px 12px rgba(0,0,0,0.08)", "uses": "scrolled-nav" }
+    ],
+
+    "motion": {
+      "lib": "lenis",
+      "version": "1.x",
+      "lerp": 0.1,
+      "rules": [
+        "All scroll-coupled motion reads window.__lenis.scroll with window.scrollY fallback.",
+        "Page-load entrances: enterDown for nav, enterUp staggered for hero text (0/80/160ms).",
+        "Scroll-driven section entrances: opacity 0→1 + translateY 40→0, bidirectional, easeOut3.",
+        "CSS scroll-driven animations (animation-timeline: view(block)) used for garage-door reveal on full-bleed banners.",
+        "No GSAP, no ScrollTrigger, no IntersectionObserver in samples; same expected for migrated pages."
+      ],
+      "durations": { "fast": 200, "base": 400, "entrance": 600, "expand": 360 },
+      "easings": {
+        "default": "cubic-bezier(0.42, 0, 0, 1)",
+        "entrance": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      }
+    },
+
+    "breakpoints": {
+      "mobile": "767px",
+      "tablet": "768px",
+      "desktop": "900px",
+      "wide": "1280px",
+      "max": "1441px",
+      "uberWide": "1920px"
+    },
+
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "background": "#3b63fb",
+          "color": "#ffffff",
+          "borderRadius": "16px",
+          "padding": "8px 16px",
+          "fontWeight": 700,
+          "shadow": null,
+          "hoverDelta": "background → #274dea"
+        },
+        "outline": {
+          "background": "transparent",
+          "color": "#2c2c2c",
+          "border": "1.5px solid #2c2c2c",
+          "borderRadius": "16px",
+          "padding": "8px 16px",
+          "fontWeight": 700,
+          "shadow": null,
+          "hoverDelta": "background → rgba(0,0,0,0.04)"
+        },
+        "ghost": null
+      },
+      "dualCTAPattern": "primary-then-outline",
+      "cards": {
+        "background": "#f8f8f8",
+        "borderRadius": "20px",
+        "padding": "24px",
+        "shadow": null,
+        "border": null,
+        "innerNested": "4px solid #f8f8f8 (creates gap effect for nested-white-on-gray cards in samples)"
+      },
+      "inputs": {
+        "borderRadius": "8px",
+        "padding": "10px 12px",
+        "border": "1px solid rgba(0,0,0,0.08)",
+        "focusRing": "0 0 0 3px rgba(59,99,251,0.2)"
+      }
+    },
+
+    "motifs": {
+      "borderRadius": {
+        "primary": "20px",
+        "secondary": "16px",
+        "pill": "999px",
+        "occurrences": { "20px": 65, "16px": 42, "2px": 39, "4px-top": 24, "8px": 16 }
+      },
+      "shadows": [
+        { "value": "0 1px 2px rgba(0,0,0,0.06)", "uses": "buttons" },
+        { "value": "0 4px 16px rgba(0,0,0,0.08)", "uses": "cards" }
+      ],
+      "gradients": [
+        { "value": "linear-gradient(135deg, #8D88F2, #EB1000)", "uses": "ai-addon-lockup-border (reserved)" }
+      ],
+      "patterns": [
+        { "name": "card-grid", "evidence": "Every captured page has 4+ card-like elements in a grid layout" },
+        { "name": "tile-mosaic", "evidence": "home + express lead with asymmetric tile rows over photographic imagery" },
+        { "name": "rounded-top-section-overlap", "evidence": "Section primitives in samples (.stories, .plans-section) slide over the previous section with 32px top radius — Adobe.com inner uses subtler 20px curvature" }
+      ]
+    },
+
+    "voice": {
+      "heroHeadline": "Transform how you share information.",
+      "heroSubcopy": null,
+      "primaryCTALabel": "View plans and pricing",
+      "ctaSamples": ["Creativity & Design", "View plans and pricing", "Get started", "PDF & E-signatures", "Acrobat plans and pricing", "Marketing & Commerce"],
+      "navItems": ["Creativity & Design", "PDF & E-signatures", "Marketing & Commerce", "Help & Support"],
+      "footerHeadings": [],
+      "tone": {
+        "guess": "professional-warm",
+        "evidence": "Short, period-terminated display sentences; mixed-case headings; verb-led terse CTAs; product-name eyebrow before benefit headline."
+      },
+      "examples": {
+        "do": [
+          "Transform how you share information.",
+          "Save 50% on Creative Cloud Pro.",
+          "Save 30% and go unlimited.",
+          "It starts with Adobe."
+        ],
+        "dont": [
+          "TRANSFORM HOW YOU SHARE INFORMATION (uppercase shout)",
+          "Atelier-grade tools for the discerning creator (editorial register on a product brand)",
+          "Click here to start (vague link verb)"
+        ]
+      }
+    },
+
+    "voiceTable": {
+      "ctaFrequency": [],
+      "headingFrequency": [],
+      "toneMetrics": { "headingsTotal": 0, "headingsUppercasePercent": 0, "distinctHeadings": 0, "distinctCtaLabels": 0 },
+      "note": "See _brand-extraction.json#voiceTable for the populated cross-page aggregations."
+    },
+
+    "systemComponentRoles": [
+      { "role": "site-header", "kind": "header", "occurrences": 7, "position": "fixed top, 8px outer padding, 64px inner pill, backdrop-blur" },
+      { "role": "site-footer", "kind": "footer", "occurrences": 7, "position": "static bottom, 6-col link grid + featured products + bottom bar + wordmark reveal" }
+    ],
+
+    "brandFaithfulInversions": [
+      { "rule": "no pure black/white", "reason": "adobe.com uses literal #000 and #ffffff as load-bearing surfaces. Captured across all 7 pages." },
+      { "rule": "no glassmorphism", "reason": "nav pill uses backdrop-filter: blur(64-128px) over rgba(255,255,255,0.64) on every captured page. Brand-faithful and load-bearing." }
+    ],
+
+    "iconFont": null,
+
+    "register": "brand"
+  },
+
+  "narrative": {
+    "northStar": "adobe.com's marketing surface is a multi-audience routing layer: tile-led IA, single-saturated-CTA color, photographic accent against grayscale chrome, dense rhythm over editorial flow.",
+    "overview": "Adobe Clean / Adobe Clean Display type stack at 6 weights, Adobe blue #3b63fb as the only saturated CTA, 20px primary radius (Adobe.com inner) and 16px (samples), pill buttons, 8px base spacing, 64px section padding mode.",
+    "keyCharacteristics": [
+      "Multi-audience routing IA, not editorial flow.",
+      "Saturated single-CTA color (Adobe blue).",
+      "Mixed-case display at weight 900.",
+      "Tile-led, photo-led; surfaces stay near-monochrome.",
+      "Compact rhythm — section padding ~64px.",
+      "Pill / nested-radius card system."
+    ],
+    "rules": [
+      "Adobe blue #3b63fb is the only saturated CTA color.",
+      "Adobe red #eb1000 is reserved (brand mnemonic + AI add-on lockup).",
+      "Headings render mixed-case at weight 900.",
+      "Body lines cap ≤ 80ch.",
+      "Pure #000 and #ffffff are legal surfaces (Mode A inversion).",
+      "Backdrop-blur glassmorphism is legal on nav (Mode A inversion).",
+      "One primary CTA per viewport."
+    ],
+    "dos": [
+      "Short, period-terminated display sentences.",
+      "Verb-led 2-4 word CTAs.",
+      "Product-name eyebrow before benefit headline.",
+      "Adobe Clean Display at weight 900 for marquee."
+    ],
+    "donts": [
+      "Uppercase display headings.",
+      "Adobe red for CTAs.",
+      "Editorial-register vocabulary.",
+      "Centered hero + dual CTA + gradient mesh (generic 2026-SaaS silhouette).",
+      "Multiple primary CTAs per viewport."
+    ]
+  }
+}

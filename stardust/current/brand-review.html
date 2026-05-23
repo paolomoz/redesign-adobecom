@@ -1,0 +1,397 @@
+<!doctype html>
+<!--
+  _provenance:
+    writtenBy: stardust:extract
+    writtenAt: 2026-05-22T14:00:00-07:00
+    readArtifacts:
+      - stardust/current/_brand-extraction.json
+      - stardust/current/PRODUCT.md
+      - stardust/current/DESIGN.md
+      - stardust/current/DESIGN.json
+      - stardust/current/pages/*.json
+    stardustVersion: 0.7.1
+    template: extract/reference/brand-review-template.md (adapted)
+    rendering: brand's own captured palette + Adobe Clean type stack (system fallback)
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brand review — adobe.com (current state)</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f8f8f8;
+    --text: #2c2c2c;
+    --text-soft: rgba(0,0,0,0.64);
+    --primary: #3b63fb;
+    --primary-hover: #274dea;
+    --brand-red: #eb1000;
+    --border: rgba(0,0,0,0.08);
+    --tension: #d97706;
+    --tension-bg: rgba(217,119,6,0.08);
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Adobe Clean", "Adobe Clean Display", -apple-system, "Helvetica Neue", Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.5;
+    padding: 48px 32px 96px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  h1, h2, h3, h4 {
+    font-family: "Adobe Clean Display", "Adobe Clean", -apple-system, sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+  h1 { font-size: 48px; line-height: 1.0; margin-bottom: 8px; }
+  h2 { font-size: 32px; line-height: 1.1; margin-top: 64px; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  h3 { font-size: 20px; line-height: 1.2; margin-top: 32px; margin-bottom: 12px; }
+  h4 { font-size: 16px; line-height: 1.25; margin-bottom: 8px; font-weight: 700; }
+  p { margin-bottom: 12px; max-width: 80ch; }
+  .lede { font-size: 18px; color: var(--text-soft); max-width: 80ch; margin-bottom: 32px; }
+  .meta { display: flex; gap: 24px; flex-wrap: wrap; font-size: 14px; color: var(--text-soft); margin-bottom: 24px; }
+  .cite { display: inline-block; font-size: 12px; font-weight: 700; color: var(--text-soft); background: var(--surface); padding: 2px 8px; border-radius: 999px; margin-left: 8px; vertical-align: middle; }
+  .coverage { background: var(--surface); border-radius: 20px; padding: 24px; margin-bottom: 32px; }
+  .coverage h3 { margin-top: 0; }
+  .pill { display: inline-block; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 700; background: var(--surface); }
+  .pill.ok { background: rgba(34,197,94,0.12); color: rgb(21,128,61); }
+
+  /* Palette swatches */
+  .palette { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin-top: 16px; }
+  .swatch { background: var(--surface); border-radius: 16px; overflow: hidden; }
+  .swatch__chip { aspect-ratio: 5/3; }
+  .swatch__meta { padding: 12px 16px; }
+  .swatch__role { font-size: 13px; font-weight: 700; }
+  .swatch__hex { font-family: ui-monospace, "SF Mono", monospace; font-size: 14px; color: var(--text); }
+  .swatch__use { font-size: 11px; color: var(--text-soft); margin-top: 4px; }
+
+  /* Type specimens */
+  .specimen { background: var(--surface); border-radius: 20px; padding: 32px; margin-bottom: 16px; }
+  .specimen__display-1 { font-size: 80px; line-height: 0.95; letter-spacing: -3.2px; font-weight: 900; font-family: "Adobe Clean Display", sans-serif; }
+  .specimen__display-2 { font-size: 56px; line-height: 1.0; letter-spacing: -1.68px; font-weight: 900; }
+  .specimen__display-3 { font-size: 48px; line-height: 1.05; letter-spacing: -1.2px; font-weight: 900; }
+  .specimen__display-4 { font-size: 24px; line-height: 1.0; letter-spacing: -0.48px; font-weight: 900; }
+  .specimen__eyebrow { font-size: 16px; font-weight: 700; letter-spacing: -0.2px; color: var(--text-soft); }
+  .specimen__body-md { font-size: 16px; line-height: 1.25; }
+
+  /* Button specimens */
+  .buttons { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-top: 16px; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    height: 40px; padding: 0 24px;
+    border-radius: 16px;
+    font-size: 14px; font-weight: 700;
+    border: 1.5px solid transparent;
+    transition: background 200ms cubic-bezier(0.42,0,0,1);
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .btn--primary { background: var(--primary); color: #fff; }
+  .btn--primary:hover { background: var(--primary-hover); }
+  .btn--outline { background: transparent; color: var(--text); border-color: var(--text); }
+  .btn--outline:hover { background: rgba(0,0,0,0.04); }
+
+  /* Card mockup */
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 16px; }
+  .card-mock {
+    background: var(--surface);
+    border-radius: 20px;
+    padding: 4px;
+  }
+  .card-mock__inner {
+    background: var(--bg);
+    border-radius: 16px;
+    padding: 24px;
+    min-height: 180px;
+    display: flex; flex-direction: column;
+  }
+  .card-mock__eyebrow { font-size: 13px; font-weight: 700; color: var(--text-soft); margin-bottom: 8px; }
+  .card-mock__title { font-size: 20px; line-height: 1.05; letter-spacing: -0.5px; font-weight: 900; margin-bottom: auto; }
+  .card-mock__cta { margin-top: 16px; align-self: flex-start; }
+
+  /* Tensions */
+  .tension {
+    background: var(--tension-bg);
+    border-left: 4px solid var(--tension);
+    padding: 16px 20px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+  .tension__id { font-size: 11px; font-weight: 700; color: var(--tension); margin-bottom: 4px; font-family: ui-monospace, "SF Mono", monospace; }
+  .tension__title { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+  .tension__body { font-size: 14px; color: var(--text); }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+  th { font-weight: 700; color: var(--text-soft); }
+  tbody tr:hover { background: var(--surface); }
+  td.mono { font-family: ui-monospace, "SF Mono", monospace; font-size: 13px; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+  /* Voice samples */
+  .voice-samples { display: grid; gap: 8px; }
+  .voice-sample { background: var(--surface); border-radius: 12px; padding: 16px 20px; }
+  .voice-sample__quote { font-size: 18px; font-weight: 700; }
+  .voice-sample__meta { font-size: 12px; color: var(--text-soft); margin-top: 4px; }
+
+  /* Footer */
+  .footer { margin-top: 64px; padding-top: 32px; border-top: 1px solid var(--border); font-size: 13px; color: var(--text-soft); }
+
+  /* Captured screenshot grid */
+  .screenshots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 16px; }
+  .screenshot {
+    border-radius: 16px; overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .screenshot__title { font-size: 12px; font-weight: 700; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+  .screenshot img { display: block; width: 100%; max-height: 240px; object-fit: cover; object-position: top; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Brand review — adobe.com</h1>
+  <p class="lede">Descriptive snapshot of the captured marketing surface. Renders in Adobe's own captured palette + Adobe Clean type stack (system fallback when font files aren't loaded locally).</p>
+  <div class="meta">
+    <span><strong>Origin:</strong> www.adobe.com</span>
+    <span><strong>Pages crawled:</strong> 7</span>
+    <span><strong>Extracted:</strong> 2026-05-22</span>
+    <span><strong>Provenance:</strong> 7/7 live (Playwright + headed Chrome)</span>
+  </div>
+
+  <div class="coverage">
+    <h3>Coverage callout</h3>
+    <p><strong>7/7 pages successfully extracted</strong> across home + Express + Photoshop + 4 product feature pages. <span class="pill ok">no failures</span></p>
+    <p><strong>Bot-management:</strong> headed Chrome required (Adobe Akamai blocks bundled-chromium). <strong>Consent:</strong> none-detected on this geo. <strong>Geolocation modal</strong> overlays home screenshot; DOM captured underneath cleanly.</p>
+    <p><strong>Scope notes:</strong> business.adobe.com (6 of user's 12 must-include URLs) excluded — different origin, deferred to sister project. <strong>Font files:</strong> 0 captured (Adobe loads via Typekit JS injection, not direct @font-face). <strong>Media downloads:</strong> 1/30+ (lazy-load filter rejected images without `naturalWidth` yet). Cited where it would matter for direction.</p>
+  </div>
+</header>
+
+<section>
+  <h2>Palette <span class="cite">_brand-extraction.json § palette</span></h2>
+  <p>Aggregated across all 7 pages, frequency-sorted, near-duplicates collapsed. Adobe blue <code>#3b63fb</code> is the only saturated CTA color; Adobe red <code>#eb1000</code> is reserved (not in palette role, captured via samples / brand lockup context).</p>
+
+  <div class="palette">
+    <div class="swatch">
+      <div class="swatch__chip" style="background:#ffffff; border-bottom:1px solid var(--border);"></div>
+      <div class="swatch__meta">
+        <div class="swatch__role">background</div>
+        <div class="swatch__hex">#ffffff</div>
+        <div class="swatch__use">161 occ · text + background</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch__chip" style="background:#2c2c2c;"></div>
+      <div class="swatch__meta">
+        <div class="swatch__role">text-primary (cluster)</div>
+        <div class="swatch__hex">#2c2c2c · #292929 · #323232</div>
+        <div class="swatch__use">342+69+33 occ · text + background</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch__chip" style="background:#3b63fb;"></div>
+      <div class="swatch__meta">
+        <div class="swatch__role">primary (CTA)</div>
+        <div class="swatch__hex">#3b63fb</div>
+        <div class="swatch__use">91 occ · background only</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch__chip" style="background:#f8f8f8; border-bottom:1px solid var(--border);"></div>
+      <div class="swatch__meta">
+        <div class="swatch__role">surface (inferred)</div>
+        <div class="swatch__hex">#f8f8f8</div>
+        <div class="swatch__use">from samples + captured card backgrounds</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch__chip" style="background:#eb1000;"></div>
+      <div class="swatch__meta">
+        <div class="swatch__role">brand-mnemonic-red <em>(reserved)</em></div>
+        <div class="swatch__hex">#eb1000</div>
+        <div class="swatch__use">reserved — never CTA. Brand lockup + AI add-on gradient stop.</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch__chip" style="background:#505050;"></div>
+      <div class="swatch__meta">
+        <div class="swatch__role">accent-5 (text-soft)</div>
+        <div class="swatch__hex">#505050</div>
+        <div class="swatch__use">20 occ · text · used for footer / secondary labels</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Typography <span class="cite">_brand-extraction.json § type</span></h2>
+  <p>Adobe Clean (body) + Adobe Clean Display (headings) at 6 weights (300/400/600/700/800/900). Scale: <strong>ad-hoc</strong> (ratios 1.286, 1.0, 1.273, 1.1 — no canonical modular fit). Mixed-case headings; period-terminated marquee voice.</p>
+
+  <div class="specimen">
+    <div class="specimen__eyebrow">Adobe Photoshop</div>
+    <div class="specimen__display-3" style="margin: 8px 0;">Transform how you share information.</div>
+    <p class="specimen__body-md" style="color: var(--text-soft); max-width: 60ch;">Bring together AI-powered insights, intuitive content creation, and secure collaboration — so teams can uncover findings, create polished reports, and work together quickly.</p>
+  </div>
+
+  <h3>Display ramp</h3>
+  <div class="specimen">
+    <div class="specimen__display-1">80 / 76 / -3.2</div>
+    <div class="specimen__display-2" style="margin-top: 16px;">56 / 56 / -1.68</div>
+    <div class="specimen__display-3" style="margin-top: 16px;">48 / 48 / -1.2</div>
+    <div class="specimen__display-4" style="margin-top: 16px;">24 / 24 / -0.48</div>
+  </div>
+
+  <h3>Captured H1 (cross-page weighted)</h3>
+  <p>Per-level weighted mode: <strong>36px / weight 700</strong> · h2 <strong>28px / 700</strong> · h3 <strong>22px / 700</strong> · h4 <strong>20px / 700</strong> · h5 <strong>28px</strong> (mixed). Design samples use fluid <code>clamp()</code> sizing reaching 80px on wide viewports; the captured pages aggregate to the discrete sizes above.</p>
+</section>
+
+<section>
+  <h2>Buttons <span class="cite">_brand-extraction.json § componentStyle</span></h2>
+  <p>One saturated CTA color (Adobe blue) + outline for secondary. 16px radius, 40h primary (32h <code>--sm</code>). Pairing rule: primary + outline on light; solid-white + ghost-white on dark.</p>
+  <div class="buttons">
+    <button class="btn btn--primary">View plans and pricing</button>
+    <button class="btn btn--outline">Sign In</button>
+    <button class="btn btn--primary" style="height:32px; padding:0 18px;">Free trial</button>
+    <button class="btn btn--outline" style="height:32px; padding:0 18px;">Learn more</button>
+  </div>
+</section>
+
+<section>
+  <h2>Cards (nested-radius pattern) <span class="cite">_brand-extraction.json § motifs · componentStyle</span></h2>
+  <p>20px outer radius (Adobe.com inner), 4px inset border creating a visible gap to the 16px inner-radius white surface. Cards carry no shadow; hierarchy comes from radius + surface tone.</p>
+  <div class="cards">
+    <div class="card-mock">
+      <div class="card-mock__inner">
+        <div class="card-mock__eyebrow">Adobe Photoshop</div>
+        <div class="card-mock__title">New partner AI models in Generative Fill.</div>
+        <button class="card-mock__cta btn btn--outline" style="height:32px; padding:0 18px;">Learn more</button>
+      </div>
+    </div>
+    <div class="card-mock">
+      <div class="card-mock__inner" style="background: #2c2c2c; color: #fff;">
+        <div class="card-mock__eyebrow" style="color: rgba(255,255,255,0.6);">Acrobat</div>
+        <div class="card-mock__title" style="color:#fff;">It starts with Adobe.</div>
+        <button class="card-mock__cta btn btn--primary" style="height:32px; padding:0 18px;">View pricing</button>
+      </div>
+    </div>
+    <div class="card-mock">
+      <div class="card-mock__inner">
+        <div class="card-mock__eyebrow">Express</div>
+        <div class="card-mock__title">Save 30% and go unlimited.</div>
+        <button class="card-mock__cta btn btn--primary" style="height:32px; padding:0 18px;">Get started</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Voice samples <span class="cite">_brand-extraction.json § voice</span></h2>
+  <div class="voice-samples">
+    <div class="voice-sample">
+      <div class="voice-sample__quote">"Transform how you share information."</div>
+      <div class="voice-sample__meta">home § h1 · Adobe Clean Display · mixed-case · period-terminated</div>
+    </div>
+    <div class="voice-sample">
+      <div class="voice-sample__quote">"Save 50% on Creative Cloud Pro."</div>
+      <div class="voice-sample__meta">home § section h2 · same cadence · price-led promotional</div>
+    </div>
+    <div class="voice-sample">
+      <div class="voice-sample__quote">"It starts with Adobe."</div>
+      <div class="voice-sample__meta">home § cross-promo section · brand-tone short sentence</div>
+    </div>
+    <div class="voice-sample">
+      <div class="voice-sample__quote">CTAs: "View plans and pricing" / "Get started" / "Free trial" / "Buy now"</div>
+      <div class="voice-sample__meta">cross-page · verb-led 2-4 words · all sentence-case</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Motifs <span class="cite">_brand-extraction.json § motifs</span></h2>
+  <table>
+    <thead><tr><th>Type</th><th>Value</th><th class="num">Occurrences</th><th>Use</th></tr></thead>
+    <tbody>
+      <tr><td>Border radius (primary)</td><td class="mono">20px</td><td class="num">65</td><td>Card outer, button outer (Adobe.com inner)</td></tr>
+      <tr><td>Border radius (secondary)</td><td class="mono">16px</td><td class="num">42</td><td>Card inner, samples' card default</td></tr>
+      <tr><td>Border radius (small)</td><td class="mono">2px / 4px / 8px</td><td class="num">39+24+16</td><td>Form fields, small badges</td></tr>
+      <tr><td>Border radius (pill)</td><td class="mono">999px / 25-26px (high)</td><td class="num">28+7+7</td><td>Search bars, eyebrow chips</td></tr>
+      <tr><td>Shadow</td><td class="mono">0 1px 2px rgba(0,0,0,0.06)</td><td class="num">cross-page</td><td>Buttons</td></tr>
+      <tr><td>Shadow</td><td class="mono">0 4px 16px rgba(0,0,0,0.08)</td><td class="num">cross-page</td><td>Cards (samples)</td></tr>
+      <tr><td>Gradient (reserved)</td><td class="mono">linear-gradient(135deg, #8D88F2, #EB1000)</td><td class="num">samples</td><td>AI add-on lockup border (RESERVED)</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>System components <span class="cite">_brand-extraction.json § systemComponents</span></h2>
+  <ul style="margin-left: 20px; margin-bottom: 16px;">
+    <li><strong>site-header</strong> (7/7 pages) — 8px outer padding, 64px inner pill, backdrop-filter blur 64–128px over rgba(255,255,255,0.64). Adobe lockup (inline SVG) + audience-track nav + iconBtn + primary CTA + outline CTA.</li>
+    <li><strong>site-footer</strong> (7/7 pages) — 6-column link grid + featured products + bottom bar (legal + social) + full-width Adobe wordmark SVG. Background: literal <code>#000</code>.</li>
+  </ul>
+  <p>Richer system-component detection (cross-promo bands, persistent CTAs, breadcrumbs) requires more pages — defer to sister project or wider crawl.</p>
+</section>
+
+<section>
+  <h2>Cross-promo <span class="cite">_brand-extraction.json § crossPromo</span></h2>
+  <p>Anchor heading detected: <strong>"General information"</strong> — appearing in 3+ pages, likely a footer-adjacent heading rather than a hero-level cross-promo. Weak signal at this crawl size. Real cross-promo detection (e.g. "Looking for something specific?" patterns Adobe uses on inner pages) needs a larger crawl.</p>
+</section>
+
+<section>
+  <h2>Tensions detected</h2>
+  <p>Mechanical rules from <code>brand-review-template.md § Detectors</code>. Each tension is a flag, not a critique — it's information for <code>/stardust:direct</code> to consider.</p>
+
+  <div class="tension">
+    <div class="tension__id">T-color-imbalance-primary</div>
+    <div class="tension__title">Primary blue used <em>only</em> as background, never as text or border</div>
+    <div class="tension__body">Adobe blue <code>#3b63fb</code> appears 91 times in the captured data, all in <code>usedAs: ["background"]</code>. No instances as text or border. This is intentional brand discipline (one saturated CTA color reserved to filled buttons) but it's worth flagging for direct so variants don't accidentally introduce blue text or blue borders.</div>
+  </div>
+
+  <div class="tension">
+    <div class="tension__id">T-scale-ad-hoc</div>
+    <div class="tension__title">Type scale is ad-hoc, not canonical-modular</div>
+    <div class="tension__body">Heading-size ratios across captured pages: 1.286, 1.0, 1.273, 1.1 — no match for major-third (1.25), perfect-fourth (1.333), or any canonical scale. Adobe uses fluid <code>clamp()</code> sizing in the design samples and the cross-page weighted mode aggregates to mixed discrete sizes. Direction phase should decide whether to (a) adopt a strict modular scale, (b) keep the fluid clamp pattern, or (c) accept the ad-hoc reality and document.</div>
+  </div>
+
+  <div class="tension">
+    <div class="tension__id">T-mode-A-inversion-needed</div>
+    <div class="tension__title">Two stardust hard-rules need brand-faithful inversions</div>
+    <div class="tension__body">(1) <strong>Pure black/white surfaces:</strong> adobe.com uses literal <code>#000</code> and <code>#ffffff</code> on every captured page (footer black, body white). The stardust default "no pure black/white" rule must be inverted. (2) <strong>Backdrop-blur glassmorphism on nav:</strong> the captured nav uses <code>backdrop-filter: blur(64–128px)</code> over <code>rgba(255,255,255,0.64)</code>. Brand-faithful and load-bearing.</div>
+  </div>
+
+  <div class="tension">
+    <div class="tension__id">T-cta-vocab-fragmentation</div>
+    <div class="tension__title">High distinct-CTA vocabulary across the marketing surface</div>
+    <div class="tension__body">39 CTAs on home alone, with verbs spanning "View plans and pricing", "Get started", "Free trial", "Buy now", "Learn more", "Sign In", "Explore", "Get help". Some overlap with audience-routing labels ("Creativity & Design", "PDF & E-signatures") that appear as both nav items and CTA candidates in the heuristic. Direction phase should consolidate to a tighter verb set per audience track.</div>
+  </div>
+
+  <div class="tension">
+    <div class="tension__id">T-geo-redirect-modal</div>
+    <div class="tension__title">Geolocation redirect modal interrupts above-fold experience</div>
+    <div class="tension__body">Home screenshot captured with an Italian geolocation modal overlaying the hero ("Questo sito Adobe non corrisponde alla tua posizione geografica"). This is location-dependent and not visible in the U.S. The DOM was captured underneath, but the visible-first-paint experience for international visitors includes an interrupting dialog. Direction phase may choose to redesign or remove.</div>
+  </div>
+</section>
+
+<section>
+  <h2>Captured screenshots</h2>
+  <div class="screenshots">
+    <div class="screenshot"><div class="screenshot__title">home</div><img src="assets/screenshots/home.png" alt="adobe.com home"></div>
+    <div class="screenshot"><div class="screenshot__title">express</div><img src="assets/screenshots/express.png" alt="adobe.com/express"></div>
+    <div class="screenshot"><div class="screenshot__title">products-photoshop</div><img src="assets/screenshots/products-photoshop.png" alt="Photoshop page"></div>
+    <div class="screenshot"><div class="screenshot__title">products-photoshop-features</div><img src="assets/screenshots/products-photoshop-features.png" alt="Photoshop features"></div>
+    <div class="screenshot"><div class="screenshot__title">products-illustrator-features</div><img src="assets/screenshots/products-illustrator-features.png" alt="Illustrator features"></div>
+    <div class="screenshot"><div class="screenshot__title">products-premiere-features</div><img src="assets/screenshots/products-premiere-features.png" alt="Premiere features"></div>
+  </div>
+</section>
+
+<div class="footer">
+  <p>Rendered by stardust:extract — adobe-skills v0.7.1 — 2026-05-22. Self-contained HTML; all CSS embedded; no external fonts loaded (system fallback). Reviewer can verify extraction by comparing values cited here against the source JSONs under <code>stardust/current/</code>.</p>
+</div>
+
+</body>
+</html>

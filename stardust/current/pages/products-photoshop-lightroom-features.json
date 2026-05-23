@@ -1,0 +1,3754 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-22T11:59:48.810Z",
+    "readArtifacts": [
+      "https://www.adobe.com/products/photoshop-lightroom/features.html"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.7.1",
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-05-22T11:57:29.154Z",
+    "waitMode": "medium",
+    "waitMs": 2167,
+    "httpStatus": 200,
+    "contentType": "text/html"
+  },
+  "slug": "products-photoshop-lightroom-features",
+  "url": "https://www.adobe.com/products/photoshop-lightroom/features.html",
+  "finalUrl": "https://www.adobe.com/products/photoshop-lightroom/features.html",
+  "title": "Explore New Lightroom Features - Adobe",
+  "metaDescription": "Explore Lightroom's new amazing image-editing features. Get to know the tools and features you can use to make your photos amazing anywhere you are.",
+  "og": {
+    "title": "Explore New Lightroom Features - Adobe",
+    "description": "Explore Lightroom's new amazing image-editing features. Get to know the tools and features you can use to make your photos amazing anywhere you are.",
+    "image": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/lightroom.svg?width=1200&format=pjpg&optimize=medium",
+    "type": null,
+    "siteName": null
+  },
+  "themeColor": {
+    "light": null,
+    "dark": null
+  },
+  "language": "en-US",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Explore Lightroom features.",
+      "id": "explore-lightroom-features",
+      "domPath": "h1#explore-lightroom-features",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "36px",
+        "lineHeight": "45px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Explore all the latest features in Lightroom.",
+      "id": "explore-all-the-latest-features-in-lightroom",
+      "domPath": "h2#explore-all-the-latest-features-in-lightroom",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28px",
+        "lineHeight": "35px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Quickly improve image quality.",
+      "id": "quickly-improve-image-quality",
+      "domPath": "h3#quickly-improve-image-quality",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Select your best photos faster.",
+      "id": "select-your-best-photos-faster",
+      "domPath": "h3#select-your-best-photos-faster",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Polish portraits with ease.",
+      "id": "polish-portraits-with-ease",
+      "domPath": "h3#polish-portraits-with-ease",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Remove more distractions in seconds.",
+      "id": "remove-more-distractions-in-seconds",
+      "domPath": "h3#remove-more-distractions-in-seconds",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Create a custom blur.",
+      "id": "create-a-custom-blur",
+      "domPath": "h3#create-a-custom-blur",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Tap into a new mobile experience.",
+      "id": "tap-into-a-new-mobile-experience",
+      "domPath": "h3#tap-into-a-new-mobile-experience",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Personalize your photos with one-step edits.",
+      "id": "personalize-your-photos-with-one-step-edits",
+      "domPath": "h2#personalize-your-photos-with-one-step-edits",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28px",
+        "lineHeight": "35px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Apply presets in one step.",
+      "id": "apply-presets-in-one-step",
+      "domPath": "h3#apply-presets-in-one-step",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Remove anything in a click.",
+      "id": "remove-anything-in-a-click",
+      "domPath": "h3#remove-anything-in-a-click",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Crop and rotate your photo.",
+      "id": "crop-and-rotate-your-photo",
+      "domPath": "h3#crop-and-rotate-your-photo",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adjust perspectives.",
+      "id": "adjust-perspectives",
+      "domPath": "h3#adjust-perspectives",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Select elements automatically.",
+      "id": "select-elements-automatically",
+      "domPath": "h3#select-elements-automatically",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Create a custom blur.",
+      "id": "create-a-custom-blur-1",
+      "domPath": "h3#create-a-custom-blur-1",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Perfect light and color, add effects, and get every detail just right.",
+      "id": "perfect-light-and-color-add-effects-and-get-every-detail-just-right",
+      "domPath": "h2#perfect-light-and-color-add-effects-and-get-every-detail-just-right",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28px",
+        "lineHeight": "35px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Create panoramas.",
+      "id": "create-panoramas",
+      "domPath": "h3#create-panoramas",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Adjust lighting in images.",
+      "id": "adjust-lighting-in-images",
+      "domPath": "h3#adjust-lighting-in-images",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Select and edit a single color.",
+      "id": "select-and-edit-a-single-color",
+      "domPath": "h3#select-and-edit-a-single-color",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Make targeted color edits.",
+      "id": "make-targeted-color-edits",
+      "domPath": "h3#make-targeted-color-edits",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Fine-tune every detail.",
+      "id": "fine-tune-every-detail",
+      "domPath": "h3#fine-tune-every-detail",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Batch edit images.",
+      "id": "batch-edit-images",
+      "domPath": "h3#batch-edit-images",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Enlarge low-res images, clean up distractions, and get photos print-ready.",
+      "id": "enlarge-low-res-images-clean-up-distractions-and-get-photos-print-ready",
+      "domPath": "h2#enlarge-low-res-images-clean-up-distractions-and-get-photos-print-ready",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28px",
+        "lineHeight": "35px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Increase image resolution.",
+      "id": "increase-image-resolution",
+      "domPath": "h3#increase-image-resolution",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Reduce noise automatically.",
+      "id": "reduce-noise-automatically",
+      "domPath": "h3#reduce-noise-automatically",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Make crisp images for print.",
+      "id": "make-crisp-images-for-print",
+      "domPath": "h3#make-crisp-images-for-print",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Sort, access, and export your files from anywhere, get editing tips, and more.",
+      "id": "sort-access-and-export-your-files-from-anywhere-get-editing-tips-and-more",
+      "domPath": "h2#sort-access-and-export-your-files-from-anywhere-get-editing-tips-and-more",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28px",
+        "lineHeight": "35px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Organize photos easily.",
+      "id": "organize-photos-easily",
+      "domPath": "h3#organize-photos-easily",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Use intelligent image search.",
+      "id": "use-intelligent-image-search",
+      "domPath": "h3#use-intelligent-image-search",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Access files anywhere.",
+      "id": "access-files-anywhere",
+      "domPath": "h3#access-files-anywhere",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Edit and export HDR photos.",
+      "id": "edit-and-export-hdr-photos",
+      "domPath": "h3#edit-and-export-hdr-photos",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Get tips and tricks.",
+      "id": "get-tips-and-tricks",
+      "domPath": "h3#get-tips-and-tricks",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "20px",
+        "lineHeight": "25px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Get Lightroom.",
+      "id": "get-lightroom",
+      "domPath": "h2#get-lightroom",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "36px",
+        "lineHeight": "45px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Lightroom",
+      "id": "lightroom",
+      "domPath": "h3#lightroom",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Photography",
+      "id": "photography",
+      "domPath": "h3#photography",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Creative Cloud Pro",
+      "id": "creative-cloud-pro",
+      "domPath": "h3#creative-cloud-pro",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Creative Cloud Pro for students and teachers",
+      "id": "creative-cloud-pro-for-students-and-teachers",
+      "domPath": "h3#creative-cloud-pro-for-students-and-teachers",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Lightroom for teams",
+      "id": "lightroom-for-teams",
+      "domPath": "h3#lightroom-for-teams",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Creative Cloud Pro for teams",
+      "id": "creative-cloud-pro-for-teams",
+      "domPath": "h3#creative-cloud-pro-for-teams",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "How-to: Edit photos, boost resolution, and more.",
+      "id": "how-to-edit-photos-boost-resolution-and-more",
+      "domPath": "h2#how-to-edit-photos-boost-resolution-and-more",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "28px",
+        "lineHeight": "35px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "The only photo editor you need.",
+      "id": "the-only-photo-editor-you-need",
+      "domPath": "h2#the-only-photo-editor-you-need",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Streamline your photo storage.",
+      "id": "streamline-your-photo-storage",
+      "domPath": "h2#streamline-your-photo-storage",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Edit photos faster with Lightroom presets.",
+      "id": "edit-photos-faster-with-lightroom-presets",
+      "domPath": "h2#edit-photos-faster-with-lightroom-presets",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Flexible photo sharing at your fingertips.",
+      "id": "flexible-photo-sharing-at-your-fingertips",
+      "domPath": "h2#flexible-photo-sharing-at-your-fingertips",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Boost your image quality to the max with Super Resolution.",
+      "id": "boost-your-image-quality-to-the-max-with-super-resolution",
+      "domPath": "h2#boost-your-image-quality-to-the-max-with-super-resolution",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Video editing in Adobe Lightroom.",
+      "id": "video-editing-in-adobe-lightroom",
+      "domPath": "h2#video-editing-in-adobe-lightroom",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "18px",
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Explore Adobe Lightroom plans.",
+      "id": "explore-adobe-lightroom-plans",
+      "domPath": "h2#explore-adobe-lightroom-plans",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Questo sito Adobe non corrisponde alla tua posizione geografica",
+      "id": null,
+      "domPath": "div#locale-modal-v2 > div:nth-of-type(1) > h3",
+      "style": {
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "fontSize": "24px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(44, 44, 44)"
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "header",
+      "role": null,
+      "id": null,
+      "classes": [
+        "global-navigation",
+        "has-breadcrumbs",
+        "ready",
+        "local-nav"
+      ],
+      "innerText": "Creativity & Design\nLightroom\nFeatures\nMobile\nCompare Plans\nFree Trial Details\nSign in\nHome\n/\nAdobe Creative Cloud\n/\nAdobe Lightroom\n/\nFeatures",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-topnav-wrapper"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Creativity & Design\nLightroom\nFeatures\nMobile\nCompare Plans\nFree Trial Details\nSign in\nHome\n/\nAdobe Creative Cloud\n/\nAdobe Lightroom\n/\nFeatures",
+          "wordCount": 23,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "id": null,
+      "classes": [
+        "feds-topnav"
+      ],
+      "innerText": "Creativity & Design\nLightroom\nFeatures\nMobile\nCompare Plans\nFree Trial Details\nSign in",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": "feds-nav-wrapper",
+          "classes": [
+            "feds-nav-wrapper"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Creativity & Design\nLightroom\nFeatures\nMobile\nCompare Plans\nFree Trial Details",
+          "wordCount": 11,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-utilities"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Sign in",
+          "wordCount": 2,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "id": null,
+      "classes": [
+        "feds-breadcrumbs"
+      ],
+      "innerText": "Home\n/\nAdobe Creative Cloud\n/\nAdobe Lightroom\n/\nFeatures",
+      "children": []
+    },
+    {
+      "tag": "main",
+      "role": null,
+      "id": null,
+      "classes": [],
+      "innerText": "Lightroom\n\nExplore Lightroom features.\n\nGet to know the tools and features you can use to make your photos amazing anywhere you are.\n\nUpdate Lightroom\n\nWhat's new\nInstant edits\nFine-tune\nEnhance quality\nOrganize and share\nExplore all the latest features in Lightroom.\nQuickly improve image quality.\n\nSave time using generative upscale with Topaz Gigapixel, now including powerful 4x upscaling. Easily crop into images without losing detail, and recover clarity in low-resolution photos.\n\nSelect your best photos faster.\n\nNew AI-powered Assisted Culling supercharges the selection process by intelligently filtering your photos around image quality, grouping similar shots, and more.\n\nPolish portraits with ease.\n\nGo from a quick touch-up to a full glow-up with Quick Actions. Easily retouch skin, remove blemishes, whiten teeth, and more.\n\nRemove more distractions in seconds.\n\nNew Dust Removal quickly recognizes and removes sensor dust from your photos with incredible precision.\n\nCreate a custom blur.\n\nInstantly create a stunning portrait effect in any photo with Lens Blur, powered by AI. Use new one-tap presets to easily focus on your subject and blur out everything else.\n\nTap into a new mobile experience.\n\nUse a more streamlined toolbar that includes Presets, Crop, Edit, and other frequently used tools, organize photos from the top bar, and more.\n\nView all features\n\nMembership plans\n\nGet Lightroom.\n\nStart with just Lightroom, or get Lightroom and 20+ other apps with the Creative Cloud Pro plan.\n\nIndividuals\nStudents and teachers\nTeams\n\nLightroom for mobile, desktop, and web, plus Lightroom Classic.\n\nAnnual, billed monthly\n\nLightroom\n\nUS$11.99/mo\n\nBuy now\nFree trial\n\nSee what’s included:\nEdit photos from anywhere you are with easy ways to adjust exposure, color, and more.\nMake your best photos even better with editing tools designed for your desktop.\nTutorials, fonts, templates, and more\n1TB of cloud storage\n250 monthly generative credits\n\nLightroom for mobile, desktop, and web, plus Lightroom Classic and Photoshop.\n\nAnnual, billed monthly\n\nPhotography\n\nUS$19.99/mo\n\nBuy now\nFree trial\n\nSee what’s included:\nEdit photos from anywhere you are with easy ways to adjust exposure, color, and more.\nMake your best photos even better with editing tools designed for your desktop.\nCreate gorgeous images, rich graphics, and incredible art\nTutorials, fonts, templates, and more\n1TB of cloud storage\n1,000 monthly generative credits\n\nSave 50% on Lightroom and 20+ apps, plus creative AI. Pay US$34.99/mo for the first 3 months, then US$69.99/mo after that. New subscribers only. See terms.\n\nAnnual, billed monthly\n\nCreative Cloud Pro\n\nRegularly at\nUS$69.99/mo \nAlternatively at\nUS$34.99/mo\n\nBuy now\nFree trial\n\nSee what’s included:\nEdit photos from anywhere you are with easy ways to adjust exposure, color, and more\n20+ photo, graphic design, and video apps\nUnlimited access to standard creative AI image and vector features like Generative Fill in Photoshop\n4,000 monthly generative credits for premium creative AI video and audio features like Text to Video\nUnlimited access to Firefly Boards for exploring ideas and developing storyboards\nAccess to non-Adobe Generative AI models in Firefly\nAdobe Express Premium, Frame.io for Creative Cloud, tutorials, fonts, templates, and 100GB of cloud storage\nCompare Lightroom plans\nHow-to: Edit photos, boost resolution, and more.\n\nLearn to use the tools and features in Lightroom to create photos that look exactly the way you want.\n\nLightroom features\n\nThe only photo editor you need.\n\nLightroom features\n\nStreamline your photo storage.\n\nLightroom features\n\nEdit photos faster with Lightroom presets.\n\nLightroom features\n\nFlexible photo sharing at your fingertips.\n\nLightroom features\n\nBoost your image quality to the max with Super Resolution.\n\nLightroom features\n\nVideo editing in Adobe Lightroom.\nWhat's new in Lightroom",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 0,
+          "innerTextSummary": "Lightroom\n\nExplore Lightroom features.\n\nGet to know the tools and features you can use to make your photos amazing anywhere you are.\n\nUpdate Lightroom",
+          "wordCount": 24,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 1,
+          "innerTextSummary": "What's new\nInstant edits\nFine-tune\nEnhance quality\nOrganize and share\nExplore all the latest features in Lightroom.\nQuickly improve image quality.\n\nSave time using generative upscale with Topaz Gigapixel, now including powerful 4x upscaling",
+          "wordCount": 184,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 32,
+          "innerTextSummary": "Membership plans\n\nGet Lightroom.\n\nStart with just Lightroom, or get Lightroom and 20+ other apps with the Creative Cloud Pro plan.\n\nIndividuals\nStudents and teachers\nTeams\n\nLightroom for mobile, desktop, and web, plus Lightroom Classic.\n\nAn",
+          "wordCount": 295,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 39,
+          "innerTextSummary": "How-to: Edit photos, boost resolution, and more.\n\nLearn to use the tools and features in Lightroom to create photos that look exactly the way you want.\n\nLightroom features\n\nThe only photo editor you need.\n\nLightroom features\n\nStreamline you",
+          "wordCount": 79,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "section",
+            "promo-sticky-section",
+            "sticky-bottom",
+            "static-links",
+            "sticky-after-cta"
+          ],
+          "purpose": "cta-band",
+          "headlineRef": 46,
+          "innerTextSummary": "Explore Adobe Lightroom plans.Browse plans for businesses or students and teachers.\n        \n        \n        Buy now Free trial\n      \n    \n  \n  \n    \n  \n  \n    \n      \n    \n  \n\n  \n    \n      style\n      sticky bottom, static links, sticky",
+          "wordCount": 21,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "role": "region",
+      "id": null,
+      "classes": [
+        "notification",
+        "ribbon",
+        "dark",
+        "space-between",
+        "l-icon"
+      ],
+      "innerText": "Explore Adobe Lightroom plans.Browse plans for businesses or students and teachers.\n        \n        \n        Buy now Free trial",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "foreground",
+            "container"
+          ],
+          "purpose": "rich-text",
+          "headlineRef": 46,
+          "innerTextSummary": "Explore Adobe Lightroom plans.Browse plans for businesses or students and teachers.\n        \n        \n        Buy now Free trial",
+          "wordCount": 15,
+          "body": [
+            "Buy now Free trial"
+          ],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "footer",
+      "role": null,
+      "id": null,
+      "classes": [
+        "global-footer"
+      ],
+      "innerText": "For individuals & small business\nCreative AI\nPhotography\nDesign and illustration\nVideo and animation\nPDF\n3D\nElements Family\nStock images and video\nView all products\nFor medium & large business\nPersonalization at scale\nContent supply chain\nUnified customer experience\nCreativity and production\nB2B GTM orchestration\nView all products\nFor organizations\nEducation\nNonprofits\nGovernment\nSupport\nHelp Center\nDownload and install\nAdobe Community\nAdobe Learn\nMedium and large business support\nContact\nChat with sales\nRequest information\nAdobe\nLog into your account\nAbout\nCareers\nEvents\nNewsroom\nCorporate responsibility\nInvestor Relations\nSupply chain\nTrust Center\nIntegrity\nAdobe for All\nAdobe Blog\nFeatured products\nAcrobat Reader\nFirefly\nAdobe Express\nPhotoshop\nChange region\nCopyright © 2026 Adobe. All rights reserved./\nPrivacy/\nTerms of Use/\nCookie preferences/\nDo not sell or share my personal information/\nAdChoices",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "feds-footer-wrapper"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "For individuals & small business\nCreative AI\nPhotography\nDesign and illustration\nVideo and animation\nPDF\n3D\nElements Family\nStock images and video\nView all products\nFor medium & large business\nPersonalization at scale\nContent supply chain\nU",
+          "wordCount": 129,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Creativity & Design",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#feds-nav-wrapper > div > section > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px 20px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "View plans and pricing",
+      "href": "/creativecloud/plans.html",
+      "tag": "a",
+      "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > div > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "0px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "App switcher",
+      "href": null,
+      "tag": "div",
+      "domPath": "div#unav-app-switcher",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(44, 44, 44)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "5.008px",
+        "padding": "6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Sign in",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#unav-profile > div > button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "6px 16px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Lightroom",
+      "href": null,
+      "tag": "button",
+      "domPath": "div:nth-of-type(1) > button",
+      "style": {
+        "backgroundColor": "rgb(248, 248, 248)",
+        "color": "rgb(44, 44, 44)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "0px",
+        "padding": "0px 12px",
+        "boxShadow": "rgba(0, 0, 0, 0.2) 0px 2px 4px 0px"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Update Lightroom",
+      "href": "https://creativecloud.adobe.com/campaign/lightroom?workflow=launch&min-version=10.4&source=acom",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(1) > div > div > div > div > p:nth-of-type(3) > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "25px",
+        "padding": "10px 24px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "What's new",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-1",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(44, 44, 44)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Instant edits",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-2",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(104, 104, 104)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Fine-tune",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(104, 104, 104)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Enhance quality",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-4",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(104, 104, 104)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Organize and share",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-features-5",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(104, 104, 104)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "600",
+        "borderRadius": "4px 4px 0px 0px",
+        "padding": "18px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Individuals",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-mini-compare-1",
+      "style": {
+        "backgroundColor": "rgb(41, 41, 41)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "8px",
+        "padding": "10px 16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Students and teachers",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-mini-compare-2",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "8px",
+        "padding": "10px 16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Teams",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#tab-mini-compare-3",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "8px",
+        "padding": "10px 16px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=7D31EB7B815967837F7882380437117D&cli=adobe_com&ctx=fp&co=US&lang=en",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(1) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=81DE7D1C91A201AB690BC4741B32F0C0&cli=adobe_com&ctx=fp&co=US&lang=en",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(2) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=creative&ctx=if&co=US&lang=en&ms=COM&ot=BASE&cs=INDIVIDUAL&pa=ccsn_direct_individual&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(3) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Compare Lightroom plans",
+      "href": "https://www.adobe.com/products/photoshop-lightroom/plans.html",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(4) > div > div > div > a",
+      "style": {
+        "backgroundColor": "rgb(44, 44, 44)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "5px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=951DCCB08194F40B9C79951675547DF5&cli=adobe_com&ctx=fp&co=US&lang=en",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-2 > div > div:nth-of-type(1) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Compare Lightroom plans",
+      "href": "https://www.adobe.com/products/photoshop-lightroom/plans.html",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-2 > div > div:nth-of-type(2) > div > div > div > a",
+      "style": {
+        "backgroundColor": "rgb(44, 44, 44)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "5px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=acom_biz&cs=t&co=US&pa=ccsn_direct_individual",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-3 > div > div:nth-of-type(1) > div > div > merch-card > div:nth-of-type(2) > p > a",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "https://commerce.adobe.com/store/segmentation?cli=acom_biz&cs=t&co=US&pa=ccsn_direct_individual",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-3 > div > div:nth-of-type(2) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Compare Lightroom plans",
+      "href": "https://www.adobe.com/products/photoshop-lightroom/plans.html",
+      "tag": "a",
+      "domPath": "div#tab-panel-mini-compare-3 > div > div:nth-of-type(3) > div > div > div > a",
+      "style": {
+        "backgroundColor": "rgb(44, 44, 44)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "16px",
+        "padding": "5px 14px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Buy now",
+      "href": "/creativecloud/plans.html?plan=individual#filter=photography&single_app=lightroom_1tb",
+      "tag": "a",
+      "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div > p:nth-of-type(2) > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Change region",
+      "href": "#langnav",
+      "tag": "a",
+      "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div > a",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(41, 41, 41)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "400",
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Italia",
+      "href": "/it/products/photoshop-lightroom/features.html",
+      "tag": "a",
+      "domPath": "div#locale-modal-v2 > div:nth-of-type(1) > div > a:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(59, 99, 251)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif",
+        "fontWeight": "700",
+        "borderRadius": "20px",
+        "padding": "7px 18px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "href": "/",
+        "text": ".cls-1{fill: #eb1000;}",
+        "domPath": "header > div:nth-of-type(2) > nav > div:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud.html",
+        "text": "What is Creative Cloud?\n      Creative apps and services for everyone",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud/photography.html",
+        "text": "Photographers\n      Lightroom, Photoshop, and more",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/creativecloud/all-apps.html",
+        "text": "Individuals\n      20+ creative apps, Acrobat, and more",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/creativecloud/business.html",
+        "text": "Business\n      Solutions for teams and enterprises",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/education.html",
+        "text": "Students and teachers\n      Save 71% on Creative Cloud",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/creativecloud/plans.html",
+        "text": "View plans and pricing",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > div > a"
+      },
+      {
+        "href": "/products/photoshop.html",
+        "text": "Photoshop\n      Image editing and design",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/premiere.html",
+        "text": "Premiere\n      Video editing and production",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "Adobe Firefly\n      AI-powered content creation",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/illustrator.html",
+        "text": "Illustrator\n      Vector graphics and illustration",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/express/?promoid=Y69SGP43&mv=other",
+        "text": "Adobe Express\n      All-in-one design, video, photo, and PDF app",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom.html",
+        "text": "Lightroom\n      Photo editing and organization",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/products/catalog.html",
+        "text": "View all products",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/express/feature/image/remove-background",
+        "text": "Remove background",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/firefly/features/text-to-image.html",
+        "text": "Generate AI images",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-video-generator.html",
+        "text": "Generate AI videos",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-art-generator.html",
+        "text": "Generate AI art",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/products/firefly/features/ai-photo-editor.html",
+        "text": "Edit photos with AI",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/products/special-offers.html",
+        "text": "",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div:nth-of-type(1) > div > a"
+      },
+      {
+        "href": "/products/special-offers.html",
+        "text": "Buy now",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(4) > div > div:nth-of-type(1) > div > div > div > p:nth-of-type(2) > a"
+      },
+      {
+        "href": "/index.html",
+        "text": "Adobe.com",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/acrobat.html",
+        "text": "PDF & E-signatures",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom.html",
+        "text": "Lightroom",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(1) > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom/mobile.html",
+        "text": "Mobile",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom/plans.html",
+        "text": "Compare Plans",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(4) > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom/free-trial-download.html",
+        "text": "Free Trial Details",
+        "domPath": "div#feds-nav-wrapper > div > div:nth-of-type(5) > a"
+      },
+      {
+        "href": "/",
+        "text": "Home",
+        "domPath": "header > div:nth-of-type(2) > div > nav > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud.html",
+        "text": "Adobe Creative Cloud",
+        "domPath": "header > div:nth-of-type(2) > div > nav > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom.html",
+        "text": "Adobe Lightroom",
+        "domPath": "header > div:nth-of-type(2) > div > nav > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom.html",
+        "text": "Overview",
+        "domPath": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a"
+      },
+      {
+        "href": "/go/acomfirefly_generativecredits",
+        "text": "generative credits",
+        "domPath": "ul#lightroom-list > li:nth-of-type(5) > div > a"
+      },
+      {
+        "href": "/offer-terms/cc-full-special-offer.html",
+        "text": "See terms",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(3) > div > div > merch-card > div:nth-of-type(1) > p > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom/plans.html",
+        "text": "Compare Lightroom plans",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(4) > div > div > div > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom/edit-photos.html",
+        "text": "The only photo editor you need.",
+        "domPath": "h2#the-only-photo-editor-you-need > strong > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom/store-manage-photos.html",
+        "text": "Streamline your photo storage.",
+        "domPath": "h2#streamline-your-photo-storage > strong > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom/lightroom-presets.html",
+        "text": "Edit photos faster with Lightroom presets.",
+        "domPath": "h2#edit-photos-faster-with-lightroom-presets > strong > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom/share-photos.html",
+        "text": "Flexible photo sharing at your fingertips.",
+        "domPath": "h2#flexible-photo-sharing-at-your-fingertips > strong > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom/super-resolution.html",
+        "text": "Boost your image quality to the max with Super Resolution.",
+        "domPath": "h2#boost-your-image-quality-to-the-max-with-super-resolution > strong > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom/video-editing.html",
+        "text": "Video editing in Adobe Lightroom.",
+        "domPath": "h2#video-editing-in-adobe-lightroom > strong > a"
+      },
+      {
+        "href": "/products/photoshop-lightroom.html",
+        "text": "",
+        "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div > p:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud/business.html",
+        "text": "businesses",
+        "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div > div > p > a:nth-of-type(1)"
+      },
+      {
+        "href": "/creativecloud/buy/students.html",
+        "text": "students and teachers",
+        "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div > div > p > a:nth-of-type(2)"
+      },
+      {
+        "href": "/creativecloud/plans.html?plan=individual",
+        "text": "Buy now",
+        "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > div > div > p:nth-of-type(2) > a:nth-of-type(1)"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "Creative AI",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/creativecloud/photography/apps.html",
+        "text": "Photography",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/creativecloud/design.html",
+        "text": "Design and illustration",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/creativecloud/video.html",
+        "text": "Video and animation",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/acrobat.html",
+        "text": "PDF",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/products/substance3d.html",
+        "text": "3D",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/products/elements-family.html",
+        "text": "Elements Family",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/education.html",
+        "text": "Education",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/nonprofits.html",
+        "text": "Nonprofits",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/howtobuy/buying-programs/government.html",
+        "text": "Government",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/community.html",
+        "text": "Adobe Community",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/learn",
+        "text": "Adobe Learn",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/",
+        "text": "Chat with sales",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "/about-adobe.html",
+        "text": "About",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/careers.html",
+        "text": "Careers",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/events.html",
+        "text": "Events",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/corporate-responsibility.html",
+        "text": "Corporate responsibility",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/investor-relations.html",
+        "text": "Investor Relations",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "/corporate-responsibility/supply-chain.html",
+        "text": "Supply chain",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "/trust.html",
+        "text": "Trust Center",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(9) > a"
+      },
+      {
+        "href": "/about-adobe/integrity.html",
+        "text": "Integrity",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(10) > a"
+      },
+      {
+        "href": "/diversity.html",
+        "text": "Adobe for All",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(11) > a"
+      },
+      {
+        "href": "/products/firefly.html",
+        "text": "Firefly",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/express/?promoid=Z2G1FSYV&mv=other",
+        "text": "Adobe Express",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/products/photoshop/free-trial-download.html",
+        "text": "Photoshop",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/privacy.html",
+        "text": "Privacy",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "/legal/terms.html",
+        "text": "Terms of Use",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "/",
+        "text": "Cookie preferences",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "/privacy/location-specific-notice.html",
+        "text": "Do not sell or share my personal information",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "/privacy/opt-out.html",
+        "text": "AdChoices",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "/it/products/photoshop-lightroom/features.html",
+        "text": "Italia",
+        "domPath": "div#locale-modal-v2 > div:nth-of-type(1) > div > a:nth-of-type(1)"
+      }
+    ],
+    "external": [
+      {
+        "href": "https://stock.adobe.com/?as_channel=adobe_com&as_source=profile_menu&as_campclass=brand&as_campaign=may2017&as_audience=users&as_content=globalnav",
+        "text": "Adobe Stock\n      High-quality licensable assets",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(7) > a"
+      },
+      {
+        "href": "https://business.adobe.com/",
+        "text": "Marketing & Commerce",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/support.html",
+        "text": "Learn & Support",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://creativecloud.adobe.com/campaign/lightroom?workflow=launch&min-version=10.4&source=acom",
+        "text": "Update Lightroom",
+        "domPath": "main > div:nth-of-type(1) > div > div > div > div > p:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/lightroom-cc/user-guide.html",
+        "text": "View all features",
+        "domPath": "div#tab-panel-features-1 > div > div:nth-of-type(9) > div > div > a"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=7D31EB7B815967837F7882380437117D&cli=adobe_com&ctx=fp&co=US&lang=en",
+        "text": "Buy now",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(1) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/commitment?items%5B0%5D%5Bid%5D=C898A1A80AEB0D353C556FE5FCC72021&cli=adobe_com&ctx=fp&co=US&lang=en",
+        "text": "Free trial",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(1) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(2)"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/segmentation?cli=creative&ctx=if&co=US&lang=en&ms=COM&ot=BASE&cs=INDIVIDUAL&pa=ccsn_direct_individual&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+        "text": "Buy now",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(3) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(1)"
+      },
+      {
+        "href": "https://commerce.adobe.com/store/segmentation?cli=mini_plans&ctx=if&co=US&lang=en&ms=COM&ot=TRIAL&cs=INDIVIDUAL&pa=ccsn_direct_individual&rtc=t&lo=sl&af=uc_new_user_iframe%2Cuc_new_system_close",
+        "text": "Free trial",
+        "domPath": "div#tab-panel-mini-compare-1 > div > div:nth-of-type(3) > div > div > merch-card > div:nth-of-type(2) > p > a:nth-of-type(2)"
+      },
+      {
+        "href": "https://helpx.adobe.com/firefly/using/generative-credits.html",
+        "text": "generative credits",
+        "domPath": "ul#creative-cloud-pro-for-students-and-teachers-list > li:nth-of-type(4) > div > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/generative-credits-overview.html",
+        "text": "generative credits",
+        "domPath": "ul#lightroom-for-teams-list > li:nth-of-type(4) > div > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/lightroom-cc/using/whats-new.html",
+        "text": "What's new in Lightroom",
+        "domPath": "main > div:nth-of-type(6) > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div > a"
+      },
+      {
+        "href": "https://stock.adobe.com/",
+        "text": "Stock images and video",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > ul > li:nth-of-type(8) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/personalization-at-scale.html",
+        "text": "Personalization at scale",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/content-supply-chain.html",
+        "text": "Content supply chain",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/unified-customer-experience.html",
+        "text": "Unified customer experience",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/content-supply-chain/creation-production.html",
+        "text": "Creativity and production",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://business.adobe.com/solutions/b2b-marketing.html",
+        "text": "B2B GTM orchestration",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://business.adobe.com/products.html",
+        "text": "View all products",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/support.html",
+        "text": "Help Center",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://helpx.adobe.com/download-install.html",
+        "text": "Download and install",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://business.adobe.com/support/main.html",
+        "text": "Medium and large business support",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://business.adobe.com/request-consultation.html",
+        "text": "Request information",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div > div:nth-of-type(2) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://account.adobe.com/",
+        "text": "Log into your account",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://news.adobe.com/",
+        "text": "Newsroom",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://blog.adobe.com/",
+        "text": "Adobe Blog",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div > div:nth-of-type(2) > ul > li:nth-of-type(12) > a"
+      },
+      {
+        "href": "https://get.adobe.com/reader/",
+        "text": "Acrobat Reader",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.facebook.com/adobe",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.instagram.com/adobe/",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://twitter.com/Adobe",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.linkedin.com/company/adobe",
+        "text": "",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(4) > a"
+      }
+    ]
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://www.adobe.com/federal/assets/svgs/creative-cloud-40.svg",
+        "srcset": null,
+        "alt": "Adobe Creative Cloud",
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/globalnav/acom/fragments/promos/2026/americas/cc-pro-intro-us/media_13163512f79298e92f1524c391b110e1c66360ccb.jpg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/lightroom-40.svg",
+        "srcset": null,
+        "alt": "Adobe Lightroom",
+        "naturalWidth": 42,
+        "naturalHeight": 42,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1d888be39cd53f26760f073d5cb9de8cb4610ec8f.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 757,
+        "naturalHeight": 426,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1df5013bbed2535f6fbee7f0be4c51e739300cf9a.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 757,
+        "naturalHeight": 426,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_152f2658b7b433e95c880d33d8958982bdc5589fd.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 757,
+        "naturalHeight": 426,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1f68a1d453a8f6c91a36a665b085350abd5ce8821.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 757,
+        "naturalHeight": 426,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_142f2c1eee2529c8e2cabda14a44ab2a090c2b3fe.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1e9e5cdd6a797a61b16d34deb398fc144a6e7659b.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1c57d0ab831a103f60f0713c4e0ecc7736f9d407c.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_194c055d0adf45f75ee8bb1240e1201296631df9d.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_16867ccda5873e021074d48423e1dfc2936d9a158.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1194a4b6303f58a9c7e36fb7a9fd6f34315418e7f.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1000f59c281f8ec971ca8c91030f0190850c1a35f.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1e3f72da6ef69e16737d1558193fc4e89169d7d73.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1f4486acc082750b1716087c5504283caa3893b88.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1de3d360549bf0ae2957466f83e76082a18c09b20.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_16c758e08001f839d3f516b7c2a3a39b784414760.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_103adbb5df64955a41f7b15579bccb6bcbe83f17a.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_19595a16f7850a762e6ea6db33c1bbf5998e9b48b.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1e3ebcec7a5a31ad52a06720eb48c56e399e10f8c.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1a5101af8c8cf431f63e38f1093ee1b7626e72243.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1e4a4cf51ba7092c695d3224636ee3f258d87c735.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_13f4166fb7ab661e2e415b67741e81cd81ed231b0.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_17c3df1c1798c4f05719665c27fee7df584676e62.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 758,
+        "naturalHeight": 454,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1ccdb54a7017b72a0482852bcdaea59687679ca40.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1c1af65de760238da0b70cc1fd3459ce5793bad44.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1193848383a445f6d83af8ae161ca3c3beac73646.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1a9e4247ff62aa5b6548639bba04f48bbd2781194.png?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Inserting image...",
+        "naturalWidth": 756,
+        "naturalHeight": 452,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/plans-icons/svg/checkmark-20.svg",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 20,
+        "naturalHeight": 20,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1bf1422b2b10c2e1fb06fc7eb98f2748b8fc6742b.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "Lightroom on a laptop and phone",
+        "naturalWidth": 180,
+        "naturalHeight": 260,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_1a0bbef17db71e830646b8710f6b865888918d6f5.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "A collage of images",
+        "naturalWidth": 180,
+        "naturalHeight": 260,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_183a09a45d41befbbfe545e47d9a299984b401df7.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "A close up image of a couple holding hands",
+        "naturalWidth": 180,
+        "naturalHeight": 260,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_154acef0d402868a135a1bdc14e70c8eb66fe1350.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "A close up of a photo editing on a phone",
+        "naturalWidth": 180,
+        "naturalHeight": 260,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_111723f271680da445a6d570a0531a7db41f66a90.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "A dog laying in a field",
+        "naturalWidth": 180,
+        "naturalHeight": 260,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/fragments/products/photoshop-lightroom/features/media_19e5a1c03005c47fb2d55f518fa12af910ea37549.jpg?width=2000&format=webply&optimize=medium",
+        "srcset": null,
+        "alt": "A spread of food on a table",
+        "naturalWidth": 180,
+        "naturalHeight": 260,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/cc-shared/assets/img/product-icons/svg/lightroom.svg",
+        "srcset": null,
+        "alt": "Lightroom Icon",
+        "naturalWidth": 240,
+        "naturalHeight": 240,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_13514981498f3fa40f16d4005bc5604b3030e8b4b.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_15856c21886cb3333ec5b6b02c8f4d08627ad59fe.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_187073d53c6db77acad4d7d8d1909fb04cc9cb071.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/federal/footer/fragments/media_1af87c70b29a2210b320389840ec88bb257b44572.png",
+        "srcset": null,
+        "alt": null,
+        "naturalWidth": 51,
+        "naturalHeight": 50,
+        "localPath": null
+      },
+      {
+        "src": "https://www.adobe.com/libs/img/georouting/flag-it.svg",
+        "srcset": null,
+        "alt": "Italia",
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "localPath": null
+      }
+    ],
+    "inlineSvgs": [
+      {
+        "viewBox": "0 0 64.57 35",
+        "domPath": "svg#Layer_1",
+        "markupHash": "sha256:f1dbed68c21a8d99"
+      },
+      {
+        "viewBox": "0 0 18 18",
+        "domPath": "div#feds-popup-1 > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > a > svg",
+        "markupHash": "sha256:18ec7968ffe3df53"
+      },
+      {
+        "viewBox": "0 0 20 20",
+        "domPath": "div#unav-app-switcher > svg",
+        "markupHash": "sha256:0747f47fdd59c4ca"
+      },
+      {
+        "viewBox": "0 0 11 5",
+        "domPath": "div#unav-app-switcher > div > div:nth-of-type(1) > svg",
+        "markupHash": "sha256:7c6de12b25c76b3c"
+      },
+      {
+        "viewBox": "0 0 18 18",
+        "domPath": "svg#open-in",
+        "markupHash": "sha256:18ec7968ffe3df53"
+      },
+      {
+        "viewBox": "0 0 8 14",
+        "domPath": "div#tabs-features > button:nth-of-type(1) > svg",
+        "markupHash": "sha256:549f181a0174ef2a"
+      },
+      {
+        "viewBox": "0 0 8 14",
+        "domPath": "div#tabs-features > button:nth-of-type(2) > svg",
+        "markupHash": "sha256:549f181a0174ef2a"
+      },
+      {
+        "viewBox": "0 0 20 20",
+        "domPath": "main > div:nth-of-type(8) > div:nth-of-type(1) > button > svg",
+        "markupHash": "sha256:0747f47fdd59c4ca"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(1) > svg",
+        "markupHash": "sha256:297b3d2aaa7e0379"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div > a > svg",
+        "markupHash": "sha256:04ec84f86fd9d56b"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a > svg",
+        "markupHash": "sha256:b6880f7a9ba8df46"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(2) > a > svg",
+        "markupHash": "sha256:3b66fc1abf15dff2"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(3) > a > svg",
+        "markupHash": "sha256:8835a8824322139e"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul > li:nth-of-type(4) > a > svg",
+        "markupHash": "sha256:69951a6faebd6dad"
+      },
+      {
+        "viewBox": "0 0 179.35 46.86",
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > span > span > svg",
+        "markupHash": "sha256:5083f0d2da3293fe"
+      },
+      {
+        "viewBox": null,
+        "domPath": "footer > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > ul > li:nth-of-type(6) > a > svg",
+        "markupHash": "sha256:010aea10b699e2ab"
+      },
+      {
+        "viewBox": "0 0 20 20",
+        "domPath": "div#locale-modal-v2 > button > svg",
+        "markupHash": "sha256:0747f47fdd59c4ca"
+      }
+    ],
+    "cssBackgrounds": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://commerce.adobe.com/store/iframe/preload-optimized.html",
+        "title": null
+      }
+    ]
+  },
+  "forms": [],
+  "widgets": {
+    "modals": [
+      {
+        "trigger": null,
+        "domPath": "div#unav-app-switcher-dialog-id"
+      },
+      {
+        "trigger": null,
+        "domPath": "div#locale-modal-v2"
+      }
+    ],
+    "accordions": [],
+    "tabs": [
+      {
+        "domPath": "div#tabs-features > div:nth-of-type(1)",
+        "tabCount": 5
+      },
+      {
+        "domPath": "div#tabs-mini-compare > div:nth-of-type(1) > div",
+        "tabCount": 3
+      }
+    ]
+  },
+  "components": {
+    "cards": {
+      "count": 46,
+      "examples": [
+        ".tabpanel.badge-merch-cards",
+        ".section.xl-spacing"
+      ]
+    },
+    "grids": {
+      "count": 147,
+      "examples": [
+        ".media-row",
+        ".media-row"
+      ]
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 4,
+      "examples": [
+        ".tabs.quiet",
+        ".tabList"
+      ]
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 2,
+      "examples": [
+        ".unav-comp-app-switcher-popover",
+        ".dialog-modal.locale-modal-v2"
+      ]
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 1,
+      "examples": [
+        "iframe"
+      ]
+    },
+    "dataVizEmbeds": {
+      "count": 9,
+      "examples": [
+        ".section.xl-spacing",
+        ".merch-card.mini-compare-chart"
+      ]
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 3,
+      "examples": [
+        ".global-navigation.has-breadcrumbs",
+        ".feds-breadcrumbs-wrapper"
+      ]
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "main > div:nth-of-type(1)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(2)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(3)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(4)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(5)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(6)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(7)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main > div:nth-of-type(8)",
+      "purpose": "cta-band",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(44, 44, 44)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "\"Adobe Clean\", adobe-clean, \"Trebuchet MS\", sans-serif"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [
+    {
+      "name": "--global-height-nav",
+      "value": "64px"
+    },
+    {
+      "name": "--feds-height-nav",
+      "value": "63px"
+    },
+    {
+      "name": "--global-height-breadcrumbs",
+      "value": "33px"
+    },
+    {
+      "name": "--scroll-padding-block",
+      "value": "0"
+    },
+    {
+      "name": "--global-height-navPromo",
+      "value": "72px"
+    },
+    {
+      "name": "--feds-totalheight-nav",
+      "value": "calc(63px + 33px)"
+    },
+    {
+      "name": "--feds-localnav-height",
+      "value": "40px"
+    },
+    {
+      "name": "--feds-language-banner-height",
+      "value": "44px"
+    },
+    {
+      "name": "--link-color",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--link-hover-color",
+      "value": "rgb(29, 62, 207)"
+    },
+    {
+      "name": "--link-color-dark",
+      "value": "rgb(59, 99, 251)"
+    },
+    {
+      "name": "--link-hover-color-dark",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--background-color",
+      "value": "#fff"
+    },
+    {
+      "name": "--overlay-background-color",
+      "value": "#ffffff20"
+    },
+    {
+      "name": "--highlight-background-color",
+      "value": "#ffffff40"
+    },
+    {
+      "name": "--text-color",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--color-white",
+      "value": "#FFF"
+    },
+    {
+      "name": "--color-gray-100",
+      "value": "#F8F8F8"
+    },
+    {
+      "name": "--color-gray-200",
+      "value": "#E8E8E8"
+    },
+    {
+      "name": "--color-gray-300",
+      "value": "#D4D4D4"
+    },
+    {
+      "name": "--color-gray-400",
+      "value": "#B6B6B6"
+    },
+    {
+      "name": "--color-gray-500",
+      "value": "#909090"
+    },
+    {
+      "name": "--color-gray-600",
+      "value": "#686868"
+    },
+    {
+      "name": "--color-gray-700",
+      "value": "#444"
+    },
+    {
+      "name": "--color-gray-800",
+      "value": "#242424"
+    },
+    {
+      "name": "--color-black",
+      "value": "#000"
+    },
+    {
+      "name": "--color-brand-title",
+      "value": "#000B1D"
+    },
+    {
+      "name": "--color-accent",
+      "value": "rgb(59, 99, 251)"
+    },
+    {
+      "name": "--color-accent-hover",
+      "value": "rgb(39, 77, 234)"
+    },
+    {
+      "name": "--color-accent-down",
+      "value": "#095aba"
+    },
+    {
+      "name": "--color-accent-focus-ring",
+      "value": "#378ef0"
+    },
+    {
+      "name": "--color-info-accent",
+      "value": "#5C5CE0"
+    },
+    {
+      "name": "--color-info-accent-hover",
+      "value": "#4646C6"
+    },
+    {
+      "name": "--color-info-accent-down",
+      "value": "#3D3DB4"
+    },
+    {
+      "name": "--color-info-accent-light",
+      "value": "#DEDEF9"
+    },
+    {
+      "name": "--body-font-family",
+      "value": "'Adobe Clean', adobe-clean, 'Trebuchet MS', sans-serif"
+    },
+    {
+      "name": "--fixed-font-family",
+      "value": "'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace"
+    },
+    {
+      "name": "--spacing-xxs",
+      "value": "8px"
+    },
+    {
+      "name": "--spacing-xs",
+      "value": "16px"
+    },
+    {
+      "name": "--spacing-s",
+      "value": "24px"
+    },
+    {
+      "name": "--spacing-m",
+      "value": "32px"
+    },
+    {
+      "name": "--spacing-l",
+      "value": "40px"
+    },
+    {
+      "name": "--spacing-xl",
+      "value": "56px"
+    },
+    {
+      "name": "--spacing-xxl",
+      "value": "80px"
+    },
+    {
+      "name": "--spacing-xxxl",
+      "value": "104px"
+    },
+    {
+      "name": "--spacing-l-static",
+      "value": "48px"
+    },
+    {
+      "name": "--spacing-xl-static",
+      "value": "56px"
+    },
+    {
+      "name": "--spacing-xxl-static",
+      "value": "80px"
+    },
+    {
+      "name": "--spacing-xxxl-static",
+      "value": "104px"
+    },
+    {
+      "name": "--type-heading-all-weight",
+      "value": "700"
+    },
+    {
+      "name": "--type-heading-xxxl-size",
+      "value": "calc(1 * 80px)"
+    },
+    {
+      "name": "--type-heading-xxxl-lh",
+      "value": "88px"
+    },
+    {
+      "name": "--type-heading-xxl-size",
+      "value": "calc(1 * 44px)"
+    },
+    {
+      "name": "--type-heading-xxl-lh",
+      "value": "55px"
+    },
+    {
+      "name": "--type-heading-xl-size",
+      "value": "calc(1 * 36px)"
+    },
+    {
+      "name": "--type-heading-xl-lh",
+      "value": "45px"
+    },
+    {
+      "name": "--type-heading-l-size",
+      "value": "calc(1 * 28px)"
+    },
+    {
+      "name": "--type-heading-l-lh",
+      "value": "35px"
+    },
+    {
+      "name": "--type-heading-m-size",
+      "value": "calc(1 * 24px)"
+    },
+    {
+      "name": "--type-heading-m-lh",
+      "value": "30px"
+    },
+    {
+      "name": "--type-heading-s-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-heading-s-lh",
+      "value": "25px"
+    },
+    {
+      "name": "--type-heading-xs-size",
+      "value": "calc(1 * 18px)"
+    },
+    {
+      "name": "--type-heading-xs-lh",
+      "value": "22.5px"
+    },
+    {
+      "name": "--type-heading-xxs-size",
+      "value": "11px"
+    },
+    {
+      "name": "--type-heading-xxs-lh",
+      "value": "18px"
+    },
+    {
+      "name": "--type-heading-base-lh",
+      "value": "1.2"
+    },
+    {
+      "name": "--type-body-xxl-size",
+      "value": "calc(1 * 28px)"
+    },
+    {
+      "name": "--type-body-xxl-lh",
+      "value": "42px"
+    },
+    {
+      "name": "--type-body-xl-size",
+      "value": "calc(1 * 22px)"
+    },
+    {
+      "name": "--type-body-xl-lh",
+      "value": "33px"
+    },
+    {
+      "name": "--type-body-l-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-body-l-lh",
+      "value": "30px"
+    },
+    {
+      "name": "--type-body-m-size",
+      "value": "calc(1 * 18px)"
+    },
+    {
+      "name": "--type-body-m-lh",
+      "value": "27px"
+    },
+    {
+      "name": "--type-body-s-size",
+      "value": "calc(1 * 16px)"
+    },
+    {
+      "name": "--type-body-s-lh",
+      "value": "24px"
+    },
+    {
+      "name": "--type-body-xs-size",
+      "value": "calc(1 * 14px)"
+    },
+    {
+      "name": "--type-body-xs-lh",
+      "value": "21px"
+    },
+    {
+      "name": "--type-body-xxs-size",
+      "value": "calc(1 * 12px)"
+    },
+    {
+      "name": "--type-body-xxs-lh",
+      "value": "18px"
+    },
+    {
+      "name": "--type-detail-all-weight",
+      "value": "700"
+    },
+    {
+      "name": "--type-detail-all-transform",
+      "value": "uppercase"
+    },
+    {
+      "name": "--type-detail-xl-size",
+      "value": "calc(1 * 20px)"
+    },
+    {
+      "name": "--type-detail-xl-lh",
+      "value": "25px"
+    },
+    {
+      "name": "--type-detail-l-size",
+      "value": "calc(1 * 16px)"
+    },
+    {
+      "name": "--type-detail-l-lh",
+      "value": "20px"
+    },
+    {
+      "name": "--type-detail-m-size",
+      "value": "calc(1 * 12px)"
+    },
+    {
+      "name": "--type-detail-m-lh",
+      "value": "15px"
+    },
+    {
+      "name": "--type-detail-s-size",
+      "value": "calc(1 * 10px)"
+    },
+    {
+      "name": "--type-detail-s-lh",
+      "value": "12px"
+    },
+    {
+      "name": "--grid-container-width",
+      "value": "1200px"
+    },
+    {
+      "name": "--grid-column-width",
+      "value": "calc(1200px / 12)"
+    },
+    {
+      "name": "--grid-margins-width",
+      "value": "calc((100% - 1200px) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-10",
+      "value": "calc((100vw - (calc(1200px / 12) * 10)) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-8",
+      "value": "calc((100vw - (calc(1200px / 12) * 8)) / 2)"
+    },
+    {
+      "name": "--grid-margins-width-6",
+      "value": "calc((100vw - (calc(1200px / 12) * 6)) / 2)"
+    },
+    {
+      "name": "--aspect-ratio-square",
+      "value": "1/1"
+    },
+    {
+      "name": "--aspect-ratio-standard",
+      "value": "4/3"
+    },
+    {
+      "name": "--aspect-ratio-wide",
+      "value": "16/9"
+    },
+    {
+      "name": "--aspect-ratio-tall",
+      "value": "9/16"
+    },
+    {
+      "name": "--icon-size-xxl",
+      "value": "80px"
+    },
+    {
+      "name": "--icon-size-xl",
+      "value": "64px"
+    },
+    {
+      "name": "--icon-size-l",
+      "value": "56px"
+    },
+    {
+      "name": "--icon-size-m",
+      "value": "40px"
+    },
+    {
+      "name": "--icon-size-s",
+      "value": "32px"
+    },
+    {
+      "name": "--icon-size-xs",
+      "value": "24px"
+    },
+    {
+      "name": "--icon-size-xxs",
+      "value": "16px"
+    },
+    {
+      "name": "--type-lockup-all-weight",
+      "value": "700"
+    },
+    {
+      "name": "--type-lockup-xxl-size",
+      "value": "55px"
+    },
+    {
+      "name": "--type-lockup-xxl-ls",
+      "value": "-0.01em"
+    },
+    {
+      "name": "--type-lockup-xl-size",
+      "value": "44px"
+    },
+    {
+      "name": "--type-lockup-xl-ls",
+      "value": "-0.01em"
+    },
+    {
+      "name": "--type-lockup-l-size",
+      "value": "38px"
+    },
+    {
+      "name": "--type-lockup-l-ls",
+      "value": "-0.01em"
+    },
+    {
+      "name": "--type-lockup-m-size",
+      "value": "27px"
+    },
+    {
+      "name": "--type-lockup-m-ls",
+      "value": "-0.02em"
+    },
+    {
+      "name": "--type-lockup-s-size",
+      "value": "22px"
+    },
+    {
+      "name": "--type-lockup-s-ls",
+      "value": "-0.02em"
+    },
+    {
+      "name": "--type-lockup-xs-size",
+      "value": "16px"
+    },
+    {
+      "name": "--type-lockup-xs-ls",
+      "value": "0"
+    },
+    {
+      "name": "--type-lockup-xxs-size",
+      "value": "11px"
+    },
+    {
+      "name": "--type-lockup-xxs-ls",
+      "value": "-0.01em"
+    },
+    {
+      "name": "--avatar-size-xxl",
+      "value": "80px"
+    },
+    {
+      "name": "--avatar-size-xl",
+      "value": "64px"
+    },
+    {
+      "name": "--avatar-size-l",
+      "value": "56px"
+    },
+    {
+      "name": "--feds-maxWidth-nav",
+      "value": "1440px"
+    },
+    {
+      "name": "--feds-minWidth-menu",
+      "value": "1200px"
+    },
+    {
+      "name": "--feds-height-breadcrumbs",
+      "value": "33px"
+    },
+    {
+      "name": "--feds-gutter",
+      "value": "8px"
+    },
+    {
+      "name": "--feds-background-nav",
+      "value": "#f8f8f8"
+    },
+    {
+      "name": "--feds-background-popup",
+      "value": "#f3f3f3"
+    },
+    {
+      "name": "--feds-background-promo",
+      "value": "#fff"
+    },
+    {
+      "name": "--feds-background-promo--dark",
+      "value": "#000"
+    },
+    {
+      "name": "--feds-borderColor",
+      "value": "#eaeaea"
+    },
+    {
+      "name": "--feds-borderColor-menu",
+      "value": "#e1e1e1"
+    },
+    {
+      "name": "--feds-borderColor-navLink",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--feds-color-adobeBrand",
+      "value": "#eb1000"
+    },
+    {
+      "name": "--feds-color-headline",
+      "value": "#505050"
+    },
+    {
+      "name": "--feds-color-hamburger",
+      "value": "#2d2d2d"
+    },
+    {
+      "name": "--feds-color-breadcrumbs--current",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--feds-color-signIn",
+      "value": "#4b4b4b"
+    },
+    {
+      "name": "--feds-radius-utilityIcon",
+      "value": "4px"
+    },
+    {
+      "name": "--feds-background-link--hover",
+      "value": "#e9e9e9"
+    },
+    {
+      "name": "--feds-borderColor-link",
+      "value": "#e9e9e9"
+    },
+    {
+      "name": "--feds-color-link",
+      "value": "#292929"
+    },
+    {
+      "name": "--feds-color-blue-link",
+      "value": "#274dea"
+    },
+    {
+      "name": "--feds-color-link--hover",
+      "value": "#1d3ecf"
+    },
+    {
+      "name": "--feds-color-link-dark",
+      "value": "#DBDBDB"
+    },
+    {
+      "name": "--feds-borderColor-link-dark",
+      "value": "#393939"
+    },
+    {
+      "name": "--feds-color-navLink-description",
+      "value": "#505050"
+    },
+    {
+      "name": "--feds-color-link-breadcrumbs",
+      "value": "#707070"
+    },
+    {
+      "name": "--feds-cta-primary-bg",
+      "value": "#3b63fb"
+    },
+    {
+      "name": "--feds-cta-primary-bg--hover",
+      "value": "#274dea"
+    },
+    {
+      "name": "--feds-background-footer",
+      "value": "#fafafa"
+    },
+    {
+      "name": "--feds-borderColor-featuredProducts",
+      "value": "#999"
+    },
+    {
+      "name": "--feds-gutter-footer",
+      "value": "32px"
+    },
+    {
+      "name": "--feds-color-white-v2",
+      "value": "#fff"
+    },
+    {
+      "name": "--feds-color-black-v2",
+      "value": "#000"
+    },
+    {
+      "name": "--feds-background-cloudmenu-v2",
+      "value": "#111"
+    },
+    {
+      "name": "--feds-borderColor-link-v2",
+      "value": "#eaeaea"
+    },
+    {
+      "name": "--feds-backgroundColor-tabs-v2",
+      "value": "#f8f8f8"
+    },
+    {
+      "name": "--feds-backgroundColor-tabContent-v2",
+      "value": "#f3f3f3"
+    },
+    {
+      "name": "--feds-borderColor-localnav-v2",
+      "value": "#eee"
+    },
+    {
+      "name": "--app-banner-height",
+      "value": "76px"
+    },
+    {
+      "name": "--feds-skeleton-color-1",
+      "value": "#D3D3D3"
+    },
+    {
+      "name": "--feds-skeleton-color-2",
+      "value": "#EAEAEA"
+    },
+    {
+      "name": "--feds-skeleton-color-3",
+      "value": "#D3D3D3"
+    },
+    {
+      "name": "--feds-skeleton-opacity",
+      "value": "0.7"
+    },
+    {
+      "name": "--tabs-active-color",
+      "value": "#1473e6"
+    },
+    {
+      "name": "--tabs-border-color",
+      "value": "#909090"
+    },
+    {
+      "name": "--tabs-border-hover-color",
+      "value": "#acacac"
+    },
+    {
+      "name": "--tabs-text-color",
+      "value": "#686868"
+    },
+    {
+      "name": "--tabs-active-text-color",
+      "value": "#2c2c2c"
+    },
+    {
+      "name": "--tabs-bg-color",
+      "value": "#f1f1f1"
+    },
+    {
+      "name": "--tabs-active-bg-color",
+      "value": "#fff"
+    },
+    {
+      "name": "--tabs-list-bg-gradient",
+      "value": "linear-gradient(\n    to bottom, \n    rgba(136, 136, 136, 0) 0%,\n    rgba(136, 136, 136, 0) 60%,\n    rgba(136, 136, 136, 0.03) 80%,\n    rgba(136, 136, 136, 0.08) 100%\n  )"
+    },
+    {
+      "name": "--tabs-mobile-stacked-bg-color",
+      "value": "#242424"
+    },
+    {
+      "name": "--tabs-mobile-stacked-text-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--tabs-pill-bg-color",
+      "value": "#292929"
+    },
+    {
+      "name": "--tabs-pill-bg-color-hover",
+      "value": "#e1e1e1"
+    },
+    {
+      "name": "--tabs-pill-bg-focus",
+      "value": "#505050"
+    },
+    {
+      "name": "--tabs-pill-bg-color-active",
+      "value": "#505050"
+    },
+    {
+      "name": "--tabs-pill-text-focus-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--tabs-pill-text-color",
+      "value": "#505050"
+    },
+    {
+      "name": "--tabs-pill-text-selected-color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "--tabs-paddle-bs-color",
+      "value": "#0000001a"
+    },
+    {
+      "name": "--tabs-radio-gray",
+      "value": "#6d6d6d"
+    },
+    {
+      "name": "--tabs-radio-blue",
+      "value": "#0265dc"
+    },
+    {
+      "name": "--tabs-radio-bg",
+      "value": "#fff"
+    },
+    {
+      "name": "--tabs-radio-button-bg",
+      "value": "#fdfdfd"
+    },
+    {
+      "name": "--m-rounded-corners-tabs",
+      "value": "8px"
+    },
+    {
+      "name": "--s-rounded-corners",
+      "value": "4px"
+    },
+    {
+      "name": "--m-rounded-corners",
+      "value": "8px"
+    },
+    {
+      "name": "--l-rounded-corners",
+      "value": "16px"
+    },
+    {
+      "name": "--full-rounded-corners",
+      "value": "50%"
+    },
+    {
+      "name": "--modal-focus-color",
+      "value": "#109cde"
+    },
+    {
+      "name": "--modal-max-height",
+      "value": "calc((100vh - 6px) - 2em)"
+    },
+    {
+      "name": "--modal-max-height-mobile",
+      "value": "calc((100% - 6px) - 2em)"
+    },
+    {
+      "name": "--modal-z-index",
+      "value": "102"
+    },
+    {
+      "name": "--modal-z-index-curtain",
+      "value": "101"
+    }
+  ],
+  "screenshot": "stardust/current/assets/screenshots/products-photoshop-lightroom-features.png",
+  "stats": {
+    "wordCount": 772,
+    "ctaCount": 26,
+    "internalLinkCount": 75,
+    "externalLinkCount": 31,
+    "imageCount": 79
+  }
+}

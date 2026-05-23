@@ -1,0 +1,9 @@
+{
+  "samples": [
+    {
+      "url": "https://www.adobe.com/upp-shared/fragments/tests/2026/q2/ace1201/sr-homepage",
+      "label": "sr-homepage",
+      "notes": "Adobe internal fragment, candidate stardust-redesign homepage (sr- prefix). Fetch HTML + screenshot during distillation."
+    }
+  ]
+}
