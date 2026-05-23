@@ -274,3 +274,91 @@ $stardust prototype home --variant F    # render home-F-proposed.html
 ```
 
 Recommended: render F on home, compare against A/B/C, then decide whether to keep the 4-variant fork or drop a weaker variant.
+
+---
+
+## Variant B3 (added 2026-05-23 via `--add-variant B3`)
+
+**Role:** *Surface fork of B — Maximal cinema (loud register).*
+
+**Parent variant:** B (scroll cinema). **Inheritance chain:** B3 → B → A.
+
+**Non-canonical pattern note:** B3 is a *surface fork of B's scroll-cinema role*, not a distinct captured-trait amplification. Officially, surface forks (A1/A2/A3) live under `ia-fidelity: verbatim`, and we're in `reimagined`. B3 is documented here as parent-direction tuning — same captured trait as B, intensified delivery across the 6 surface axes.
+
+**Captured trait:** inherited from B — samples' `bizpro-hub.html § hero-scroll` choreography vocabulary. B3 doesn't introduce a new captured trait; it tunes B's louder.
+
+**Brand-personality move:** "Adobe's full motion bench, on every primary surface." If B is *motion cinema deployed at sample-fidelity*, B3 is *motion cinema with every dial turned up that can be turned up without breaking the brand*.
+
+### Surface-fork tunings vs B
+
+| Axis | B (inherited from A) | B3 override |
+|---|---|---|
+| type-weight | 900/700/400 | + 700 on body H3s (heavier) |
+| type-scale ratio | A's clamp() ≈ 1.43 | **perfect-fifth 1.5** |
+| density | balanced 64px desktop | **packed 48px desktop** |
+| motion energy | 3 choreographies + CSS + wipe | **5 choreographies** (cap override) |
+| color temperature | neutral | **warm-leaning** |
+| spacing rhythm | standard | **compact** (gridGap 16→8, card padding 24→20) |
+
+### New choreographies (B3-specific)
+
+On top of B's 3:
+- **featured-products-parallax** — featured-products section media translates at 60% scroll velocity (vs container at 100%). Creates depth.
+- **news-scroll-scrub-3-stage** — in-the-news grid items reveal at rawP 0.2 / 0.5 / 0.8 within section scroll. Wider stagger than the universal anim-enter; each item carries more weight.
+
+### Cap override
+
+`DESIGN-B.md § Rules`'s **≤3 choreographed sequences per page** is overridden to **≤5** for B3 specifically. Justified by the load-bearing thesis (maximal cinema). Risk: motion fatigue.
+
+### Inheritance from B (and transitively A)
+
+| Field | Status |
+|---|---|
+| Palette | inherit-as-is (Mode A pin via A) |
+| Typography family | inherit-as-is (Mode A pin via A) |
+| Typography scale-ratio | B3 OVERRIDES to perfect-fifth 1.5 |
+| Typography weights | inherit + B3 adds 700 on body H3s |
+| Rounded radii | inherit-as-is |
+| Spacing base + scale | inherit; B3 OVERRIDES sectionPadding to packed 48/36/24 |
+| Improvements floor | inherit-as-is (all 5 of A's improvements applied) |
+| IA-priority audit | inherit-as-is (cannot opt out under Mode A) |
+| Brand-faithful inversions | inherit B's 3 (no new B3 inversions) |
+| Motion stack | inherit B's Lenis + rAF + CSS view-block + B3 ADDS parallax-host + scroll-scrub-host |
+| systemComponentRoles | inherit-as-is |
+
+### Risk notes
+
+1. **Motion fatigue.** 5 concurrent rAF loops + CSS view-block animations per page. Approaches the ceiling of intentional vs overstimulating. Verify with `prefers-reduced-motion` + low-end devices.
+2. **Layout shift propagation.** With 5 motion-coupled elements, any image lazy-load that shifts heights disrupts all 5 timings. Mitigations: explicit `aspect-ratio`, eager LCP, `font-display: swap` with `size-adjust`.
+3. **Attention budget.** Below-fold saturation works when the marketing message *is* density-as-creativity; risks reading as overstimulation otherwise.
+
+### Variant differentiation contract
+
+| Pair | Pass? |
+|---|---|
+| B3↔A | ≥2 ✓ (motion saturation, density, type-scale) |
+| B3↔B | surface-fork pair — by design B3 ≈ B + intensified tunings; not a structural delta |
+| B3↔C | ≥2 ✓ (motion-led vs photo-led; scroll vs hover; section sequence overlap but motion pattern differs) |
+| B3↔F | ≥2 ✓ (no AI gradient affordance; no dark substrate reservation; motion-led vs chromatic-led) |
+
+B3 is intentionally close to B on structural axes (it IS B's surface fork). Differentiates clearly from A/C/F.
+
+### Anti-toolbox audit (B3-specific)
+
+- **`B-but-more`** — checked. B3 is technically "B but more" on motion-energy axis. Permitted here because B3 is documented as surface fork (intensified same-trait), not C+ (distinct trait). The C-cliff rule applies to C+ siblings, not surface forks of B.
+- **`motion-as-personality`** — fired-with-explicit-acknowledgement. B3's thesis IS motion saturation. The ≤5 cap and risk notes are the acknowledgement.
+- **`padding-as-personality`** — clear. 48px sits inside multi-audience hard floor [40, 64].
+
+### Outputs
+
+- `DESIGN-B3.md` + `DESIGN-B3.json` (this variant)
+- `direction.md` — appended this section
+- `stardust/state.json` — `direction.variants[].B3` added; pages NOT stale-flagged (add-variant is additive)
+
+### Next (variant B3)
+
+```
+$stardust prototype home --variant B3    # render home-B3-proposed.html
+```
+
+Recommended: render B3 on home alongside B1 (already in `home-B`). Compare B's calm vs B3's loud to test the motion-saturation thesis. Or batch B1/B2/B3/B4/B5 promotions as a follow-up.

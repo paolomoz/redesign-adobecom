@@ -1,0 +1,192 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct --add-variant B3",
+    "writtenAt": "2026-05-23T19:00:00-07:00",
+    "readArtifacts": [
+      "DESIGN-B.json",
+      "DESIGN-A.json",
+      "stardust/current/_brand-extraction.json",
+      "stardust/direction.md",
+      "stardust/prototypes/b-directions-B1-B5.html"
+    ],
+    "stardustVersion": "0.7.1",
+    "schemaVersion": 2,
+    "variant": "B3",
+    "variantRole": "Surface fork of B — Maximal cinema (loud register)",
+    "variantThesis": "Adobe's full motion bench, on every primary surface. Same captured trait as B (scroll choreography), intensified across all 6 surface axes.",
+    "mode": "A",
+    "parentVariant": "B",
+    "inheritsFrom": "DESIGN-B.json (which inherits DESIGN-A.json)",
+    "non-canonical-pattern": "B3 is a surface fork of B (motion+density+scale tunings of B's scroll-cinema role), not a distinct captured-trait amplification. Officially surface forks are A1/A2/A3 under verbatim ia-fidelity, and we're reimagined. Documented here as parent-direction-tuning, not a new role."
+  },
+
+  "_inherit": {
+    "from": "DESIGN-B.json",
+    "transitive": "DESIGN-A.json",
+    "fields": [
+      "colors",
+      "typography.headingFamily",
+      "typography.bodyFamily",
+      "typography.monoFamily",
+      "typography.weights (with B3 additions)",
+      "rounded",
+      "extensions.colorMeta",
+      "extensions.typographyMeta",
+      "extensions.shadows",
+      "extensions.breakpoints",
+      "extensions.componentStyle.buttons",
+      "extensions.componentStyle.cards",
+      "extensions.componentStyle.cardsNested",
+      "extensions.componentStyle.inputs",
+      "extensions.systemComponentRoles",
+      "extensions.iaPriorities",
+      "extensions.divergence.mode",
+      "extensions.divergence.font_deck",
+      "extensions.divergence.palette",
+      "extensions.divergence.brand_faithful_inversions",
+      "extensions.motion (Lenis stack, mandatory)"
+    ]
+  },
+
+  "typography": {
+    "_inherit": "DESIGN-B.json#typography → DESIGN-A.json#typography",
+    "_b3-overrides": {
+      "scaleAudit": {
+        "kind": "modular",
+        "ratios": [1.5],
+        "matchedScale": "perfect-fifth",
+        "rationale": "B3 amplifies type-scale energy. Perfect-fifth (1.5) is the loudest canonical scale; gives B3 a recognisable louder rhythm vs B's A-inherited clamp ratio ~1.43."
+      },
+      "scale": {
+        "title-1": { "size": "clamp(48px, 8vw, 108px)", "lineHeight": "0.90", "letterSpacing": "-3.5px", "weight": 900 },
+        "title-2": { "size": "clamp(36px, 5.33vw, 72px)", "lineHeight": "0.95", "letterSpacing": "-2.4px", "weight": 900 },
+        "title-3": { "size": "clamp(28px, 3.55vw, 48px)", "lineHeight": "1.05", "letterSpacing": "-1.2px", "weight": 900 },
+        "title-4": { "size": "32px", "lineHeight": "1.0", "letterSpacing": "-0.64px", "weight": 900, "_b3-note": "bumped from A's 24px to 32px to maintain perfect-fifth proportion vs t3" }
+      },
+      "body-h3-weight": 700,
+      "_note": "title-1 max 108px at extreme viewport (vs B/A's 80px). title-4 bumped to 32px to keep ratio. body H3s at 700 (vs A's 400) for heavier register."
+    }
+  },
+
+  "spacing": {
+    "_inherit": "DESIGN-B.json#spacing → DESIGN-A.json#spacing (8pt base scale)",
+    "_b3-overrides": {
+      "sectionPadding": {
+        "desktop": "48px",
+        "tablet": "36px",
+        "mobile": "24px"
+      },
+      "densityTier": "packed",
+      "gridGap": "8px",
+      "gridGapMd": "8px",
+      "_note": "packed tier — multi-audience hard floor is ≤64px desktop, ≥40px floor. 48px sits inside the band. compact rhythm."
+    },
+    "_hard-floor-check": "Multi-audience trigger fires (>2 audience tracks per IA-priority audit). Hard floor: sectionPadding.desktop ∈ [40, 64]. B3's 48px clears."
+  },
+
+  "components": [
+    { "name": "parallax-host", "treatment": "ds-parallax-host — rAF-driven translate", "css": ".ds-parallax-host { position: relative; overflow: hidden; will-change: transform; } /* JS: rAF computes progress = clamp((vh - rect.top) / (vh + rect.height), 0, 1); childEl.style.transform = translateY((progress - 0.5) * rect.height * 0.4) */", "reservation": "Featured-products section + similar full-bleed photographic media on B3 only" },
+    { "name": "scroll-scrub-host", "treatment": "ds-scroll-scrub-host — 3-stage staggered scroll-fade", "css": ".ds-scroll-scrub-host { } .ds-scroll-scrub-item { opacity: 0; transform: translateY(24px); will-change: opacity, transform; } /* JS: for each item i, p = clamp((progress - stages[i]) / 0.15, 0, 1); el.style.opacity = p; el.style.transform = translateY((1-p) * 24px) */", "reservation": "news section's 3-up grid on B3; pattern extensible to any N-item grid where staged reveal makes sense" }
+  ],
+
+  "extensions": {
+    "motion": {
+      "_inherit": "DESIGN-B.json#extensions.motion (Lenis 1.x mandatory, baseline)",
+      "_b3-overrides": {
+        "choreographyCount": 5,
+        "choreographyCap": "B3-specific: ≤5 (vs B's ≤3)",
+        "newChoreographies": [
+          {
+            "id": "featured-products-parallax",
+            "trigger": "section enters viewport",
+            "mode": "rAF reading window.__lenis.scroll",
+            "math": "rate = 0.6; progress = clamp((vh - rect.top) / (vh + rect.height), 0, 1); mediaEl.transform = translateY((progress - 0.5) * rect.height * (1 - rate))",
+            "reducedMotion": "disabled, media at default position"
+          },
+          {
+            "id": "news-scroll-scrub-3-stage",
+            "trigger": "section enters viewport",
+            "mode": "rAF reading window.__lenis.scroll",
+            "math": "stages = [0.2, 0.5, 0.8]; progress = clamp((sY - newsTop + vh) / (vh + newsH), 0, 1); per item i: p = clamp((progress - stages[i]) / 0.15, 0, 1); opacity = p; translateY = (1-p) * 24px",
+            "reducedMotion": "disabled, items at default visible state"
+          }
+        ]
+      },
+      "_risk-notes": [
+        "Motion fatigue at 5 concurrent rAF loops + CSS view-block animations. Verify on low-end devices.",
+        "Layout shift propagation: any lazy-load that shifts heights will disrupt 5 timings simultaneously. Mitigations: explicit aspect-ratio + eager LCP + font-display swap with size-adjust."
+      ]
+    },
+
+    "divergence": {
+      "schemaVersion": 2,
+      "mode": "A",
+      "parentVariant": "B",
+      "amplifiedTrait": "B3 inherits B's amplified-trait (scroll-driven choreography from samples' bizpro-hub) and intensifies its delivery across surface axes. Same captured trait, louder register.",
+      "surfaceForkAxes": [
+        { "axis": "type-weight", "delta": "+1 weight on body H3s (700 vs B's 400)" },
+        { "axis": "type-scale", "delta": "perfect-fifth 1.5 (vs B's A-inherited ≈1.43 clamp)" },
+        { "axis": "density", "delta": "packed 48px desktop (vs B's balanced 64px)" },
+        { "axis": "motion-energy", "delta": "5 choreographies (vs B's 3) — cap override" },
+        { "axis": "color-temperature", "delta": "warm-leaning placeholder tints (vs B's neutral)" },
+        { "axis": "spacing-rhythm", "delta": "compact (gridGap 16→8, card padding 24→20)" }
+      ],
+      "brand_faithful_inversions": "inherits-from-B (which inherits from A's 3: pure-surfaces / glassmorphism-nav / hex-not-OKLCH). B3 adds 0 new inversions.",
+      "antiToolboxAudit": {
+        "ran": true,
+        "guards": [
+          { "name": "B-but-more", "fired": "checked-and-cleared", "rationale": "B3 IS technically 'B but more' on motion-energy. The pattern is permitted here because B3 is documented as a surface fork (same captured-trait, intensified delivery), not a C+ slot (different captured-trait amplification). The C-cliff rule applies to C/D/E+ siblings under reimagined; B3 sits in a separate sub-variant lineage under B." },
+          { "name": "motion-as-personality (overuse)", "fired": "checked-with-explicit-acknowledgement", "rationale": "B3's thesis IS motion saturation. The cap raised from B's ≤3 to ≤5 is the explicit acknowledgement. Risk notes document the motion-fatigue tradeoff." },
+          { "name": "padding-as-personality", "fired": false, "rationale": "B3's 48px is inside the multi-audience hard floor [40, 64]. Packed tier is a tuning, not personality." }
+        ]
+      }
+    },
+
+    "iaPriorities": "inherits-from-B (5 priorities, all movable under reimagined). B3 cannot opt out per Mode A.",
+
+    "voice": {
+      "examples": {
+        "do": [
+          "Display headlines at clamp(48, 8vw, 108) — B3's hero claims more screen weight than A/B.",
+          "Below-fold sections each get a motion treatment (parallax on featured / 3-stage scrub on news).",
+          "Body H3s set at weight 700 — heavier register matches the loud surface."
+        ],
+        "dont": [
+          "Adding a 6th rAF choreography — cap is ≤5 even in B3.",
+          "Below-fold sections without motion — B3's saturation is the thesis.",
+          "Below-fold animations slower than easeOut3 — B3's pacing is reactive, not editorial."
+        ]
+      }
+    }
+  },
+
+  "narrative": {
+    "northStar": "Adobe's full motion bench, on every primary surface. Same scroll-cinema thesis as B, intensified across type-scale, density, motion count, color temperature, and spacing rhythm.",
+    "overview": "Surface fork of B. Inherits B → A's complete token stack (palette, type family, IA-priority audit, brand-faithful inversions). Variant-local overrides: perfect-fifth type scale (loudest canonical ratio), 700-weight body H3s, packed 48px section padding, 5 choreographies including new featured-products-parallax and news-scroll-scrub-3-stage. Cap override on B's ≤3-choreography rule, raised to ≤5 for B3 only.",
+    "keyCharacteristics": [
+      "Same captured trait as B (scroll choreography), louder register.",
+      "Perfect-fifth type scale, packed density, compact spacing — loud surface.",
+      "5 choreographies — B's 3 + parallax + 3-stage scrub.",
+      "Warm-leaning placeholder tints (amber/orange emphasis).",
+      "Body H3s pick up to weight 700.",
+      "Below-fold saturation — every section gets a motion treatment.",
+      "Title-1 reaches 108px at extreme viewport (loudest display)."
+    ],
+    "rules": "inherits-from-B + cap-override-≤5-choreographies + below-fold-must-carry-motion + compact-rhythm-enforced + warm-leaning-placeholders + perfect-fifth-type-scale + body-H3-700",
+    "dos": [
+      "Featured imagery parallax (60% scroll velocity).",
+      "News grid 3-stage scrub (0.2 / 0.5 / 0.8).",
+      "Title-1 at perfect-fifth scale.",
+      "Body H3s at 700.",
+      "Section padding 48px desktop.",
+      "Warm-leaning placeholder gradients."
+    ],
+    "donts": [
+      "Sixth rAF choreography (cap stays ≤5).",
+      "Calm below-fold (saturation is the thesis).",
+      "Calm/cool placeholder gradients (warm-leaning is the temperature).",
+      "Title-1 below 80px max (perfect-fifth scale is the rule).",
+      "Section padding above 56px desktop (compact stays compact)."
+    ]
+  }
+}

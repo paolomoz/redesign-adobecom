@@ -524,3 +524,39 @@ Next: $stardust prototype home --variant A
 - Strongest candidates by character: **B1** is the safest first promotion (formalises current `home-B` as canonical); **B5** is the strongest companion to D (Editorial Long-form) from the D-M gallery; **B4** is technically interesting but fragile (coordination math); **B3** is high-risk-high-reward; **B2** is the calm option.
 
 **Next:** Review the B1-B5 gallery. Pick one or more to promote, OR continue with another direction.
+
+---
+
+## 2026-05-23T19:00:00-07:00 — `/stardust:direct --add-variant B3` (Loud/maximal cinema)
+
+**Prompt:** User invoked `/stardust:direct --add-variant B3`.
+
+**Decisions:**
+- Resolved B3's role as **Surface fork of B — Maximal cinema (loud register)**. Non-canonical pattern: officially surface forks (A1/A2/A3) live under `ia-fidelity: verbatim`, and we're in `reimagined`. Documented B3 as parent-direction tuning explicitly — same captured trait as B (scroll cinema), intensified delivery across 6 surface axes.
+- Inheritance chain: **B3 → B → A**. B3 inherits B's complete token + motion stack + IA-priority audit + 3 brand-faithful inversions. B3 adds zero new inversions.
+- **Surface-fork tunings vs B:** type-weight (+1 on body H3s to 700), type-scale (perfect-fifth 1.5 vs A-clamp), density (packed 48px vs balanced 64px), motion-energy (5 choreographies vs 3 — cap override), color-temperature (warm-leaning), spacing-rhythm (compact).
+- **Cap override:** DESIGN-B's "≤3 choreographed sequences per page" rule overridden to **≤5** for B3 specifically. Justified by the load-bearing thesis (maximal cinema). Risk-notes section documents the motion-fatigue tradeoff.
+- **2 new choreographies added on top of B's 3:**
+  - `featured-products-parallax` — featured-products media translates at 60% scroll velocity (vs container 100%). rAF-driven, reads window.__lenis.scroll.
+  - `news-scroll-scrub-3-stage` — news grid items reveal at rawP 0.2/0.5/0.8 within section scroll. Wider stagger than universal anim-enter.
+- **Variant differentiation contract** verified: B3 ≥2 deltas vs A (saturation, density, type-scale), vs C (motion-led vs photo-led), vs F (no AI gradient, no dark substrate reservation). B3↔B is a surface-fork pair by design (B3 ≈ B + intensified tunings).
+- **Anti-toolbox audit** with explicit acknowledgement: `B-but-more` checked and permitted (B3 is a surface fork, not a C+ slot — C-cliff applies to C+ siblings); `motion-as-personality` fired with cap-override + risk-notes as acknowledgement; `padding-as-personality` clear (48px sits inside multi-audience hard floor).
+- Authored `DESIGN-B3.md` + `DESIGN-B3.json` (schemaVersion 2, schemaVersion 2 sidecar with parent-inheritance docs).
+- Appended `## Variant B3` section to `stardust/direction.md` with full role + tunings + risk notes + variant differentiation contract.
+- Updated `stardust/state.json#direction.variants[].B3` with id + role + designMd + designJson + parentVariant + inheritanceChain + patternNote + surfaceForkDeltas + addedVia + addedAt. Pages NOT stale-flagged (additive).
+
+**Findings worth flagging:**
+1. **B3's pattern challenge:** stardust's spec officially handles surface forks (A1/A2/A3) under verbatim ia-fidelity and role-differentiated variants (A/B/C/D+) under reimagined. B3 is a hybrid — surface fork of B under reimagined fidelity. The spec doesn't explicitly cover this case; documented B3 as parent-direction tuning to handle. If future iterations of stardust formalize a B1/B2/B3 sub-variant pattern under reimagined, B3 would fit cleanly.
+2. **Motion-fatigue risk** is documented but not yet validated. Render the prototype to test — `prefers-reduced-motion` users + low-end device profiles should clear before B3 ships.
+3. **Cap overrides need consensus.** B3 raises the choreography cap from 3 to 5. If B4 (Architectural) and B5 (Editorial pace) also need cap or other rule overrides when promoted, document a consistent override convention so the parent DESIGN-B.md rules don't drift unintentionally.
+
+**Artifacts touched:**
+- `DESIGN-B3.md` + `DESIGN-B3.json` — created
+- `stardust/direction.md` — appended `## Variant B3` section
+- `stardust/state.json` — direction.variants[].B3 added (5 variants total now: A, B, C, F, B3)
+
+**Open questions:**
+- Promote B3 to a full prototype: `/stardust:prototype home --variant B3` (next step).
+- Whether to formalize B1/B2/B4/B5 as siblings of B3 (--add-variant B1, --add-variant B2, etc.) or leave them as gallery sketches.
+
+**Next:** `/stardust:prototype home --variant B3` to render `home-B3-proposed.html` (full prototype with shape brief + Discipline 9 gates).

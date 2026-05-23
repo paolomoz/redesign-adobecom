@@ -48,6 +48,18 @@
         "amplifiedTrait": "samples' .merch-card__addon AI gradient lockup (linear-gradient(135deg, #8D88F2, #EB1000)) elevated to ambient AI affordance system with reservation discipline",
         "addedVia": "--add-variant F",
         "addedAt": "2026-05-23T16:00:00-07:00"
+      },
+      {
+        "id": "B3",
+        "role": "Surface fork of B — Maximal cinema (loud register)",
+        "designMd": "DESIGN-B3.md",
+        "designJson": "DESIGN-B3.json",
+        "parentVariant": "B",
+        "inheritanceChain": "B3 → B → A",
+        "patternNote": "Surface fork of B's scroll-cinema role — same captured trait, intensified across 6 surface axes (type-weight, type-scale, density, motion-energy, color-temperature, spacing-rhythm). Non-canonical pattern: surface forks are officially A1/A2/A3 under verbatim; B3 lives in reimagined as parent-direction tuning.",
+        "surfaceForkDeltas": ["type-weight: +1 on body H3s (700)", "type-scale: perfect-fifth 1.5", "density: packed 48px", "motion-energy: 5 choreographies (cap override)", "color-temp: warm-leaning", "spacing-rhythm: compact"],
+        "addedVia": "--add-variant B3",
+        "addedAt": "2026-05-23T19:00:00-07:00"
       }
     ]
   },
