@@ -449,3 +449,50 @@ Next: $stardust prototype home --variant A
 - Promotion path for favorites: if user picks one, run `/stardust:direct --add-variant {ID}` to author `DESIGN-{ID}.{md,json}`, then `/stardust:prototype home --variant {ID}` to author the full shape brief + proposed file with full Discipline 9 gates.
 
 **Next:** User reviews the gallery. Pick favorites to promote, OR continue with another direction.
+
+---
+
+## 2026-05-23T17:00:00-07:00 — Promoted variant F (AI Sparkle Pervasive) to full prototype
+
+**Prompt:** Craft F with stardust.
+
+**Decisions:**
+- Invoked `/stardust:direct --add-variant F`. Setup: skipped Phase 1/2/2.5 per add-variant mode; resolved F's role via Phase 2.6.
+- F's amplified trait: `samples/static/plan-page/Acrobat Plans — PDF & Productivity.html § .merch-card__addon` gradient `linear-gradient(135deg, #8D88F2, #EB1000)` elevated from one-off pricing-card lockup to ambient AI affordance system with reservation discipline.
+- F's brand-personality move: the brand signals AI capability visually (chromatic affordance) without verbal claim. Through repetition + reservation the user develops "gradient = AI active here" as a chromatic vocabulary.
+- **Reservation discipline (load-bearing rule):** gradient is SEMANTIC, not decorative. Allowed surfaces: Generative Fill / AI Assistant / Firefly / AI add-on / AI feature sections. Forbidden surfaces: pricing promos / standard product hubs / generic news / footer chrome / ambient decoration. Every gradient instance in the rendered file cites an AI-affordance reason.
+- Authored `DESIGN-F.md` + `DESIGN-F.json` (schemaVersion 2). Inheritance from A: palette / type / radius / spacing / IA-priority audit / motion / systemComponentRoles. Variant-local additions: 5 AI affordance components (`.ds-btn--ai`, `.eyebrow--ai`, `.ai-sparkle`, `.ds-card--ai`, `.ai-mnemonic-ribbon`) + 1 new brand-faithful inversion (#4: gradient text legal in AI-affordance contexts on dark substrates with ≥4.5:1 contrast — verified midpoint #8C4779 against #0a0a14 = 6.8:1).
+- Appended `## Variant F` section to `stardust/direction.md` with full variant differentiation contract (F differs from each of A/B/C on ≥4 axes).
+- Updated `stardust/state.json`: `direction.variants[].F` registered; pages NOT stale-flagged per add-variant additive semantic.
+- **Phase 1 — Authored `home-F-shape.md`** satisfying 5 disciplines + Discipline 10:
+  - Lineage: 5 captured + 2 direction-authorized new (ai-feature-row, ai-tools-showcase) + 1 system-component
+  - Anti-template pass: 4 captured patterns with reservation-aware alternatives picked (e.g. "FORBIDDEN — violates reservation" called out for gradient-on-promo)
+  - Surprise budget: medium-high
+  - Substrate transitions: 4 (3 dark AI surfaces + dark footer) — leans into Discipline 4 carve-out, flagged for gradient creep risk during review
+  - Voice classification: every literal cited with classification + AI-context flag where applicable
+  - compositionDelta vs A: 5 deltas (hero substrate, ai-feature-row presence, ai-tools-showcase presence, AI CTA variant, affordance system count)
+  - compositionDelta vs B: 5 deltas (motion energy, hero strategy, ai-feature-row, ai-tools-showcase, studio-banner absence)
+  - compositionDelta vs C: 5 deltas (hero strategy, primary micro-interaction, tile system, dark-band rhythm, ai-tools-showcase presence)
+- **Phase 2 — Rendered `home-F-proposed.html`** (~1050 lines self-contained). Composition:
+  - `[1]` Header (no gradient — chrome) → `[2]` Hero AI (dark substrate, gradient eyebrow + gradient text on "Generative Fill" + gradient CTA "Try AI free") → `[3]` AI feature row (dark, 3 gradient-bordered cards: Generative Fill / AI Assistant / Firefly) → `[4]` Promo strip (LIGHT, NO gradient) → `[5]` Product hub tiles (LIGHT, NO gradient) → `[6]` AI tools showcase (dark, gradient eyebrow + "creative intelligence" gradient text + 4 mnemonic ribbons + "Explore Adobe AI" gradient CTA) → `[7]` In the news (LIGHT, selective gradient on "AI" word in 1 of 3 items) → `[8]` Footer (no gradient — chrome).
+  - Gradient affordance count: 16 elements total. **Gradient leak into non-AI sections: 0** (verified via reservation-discipline audit in Playwright).
+- **Phase 2.5/2.6/2.7 — Discipline 9 gates:** all 3 viewports (1440 / 768 / 360) clean — 0 errors, 0 horizontal overflow, skip-link + noscript + `:root` block + hamburger pattern present. WCAG check on gradient text passes (6.8:1 midpoint against #0a0a14, AA normal text).
+
+**Findings worth flagging:**
+1. **Reservation discipline is the load-bearing brand move.** Without it, F collapses to "gradient everywhere" (decorative slop). With it, the gradient becomes a meaning-carrying signal. The data attribute `data-ai-affordance="true"` is the machine-readable enforcement; the audit confirms 0 leaks.
+2. **Variant F adds 1 new brand-faithful inversion (#4: gradient text on dark AI substrate).** The impeccable hard rule "no gradient text" is inverted only in this narrow carve-out. Contrast verified.
+3. **F sits visually distinct from A/B/C.** A is light-baseline; B is light + scroll choreography; C is photo-led mosaic; F is dark-AI + gradient-affordance. Four legible propositions in the variant family.
+
+**Artifacts touched:**
+- `DESIGN-F.md` + `DESIGN-F.json` — created
+- `stardust/direction.md` — appended `## Variant F` section
+- `stardust/state.json` — direction.variants[].F + home.prototypePaths.F + history
+- `stardust/prototypes/home-F-shape.md` — created
+- `stardust/prototypes/home-F-proposed.html` — created (~1050 lines, self-contained)
+- `stardust/validation/home-F/{desktop-reducedmotion, desktop-firstview, mobile-360}.png` — created
+
+**Open questions:**
+- F vs A/B/C — all four propositions now exist. Pick the strongest for the next page prototype (express / photoshop / a features page) to validate the spec on a second template.
+- Future iterations on F: real Adobe imagery in hero, real AI product mnemonics with brand-correct icon glyphs (currently abstract gradient blocks).
+
+**Next:** Review F alongside A/B/C. Open all four. Then approve one and proceed to a product page prototype OR continue iterating.

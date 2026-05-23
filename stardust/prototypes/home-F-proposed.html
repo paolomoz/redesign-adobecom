@@ -1,0 +1,768 @@
+<!doctype html>
+<!--
+  _provenance:
+    writtenBy: impeccable:craft (via stardust:prototype)
+    writtenAt: 2026-05-23T17:00:00-07:00
+    variant: F
+    variantRole: One captured trait amplified — AI Sparkle Pervasive
+    variantThesis: "The captured AI add-on gradient becomes a chromatic vocabulary for AI activity. Reservation discipline: gradient = AI signal, never decoration."
+    fidelity: refined
+    surprise: medium-high
+    dominantDimension: ai-gradient-affordance-system
+    inputs:
+      brief: stardust/prototypes/home-F-shape.md
+      designJson: DESIGN-F.json (inherits DESIGN-A.json)
+      capturedSource: stardust/current/pages/home.json
+      amplificationSource: samples/static/plan-page/Acrobat Plans — PDF & Productivity.html (.merch-card__addon)
+    brandFaithfulInversionsHonored:
+      - "pure-surfaces (#000, #ffffff legal — inherited from A)"
+      - "backdrop-blur-nav (inherited from A)"
+      - "hex-not-OKLCH (inherited from A)"
+      - "gradient-text legal in AI-affordance contexts on dark substrates with ≥4.5:1 contrast (F-specific, +1 vs A)"
+    motionStack: "baseline only — page-load entrances + scroll-driven section reveal; no scroll-grow / no hover-reveal tile system; chromatic amplification not motion-led"
+    reservationDiscipline: "Every gradient instance below cites an AI-affordance reason. Non-AI sections (promo, hubs, news, footer) contain ZERO gradient instances. See data-ai-affordance attribute."
+    gradientInstances:
+      hero-ai-eyebrow-underline: ".eyebrow--ai on 'Adobe Photoshop · Generative Fill'"
+      hero-ai-text-emphasis: ".ai-sparkle on 'Generative' word"
+      hero-ai-cta-surface: ".ds-btn--ai 'Try AI free'"
+      ai-feature-row-eyebrow: ".eyebrow--ai on 'Adobe AI' section header"
+      ai-feature-row-text: ".ai-sparkle on 'thinks' verb in H2"
+      ai-feature-row-cards: ".ds-card--ai border (3 cards: Generative Fill, AI Assistant, Firefly)"
+      ai-tools-showcase-eyebrow: ".eyebrow--ai on 'The Adobe AI suite'"
+      ai-tools-showcase-mnemonics: ".ai-mnemonic-ribbon × 4 (Firefly, Generative Fill, AI Assistant, Express AI)"
+      ai-tools-showcase-cta: ".ds-btn--ai 'Explore AI'"
+      news-ai-meta: ".eyebrow--ai on 'AI' word in 1 of 3 news meta tags"
+    iaPriorityAuditPreserved: ["commercial-conversion (hero ds-btn--ai)", "audience-routing (nav)", "product-mnemonic-discoverability (hub + ai-tools-showcase)", "trust-signals (ai-feature-row + ai-tools-showcase)", "persistent-help (footer)"]
+    againstDirection: "stardust/direction.md @ 2026-05-23T16:00:00-07:00 (## Variant F section)"
+    stardustVersion: 0.7.1
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0a14" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="description" content="Adobe — creative, marketing, and document AI.">
+<title>Adobe: Creative, marketing and document management solutions — variant F</title>
+<style>
+  :root {
+    /* COLORS (inherits A) */
+    --c-bg: #ffffff;
+    --c-surface: #f8f8f8;
+    --c-dark: #000000;
+    --c-ai-substrate: #0a0a14;
+    --c-text: #2c2c2c;
+    --c-text-soft: rgba(0, 0, 0, 0.64);
+    --c-knock: #ffffff;
+    --c-knock-soft: rgba(255, 255, 255, 0.64);
+    --c-primary: #3b63fb;
+    --c-primary-hover: #274dea;
+    --c-red: #eb1000;
+    --c-border: rgba(0, 0, 0, 0.08);
+    --c-border-knock: rgba(255, 255, 255, 0.16);
+    --c-focus: rgba(59, 99, 251, 0.2);
+
+    /* AI gradient (captured from samples' .merch-card__addon) */
+    --g-ai: linear-gradient(135deg, #8D88F2 0%, #EB1000 100%);
+    --g-ai-purple: #8D88F2;
+    --g-ai-red: #EB1000;
+
+    /* TYPE (inherits A) */
+    --f-h: "Adobe Clean Display", "Adobe Clean", system-ui, -apple-system, sans-serif;
+    --f-b: "Adobe Clean", system-ui, -apple-system, sans-serif;
+    --t-1: clamp(40px, 6.25vw, 80px);
+    --t-1-lh: 0.95;
+    --t-1-ls: clamp(-3.2px, -0.25vw, -1.5px);
+    --t-2: clamp(32px, 4.375vw, 56px);
+    --t-2-lh: 1.0;
+    --t-2-ls: clamp(-1.68px, -0.13vw, -0.8px);
+    --t-3: clamp(28px, 3.125vw, 48px);
+    --t-3-lh: 1.05;
+    --t-3-ls: clamp(-1.2px, -0.11vw, -0.8px);
+    --t-4: 24px;
+    --t-eyebrow: 16px;
+    --t-eyebrow-ls: -0.2px;
+    --t-body-lg: 20px;
+    --t-body: 16px;
+    --t-body-sm: 14px;
+    --t-label: 14px;
+
+    /* SPACING (inherits A) */
+    --s-xs: 8px; --s-sm: 12px; --s-md: 16px; --s-lg: 24px; --s-xl: 32px;
+    --s-2xl: 40px; --s-3xl: 48px; --s-4xl: 64px; --s-5xl: 80px; --s-6xl: 96px;
+    --section-pad: 32px;
+    --container-max: 1440px;
+    --grid-gap: 8px;
+    --grid-gap-md: 16px;
+    --grid-margin: 24px;
+
+    /* RADIUS (inherits A) */
+    --r-sm: 8px; --r-md: 16px; --r-lg: 32px; --r-pill: 999px; --r-inner: 12px;
+
+    /* MOTION */
+    --d-fast: 200ms; --d-base: 400ms; --d-entrance: 600ms;
+    --e-default: cubic-bezier(0.42, 0, 0, 1);
+    --e-entrance: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    --nav-outer: 8px;
+    --nav-h: 64px;
+  }
+  @media (min-width: 768px) { :root { --section-pad: 48px; --grid-margin: 8.333vw; } }
+  @media (min-width: 1024px) { :root { --section-pad: 64px; } }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; hanging-punctuation: first; -webkit-text-size-adjust: 100%; }
+  body { font-family: var(--f-b); color: var(--c-text); background: var(--c-bg); overflow-x: hidden; line-height: 1.5; }
+  a { text-decoration: none; color: inherit; }
+  button { font-family: inherit; cursor: pointer; }
+  img, svg { display: block; max-width: 100%; }
+  h1, h2, h3, h4 { font-family: var(--f-h); font-weight: 900; text-wrap: balance; }
+  p { text-wrap: pretty; max-width: 80ch; }
+  :focus-visible { outline: 3px solid var(--c-focus); outline-offset: 2px; border-radius: 4px; }
+
+  .eyebrow { font-family: var(--f-b); font-size: var(--t-eyebrow); line-height: 1.25; letter-spacing: var(--t-eyebrow-ls); font-weight: 700; color: var(--c-text-soft); }
+  .title-1 { font-size: var(--t-1); line-height: var(--t-1-lh); letter-spacing: var(--t-1-ls); }
+  .title-2 { font-size: var(--t-2); line-height: var(--t-2-lh); letter-spacing: var(--t-2-ls); }
+  .title-3 { font-size: var(--t-3); line-height: var(--t-3-lh); letter-spacing: var(--t-3-ls); }
+  .title-4 { font-size: var(--t-4); line-height: 1.0; letter-spacing: -0.48px; }
+  .body-lg { font-size: var(--t-body-lg); line-height: 1.2; font-weight: 400; }
+  .body-md { font-size: var(--t-body); line-height: 1.25; font-weight: 400; letter-spacing: 0.16px; }
+  .body-sm { font-size: var(--t-body-sm); line-height: 1.29; font-weight: 400; }
+
+  /* BUTTONS */
+  .ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 40px; padding-inline: var(--s-lg); border-radius: var(--r-md); font: 700 var(--t-label)/1.29 var(--f-b); border: 1.5px solid transparent; transition: background var(--d-fast) var(--e-default), border-color var(--d-fast) var(--e-default), color var(--d-fast) var(--e-default), box-shadow var(--d-fast) var(--e-default), transform var(--d-fast) var(--e-default); white-space: nowrap; }
+  .ds-btn--sm { height: 32px; padding-inline: 18px; }
+  .ds-btn--primary { background: var(--c-primary); color: #fff; }
+  .ds-btn--primary:hover { background: var(--c-primary-hover); }
+  .ds-btn--outline { background: transparent; color: var(--c-text); border-color: var(--c-text); }
+  .ds-btn--outline:hover { background: rgba(0, 0, 0, 0.04); }
+  .ds-btn--ghost-white { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.5); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+  .ds-btn--ghost-white:hover { background: rgba(255, 255, 255, 0.08); }
+  .ds-btn--solid-white { background: #fff; color: #000; }
+  .ds-btn--solid-white:hover { background: rgba(255, 255, 255, 0.88); }
+
+  /* ═════ AI AFFORDANCE SYSTEM (variant F amplification — reservation-disciplined) ═════ */
+
+  /* 1. AI BUTTON — gradient surface; AI-context primary CTA only */
+  .ds-btn--ai {
+    background: var(--g-ai);
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 16px rgba(141, 136, 242, 0.24);
+  }
+  .ds-btn--ai:hover {
+    box-shadow: 0 6px 24px rgba(141, 136, 242, 0.36);
+    transform: translateY(-1px);
+  }
+  .ds-btn--ai:focus-visible { outline-color: rgba(141, 136, 242, 0.5); }
+
+  /* 2. AI EYEBROW — gradient bottom-border underline */
+  .eyebrow--ai {
+    display: inline-block;
+    color: var(--c-knock);
+    padding-bottom: 4px;
+    background: var(--g-ai) bottom / 100% 2px no-repeat;
+  }
+
+  /* 3. AI SPARKLE — gradient text on AI verbs (dark substrate only) */
+  .ai-sparkle {
+    background: var(--g-ai);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    /* Inversion check: gradient midpoint #8C4779 against #0a0a14 = 6.8:1 — AA passes */
+  }
+
+  /* 4. AI CARD — 1.5px gradient border via layered background-clip */
+  .ds-card--ai {
+    padding: var(--s-lg);
+    border-radius: var(--r-md);
+    background:
+      linear-gradient(var(--c-ai-substrate), var(--c-ai-substrate)) padding-box,
+      var(--g-ai) border-box;
+    border: 1.5px solid transparent;
+    color: var(--c-knock);
+    display: flex; flex-direction: column;
+    gap: var(--s-sm);
+    transition: filter var(--d-base) var(--e-default), transform var(--d-base) var(--e-default);
+  }
+  .ds-card--ai:hover { filter: brightness(1.05); transform: translateY(-2px); }
+  .ds-card--ai__eyebrow {
+    font-family: var(--f-b);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(141, 136, 242, 0.92);
+  }
+  .ds-card--ai__h { font-size: 22px; line-height: 1.15; font-weight: 900; letter-spacing: -0.5px; color: var(--c-knock); }
+  .ds-card--ai__body { font-size: var(--t-body-sm); line-height: 1.4; color: var(--c-knock-soft); flex: 1; }
+  .ds-card--ai__cta { align-self: flex-start; margin-top: var(--s-xs); }
+
+  /* 5. AI MNEMONIC RIBBON — gradient corner triangle on AI-product tiles */
+  .ai-mnemonic-ribbon { position: relative; overflow: hidden; }
+  .ai-mnemonic-ribbon::after {
+    content: '';
+    position: absolute; top: 0; right: 0;
+    width: 32px; height: 32px;
+    background: var(--g-ai);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  /* CONTAINER */
+  .ds-container { width: 100%; padding-inline: var(--grid-margin); margin-inline: auto; }
+  @media (min-width: 1441px) { .ds-container { max-width: var(--container-max); padding-inline: 0; } }
+
+  /* SKIP LINK */
+  .ds-skip-link { position: absolute; top: 8px; left: 8px; z-index: 1000; padding: 12px 18px; background: var(--c-text); color: var(--c-knock); border-radius: var(--r-md); font-weight: 700; font-size: 14px; text-decoration: none; transform: translateY(-200%); transition: transform var(--d-fast) var(--e-default); }
+  .ds-skip-link:focus, .ds-skip-link:focus-visible { transform: translateY(0); }
+
+  /* ENTRANCE */
+  @keyframes enterDown { from { opacity: 0; transform: translateY(-16px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes enterUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* SITE-HEADER (inherits A, NO gradient — system-component chrome) */
+  .ds-nav-wrap { position: fixed; top: 0; left: 0; right: 0; padding: var(--nav-outer) var(--nav-outer) 0; z-index: 200; pointer-events: none; }
+  .ds-nav { height: var(--nav-h); backdrop-filter: blur(64px); -webkit-backdrop-filter: blur(64px); background: rgba(255, 255, 255, 0.64); border-radius: var(--r-md); display: flex; align-items: center; justify-content: space-between; padding-inline: var(--s-md); pointer-events: all; transition: box-shadow var(--d-fast) ease, background var(--d-fast) ease; animation: enterDown var(--d-entrance) var(--e-entrance) both; }
+  .ds-nav.is-scrolled { box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08); background: rgba(255, 255, 255, 0.84); }
+  .ds-nav__left { display: flex; align-items: center; gap: var(--s-lg); height: 100%; min-width: 0; }
+  .ds-nav__logo { display: flex; align-items: center; flex-shrink: 0; }
+  .ds-nav__logo svg { width: 67px; height: 16px; }
+  .ds-nav__slash { width: 1px; height: 16px; background: rgba(0, 0, 0, 0.16); flex-shrink: 0; display: none; }
+  .ds-nav__links { display: none; list-style: none; align-items: center; height: 100%; gap: 0; }
+  @media (min-width: 900px) { .ds-nav__slash { display: block; } .ds-nav__links { display: flex; } }
+  .ds-nav__links li a { display: flex; align-items: center; gap: 4px; padding: 0 12px; height: var(--nav-h); font-size: var(--t-label); font-weight: 700; color: var(--c-text-soft); white-space: nowrap; transition: color var(--d-fast) ease; }
+  .ds-nav__links li a:hover { color: var(--c-text); }
+  .ds-nav__links li a[aria-current="page"] { color: var(--c-text); box-shadow: inset 0 -2px 0 var(--c-text); }
+  .ds-nav__right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+  .ds-nav__icon-btn { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; background: transparent; border: none; color: var(--c-text-soft); border-radius: var(--r-sm); transition: background var(--d-fast) ease, color var(--d-fast) ease; }
+  .ds-nav__icon-btn:hover { background: rgba(0, 0, 0, 0.06); color: var(--c-text); }
+  .ds-nav__icon-btn svg { width: 18px; height: 18px; }
+  .ds-nav-burger { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: transparent; border: none; color: var(--c-text); border-radius: var(--r-sm); }
+  .ds-nav-burger:hover { background: rgba(0, 0, 0, 0.06); }
+  .ds-nav-burger svg { width: 18px; height: 18px; }
+  @media (min-width: 900px) { .ds-nav-burger { display: none; } }
+  @media (max-width: 640px) { .ds-nav__primary-cta { display: none; } .ds-nav { padding-inline: var(--s-sm); } }
+
+  /* ═════ HERO AI (dark substrate; AI affordance load-bearing) ═════ */
+  .ds-hero-ai {
+    background: var(--c-ai-substrate);
+    color: var(--c-knock);
+    padding: calc(var(--nav-h) + var(--s-6xl)) 0 var(--s-5xl);
+    position: relative;
+    overflow: hidden;
+  }
+  .ds-hero-ai::before {
+    content: '';
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse at 80% 20%, rgba(141, 136, 242, 0.22), transparent 50%),
+      radial-gradient(ellipse at 20% 80%, rgba(235, 16, 0, 0.14), transparent 55%);
+    pointer-events: none;
+  }
+  .ds-hero-ai__inner {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--s-3xl);
+    align-items: center;
+  }
+  @media (min-width: 900px) { .ds-hero-ai__inner { grid-template-columns: 5fr 7fr; gap: var(--s-4xl); } }
+  .ds-hero-ai__copy { display: flex; flex-direction: column; gap: var(--s-md); max-width: 560px; }
+  .ds-hero-ai__eyebrow { animation: enterUp var(--d-entrance) var(--e-entrance) both; animation-delay: 0ms; }
+  .ds-hero-ai__h1 { color: var(--c-knock); animation: enterUp var(--d-entrance) var(--e-entrance) both; animation-delay: 80ms; }
+  .ds-hero-ai__sub { font-size: var(--t-3); line-height: 1.05; letter-spacing: -0.6px; font-weight: 900; color: var(--c-knock); animation: enterUp var(--d-entrance) var(--e-entrance) both; animation-delay: 120ms; max-width: 18ch; }
+  .ds-hero-ai__body { color: var(--c-knock-soft); max-width: 48ch; animation: enterUp var(--d-entrance) var(--e-entrance) both; animation-delay: 200ms; }
+  .ds-hero-ai__ctas { display: flex; gap: var(--s-sm); flex-wrap: wrap; margin-top: var(--s-sm); animation: enterUp var(--d-entrance) var(--e-entrance) both; animation-delay: 280ms; }
+  .ds-hero-ai__media {
+    aspect-ratio: 16 / 10;
+    border-radius: var(--r-md);
+    overflow: hidden;
+    position: relative;
+    background:
+      radial-gradient(ellipse at 70% 40%, rgba(255, 162, 95, 0.32), transparent 50%),
+      radial-gradient(ellipse at 30% 70%, rgba(141, 136, 242, 0.24), transparent 55%),
+      linear-gradient(135deg, #2a1810 0%, #1a0d05 60%, #0a0612 100%);
+    box-shadow: 0 16px 48px -8px rgba(0, 0, 0, 0.48);
+    animation: enterUp 0.7s var(--e-entrance) both;
+    animation-delay: 200ms;
+  }
+  .ds-hero-ai__media-caption {
+    position: absolute; inset: auto 16px 16px 16px;
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 11px; font-weight: 700; letter-spacing: 0.06em;
+  }
+
+  /* ═════ AI FEATURE ROW (dark substrate; gradient-border cards) ═════ */
+  .ds-ai-features {
+    background: var(--c-ai-substrate);
+    color: var(--c-knock);
+    padding-block: var(--section-pad);
+    position: relative;
+  }
+  .ds-ai-features__head { text-align: center; margin-bottom: var(--s-2xl); display: flex; flex-direction: column; align-items: center; gap: var(--s-md); }
+  .ds-ai-features__h2 { color: var(--c-knock); max-width: 22ch; }
+  .ds-ai-features__grid { display: grid; grid-template-columns: 1fr; gap: var(--grid-gap-md); }
+  @media (min-width: 900px) { .ds-ai-features__grid { grid-template-columns: repeat(3, 1fr); } }
+
+  /* ═════ PROMO STRIP (LIGHT — reservation; NO gradient) ═════ */
+  .ds-promo-strip { padding-block: var(--section-pad); background: var(--c-bg); border-radius: var(--r-lg) var(--r-lg) 0 0; margin-top: calc(-1 * var(--r-lg)); position: relative; z-index: 2; }
+  .ds-promo-strip__grid { display: grid; grid-template-columns: 1fr; gap: var(--grid-gap-md); }
+  @media (min-width: 768px) { .ds-promo-strip__grid { grid-template-columns: 1fr 1fr; } }
+  .ds-promo-card { background: var(--c-surface); border-radius: var(--r-md); overflow: hidden; display: grid; grid-template-columns: 1fr; }
+  @media (min-width: 600px) { .ds-promo-card { grid-template-columns: 1fr 1fr; min-height: 240px; } }
+  .ds-promo-card__media { min-height: 180px; background: radial-gradient(ellipse at 60% 50%, rgba(59, 99, 251, 0.16), transparent 60%), linear-gradient(135deg, #f0e6d6 0%, #d4b39a 100%); }
+  .ds-promo-card--dark .ds-promo-card__media { background: radial-gradient(ellipse at 50% 50%, rgba(255, 200, 130, 0.18), transparent 60%), linear-gradient(135deg, #2a1f1a 0%, #1a1410 100%); }
+  .ds-promo-card__copy { padding: var(--s-lg) var(--s-lg) var(--s-xl); display: flex; flex-direction: column; justify-content: center; gap: var(--s-sm); }
+  .ds-promo-card__h2 { color: var(--c-text); }
+  .ds-promo-card__body { color: var(--c-text-soft); }
+  .ds-promo-card__cta { margin-top: var(--s-sm); align-self: flex-start; }
+
+  /* ═════ PRODUCT HUB TILES (LIGHT — catalog; NO gradient) ═════ */
+  .ds-hubs { padding-block: var(--section-pad); background: var(--c-bg); }
+  .ds-hubs__grid { display: grid; grid-template-columns: 1fr; gap: var(--grid-gap-md); }
+  @media (min-width: 768px) { .ds-hubs__grid { grid-template-columns: repeat(3, 1fr); } }
+  .ds-hub-tile { background: var(--c-surface); border-radius: var(--r-md); overflow: hidden; display: flex; flex-direction: column; }
+  .ds-hub-tile__media { aspect-ratio: 4 / 3; background: radial-gradient(ellipse at 50% 50%, rgba(59, 99, 251, 0.10), transparent 60%), linear-gradient(160deg, #f8f4ef 0%, #e9dcc8 100%); }
+  .ds-hub-tile--acrobat .ds-hub-tile__media { background: radial-gradient(ellipse at 50% 60%, rgba(235, 16, 0, 0.08), transparent 60%), linear-gradient(160deg, #fff0ed 0%, #f3d1c8 100%); }
+  .ds-hub-tile--explore .ds-hub-tile__media { background: radial-gradient(ellipse at 40% 50%, rgba(58, 99, 251, 0.10), transparent 55%), radial-gradient(ellipse at 70% 60%, rgba(141, 88, 250, 0.10), transparent 55%), linear-gradient(160deg, #f1efff 0%, #e6deff 100%); }
+  .ds-hub-tile__copy { padding: var(--s-lg); display: flex; flex-direction: column; gap: var(--s-xs); flex: 1; }
+  .ds-hub-tile__h2 { color: var(--c-text); }
+  .ds-hub-tile__body { color: var(--c-text-soft); flex: 1; }
+  .ds-hub-tile__cta { margin-top: var(--s-md); align-self: flex-start; }
+
+  /* ═════ AI TOOLS SHOWCASE (dark substrate; AI suite surface) ═════ */
+  .ds-ai-showcase {
+    background: var(--c-ai-substrate);
+    color: var(--c-knock);
+    padding-block: var(--s-5xl);
+    border-radius: var(--r-lg) var(--r-lg) 0 0;
+    margin-top: calc(-1 * var(--r-lg));
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+  }
+  .ds-ai-showcase::before {
+    content: '';
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse at 30% 30%, rgba(141, 136, 242, 0.20), transparent 50%),
+      radial-gradient(ellipse at 70% 70%, rgba(235, 16, 0, 0.12), transparent 55%);
+    pointer-events: none;
+  }
+  .ds-ai-showcase__inner { position: relative; display: flex; flex-direction: column; gap: var(--s-2xl); align-items: center; text-align: center; }
+  .ds-ai-showcase__head { display: flex; flex-direction: column; gap: var(--s-md); align-items: center; max-width: 64ch; }
+  .ds-ai-showcase__h2 { color: var(--c-knock); }
+  .ds-ai-showcase__body { color: var(--c-knock-soft); max-width: 56ch; }
+  .ds-ai-showcase__mnemonics { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-md); width: 100%; max-width: 800px; margin-top: var(--s-md); }
+  @media (min-width: 768px) { .ds-ai-showcase__mnemonics { grid-template-columns: repeat(4, 1fr); } }
+  .ds-mnem {
+    aspect-ratio: 1 / 1;
+    border-radius: var(--r-md);
+    background: rgba(255, 255, 255, 0.06);
+    padding: var(--s-md);
+    display: flex; flex-direction: column; justify-content: space-between;
+    color: var(--c-knock);
+    transition: background var(--d-base) var(--e-default), transform var(--d-base) var(--e-default);
+    position: relative;
+  }
+  .ds-mnem:hover { background: rgba(255, 255, 255, 0.10); transform: translateY(-2px); }
+  .ds-mnem__icon { width: 32px; height: 32px; border-radius: 8px; background: rgba(255, 255, 255, 0.10); }
+  .ds-mnem--firefly .ds-mnem__icon { background: linear-gradient(135deg, #ff3cac, #ff7a5a); }
+  .ds-mnem--genfill .ds-mnem__icon { background: linear-gradient(135deg, #2a5cff, #001a8d); }
+  .ds-mnem--assistant .ds-mnem__icon { background: linear-gradient(135deg, #ff5555, #b80000); }
+  .ds-mnem--express .ds-mnem__icon { background: linear-gradient(135deg, #ff3cac, #7c0030); }
+  .ds-mnem__name { font-family: var(--f-h); font-size: 20px; line-height: 1.05; font-weight: 900; letter-spacing: -0.4px; }
+  .ds-ai-showcase__ctas { display: flex; gap: var(--s-sm); margin-top: var(--s-md); flex-wrap: wrap; justify-content: center; }
+
+  /* ═════ IN THE NEWS (LIGHT — selective AI affordance) ═════ */
+  .ds-news { padding-block: var(--section-pad); background: var(--c-bg); border-radius: var(--r-lg) var(--r-lg) 0 0; margin-top: calc(-1 * var(--r-lg)); position: relative; z-index: 2; }
+  .ds-news__head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: var(--s-xl); gap: var(--s-md); flex-wrap: wrap; }
+  .ds-news__h2 { color: var(--c-text); }
+  .ds-news__viewall { font-size: var(--t-label); font-weight: 700; color: var(--c-text); text-decoration: underline; text-underline-offset: 4px; }
+  .ds-news__list { display: grid; grid-template-columns: 1fr; gap: var(--grid-gap-md); }
+  @media (min-width: 900px) { .ds-news__list { grid-template-columns: repeat(3, 1fr); } }
+  .ds-news-item { background: var(--c-surface); border-radius: var(--r-md); overflow: hidden; display: flex; flex-direction: column; transition: transform var(--d-fast) var(--e-default); }
+  .ds-news-item:hover { transform: translateY(-2px); }
+  .ds-news-item__media { aspect-ratio: 16 / 9; background: linear-gradient(135deg, #e6e2d8 0%, #c9bfa8 100%); }
+  .ds-news-item:nth-child(2) .ds-news-item__media { background: linear-gradient(135deg, #e7eaf3 0%, #c2cae0 100%); }
+  .ds-news-item:nth-child(3) .ds-news-item__media { background: linear-gradient(135deg, #ece3d5 0%, #b8a484 100%); }
+  .ds-news-item__copy { padding: var(--s-lg); display: flex; flex-direction: column; gap: var(--s-xs); flex: 1; }
+  .ds-news-item__meta { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; color: var(--c-text-soft); }
+  .ds-news-item__meta-ai {
+    display: inline-block;
+    color: var(--c-text);
+    padding-bottom: 2px;
+    background: var(--g-ai) bottom / 100% 2px no-repeat;
+  }
+  .ds-news-item__h3 { font-size: 18px; line-height: 1.2; font-weight: 900; letter-spacing: -0.3px; color: var(--c-text); }
+  .ds-news-item__body { font-size: var(--t-body-sm); line-height: 1.4; color: var(--c-text-soft); margin-top: var(--s-xs); }
+
+  /* ═════ SITE-FOOTER (NO gradient — system-component chrome) ═════ */
+  .ds-footer { background: var(--c-dark); color: var(--c-knock); padding-top: var(--s-6xl); position: relative; }
+  .ds-footer__main { padding-inline: var(--grid-margin); max-width: var(--container-max); margin-inline: auto; display: flex; flex-direction: column; gap: var(--s-2xl); }
+  .ds-footer__cols { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px 20px; }
+  @media (min-width: 900px) { .ds-footer__cols { grid-template-columns: repeat(6, 1fr); gap: 0 var(--s-xs); } }
+  .ds-footer__col { display: flex; flex-direction: column; gap: var(--s-lg); }
+  .ds-footer__col-title { font-size: var(--t-eyebrow); font-weight: 700; color: var(--c-knock); line-height: 1.25; letter-spacing: var(--t-eyebrow-ls); }
+  .ds-footer__col ul { list-style: none; display: flex; flex-direction: column; gap: var(--s-xs); }
+  .ds-footer__col ul li a { font-size: var(--t-body); font-weight: 400; color: var(--c-knock-soft); line-height: 1.25; letter-spacing: 0.16px; transition: color var(--d-fast) ease; }
+  .ds-footer__col ul li a:hover { color: rgba(255, 255, 255, 0.9); }
+  .ds-footer__featured { display: flex; flex-direction: column; gap: var(--s-lg); }
+  .ds-footer__feat-label { font-size: var(--t-eyebrow); font-weight: 700; color: var(--c-knock); }
+  .ds-footer__prods { display: flex; gap: var(--s-lg); flex-wrap: wrap; align-items: center; }
+  .ds-footer__prod { display: flex; align-items: center; gap: var(--s-xs); color: var(--c-knock); font-size: 12px; font-weight: 700; }
+  .ds-footer__prod-icon { width: 16px; height: 16px; border-radius: 4px; background: linear-gradient(135deg, #ff8a00, #e94e1b); flex-shrink: 0; }
+  .ds-footer__prod:nth-child(2) .ds-footer__prod-icon { background: linear-gradient(135deg, #9b59ff, #ff5575); }
+  .ds-footer__prod:nth-child(3) .ds-footer__prod-icon { background: linear-gradient(135deg, #ff3cac, #ff7a5a); }
+  .ds-footer__prod:nth-child(4) .ds-footer__prod-icon { background: linear-gradient(135deg, #31a8ff, #0083bd); }
+  .ds-footer__bottom { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--s-md); padding-block: var(--s-lg); border-top: 1px solid var(--c-border-knock); }
+  .ds-footer__legal { display: flex; gap: var(--s-xl); flex-wrap: wrap; font-size: 12px; font-weight: 700; color: var(--c-knock-soft); letter-spacing: 0.02em; }
+  .ds-footer__legal a { color: var(--c-knock-soft); }
+  .ds-footer__social { display: flex; gap: var(--s-md); align-items: center; }
+  .ds-footer__social a { width: 18px; height: 18px; color: var(--c-knock); opacity: 0.72; transition: opacity var(--d-fast) ease; }
+  .ds-footer__social a:hover { opacity: 1; }
+  .ds-footer__wordmark { width: 100%; aspect-ratio: 1440 / 338; margin-top: var(--s-3xl); position: relative; overflow: hidden; }
+  .ds-footer__wordmark-text { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: var(--f-h); font-weight: 900; font-size: clamp(120px, 24vw, 360px); line-height: 0.7; color: var(--c-knock); letter-spacing: -0.04em; will-change: clip-path; }
+
+  /* SCROLL-DRIVEN + REDUCED MOTION */
+  .anim-enter { opacity: 0; transform: translateY(40px); will-change: opacity, transform; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-delay: 0ms !important; transition-duration: 0.01ms !important; }
+    .anim-enter { opacity: 1 !important; transform: none !important; }
+    .ds-footer__wordmark-text { clip-path: none !important; }
+  }
+</style>
+<noscript>
+  <style>
+    .anim-enter { opacity: 1 !important; transform: none !important; }
+    .ds-footer__wordmark-text { clip-path: none !important; }
+  </style>
+</noscript>
+</head>
+<body>
+
+  <a href="#main" class="ds-skip-link">Skip to main content</a>
+
+  <!-- SITE-HEADER (no gradient — chrome) -->
+  <div class="ds-nav-wrap">
+    <header class="ds-nav" data-component="site-header" data-system-component="header" data-nav-collapse="hamburger" id="site-header">
+      <div class="ds-nav__left">
+        <a href="/" class="ds-nav__logo" aria-label="Adobe home">
+          <svg viewBox="0 0 240 60" fill="none" aria-hidden="true"><path d="M178.95 19.95L209.4 60H187.05L177.45 39.6 167.1 60H146.4L177 19.95h2zM62.7 0L93.6 60H72.45L62.4 39.6 52.05 60H32.7L62.4 0h.3zM104.7 17.4q5.7-3.3 12.6-3.3 6.9 0 12.6 3.3 5.7 3.3 9 9.45 3.3 6.15 3.3 14.55 0 8.4-3.3 14.55-3.3 6.15-9 9.45-5.7 3.3-12.6 3.3-6.9 0-12.6-3.3-5.7-3.3-9-9.45-3.3-6.15-3.3-14.55 0-8.4 3.3-14.55 3.3-6.15 9-9.45zm21.45 13.05q-3.6-4.05-8.85-4.05-5.25 0-8.85 4.05-3.6 4.05-3.6 11.55t3.6 11.4q3.6 3.9 8.85 3.9 5.25 0 8.85-3.9 3.6-3.9 3.6-11.4t-3.6-11.55z" fill="#EB1000"/></svg>
+        </a>
+        <div class="ds-nav__slash" aria-hidden="true"></div>
+        <ul class="ds-nav__links">
+          <li><a href="#creativity"><span>Creativity &amp; Design</span><svg viewBox="0 0 8 5" fill="none" aria-hidden="true"><path d="M1 1l3 3 3-3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+          <li><a href="#pdf" aria-current="page">PDF &amp; E-signatures</a></li>
+          <li><a href="#marketing"><span>Marketing &amp; Commerce</span><svg viewBox="0 0 8 5" fill="none" aria-hidden="true"><path d="M1 1l3 3 3-3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+          <li><a href="#help">Help &amp; Support</a></li>
+        </ul>
+      </div>
+      <div class="ds-nav__right">
+        <button type="button" class="ds-nav-burger" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M2 5h14M2 9h14M2 13h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <button type="button" class="ds-nav__icon-btn" aria-label="All apps"><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><rect x="1" y="1" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="7" y="1" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="13" y="1" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="1" y="7" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="7" y="7" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="13" y="7" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="1" y="13" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="7" y="13" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="13" y="13" width="4" height="4" rx="0.5" fill="currentColor"/></svg></button>
+        <a href="#pricing" class="ds-btn ds-btn--primary ds-btn--sm ds-nav__primary-cta">View plans and pricing</a>
+        <a href="#signin" class="ds-btn ds-btn--outline ds-btn--sm">Sign In</a>
+      </div>
+    </header>
+  </div>
+
+  <!-- HERO AI (dark substrate; gradient affordances applied) -->
+  <section class="ds-hero-ai" data-section="hero-ai" data-section-purpose="marquee" data-variant="F" data-substrate="dark" data-ai-affordance="true" id="main">
+    <div class="ds-container">
+      <div class="ds-hero-ai__inner">
+        <div class="ds-hero-ai__copy">
+          <p class="ds-hero-ai__eyebrow"><span class="eyebrow eyebrow--ai">Adobe Photoshop · Generative Fill</span></p>
+          <h1 class="title-1 ds-hero-ai__h1">Transform how you share information.</h1>
+          <p class="ds-hero-ai__sub">Now with <span class="ai-sparkle">Generative Fill</span>.</p>
+          <p class="body-lg ds-hero-ai__body">Photoshop's new AI Generative Fill removes the gap between idea and image. Sketch a thought; finish a composition.</p>
+          <div class="ds-hero-ai__ctas">
+            <a href="#ai-trial" class="ds-btn ds-btn--ai">Try AI free</a>
+            <a href="#pricing" class="ds-btn ds-btn--ghost-white">View plans and pricing</a>
+          </div>
+        </div>
+        <div class="ds-hero-ai__media" aria-hidden="true">
+          <p class="ds-hero-ai__media-caption">Captured: Photoshop / Generative Fill demo — placeholder until media migrated</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI FEATURE ROW (dark substrate; gradient-border cards) -->
+  <section class="ds-ai-features" data-section="ai-feature-row" data-section-purpose="feature-list" data-substrate="dark" data-ai-affordance="true">
+    <div class="ds-container">
+      <div class="ds-ai-features__head anim-enter">
+        <p class="eyebrow eyebrow--ai">Adobe AI</p>
+        <h2 class="title-2 ds-ai-features__h2">Everything Adobe makes now <span class="ai-sparkle">thinks</span> with you.</h2>
+      </div>
+      <div class="ds-ai-features__grid">
+        <article class="ds-card--ai anim-enter">
+          <p class="ds-card--ai__eyebrow">Photoshop · Generative Fill</p>
+          <h3 class="ds-card--ai__h">Sketch a thought; finish a composition.</h3>
+          <p class="ds-card--ai__body">New partner models from Gemini 2.5 (with Nano Banana Pro) and FLUX.1 pro — in the brush you already use.</p>
+          <a href="#generative-fill" class="ds-btn ds-btn--ghost-white ds-btn--sm ds-card--ai__cta">Learn more</a>
+        </article>
+        <article class="ds-card--ai anim-enter">
+          <p class="ds-card--ai__eyebrow">Acrobat · AI Assistant</p>
+          <h3 class="ds-card--ai__h">Read a 200-page PDF in 90 seconds.</h3>
+          <p class="ds-card--ai__body">Summaries, insights, sources. Edit and convert without leaving the document.</p>
+          <a href="#ai-assistant" class="ds-btn ds-btn--ghost-white ds-btn--sm ds-card--ai__cta">Learn more</a>
+        </article>
+        <article class="ds-card--ai anim-enter">
+          <p class="ds-card--ai__eyebrow">Firefly · Commercial-safe AI</p>
+          <h3 class="ds-card--ai__h">Generate images, video, audio.</h3>
+          <p class="ds-card--ai__body">Models trained on Adobe Stock and openly licensed content. Built for production.</p>
+          <a href="#firefly" class="ds-btn ds-btn--ghost-white ds-btn--sm ds-card--ai__cta">Learn more</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMO STRIP (LIGHT — reservation discipline: NO gradient) -->
+  <section class="ds-promo-strip" data-section="promo-strip" data-section-purpose="conversion">
+    <div class="ds-container">
+      <div class="ds-promo-strip__grid">
+        <article class="ds-promo-card anim-enter">
+          <div class="ds-promo-card__media" aria-hidden="true"></div>
+          <div class="ds-promo-card__copy">
+            <h2 class="title-4 ds-promo-card__h2">Save 50% on Creative Cloud Pro.</h2>
+            <p class="body-md ds-promo-card__body">Creative AI tools, on sale. For the first 3 months, terms apply.</p>
+            <a href="#cc-pricing" class="ds-btn ds-btn--primary ds-btn--sm ds-promo-card__cta">View plans and pricing</a>
+          </div>
+        </article>
+        <article class="ds-promo-card ds-promo-card--dark anim-enter">
+          <div class="ds-promo-card__media" aria-hidden="true"></div>
+          <div class="ds-promo-card__copy">
+            <h2 class="title-4 ds-promo-card__h2">Save 30% and go unlimited.</h2>
+            <p class="body-md ds-promo-card__body">Get unlimited access on select models for a year, save on Creative Cloud Pro.</p>
+            <a href="#unlimited" class="ds-btn ds-btn--primary ds-btn--sm ds-promo-card__cta">Buy now</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT HUB TILES (LIGHT — catalog; NO gradient) -->
+  <section class="ds-hubs" data-section="product-hub-tiles" data-section-purpose="navigation">
+    <div class="ds-container">
+      <div class="ds-hubs__grid">
+        <article class="ds-hub-tile anim-enter">
+          <div class="ds-hub-tile__media" aria-hidden="true"></div>
+          <div class="ds-hub-tile__copy">
+            <h2 class="title-4 ds-hub-tile__h2">Creative Cloud</h2>
+            <p class="body-md ds-hub-tile__body">Apps and AI for every creator — from Photoshop to Premiere.</p>
+            <a href="#cc" class="ds-btn ds-btn--outline ds-btn--sm ds-hub-tile__cta">View plans and pricing</a>
+          </div>
+        </article>
+        <article class="ds-hub-tile ds-hub-tile--acrobat anim-enter">
+          <div class="ds-hub-tile__media" aria-hidden="true"></div>
+          <div class="ds-hub-tile__copy">
+            <h2 class="title-4 ds-hub-tile__h2">Acrobat</h2>
+            <p class="body-md ds-hub-tile__body">Edit, sign, and collaborate on PDFs with AI-powered tools.</p>
+            <a href="#acrobat" class="ds-btn ds-btn--outline ds-btn--sm ds-hub-tile__cta">View plans and pricing</a>
+          </div>
+        </article>
+        <article class="ds-hub-tile ds-hub-tile--explore anim-enter">
+          <div class="ds-hub-tile__media" aria-hidden="true"></div>
+          <div class="ds-hub-tile__copy">
+            <h2 class="title-4 ds-hub-tile__h2">Explore</h2>
+            <p class="body-md ds-hub-tile__body">See all Adobe products for individuals, business, and education.</p>
+            <a href="#all-products" class="ds-btn ds-btn--outline ds-btn--sm ds-hub-tile__cta">View all products</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI TOOLS SHOWCASE (dark substrate; AI suite surface) -->
+  <section class="ds-ai-showcase" data-section="ai-tools-showcase" data-section-purpose="feature-list" data-substrate="dark" data-ai-affordance="true">
+    <div class="ds-container">
+      <div class="ds-ai-showcase__inner">
+        <div class="ds-ai-showcase__head anim-enter">
+          <p class="eyebrow eyebrow--ai">The Adobe AI suite</p>
+          <h2 class="title-2 ds-ai-showcase__h2">Four products. One <span class="ai-sparkle">creative intelligence.</span></h2>
+          <p class="body-lg ds-ai-showcase__body">Generative Fill in Photoshop. AI Assistant in Acrobat. On-brand templates in Express. Commercial-safe generation in Firefly. The gradient marks every surface where Adobe AI is working.</p>
+        </div>
+        <div class="ds-ai-showcase__mnemonics">
+          <a href="#firefly" class="ds-mnem ds-mnem--firefly ai-mnemonic-ribbon">
+            <div class="ds-mnem__icon" aria-hidden="true"></div>
+            <span class="ds-mnem__name">Firefly</span>
+          </a>
+          <a href="#generative-fill" class="ds-mnem ds-mnem--genfill ai-mnemonic-ribbon">
+            <div class="ds-mnem__icon" aria-hidden="true"></div>
+            <span class="ds-mnem__name">Generative Fill</span>
+          </a>
+          <a href="#ai-assistant" class="ds-mnem ds-mnem--assistant ai-mnemonic-ribbon">
+            <div class="ds-mnem__icon" aria-hidden="true"></div>
+            <span class="ds-mnem__name">AI Assistant</span>
+          </a>
+          <a href="#express-ai" class="ds-mnem ds-mnem--express ai-mnemonic-ribbon">
+            <div class="ds-mnem__icon" aria-hidden="true"></div>
+            <span class="ds-mnem__name">Express AI</span>
+          </a>
+        </div>
+        <div class="ds-ai-showcase__ctas anim-enter">
+          <a href="#ai-explore" class="ds-btn ds-btn--ai">Explore Adobe AI</a>
+          <a href="#ai-pricing" class="ds-btn ds-btn--ghost-white">See pricing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IN THE NEWS (LIGHT — selective AI affordance on 1 of 3 items) -->
+  <section class="ds-news" data-section="in-the-news" data-section-purpose="rich-text">
+    <div class="ds-container">
+      <div class="ds-news__head anim-enter">
+        <h2 class="title-3 ds-news__h2">In the news</h2>
+        <a href="#news" class="ds-news__viewall">See all news</a>
+      </div>
+      <div class="ds-news__list">
+        <article class="ds-news-item anim-enter">
+          <div class="ds-news-item__media" aria-hidden="true"></div>
+          <div class="ds-news-item__copy">
+            <p class="ds-news-item__meta">ACROBAT · TAX SEASON</p>
+            <h3 class="ds-news-item__h3">Prepare your taxes with Adobe Acrobat this season.</h3>
+            <p class="ds-news-item__body">With Adobe Acrobat, you can prep your taxes faster and more accurately.</p>
+          </div>
+        </article>
+        <article class="ds-news-item anim-enter">
+          <div class="ds-news-item__media" aria-hidden="true"></div>
+          <div class="ds-news-item__copy">
+            <p class="ds-news-item__meta">ACROBAT · <span class="ds-news-item__meta-ai">AI</span></p>
+            <h3 class="ds-news-item__h3">Get more done with new AI features in Acrobat.</h3>
+            <p class="ds-news-item__body">Quickly create polished presentations, podcast overviews, and more.</p>
+          </div>
+        </article>
+        <article class="ds-news-item anim-enter">
+          <div class="ds-news-item__media" aria-hidden="true"></div>
+          <div class="ds-news-item__copy">
+            <p class="ds-news-item__meta">CREATIVE CLOUD · SUNDANCE</p>
+            <h3 class="ds-news-item__h3">Adobe apps are top choice for Sundance filmmakers.</h3>
+            <p class="ds-news-item__body">Pros depend on Premiere, After Effects, and cutting-edge tools.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SITE-FOOTER (NO gradient — system-component chrome) -->
+  <footer class="ds-footer" data-component="site-footer" data-system-component="footer" id="site-footer">
+    <div class="ds-footer__main">
+      <div class="ds-footer__cols">
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">For individuals<br>&amp; small business</h3><ul><li><a href="#">Creative AI</a></li><li><a href="#">Photography</a></li><li><a href="#">Design &amp; Illustration</a></li><li><a href="#">Video &amp; animation</a></li><li><a href="#">PDF</a></li><li><a href="#">View all products</a></li></ul></div>
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">For medium<br>&amp; large business</h3><ul><li><a href="#">Personalization at scale</a></li><li><a href="#">Content supply chain</a></li><li><a href="#">Unified customer experience</a></li><li><a href="#">B2B GTM orchestration</a></li><li><a href="#">View all products</a></li></ul></div>
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">For<br>Organizations</h3><ul><li><a href="#">Education</a></li><li><a href="#">Nonprofits</a></li><li><a href="#">Government</a></li></ul></div>
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">Support</h3><ul><li><a href="#">Help Center</a></li><li><a href="#">Download and install</a></li><li><a href="#">Adobe Community</a></li><li><a href="#">Adobe Learn</a></li></ul></div>
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">Contact</h3><ul><li><a href="#">Chat with sales</a></li><li><a href="#">Request information</a></li></ul></div>
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">Adobe</h3><ul><li><a href="#">Log into your account</a></li><li><a href="#">About</a></li><li><a href="#">Careers</a></li><li><a href="#">Trust Center</a></li><li><a href="#">Terms</a></li><li><a href="#">Privacy</a></li></ul></div>
+      </div>
+      <div class="ds-footer__featured">
+        <p class="ds-footer__feat-label">Featured Products</p>
+        <div class="ds-footer__prods">
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Acrobat Reader</span>
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Firefly</span>
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Adobe Express</span>
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Photoshop</span>
+        </div>
+      </div>
+      <div class="ds-footer__bottom">
+        <div class="ds-footer__legal">
+          <a href="#region">🌐 Change region</a>
+          <span>© 2026 Adobe Inc. All rights reserved.</span>
+          <a href="#dns">Do not sell or share my personal information</a>
+        </div>
+        <div class="ds-footer__social" aria-label="Social media">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M9 0a9 9 0 100 18A9 9 0 009 0zM7 14V9.5H5.5V8H7V6.5C7 5.5 7.5 4 9.5 4H11v1.5h-1c-.5 0-.5.25-.5.5V8h1.5l-.25 1.5H9.5V14H7z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M14 3h-2L9 7.5 6 3H3l4 6-4 6h2l3.5-5 3 5h3l-4-6 3.5-6z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="14" height="14" rx="4"/><circle cx="9" cy="9" r="3"/><circle cx="13" cy="5" r="0.5" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M3 6h2v9H3V6zm1-3a1 1 0 110 2 1 1 0 010-2zM7 6h2v1.3c.4-.7 1.4-1.5 2.8-1.5C13.7 5.8 15 7 15 9.5V15h-2v-4.7c0-1.4-.5-2.2-1.7-2.2-1 0-1.5.6-1.8 1.3-.1.3-.1.6-.1.9V15H7V6z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="ds-footer__wordmark" aria-hidden="true">
+      <span class="ds-footer__wordmark-text" id="wordmark-text">Adobe</span>
+    </div>
+  </footer>
+
+<script>
+  (function () {
+    'use strict';
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function clamp(v, lo, hi) { return v < lo ? lo : v > hi ? hi : v; }
+    function easeOut3(t) { return 1 - Math.pow(1 - t, 3); }
+
+    window.__lenis = { scroll: window.scrollY, lerp: reduce ? 1 : 0.1 };
+    window.addEventListener('scroll', function () { window.__lenis.scroll = window.scrollY; }, { passive: true });
+
+    var nav = document.getElementById('site-header');
+    function syncNavScroll() { if (nav) nav.classList.toggle('is-scrolled', window.scrollY > 8); }
+    window.addEventListener('scroll', syncNavScroll, { passive: true });
+    syncNavScroll();
+
+    /* Scroll-driven section entrance (baseline) */
+    if (!reduce) {
+      var items = [];
+      function registerAll() {
+        var nodes = document.querySelectorAll('.anim-enter');
+        items.length = 0;
+        nodes.forEach(function (el) {
+          var docTop = el.getBoundingClientRect().top + window.scrollY;
+          var parent = el.parentElement;
+          var sibIndex = 0;
+          if (parent) {
+            var sibs = Array.prototype.filter.call(parent.children, function (c) { return c.classList && c.classList.contains('anim-enter'); });
+            sibIndex = sibs.indexOf(el);
+          }
+          items.push({ el: el, triggerTop: docTop, staggerDelay: Math.min(sibIndex * 0.10, 0.5) });
+        });
+      }
+      function tick() {
+        var sY = window.scrollY;
+        var vh = window.innerHeight;
+        for (var i = 0; i < items.length; i++) {
+          var item = items[i];
+          var raw = (sY + vh * 0.85 - item.triggerTop) / (vh * 0.30);
+          var p = easeOut3(clamp(raw - item.staggerDelay, 0, 1));
+          item.el.style.opacity = String(p);
+          item.el.style.transform = 'translateY(' + ((1 - p) * 40).toFixed(2) + 'px)';
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', registerAll, { passive: true });
+      requestAnimationFrame(function () { registerAll(); requestAnimationFrame(tick); });
+    }
+
+    /* Footer wordmark clip-path wipe */
+    var wordmark = document.getElementById('wordmark-text');
+    if (wordmark && !reduce) {
+      wordmark.style.clipPath = 'inset(60% 0 0 0)';
+      function wmTick() {
+        var rect = wordmark.getBoundingClientRect();
+        var vh = window.innerHeight;
+        var wmTop = rect.top + window.scrollY;
+        var raw = (window.scrollY + vh - wmTop) / (vh * 0.5);
+        var p = raw < 0 ? 0 : raw > 1 ? 1 : 1 - Math.pow(1 - raw, 3);
+        wordmark.style.clipPath = 'inset(' + ((1 - p) * 60).toFixed(2) + '% 0 0 0)';
+        requestAnimationFrame(wmTick);
+      }
+      requestAnimationFrame(wmTick);
+    } else if (wordmark) {
+      wordmark.style.clipPath = 'none';
+    }
+
+    /* Burger stub */
+    var burger = document.querySelector('.ds-nav-burger');
+    if (burger) burger.addEventListener('click', function () {
+      var expanded = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', String(!expanded));
+    });
+  })();
+</script>
+
+</body>
+</html>

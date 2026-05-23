@@ -203,3 +203,74 @@ $stardust prototype home --variant C    # ditto under variant C
 ```
 
 Recommended order: render variant A on home first (it's the floor); review; render B and C against the same page so the comparison is direct. After home is validated across all three variants, pick the strongest and proceed to product-page prototypes.
+
+---
+
+## Variant F (added 2026-05-23 via `--add-variant F`)
+
+**Role:** *One captured trait amplified — AI Sparkle Pervasive*
+
+**Captured trait:** `samples/static/plan-page/Acrobat Plans — PDF & Productivity.html § .merch-card__addon` — the 1.5px gradient border `linear-gradient(135deg, #8D88F2, #EB1000)` used on the AI add-on row inside business pricing cards. F elevates this one-off lockup into an ambient AI affordance system.
+
+**Brand-personality move:** The brand signals AI capability visually without claiming it in words. The gradient becomes a chromatic vocabulary — the reader develops the rule *"gradient = AI active here"* through repetition + reservation.
+
+### System-level deviations from variant A
+
+- **5 AI-affordance surfaces** driven by the captured gradient:
+  1. **`eyebrow--ai`** — 2px gradient bottom-border on AI-context eyebrows.
+  2. **`ds-card--ai`** — 1.5px gradient border via layered `background-clip: padding-box, border-box` on AI feature cards.
+  3. **`ai-sparkle`** — `background-clip: text` on key AI verbs (gradient text). Reserved to dark substrates with verified contrast.
+  4. **`ds-btn--ai`** — gradient as button surface for AI-context primary CTAs.
+  5. **`ai-mnemonic-ribbon`** — gradient corner ribbon on AI-product tile mnemonics (Firefly, AI Assistant, Generative Fill).
+
+- **Dark hero substrate (#0a0a14)** for any section featuring the gradient — contrast guard.
+
+- **Dark↔light cadence carries semantic** — dark = AI section; light = catalog / promo / generic news.
+
+### Inheritance from variant A
+
+| Field | Status |
+|---|---|
+| Palette | inherit-as-is (Mode A pin) |
+| Typography family + clamp() scale | inherit-as-is (Mode A pin) |
+| Rounded / spacing | inherit-as-is |
+| Improvements floor | inherit-as-is (all 5 of A's improvements applied) |
+| IA-priority audit | inherit-as-is (variants cannot opt out under Mode A) |
+| Brand-faithful inversions | inherit-then-extend: F adds #4 (gradient text legal in AI-affordance contexts on dark substrates ≥4.5:1 contrast) |
+| Motion stack | inherit-as-is (baseline; no scroll-grow that's B; no hover-reveal-tile that's C) |
+| systemComponentRoles | inherit-as-is (header, footer, persistent-help, persistent-search — none are AI affordances by default) |
+
+### Reservation discipline (the load-bearing rule)
+
+**The gradient is SEMANTIC, not decorative.** Allowed: Generative Fill, AI Assistant, Firefly, AI add-on, AI feature sections. Forbidden: promotional surfaces ("Save 50%"), generic product hubs (Creative Cloud / Acrobat outline cards), news section, footer chrome, ambient decoration. Every gradient instance in `home-F-proposed.html` must cite an AI-affordance reason; non-cited instances refuse render.
+
+### Variant differentiation contract
+
+| Pair | Deltas | Pass? |
+|---|---|---|
+| F↔A | 4 deltas: hero substrate (F dark / A light), gradient affordance system (F yes / A no), AI feature card pattern (F yes / A no), gradient CTA variant (F yes / A no) | ✓ ≥2 |
+| F↔B | 4 deltas: motion energy (F baseline / B scroll-cinema), hero strategy (F dark + gradient text / B scroll-grow), AI affordance system (F yes / B no), gradient affordance (F yes / B no) | ✓ ≥2 |
+| F↔C | 5 deltas: hero strategy (F dark gradient / C asymmetric mosaic), primary micro-interaction (F gradient affordance / C hover-reveal tiles), tile system (F card-bordered / C explore-mosaic), dark-band rhythm (F selective on AI / C 4-band gallery rhythm), gradient affordance (F yes / C no) | ✓ ≥2 |
+
+All three pairs pass ≥2 structural changes. F is a defensible standalone proposition.
+
+### Anti-toolbox audit (F-specific)
+
+- `gradient-text-as-decoration` — checked. F restricts gradient text to AI verbs on dark substrate with verified contrast. Reservation discipline is the load-bearing rule.
+- `decorative-gradient-creep` — checked. Audit at craft time: every gradient instance cites an AI-affordance reason.
+- `B-but-more` — n/a. F amplifies a different captured trait (AI gradient lockup) vs B (scroll choreography).
+
+### Outputs
+
+- `DESIGN-F.md` (this variant's Stitch frontmatter + narrative)
+- `DESIGN-F.json` (schemaVersion 2 sidecar with variant-local AI affordance components)
+- `direction.md` — appended this section
+- `stardust/state.json` — `direction.variants[].F` added; pages NOT stale-flagged (add-variant is additive per the spec)
+
+### Next (variant F)
+
+```
+$stardust prototype home --variant F    # render home-F-proposed.html
+```
+
+Recommended: render F on home, compare against A/B/C, then decide whether to keep the 4-variant fork or drop a weaker variant.

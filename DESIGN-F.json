@@ -1,0 +1,165 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:direct --add-variant F",
+    "writtenAt": "2026-05-23T16:00:00-07:00",
+    "readArtifacts": [
+      "DESIGN-A.json",
+      "stardust/current/_brand-extraction.json",
+      "samples/SAMPLES.md",
+      "samples/static/plan-page/Acrobat Plans — PDF & Productivity.html",
+      "stardust/direction.md"
+    ],
+    "stardustVersion": "0.7.1",
+    "schemaVersion": 2,
+    "variant": "F",
+    "variantRole": "One captured trait amplified — AI Sparkle Pervasive",
+    "variantThesis": "The captured AI add-on lockup gradient becomes a chromatic vocabulary for AI activity. The brand signals where AI is working without claiming it in words. Reservation discipline: gradient is semantic, not decorative.",
+    "mode": "A",
+    "amplifiedTrait": "samples/static/plan-page/Acrobat Plans — PDF & Productivity.html § .merch-card__addon gradient (linear-gradient(135deg, #8D88F2, #EB1000)) elevated from one-off pricing-card lockup to ambient AI affordance system",
+    "inheritsFrom": "DESIGN-A.json"
+  },
+
+  "_inherit": {
+    "from": "DESIGN-A.json",
+    "fields": [
+      "colors",
+      "typography",
+      "rounded",
+      "spacing",
+      "extensions.colorMeta",
+      "extensions.typographyMeta",
+      "extensions.shadows",
+      "extensions.breakpoints",
+      "extensions.motion",
+      "extensions.componentStyle.buttons",
+      "extensions.componentStyle.cards",
+      "extensions.componentStyle.cardsNested",
+      "extensions.componentStyle.inputs",
+      "extensions.systemComponentRoles",
+      "extensions.iaPriorities"
+    ]
+  },
+
+  "components": [
+    {
+      "name": "button-ai-gradient",
+      "treatment": "ds-btn ds-btn--ai (AI-context primary CTA — gradient surface)",
+      "css": ".ds-btn--ai { background: linear-gradient(135deg, #8D88F2 0%, #EB1000 100%); color: #fff; border: none; box-shadow: 0 4px 16px rgba(141, 136, 242, 0.24); } .ds-btn--ai:hover { box-shadow: 0 6px 24px rgba(141, 136, 242, 0.36); transform: translateY(-1px); } .ds-btn--ai:focus-visible { outline-color: rgba(141, 136, 242, 0.5); }",
+      "reservation": "AI-context only (one per viewport)"
+    },
+    {
+      "name": "ai-card",
+      "treatment": "ds-card--ai (1.5px gradient border via layered background-clip)",
+      "css": ".ds-card--ai { padding: 24px; border-radius: 16px; background: linear-gradient(#0a0a14, #0a0a14) padding-box, linear-gradient(135deg, #8D88F2, #EB1000) border-box; border: 1.5px solid transparent; color: #fff; } .ds-card--ai__eyebrow { color: rgba(141, 136, 242, 0.9); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }",
+      "reservation": "AI feature cards only — Generative Fill, AI Assistant, Firefly contexts"
+    },
+    {
+      "name": "ai-eyebrow",
+      "treatment": "eyebrow--ai (2px gradient bottom-border on AI-context eyebrows)",
+      "css": ".eyebrow--ai { display: inline-block; font-family: var(--ds-body-family); font-size: 14px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #fff; padding-bottom: 4px; background: linear-gradient(135deg, #8D88F2, #EB1000) bottom / 100% 2px no-repeat; }",
+      "reservation": "AI section eyebrows only"
+    },
+    {
+      "name": "ai-text",
+      "treatment": "ai-sparkle (background-clip: text on AI verbs)",
+      "css": ".ai-sparkle { background: linear-gradient(135deg, #8D88F2, #EB1000); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 900; }",
+      "reservation": "Dark substrate only — gradient text on light fails contrast. Apply ONLY to key AI verbs in AI hero contexts."
+    },
+    {
+      "name": "ai-mnemonic-ribbon",
+      "treatment": "ai-product-tile ribbon — gradient corner accent on AI-product mnemonic tiles",
+      "css": ".ai-mnemonic-ribbon { position: relative; overflow: hidden; } .ai-mnemonic-ribbon::after { content: ''; position: absolute; top: 0; right: 0; width: 32px; height: 32px; background: linear-gradient(135deg, #8D88F2, #EB1000); clip-path: polygon(100% 0, 0 0, 100% 100%); }",
+      "reservation": "Firefly + AI Assistant + Generative Fill tile mnemonics only"
+    }
+  ],
+
+  "extensions": {
+    "componentStyle": {
+      "aiAffordance": {
+        "gradient": "linear-gradient(135deg, #8D88F2 0%, #EB1000 100%)",
+        "gradientStops": ["#8D88F2", "#EB1000"],
+        "reservation": "AI-active surfaces only",
+        "surfaces": {
+          "eyebrow-underline": { "css": "background: linear-gradient(135deg, #8D88F2, #EB1000) bottom / 100% 2px no-repeat;", "apply-to": "AI section eyebrows" },
+          "card-border": { "css": "background: linear-gradient(<surface>, <surface>) padding-box, linear-gradient(135deg, #8D88F2, #EB1000) border-box; border: 1.5px solid transparent;", "apply-to": "AI feature cards" },
+          "text-emphasis": { "css": "background: linear-gradient(135deg, #8D88F2, #EB1000); -webkit-background-clip: text; background-clip: text; color: transparent;", "apply-to": "Key AI verbs in AI hero contexts on dark substrates only" },
+          "cta-surface": { "css": ".ds-btn--ai { background: linear-gradient(135deg, #8D88F2, #EB1000); color: #fff; }", "apply-to": "AI-context primary CTAs (one per viewport)" },
+          "icon-ribbon": { "css": "::after gradient corner ribbon", "apply-to": "Firefly + AI Assistant + Generative Fill product mnemonic tiles" }
+        }
+      }
+    },
+
+    "divergence": {
+      "schemaVersion": 2,
+      "mode": "A",
+      "amplifiedTrait": "AI add-on gradient lockup elevated to ambient AI affordance system",
+      "amplifiedTraitSource": "samples/static/plan-page/Acrobat Plans — PDF & Productivity.html § .merch-card__addon — 1.5px gradient border on AI add-on row in business pricing cards. Variant F amplifies this single instance into a reservation-disciplined chromatic vocabulary across AI-affordance surfaces site-wide.",
+      "seed": {
+        "anchors": [
+          { "ref": "samples/static/plan-page/Acrobat Plans — PDF & Productivity.html § .merch-card__addon", "implies": "captured AI gradient lockup pattern" },
+          { "ref": "samples/SAMPLES.md § 2 (color rhythm — AI add-on lockup)", "implies": "linear-gradient(135deg, #8D88F2, #EB1000) reservation rule" }
+        ]
+      },
+      "brand_faithful_inversions": "inherits-from-A (3) + 1 variant-local addition:\n  - Inversion #4 (variant F only): \"gradient text legal in AI-affordance contexts on dark substrates with ≥4.5:1 contrast against gradient midpoint\". Reason: amplification extends the captured border-only gradient to text emphasis on key AI verbs; impeccable's hard rule 'gradient text — never' is inverted only in this narrow AI-dark-substrate carve-out. Verified contrast: gradient midpoint ≈ #8C4779 against #0a0a14 = ~6.8:1. Passes AA.",
+      "antiToolboxAudit": {
+        "ran": true,
+        "guards": [
+          { "name": "B-but-more", "fired": false, "rationale": "F amplifies a distinct captured trait (AI gradient lockup) vs A's baseline. Different from B's motion choreography and C's photo-led tiles — different captured trait." },
+          { "name": "gradient-text-as-decoration", "fired": "checked-and-cleared", "rationale": "Gradient text appears ONLY on AI verbs in AI hero contexts on dark substrates. The reservation discipline keeps it from being decorative." },
+          { "name": "decorative-gradient-creep", "fired": "checked-and-cleared", "rationale": "F's reservation discipline explicitly forbids gradient on non-AI surfaces (promos, hubs, news, footer). Audit: every gradient instance in home-F-proposed.html must cite an AI-affordance reason." },
+          { "name": "C-cliff", "fired": false, "rationale": "F answers 'what if we leaned into the AI gradient?' with a specific Y from the captured surface, not a slider position past A/B/C." }
+        ]
+      }
+    },
+
+    "iaPriorities": "inherits-from-A (commercial-conversion locked first-viewport, audience-routing locked nav, product-mnemonic-discoverability movable but F surfaces ≥3 AI-product mnemonics in first viewport (Firefly + AI Assistant + Generative Fill), trust-signals movable, persistent-help footer-adjacent)",
+
+    "voice": {
+      "examples": {
+        "do": [
+          "Adobe Photoshop, now with [Generative Fill in gradient]. — eyebrow gradient underline + gradient verb",
+          "Acrobat [AI Assistant in gradient] reads your documents. — AI capability named in gradient text on dark hero",
+          "Try AI free — gradient-surface CTA, one per viewport",
+          "Save 50% Creative Cloud Pro — NO gradient (it's a price, not AI)"
+        ],
+        "dont": [
+          "Gradient on every eyebrow regardless of context (ambient creep)",
+          "Gradient text on light substrate (contrast risk + non-captured pattern)",
+          "Gradient on the 'View all products' footer link (system-component chrome, not AI)",
+          "Two gradient CTAs in one viewport (dilutes the signal)",
+          "Gradient bars or strips as ambient decoration"
+        ]
+      }
+    },
+
+    "systemComponentRoles": "inherits-from-A (header, footer, persistent-search, etc. — none of these are AI affordance surfaces by default)"
+  },
+
+  "narrative": {
+    "northStar": "The captured AI add-on gradient becomes the brand's chromatic vocabulary for AI activity. The user reads the gradient as 'AI is at work here' without parsing copy. The discipline is reservation: gradient = AI signal, never decoration.",
+    "overview": "Inherits A's tokens unchanged. Variant-local: 5 AI-affordance surfaces (eyebrow underline, card border, text emphasis, CTA surface, icon ribbon) all driven by the captured `.merch-card__addon` gradient `linear-gradient(135deg, #8D88F2, #EB1000)`. Dark substrates (#0a0a14) for AI hero contexts so gradients read with high contrast. Non-AI sections stay light + token-faithful. One brand-faithful inversion added vs A: gradient text legal in AI-dark-substrate contexts.",
+    "keyCharacteristics": [
+      "Gradient = AI signal (reservation discipline).",
+      "Dark hero substrate for AI contexts (contrast).",
+      "Light non-AI sections retain A's tokens (dark↔light carries semantic).",
+      "One AI gradient CTA per viewport.",
+      "Gradient text only on dark with contrast check.",
+      "Inherits A's complete IA-priority audit + improvements floor."
+    ],
+    "rules": "inherits-from-A + gradient-is-semantic-not-decorative + ai-hero-substrate-dark + one-gradient-cta-per-viewport + gradient-text-only-on-dark-with-AA-contrast + non-ai-sections-stay-token-faithful + ai-mnemonic-ribbon-only-on-firefly-aiassistant-generativefill",
+    "dos": [
+      "Gradient eyebrow underline on AI-context section headers.",
+      "Gradient-border AI feature cards (Generative Fill / AI Assistant / Firefly).",
+      "Gradient text on key AI verbs in AI hero contexts (dark substrate only).",
+      "Gradient CTA surface for 'Try AI free' or equivalent (one per viewport).",
+      "Dark hero substrate for AI moments."
+    ],
+    "donts": [
+      "Gradient on non-AI surfaces (promos, hubs, news, footer).",
+      "Gradient text on light substrates (contrast risk; not the captured pattern).",
+      "Multiple gradient CTAs per viewport.",
+      "Decorative gradient strips or ambient washes.",
+      "Gradient on 'Save 50%' style promotional copy (price ≠ AI)."
+    ]
+  }
+}
