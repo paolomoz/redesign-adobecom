@@ -560,3 +560,45 @@ Next: $stardust prototype home --variant A
 - Whether to formalize B1/B2/B4/B5 as siblings of B3 (--add-variant B1, --add-variant B2, etc.) or leave them as gallery sketches.
 
 **Next:** `/stardust:prototype home --variant B3` to render `home-B3-proposed.html` (full prototype with shape brief + Discipline 9 gates).
+
+---
+
+## 2026-05-23T20:00:00-07:00 — `/stardust:prototype home --variant B3` complete
+
+**Prompt:** render home-B3-proposed.html.
+
+**Decisions:**
+- **Phase 1:** authored `home-B3-shape.md` — inherits home-B-shape.md's composition spine + documents B3's surface-fork tunings + 2 new choreographies + risk acknowledgement. Surprise budget: medium-high. Dominant dimension: maximal-scroll-cinema.
+- **Phase 2:** authored `home-B3-proposed.html` (~1450 lines, self-contained). Inherits all of B's section structure + B3-specific overrides:
+  - **Type scale: perfect-fifth 1.5** — title-1 clamp(48, 8vw, 108) / lh 0.90 / -3.5px; title-4 bumped to 32px to maintain proportion. Visibly louder marquee than B.
+  - **Body H3 weight 700** (vs A/B's 400). Heavier register.
+  - **Density packed** — sectionPadding 48/36/24 desktop/tablet/mobile; gridGap 8px; card padding 20px.
+  - **Color temperature warm-leaning** — placeholder gradients pick up amber/orange dominant tones via `--warm-amber/--warm-orange/--warm-red` tokens.
+  - **5 rAF choreographies (cap override):**
+    1. Hero scroll-grow (B inheritance) — 300vh + sticky + JS-driven scale.
+    2. Stories mouse-pan (B inheritance) — cursor-proximity horizontal pan.
+    3. Tutorial reverse-hero (B inheritance) — slide width 100vw → 1068/1440 entrance.
+    4. **B3-NEW: featured-products-parallax** — media translates at 60% scroll velocity. `transform = translateY((progress - 0.5) * rect.height * 0.4)`. Initial inset extended to `inset(-10% 0)` to give parallax range.
+    5. **B3-NEW: news-scroll-scrub-3-stage** — items reveal at stages [0.2, 0.5, 0.8] within section scroll, each over 0.15 progress band. Items declared `opacity: 0; transform: translateY(24px)` initially (with `.ds-news-item` reduced-motion + noscript fallbacks).
+  - Plus CSS scroll-driven (declarative, doesn't count toward rAF cap): studio-banner garage-door (warm-tinted bg + content reveal) and footer wordmark wipe.
+- **Phase 2.5/2.6/2.7 gates clean** at 1440/768/360: 0 errors, 0 horizontal overflow, 8 sections, 1 H1, 8 H2s, skip-link + noscript + `:root` block all present, 2 parallax targets + 3 scrub items wired, hero scroll height 2700px at desktop (300vh).
+- **Reduced-motion handling extended** for B3-specific patterns: `.ds-news-item` fallback to `opacity: 1; transform: none` under `prefers-reduced-motion: reduce` + noscript. `.ds-feature-card__media` `transform: none` under reduced-motion + noscript.
+- **state.json updated:** home.prototypePaths.B3 + shapeBriefs.B3 + validation.B3 + history entry.
+
+**Findings worth flagging:**
+1. **Title-1 perfect-fifth scale reads louder than B's clamp.** At 1440px, B3's title-1 is 108px (max) vs B's 80px max — 35% larger. Noticeable difference on hero comparison.
+2. **Warm-leaning palette tints land cleanly** as ambient brand temperature without introducing new colors. The `--warm-amber/orange/red` tokens are just opacity-tinted alphas of the captured palette + existing brand mnemonic red.
+3. **Parallax range trick** — `.ds-feature-card__media` uses `inset: -10% 0` to extend the media container above and below the visible viewport, so the parallax translate has room to move without exposing edges. Verified on screenshot — gradients fill cleanly through full scroll range.
+4. **News scrub initial state** required careful handling of the `.ds-news-item` baseline rules. Without explicit `opacity: 0` initial state, items would flash visible before the rAF tick. Added in CSS + reduced-motion + noscript override.
+
+**Artifacts touched:**
+- `stardust/prototypes/home-B3-shape.md` — created
+- `stardust/prototypes/home-B3-proposed.html` — created (~1450 lines, self-contained)
+- `stardust/validation/home-B3/{desktop, desktop-reducedmotion, desktop-firstview, mobile-360}.png` — created
+- `stardust/state.json` — updated (home.prototypePaths.B3 + history entry)
+
+**Open questions:**
+- B3 motion-fatigue verification on low-end devices not yet performed. Recommend M1+ profile testing before stakeholder review.
+- B3 vs B side-by-side comparison — useful to test the "how loud is too loud" hypothesis.
+
+**Next:** Review B3 alongside B (the calmer version). Comparison is the load-bearing question for this variant. Or continue promoting other B sub-variants (B1/B2/B4/B5) via `--add-variant`.
