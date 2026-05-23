@@ -1,0 +1,814 @@
+<!doctype html>
+<!--
+  _provenance:
+    writtenBy: stardust:prototype (gallery mode)
+    writtenAt: 2026-05-23T15:00:00-07:00
+    purpose: "10 additional Mode A directions (D-M) for home page redesign — each amplifies a distinct captured trait. Compact gallery for side-by-side comparison; promote favorites to full prototypes later."
+    variants: ["D", "E", "F", "G", "H", "I", "J", "K", "L", "M"]
+    sharedTokens: DESIGN-A.json
+    cap: "Discipline 4 substrate carve-out applies — gallery format alternates substrates intentionally"
+    stardustVersion: 0.7.1
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>10 more directions — D through M</title>
+<style>
+  :root {
+    --c-bg: #ffffff;
+    --c-surface: #f8f8f8;
+    --c-dark: #000000;
+    --c-text: #2c2c2c;
+    --c-text-soft: rgba(0, 0, 0, 0.64);
+    --c-knock: #ffffff;
+    --c-knock-soft: rgba(255, 255, 255, 0.64);
+    --c-primary: #3b63fb;
+    --c-primary-hover: #274dea;
+    --c-red: #eb1000;
+    --c-border: rgba(0, 0, 0, 0.08);
+    --c-border-knock: rgba(255, 255, 255, 0.16);
+    --c-focus: rgba(59, 99, 251, 0.2);
+
+    --f-heading: "Adobe Clean Display", "Adobe Clean", system-ui, -apple-system, sans-serif;
+    --f-body: "Adobe Clean", system-ui, -apple-system, sans-serif;
+    --f-mono: ui-monospace, "SF Mono", Menlo, monospace;
+
+    --r-sm: 8px; --r-md: 16px; --r-lg: 32px; --r-pill: 999px; --r-inner: 12px;
+
+    --grid-margin: 24px;
+    --container-max: 1440px;
+    --section-pad: 48px;
+
+    --e-default: cubic-bezier(0.42, 0, 0, 1);
+    --d-fast: 200ms;
+    --d-base: 400ms;
+  }
+  @media (min-width: 768px) {
+    :root { --grid-margin: 8.333vw; --section-pad: 64px; }
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { hanging-punctuation: first; }
+  body { font-family: var(--f-body); color: var(--c-text); background: var(--c-surface); line-height: 1.5; }
+  h1, h2, h3, h4 { font-family: var(--f-heading); font-weight: 900; text-wrap: balance; }
+  p { text-wrap: pretty; max-width: 80ch; }
+  a { text-decoration: none; color: inherit; }
+  :focus-visible { outline: 3px solid var(--c-focus); outline-offset: 2px; border-radius: 4px; }
+
+  /* GALLERY CHROME */
+  .g-page { background: var(--c-bg); }
+  .g-intro {
+    padding: 96px var(--grid-margin) 64px;
+    max-width: var(--container-max);
+    margin-inline: auto;
+  }
+  .g-intro__eyebrow { font-size: 14px; font-weight: 700; letter-spacing: 0.08em; color: var(--c-text-soft); margin-bottom: 16px; }
+  .g-intro__h1 { font-size: clamp(40px, 6.25vw, 80px); line-height: 0.95; letter-spacing: clamp(-3.2px, -0.25vw, -1.5px); margin-bottom: 24px; }
+  .g-intro__body { font-size: 18px; max-width: 65ch; color: var(--c-text-soft); margin-bottom: 32px; }
+  .g-intro__nav { display: flex; flex-wrap: wrap; gap: 8px; }
+  .g-intro__chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 999px; background: var(--c-surface); font-size: 13px; font-weight: 700; color: var(--c-text); border: 1px solid var(--c-border); }
+  .g-intro__chip strong { color: var(--c-red); font-family: var(--f-mono); }
+
+  /* VARIANT HEADER */
+  .v-header {
+    padding: 80px var(--grid-margin) 32px;
+    max-width: var(--container-max);
+    margin-inline: auto;
+  }
+  .v-header__id { font-family: var(--f-mono); font-size: 13px; letter-spacing: 0.1em; color: var(--c-red); font-weight: 700; margin-bottom: 12px; }
+  .v-header__name { font-size: clamp(32px, 4.375vw, 56px); line-height: 1.0; letter-spacing: clamp(-1.68px, -0.13vw, -0.8px); margin-bottom: 16px; }
+  .v-header__thesis { font-size: 18px; color: var(--c-text-soft); max-width: 72ch; }
+  .v-header__meta { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 24px; font-family: var(--f-mono); font-size: 12px; color: var(--c-text-soft); }
+  .v-header__meta span { padding: 4px 10px; background: var(--c-surface); border-radius: 4px; }
+
+  /* VARIANT RENDER FRAME — each direction's load-bearing visual lives here */
+  .v-render {
+    margin: 0 var(--grid-margin) 32px;
+    max-width: calc(var(--container-max) - 2 * var(--grid-margin));
+    margin-inline: auto;
+    border-radius: var(--r-lg);
+    overflow: hidden;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.06);
+    position: relative;
+  }
+  .v-render__badge {
+    position: absolute; top: 16px; right: 16px; z-index: 10;
+    padding: 4px 10px; border-radius: 4px;
+    background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(8px);
+    font-family: var(--f-mono); font-size: 11px; font-weight: 700;
+    color: var(--c-text);
+  }
+
+  /* BTN (shared) */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 40px; padding: 0 24px; border-radius: var(--r-md); font: 700 14px/1.29 var(--f-body); border: 1.5px solid transparent; transition: background var(--d-fast) var(--e-default); white-space: nowrap; cursor: pointer; }
+  .btn--sm { height: 32px; padding: 0 18px; }
+  .btn--p { background: var(--c-primary); color: #fff; }
+  .btn--p:hover { background: var(--c-primary-hover); }
+  .btn--o { background: transparent; color: var(--c-text); border-color: var(--c-text); }
+  .btn--o:hover { background: rgba(0,0,0,0.04); }
+  .btn--sw { background: #fff; color: #000; }
+  .btn--sw:hover { background: rgba(255,255,255,0.88); }
+  .btn--gw { background: transparent; color: #fff; border-color: rgba(255,255,255,0.5); }
+  .btn--gw:hover { background: rgba(255,255,255,0.08); }
+  .btn--red { background: var(--c-red); color: #fff; }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     VARIANT D — "Editorial Long-form"
+     Amplifies the period-terminated marquee voice into a reading rhythm.
+     Drop cap, long body, no tiles. Type leads; imagery recedes.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vD { background: #fefcf8; padding: 96px clamp(24px, 12vw, 200px) 96px; }
+  .vD__eyebrow { font-family: var(--f-body); font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--c-text-soft); margin-bottom: 32px; font-weight: 700; }
+  .vD__h1 { font-family: var(--f-heading); font-size: clamp(56px, 7.5vw, 96px); line-height: 0.94; letter-spacing: -3px; font-weight: 900; margin-bottom: 48px; max-width: 16ch; }
+  .vD__body { font-size: 21px; line-height: 1.55; max-width: 64ch; color: var(--c-text); }
+  .vD__body p { margin-bottom: 24px; max-width: 64ch; }
+  .vD__dropcap::first-letter {
+    font-family: var(--f-heading);
+    font-size: 5.5em;
+    line-height: 0.85;
+    font-weight: 900;
+    float: left;
+    margin: 8px 12px 0 -2px;
+    color: var(--c-text);
+  }
+  .vD__signature { font-family: var(--f-mono); font-size: 13px; color: var(--c-text-soft); padding-top: 32px; border-top: 1px solid var(--c-border); margin-top: 48px; }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     VARIANT E — "Brand-Red Forward"
+     Amplifies brand-mnemonic-red #eb1000 from reserved to structural.
+     Red as accent dividers, type emphasis, large display dots.
+     Adobe blue stays CTA discipline.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vE { background: #ffffff; padding: 64px var(--grid-margin); }
+  .vE__rule { height: 8px; background: var(--c-red); margin-bottom: 48px; max-width: 96px; border-radius: 4px; }
+  .vE__eyebrow { font-size: 14px; font-weight: 700; color: var(--c-red); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 20px; }
+  .vE__h1 { font-size: clamp(48px, 7vw, 96px); line-height: 0.95; letter-spacing: -2.5px; margin-bottom: 24px; max-width: 18ch; }
+  .vE__h1-period { color: var(--c-red); display: inline-block; }
+  .vE__body { font-size: 20px; line-height: 1.45; max-width: 56ch; color: var(--c-text-soft); margin-bottom: 32px; }
+  .vE__ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+  .vE__strip { margin-top: 64px; padding-top: 48px; border-top: 4px solid var(--c-red); display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  @media (max-width: 767px) { .vE__strip { grid-template-columns: 1fr; } }
+  .vE__item { display: flex; flex-direction: column; gap: 8px; }
+  .vE__item-num { font-family: var(--f-heading); font-size: 80px; line-height: 0.9; font-weight: 900; color: var(--c-red); letter-spacing: -3px; }
+  .vE__item-h { font-size: 20px; font-weight: 900; }
+  .vE__item-body { font-size: 14px; color: var(--c-text-soft); max-width: 32ch; }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     VARIANT F — "AI Sparkle Pervasive"
+     Amplifies the AI add-on gradient (purple→red) from one-off lockup
+     to ambient AI visual language. Eyebrows, borders, button-glow.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vF { background: #0a0a14; padding: 96px var(--grid-margin); color: var(--c-knock); position: relative; overflow: hidden; }
+  .vF::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% 20%, rgba(141, 136, 242, 0.18), transparent 50%), radial-gradient(ellipse at 20% 80%, rgba(235, 16, 0, 0.12), transparent 55%); pointer-events: none; }
+  .vF__inner { position: relative; max-width: var(--container-max); margin-inline: auto; }
+  .vF__eyebrow-grad {
+    display: inline-block;
+    font-family: var(--f-body); font-size: 14px; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--c-knock); padding-bottom: 4px;
+    background: linear-gradient(135deg, #8D88F2, #EB1000) bottom / 100% 2px no-repeat;
+    margin-bottom: 24px;
+  }
+  .vF__h1 { font-size: clamp(40px, 6vw, 80px); line-height: 0.96; letter-spacing: -2px; color: var(--c-knock); margin-bottom: 24px; max-width: 22ch; }
+  .vF__h1-sparkle { background: linear-gradient(135deg, #8D88F2, #EB1000); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .vF__body { font-size: 18px; line-height: 1.45; color: var(--c-knock-soft); max-width: 60ch; margin-bottom: 32px; }
+  .vF__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 56px; }
+  @media (max-width: 900px) { .vF__grid { grid-template-columns: 1fr; } }
+  .vF__card {
+    padding: 24px;
+    border-radius: 16px;
+    background:
+      linear-gradient(#0a0a14, #0a0a14) padding-box,
+      linear-gradient(135deg, #8D88F2, #EB1000) border-box;
+    border: 1.5px solid transparent;
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  .vF__card-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; color: rgba(141, 136, 242, 0.9); text-transform: uppercase; }
+  .vF__card-h { font-size: 22px; font-weight: 900; }
+  .vF__card-body { font-size: 14px; color: var(--c-knock-soft); }
+  .vF__cta { background: linear-gradient(135deg, #8D88F2, #EB1000); color: #fff; border: none; height: 44px; padding: 0 24px; border-radius: 999px; font: 700 14px var(--f-body); cursor: pointer; }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     VARIANT G — "Wordmark as Hero"
+     Amplifies the captured footer Adobe wordmark moment to hero position.
+     Pure typographic specimen; product mnemonics as a type list.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vG { background: #ffffff; padding: 96px var(--grid-margin) 0; overflow: hidden; }
+  .vG__wordmark { font-family: var(--f-heading); font-size: clamp(96px, 26vw, 380px); font-weight: 900; line-height: 0.78; letter-spacing: -0.08em; color: var(--c-text); margin: 0 calc(-1 * var(--grid-margin)); padding-inline: var(--grid-margin); border-bottom: 1px solid var(--c-border); padding-bottom: 24px; }
+  .vG__sub { display: flex; flex-direction: column; gap: 0; padding-top: 32px; }
+  .vG__row { display: grid; grid-template-columns: 80px 1fr auto; align-items: baseline; padding: 16px 0; border-bottom: 1px solid var(--c-border); gap: 24px; }
+  .vG__row-num { font-family: var(--f-mono); font-size: 12px; color: var(--c-text-soft); }
+  .vG__row-name { font-family: var(--f-heading); font-size: 32px; font-weight: 900; line-height: 1.0; letter-spacing: -1px; }
+  .vG__row-cat { font-size: 13px; color: var(--c-text-soft); font-family: var(--f-mono); }
+  .vG__row:hover { background: var(--c-surface); }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     VARIANT H — "Tab-Routed Plans"
+     Amplifies the samples' plans-page tab-bar pattern as the home IA.
+     Home opens with 3 audience tabs; below-fold swaps per tab.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vH { background: #ffffff; padding: 64px var(--grid-margin) 32px; }
+  .vH__head { text-align: center; margin-bottom: 32px; }
+  .vH__eyebrow { font-size: 14px; font-weight: 700; letter-spacing: 0.08em; color: var(--c-text-soft); text-transform: uppercase; margin-bottom: 12px; }
+  .vH__h1 { font-size: clamp(40px, 5.5vw, 72px); line-height: 0.96; letter-spacing: -2px; max-width: 18ch; margin-inline: auto; }
+  .vH__tabs { display: flex; justify-content: center; margin: 40px auto 32px; }
+  .vH__tabs-inner { display: inline-flex; background: rgba(0,0,0,0.05); border-radius: 24px; padding: 4px; }
+  .vH__tab { padding: 0 24px; height: 36px; border-radius: 999px; border: none; background: transparent; font: 700 14px var(--f-body); color: var(--c-text-soft); cursor: pointer; transition: background var(--d-fast), color var(--d-fast); }
+  .vH__tab.is-active { background: var(--c-text); color: #fff; }
+  .vH__panels { max-width: var(--container-max); margin-inline: auto; }
+  .vH__panel { display: none; }
+  .vH__panel.is-active { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  @media (max-width: 767px) { .vH__panel.is-active { grid-template-columns: 1fr; } }
+  .vH__card { background: var(--c-surface); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 8px; min-height: 200px; }
+  .vH__card-eyebrow { font-size: 14px; font-weight: 700; color: var(--c-text-soft); }
+  .vH__card-h { font-size: 22px; font-weight: 900; line-height: 1.1; letter-spacing: -0.5px; }
+  .vH__card-body { font-size: 14px; color: var(--c-text-soft); flex: 1; }
+  .vH__card-cta { align-self: flex-start; margin-top: 8px; }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     VARIANT I — "Nested-Radius Architecture"
+     Amplifies the samples' merch-card nested-radius pattern to universal.
+     Outer-inset-inner radius hierarchy via depth, not surface tone.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vI { background: var(--c-surface); padding: 64px var(--grid-margin); }
+  .vI__outer { background: var(--c-surface); outline: 4px solid var(--c-surface); border-radius: 24px; overflow: hidden; max-width: var(--container-max); margin-inline: auto; }
+  .vI__middle { background: #ffffff; border: 4px solid var(--c-surface); border-radius: 24px; padding: 8px; }
+  .vI__inner { background: var(--c-surface); border-radius: 20px; padding: 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; min-height: 360px; }
+  @media (max-width: 767px) { .vI__inner { grid-template-columns: 1fr; } }
+  .vI__pane { background: #ffffff; border: 4px solid var(--c-surface); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 12px; }
+  .vI__pane--dark { background: var(--c-dark); color: var(--c-knock); border-color: var(--c-dark); }
+  .vI__pane-eyebrow { font-size: 12px; font-weight: 700; color: var(--c-text-soft); letter-spacing: 0.04em; }
+  .vI__pane--dark .vI__pane-eyebrow { color: var(--c-knock-soft); }
+  .vI__pane-h { font-size: 22px; font-weight: 900; line-height: 1.05; letter-spacing: -0.5px; }
+  .vI__pane-body { font-size: 14px; color: var(--c-text-soft); flex: 1; }
+  .vI__pane--dark .vI__pane-body { color: var(--c-knock-soft); }
+  .vI__chip-row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .vI__chip { background: var(--c-surface); border-radius: 12px; padding: 6px 12px; font-size: 12px; font-weight: 700; }
+  .vI__pane--dark .vI__chip { background: rgba(255,255,255,0.08); color: var(--c-knock); }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     VARIANT J — "Glass Everywhere"
+     Amplifies captured nav glassmorphism to ambient layer.
+     Photographic substrate; floating glass panels carry content.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vJ {
+    position: relative;
+    min-height: 720px;
+    background:
+      radial-gradient(ellipse at 20% 30%, rgba(255, 102, 0, 0.32), transparent 50%),
+      radial-gradient(ellipse at 80% 70%, rgba(59, 99, 251, 0.28), transparent 50%),
+      radial-gradient(ellipse at 50% 50%, rgba(141, 88, 250, 0.16), transparent 60%),
+      linear-gradient(135deg, #2a1410 0%, #0a0612 100%);
+    padding: 48px var(--grid-margin) 80px;
+    overflow: hidden;
+  }
+  .vJ__nav-glass {
+    height: 64px; border-radius: 16px;
+    background: rgba(255,255,255,0.16);
+    backdrop-filter: blur(48px); -webkit-backdrop-filter: blur(48px);
+    border: 1px solid rgba(255,255,255,0.20);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 16px;
+    margin-bottom: 64px;
+    max-width: calc(var(--container-max) - 2 * var(--grid-margin));
+    margin-inline: auto;
+  }
+  .vJ__nav-glass-left { display: flex; align-items: center; gap: 24px; color: var(--c-knock); font-weight: 700; font-size: 14px; }
+  .vJ__nav-glass-right { display: flex; gap: 8px; }
+  .vJ__hero-stack { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: var(--container-max); margin-inline: auto; }
+  @media (max-width: 900px) { .vJ__hero-stack { grid-template-columns: 1fr; } }
+  .vJ__panel {
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(40px) saturate(140%); -webkit-backdrop-filter: blur(40px) saturate(140%);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 20px;
+    padding: 32px;
+    color: var(--c-knock);
+    display: flex; flex-direction: column;
+    gap: 16px;
+  }
+  .vJ__panel-eyebrow { font-size: 14px; font-weight: 700; color: rgba(255,255,255,0.72); letter-spacing: 0.04em; }
+  .vJ__panel-h { font-size: clamp(28px, 4vw, 48px); line-height: 1.0; letter-spacing: -1px; }
+  .vJ__panel-body { font-size: 16px; color: rgba(255,255,255,0.84); max-width: 40ch; }
+  .vJ__panel-row { display: flex; gap: 12px; margin-top: 8px; }
+  .vJ__chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .vJ__chip { background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.20); backdrop-filter: blur(8px); border-radius: 999px; padding: 6px 12px; font-size: 12px; font-weight: 700; color: var(--c-knock); }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     VARIANT K — "Mnemonic Tile Decorative"
+     Amplifies product-mnemonic colored squares from utility chips
+     to decorative motif. Bullets, dividers, section markers.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vK { background: #ffffff; padding: 80px var(--grid-margin); }
+  .vK__head { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; flex-wrap: wrap; max-width: var(--container-max); margin-inline: auto; }
+  .vK__mnem { width: 32px; height: 32px; border-radius: 8px; }
+  .vK__mnem--ps { background: linear-gradient(135deg, #2a5cff, #001a8d); }
+  .vK__mnem--ai { background: linear-gradient(135deg, #ff7a00, #a83a00); }
+  .vK__mnem--pr { background: linear-gradient(135deg, #b884ff, #4d1182); }
+  .vK__mnem--lr { background: linear-gradient(135deg, #44b8ff, #0072c6); }
+  .vK__mnem--ac { background: linear-gradient(135deg, #ff5555, #b80000); }
+  .vK__mnem--ff { background: linear-gradient(135deg, #ff3cac, #7c0030); }
+  .vK__mnem--xs { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+  .vK__mnem--sm { width: 18px; height: 18px; border-radius: 4px; flex-shrink: 0; }
+  .vK__eyebrow { font-size: 14px; font-weight: 700; letter-spacing: 0.08em; color: var(--c-text-soft); text-transform: uppercase; }
+  .vK__h1 { font-size: clamp(40px, 6vw, 80px); line-height: 0.96; letter-spacing: -2px; max-width: var(--container-max); margin-inline: auto; margin-bottom: 32px; }
+  .vK__divider { display: flex; gap: 8px; align-items: center; margin: 48px auto; max-width: var(--container-max); }
+  .vK__divider-line { flex: 1; height: 1px; background: var(--c-border); }
+  .vK__list { display: grid; grid-template-columns: 1fr; gap: 16px; max-width: var(--container-max); margin-inline: auto; }
+  @media (min-width: 768px) { .vK__list { grid-template-columns: 1fr 1fr; gap: 24px; } }
+  .vK__item { display: grid; grid-template-columns: 18px 1fr; align-items: baseline; gap: 16px; padding: 16px; border-radius: 12px; transition: background var(--d-fast); }
+  .vK__item:hover { background: var(--c-surface); }
+  .vK__item-h { font-size: 18px; font-weight: 900; letter-spacing: -0.3px; }
+  .vK__item-body { font-size: 14px; color: var(--c-text-soft); margin-top: 4px; max-width: 42ch; }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     VARIANT L — "Tabular Type Display"
+     Amplifies tabular-nums + ad-hoc scale into a pricing-as-art specimen.
+     Big numbers, aligned columns, refined fidelity foregrounded.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vL { background: #ffffff; padding: 64px var(--grid-margin); font-variant-numeric: tabular-nums; }
+  .vL__head { max-width: var(--container-max); margin-inline: auto; margin-bottom: 48px; }
+  .vL__h1 { font-size: clamp(40px, 6vw, 80px); line-height: 0.96; letter-spacing: -2px; margin-bottom: 12px; }
+  .vL__sub { font-size: 16px; color: var(--c-text-soft); }
+  .vL__grid { display: grid; grid-template-columns: 1fr; gap: 12px; max-width: var(--container-max); margin-inline: auto; }
+  @media (min-width: 900px) { .vL__grid { grid-template-columns: repeat(3, 1fr); } }
+  .vL__plan { background: var(--c-surface); border-radius: 20px; padding: 32px; display: grid; grid-template-rows: auto auto auto 1fr auto; gap: 16px; }
+  .vL__plan--feature { background: var(--c-dark); color: var(--c-knock); }
+  .vL__plan-name { font-size: 22px; font-weight: 900; letter-spacing: -0.5px; }
+  .vL__plan-price { font-family: var(--f-heading); font-size: clamp(64px, 8vw, 96px); line-height: 0.9; font-weight: 900; letter-spacing: -3px; font-variant-numeric: tabular-nums; }
+  .vL__plan-price-sub { font-size: 13px; color: var(--c-text-soft); margin-top: -8px; }
+  .vL__plan--feature .vL__plan-price-sub { color: var(--c-knock-soft); }
+  .vL__plan-features { list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 14px; line-height: 1.4; }
+  .vL__plan-features li { display: grid; grid-template-columns: 16px 1fr; gap: 8px; align-items: baseline; }
+  .vL__plan-features li::before { content: '·'; font-weight: 900; color: var(--c-primary); }
+  .vL__plan--feature .vL__plan-features li::before { color: #fff; }
+  .vL__plan-cta { background: var(--c-primary); color: #fff; padding: 12px; border-radius: 12px; text-align: center; font-weight: 700; font-size: 14px; cursor: pointer; border: none; }
+  .vL__plan--feature .vL__plan-cta { background: #fff; color: #000; }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     VARIANT M — "Backdrop Cards on Photography"
+     Combines captured nav-glass with photo-led substrate.
+     Photographic ground; glass cards carry content.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vM {
+    position: relative;
+    min-height: 720px;
+    background:
+      radial-gradient(ellipse at 60% 35%, rgba(255, 162, 95, 0.36), transparent 50%),
+      radial-gradient(ellipse at 25% 75%, rgba(141, 88, 250, 0.30), transparent 55%),
+      linear-gradient(135deg, #1f1006 0%, #4d2a14 30%, #2a1410 65%, #0a0612 100%);
+    padding: 80px var(--grid-margin);
+    overflow: hidden;
+  }
+  .vM__inner { max-width: var(--container-max); margin-inline: auto; display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; align-items: start; }
+  @media (max-width: 900px) { .vM__inner { grid-template-columns: 1fr; } }
+  .vM__hero-card {
+    background: rgba(0, 0, 0, 0.36);
+    backdrop-filter: blur(28px) saturate(140%); -webkit-backdrop-filter: blur(28px) saturate(140%);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 24px;
+    padding: 48px;
+    color: var(--c-knock);
+    display: flex; flex-direction: column; gap: 20px;
+  }
+  .vM__hero-card-eyebrow { font-size: 14px; font-weight: 700; color: rgba(255,255,255,0.72); letter-spacing: 0.04em; }
+  .vM__hero-card-h { font-size: clamp(36px, 4.5vw, 64px); line-height: 0.95; letter-spacing: -1.5px; }
+  .vM__hero-card-body { font-size: 17px; color: rgba(255,255,255,0.84); max-width: 44ch; }
+  .vM__hero-card-row { display: flex; gap: 12px; margin-top: 12px; }
+  .vM__side { display: flex; flex-direction: column; gap: 12px; }
+  .vM__chip-card {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    padding: 20px;
+    color: var(--c-knock);
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  .vM__chip-card-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; color: rgba(255,255,255,0.64); text-transform: uppercase; }
+  .vM__chip-card-h { font-size: 18px; font-weight: 900; letter-spacing: -0.3px; }
+  .vM__chip-card-body { font-size: 13px; color: rgba(255,255,255,0.78); }
+</style>
+</head>
+<body>
+
+  <div class="g-page">
+
+    <!-- INTRO -->
+    <header class="g-intro">
+      <p class="g-intro__eyebrow">STARDUST · GALLERY · 10 MORE DIRECTIONS</p>
+      <h1 class="g-intro__h1">Ten more Mode A amplifications.</h1>
+      <p class="g-intro__body">Each direction amplifies a distinct captured trait from adobe.com's brand surface and design samples, beyond the A/B/C variants already prototyped. Mode A discipline holds — palette, type family, and IA-priority audit are inherited. The amplified trait is what changes.</p>
+      <nav class="g-intro__nav" aria-label="Direction index">
+        <a class="g-intro__chip" href="#D"><strong>D</strong> Editorial Long-form</a>
+        <a class="g-intro__chip" href="#E"><strong>E</strong> Brand-Red Forward</a>
+        <a class="g-intro__chip" href="#F"><strong>F</strong> AI Sparkle Pervasive</a>
+        <a class="g-intro__chip" href="#G"><strong>G</strong> Wordmark as Hero</a>
+        <a class="g-intro__chip" href="#H"><strong>H</strong> Tab-Routed Plans</a>
+        <a class="g-intro__chip" href="#I"><strong>I</strong> Nested-Radius Architecture</a>
+        <a class="g-intro__chip" href="#J"><strong>J</strong> Glass Everywhere</a>
+        <a class="g-intro__chip" href="#K"><strong>K</strong> Mnemonic Tile Decorative</a>
+        <a class="g-intro__chip" href="#L"><strong>L</strong> Tabular Type Display</a>
+        <a class="g-intro__chip" href="#M"><strong>M</strong> Backdrop Cards on Photography</a>
+      </nav>
+    </header>
+
+    <!-- ═══════ VARIANT D ═══════ -->
+    <section id="D">
+      <div class="v-header">
+        <p class="v-header__id">D · DIRECTION</p>
+        <h2 class="v-header__name">Editorial Long-form</h2>
+        <p class="v-header__thesis">Amplifies the captured period-terminated marquee voice into a reading cadence. The home opens like a serialised essay: a single column of words, a drop cap, a rhythm closer to The Atlantic than to a SaaS home. No tiles in the first viewport — type leads; imagery recedes. Captured trait: short period-terminated sentences extended into reading length.</p>
+        <div class="v-header__meta"><span>captured trait: marquee voice cadence</span><span>surprise: medium</span><span>type-led</span></div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">D · Editorial Long-form</span>
+        <div class="vD">
+          <p class="vD__eyebrow">Adobe Photoshop · Generative Fill</p>
+          <h2 class="vD__h1">Transform how you share information.</h2>
+          <div class="vD__body">
+            <p class="vD__dropcap">Photoshop's new AI Generative Fill removes the gap between idea and image. Sketch a thought. Finish a composition. Then share it, in seconds, with everyone who needs to see it.</p>
+            <p>What started in 1989 as a tool for cutting out backgrounds has become, in 2026, the most direct line between a creative impulse and a piece of work. The pixel hasn't moved. The path from one to many has.</p>
+            <p>This is what Adobe has always made: tools that close the distance between thought and artifact. Generative Fill is the next short step.</p>
+          </div>
+          <p class="vD__signature">Adobe · Adobe Photoshop · 2026</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ VARIANT E ═══════ -->
+    <section id="E">
+      <div class="v-header">
+        <p class="v-header__id">E · DIRECTION</p>
+        <h2 class="v-header__name">Brand-Red Forward</h2>
+        <p class="v-header__thesis">Amplifies Adobe red <code style="font-family:var(--f-mono);color:var(--c-red);">#eb1000</code> from a reserved brand-mnemonic colour into a load-bearing structural element. Red appears as architectural rules, type-period accents, and large numeric callouts. Adobe blue stays the CTA discipline — red never becomes a button colour. The brand asserts itself in form rather than chrome.</p>
+        <div class="v-header__meta"><span>captured trait: brand-red reservation elevated</span><span>surprise: medium</span><span>brand-mnemonic-architectural</span></div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">E · Brand-Red Forward</span>
+        <div class="vE">
+          <div class="vE__rule" aria-hidden="true"></div>
+          <p class="vE__eyebrow">Adobe Photoshop</p>
+          <h2 class="vE__h1">Transform how you share information<span class="vE__h1-period">.</span></h2>
+          <p class="vE__body">Photoshop's new AI Generative Fill removes the gap between idea and image. Sketch a thought; finish a composition.</p>
+          <div class="vE__ctas">
+            <a href="#trial" class="btn btn--p">Free trial</a>
+            <a href="#pricing" class="btn btn--o">View plans and pricing</a>
+          </div>
+          <div class="vE__strip">
+            <div class="vE__item">
+              <span class="vE__item-num">37</span>
+              <span class="vE__item-h">Years of Photoshop.</span>
+              <span class="vE__item-body">From 1989 to today, one tool, continuously rebuilt for the medium.</span>
+            </div>
+            <div class="vE__item">
+              <span class="vE__item-num">20</span>
+              <span class="vE__item-h">Apps in Creative Cloud.</span>
+              <span class="vE__item-body">From Photoshop to Premiere — all in one subscription.</span>
+            </div>
+            <div class="vE__item">
+              <span class="vE__item-num">5M</span>
+              <span class="vE__item-h">Creators with AI access.</span>
+              <span class="vE__item-body">Firefly's commercial-safe models, in production.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ VARIANT F ═══════ -->
+    <section id="F">
+      <div class="v-header">
+        <p class="v-header__id">F · DIRECTION</p>
+        <h2 class="v-header__name">AI Sparkle Pervasive</h2>
+        <p class="v-header__thesis">Amplifies the captured AI add-on lockup gradient — <code style="font-family:var(--f-mono);">linear-gradient(135deg, #8D88F2, #EB1000)</code> — from a one-off pricing-card row to an ambient AI visual language. Eyebrows pick up a 2px gradient underline; AI feature cards get gradient borders via the layered-background-clip trick; primary CTAs use the gradient as their button surface in AI contexts. The brand signals "where AI is active" without saying so in words.</p>
+        <div class="v-header__meta"><span>captured trait: AI add-on gradient lockup elevated</span><span>surprise: medium-high</span><span>chromatic AI affordance</span></div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">F · AI Sparkle Pervasive</span>
+        <div class="vF">
+          <div class="vF__inner">
+            <span class="vF__eyebrow-grad">Adobe Firefly · AI Assistant</span>
+            <h2 class="vF__h1">Everything Adobe makes <span class="vF__h1-sparkle">now thinks with you.</span></h2>
+            <p class="vF__body">Generative Fill in Photoshop. AI Assistant in Acrobat. Express templates that adapt to your brand. The gradient marks every surface where Adobe AI is working.</p>
+            <button class="vF__cta">Try AI features free</button>
+            <div class="vF__grid">
+              <div class="vF__card">
+                <p class="vF__card-eyebrow">Photoshop · Generative Fill</p>
+                <h3 class="vF__card-h">Sketch a thought; finish a composition.</h3>
+                <p class="vF__card-body">New partner models from Gemini 2.5 and FLUX.1 pro, in the brush you already use.</p>
+              </div>
+              <div class="vF__card">
+                <p class="vF__card-eyebrow">Acrobat · AI Assistant</p>
+                <h3 class="vF__card-h">Read a 200-page PDF in 90 seconds.</h3>
+                <p class="vF__card-body">Summaries, insights, sources. Edit and convert without leaving the document.</p>
+              </div>
+              <div class="vF__card">
+                <p class="vF__card-eyebrow">Express · On-brand Templates</p>
+                <h3 class="vF__card-h">Make on-brand content, fast.</h3>
+                <p class="vF__card-body">500,000+ templates, automatically adapted to your colours, type, and logo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ VARIANT G ═══════ -->
+    <section id="G">
+      <div class="v-header">
+        <p class="v-header__id">G · DIRECTION</p>
+        <h2 class="v-header__name">Wordmark as Hero</h2>
+        <p class="v-header__thesis">Amplifies the captured Adobe wordmark from a footer reveal moment into the home's opening statement. The wordmark fills the first viewport at <code style="font-family:var(--f-mono);">clamp(96px, 26vw, 380px)</code>; product mnemonics organise below as a typographic specimen — a directory of capabilities, set in display weight. The brand is the page; the products are its volumes.</p>
+        <div class="v-header__meta"><span>captured trait: footer wordmark moment elevated</span><span>surprise: high</span><span>type-as-architecture</span></div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">G · Wordmark as Hero</span>
+        <div class="vG">
+          <div class="vG__wordmark">Adobe</div>
+          <div class="vG__sub">
+            <div class="vG__row"><span class="vG__row-num">01</span><span class="vG__row-name">Photoshop</span><span class="vG__row-cat">Image · Composition</span></div>
+            <div class="vG__row"><span class="vG__row-num">02</span><span class="vG__row-name">Illustrator</span><span class="vG__row-cat">Vector · Type</span></div>
+            <div class="vG__row"><span class="vG__row-num">03</span><span class="vG__row-name">Premiere Pro</span><span class="vG__row-cat">Video · Motion</span></div>
+            <div class="vG__row"><span class="vG__row-num">04</span><span class="vG__row-name">Lightroom</span><span class="vG__row-cat">Photography</span></div>
+            <div class="vG__row"><span class="vG__row-num">05</span><span class="vG__row-name">Acrobat</span><span class="vG__row-cat">PDF · E-signature</span></div>
+            <div class="vG__row"><span class="vG__row-num">06</span><span class="vG__row-name">Firefly</span><span class="vG__row-cat">AI · Generative</span></div>
+            <div class="vG__row"><span class="vG__row-num">07</span><span class="vG__row-name">Express</span><span class="vG__row-cat">Templates · Social</span></div>
+            <div class="vG__row"><span class="vG__row-num">08</span><span class="vG__row-name">Creative Cloud</span><span class="vG__row-cat">Suite · 20+ apps</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ VARIANT H ═══════ -->
+    <section id="H">
+      <div class="v-header">
+        <p class="v-header__id">H · DIRECTION</p>
+        <h2 class="v-header__name">Tab-Routed Plans</h2>
+        <p class="v-header__thesis">Amplifies the captured plans-page tab-bar pattern — Individuals / Businesses / Students & Teachers — into the home's primary IA. The tab bar sits beneath a short hero; each tab swaps the entire below-fold composition. The 4-audience routing of the current top nav becomes a structural reveal, not a hover-list. Captured trait: pricing-page tabs → home-page audience structure.</p>
+        <div class="v-header__meta"><span>captured trait: pricing tab-bar elevated</span><span>surprise: medium</span><span>IA-led</span></div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">H · Tab-Routed Plans</span>
+        <div class="vH">
+          <div class="vH__head">
+            <p class="vH__eyebrow">Pick your path</p>
+            <h2 class="vH__h1">Plans that work for you.</h2>
+          </div>
+          <div class="vH__tabs"><div class="vH__tabs-inner">
+            <button class="vH__tab is-active" data-tab="individuals">Individuals</button>
+            <button class="vH__tab" data-tab="businesses">Businesses</button>
+            <button class="vH__tab" data-tab="education">Students &amp; Teachers</button>
+          </div></div>
+          <div class="vH__panels">
+            <div class="vH__panel is-active" id="vH-individuals">
+              <div class="vH__card"><p class="vH__card-eyebrow">Creative Cloud Pro</p><h3 class="vH__card-h">Save 50% for the first 3 months.</h3><p class="vH__card-body">All 20+ apps + Firefly AI.</p><a class="btn btn--p btn--sm vH__card-cta">Free trial</a></div>
+              <div class="vH__card"><p class="vH__card-eyebrow">Acrobat Pro</p><h3 class="vH__card-h">PDF tools with AI Assistant.</h3><p class="vH__card-body">Edit, sign, collaborate. US$19.99/mo.</p><a class="btn btn--p btn--sm vH__card-cta">Free trial</a></div>
+              <div class="vH__card"><p class="vH__card-eyebrow">Adobe Express</p><h3 class="vH__card-h">Make on-brand content fast.</h3><p class="vH__card-body">500,000+ templates. Free to start.</p><a class="btn btn--o btn--sm vH__card-cta">Get started</a></div>
+            </div>
+            <div class="vH__panel" id="vH-businesses">
+              <div class="vH__card"><p class="vH__card-eyebrow">Creative Cloud for teams</p><h3 class="vH__card-h">Volume licensing &amp; admin.</h3><p class="vH__card-body">Easy seat management.</p><a class="btn btn--p btn--sm vH__card-cta">View pricing</a></div>
+              <div class="vH__card"><p class="vH__card-eyebrow">Adobe Experience Cloud</p><h3 class="vH__card-h">Personalisation at scale.</h3><p class="vH__card-body">Content supply chain &amp; analytics.</p><a class="btn btn--p btn--sm vH__card-cta">Talk to sales</a></div>
+              <div class="vH__card"><p class="vH__card-eyebrow">Acrobat for teams</p><h3 class="vH__card-h">PDF + e-signature workflows.</h3><p class="vH__card-body">Admin console, SSO, audit logs.</p><a class="btn btn--o btn--sm vH__card-cta">View pricing</a></div>
+            </div>
+            <div class="vH__panel" id="vH-education">
+              <div class="vH__card"><p class="vH__card-eyebrow">Students</p><h3 class="vH__card-h">60%+ off Creative Cloud.</h3><p class="vH__card-body">Verify enrollment, save big.</p><a class="btn btn--p btn--sm vH__card-cta">Get started</a></div>
+              <div class="vH__card"><p class="vH__card-eyebrow">Teachers</p><h3 class="vH__card-h">Free for K-12 educators.</h3><p class="vH__card-body">Adobe Express, Premium tier.</p><a class="btn btn--p btn--sm vH__card-cta">Apply free</a></div>
+              <div class="vH__card"><p class="vH__card-eyebrow">Schools &amp; Districts</p><h3 class="vH__card-h">District-wide licensing.</h3><p class="vH__card-body">Admin tools + curriculum.</p><a class="btn btn--o btn--sm vH__card-cta">Talk to sales</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ VARIANT I ═══════ -->
+    <section id="I">
+      <div class="v-header">
+        <p class="v-header__id">I · DIRECTION</p>
+        <h2 class="v-header__name">Nested-Radius Architecture</h2>
+        <p class="v-header__thesis">Amplifies the merch-card nested-radius pattern (outer 16px + 4px inset + inner 12px) into the home's structural language. The entire page renders as nested cards; hierarchy comes from depth of nesting, not surface tone. Reading the page is reading a Russian-doll architecture — each layer announces what's inside it. Captured trait: pricing nesting → universal pattern.</p>
+        <div class="v-header__meta"><span>captured trait: merch-card nesting elevated</span><span>surprise: medium</span><span>structural-led</span></div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">I · Nested-Radius Architecture</span>
+        <div class="vI">
+          <div class="vI__outer">
+            <div class="vI__middle">
+              <div class="vI__inner">
+                <div class="vI__pane">
+                  <span class="vI__pane-eyebrow">Adobe Photoshop</span>
+                  <h2 class="vI__pane-h">Transform how you share information.</h2>
+                  <p class="vI__pane-body">Photoshop's new AI Generative Fill removes the gap between idea and image.</p>
+                  <div class="vI__chip-row">
+                    <span class="vI__chip">Free trial</span>
+                    <span class="vI__chip">From US$19.99/mo</span>
+                  </div>
+                </div>
+                <div class="vI__pane vI__pane--dark">
+                  <span class="vI__pane-eyebrow">Acrobat Studio</span>
+                  <h2 class="vI__pane-h">PDF, AI, and your brand — together.</h2>
+                  <p class="vI__pane-body">PDF Spaces, AI Assistant, and Express Premium. All-in-one.</p>
+                  <div class="vI__chip-row">
+                    <span class="vI__chip">Buy now</span>
+                    <span class="vI__chip">Learn more</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ VARIANT J ═══════ -->
+    <section id="J">
+      <div class="v-header">
+        <p class="v-header__id">J · DIRECTION</p>
+        <h2 class="v-header__name">Glass Everywhere</h2>
+        <p class="v-header__thesis">Amplifies the captured nav-pill glassmorphism (Mode A inversion) from a single component to an ambient surface treatment. A photographic substrate fills the page; content lives in floating glass panels. Hierarchy comes from backdrop-blur depth — heavier blur = more important. Reframes Adobe as an atmospheric brand at the moment of first viewport. (Note: borrows from the existing Mode A glassmorphism inversion; doesn't introduce a new one.)</p>
+        <div class="v-header__meta"><span>captured trait: nav glassmorphism elevated</span><span>surprise: high</span><span>atmospheric-led</span></div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">J · Glass Everywhere</span>
+        <div class="vJ">
+          <div class="vJ__nav-glass">
+            <div class="vJ__nav-glass-left">
+              <span style="font-weight:900; letter-spacing:-0.5px;">Ad</span>
+              <span style="opacity:0.64;">Creativity</span>
+              <span style="opacity:0.64;">PDF</span>
+              <span style="opacity:0.64;">Marketing</span>
+            </div>
+            <div class="vJ__nav-glass-right">
+              <a class="btn btn--sw btn--sm">View pricing</a>
+              <a class="btn btn--gw btn--sm">Sign In</a>
+            </div>
+          </div>
+          <div class="vJ__hero-stack">
+            <div class="vJ__panel">
+              <span class="vJ__panel-eyebrow">Adobe Photoshop</span>
+              <h2 class="vJ__panel-h">Transform how you share information.</h2>
+              <p class="vJ__panel-body">Photoshop's new AI Generative Fill closes the gap between idea and image.</p>
+              <div class="vJ__panel-row">
+                <a class="btn btn--sw">Free trial</a>
+                <a class="btn btn--gw">Learn more</a>
+              </div>
+            </div>
+            <div class="vJ__panel" style="background:rgba(255,255,255,0.08);">
+              <span class="vJ__panel-eyebrow">Today on Adobe</span>
+              <div class="vJ__chips">
+                <span class="vJ__chip">Save 50% Creative Cloud Pro</span>
+                <span class="vJ__chip">Acrobat Studio launched</span>
+                <span class="vJ__chip">Firefly partner models live</span>
+                <span class="vJ__chip">Sundance: Adobe in 80% of films</span>
+              </div>
+              <p class="vJ__panel-body" style="font-size:14px; margin-top:8px;">Four short signals. Glance, click in, or scroll past — the substrate stays.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ VARIANT K ═══════ -->
+    <section id="K">
+      <div class="v-header">
+        <p class="v-header__id">K · DIRECTION</p>
+        <h2 class="v-header__name">Mnemonic Tile Decorative</h2>
+        <p class="v-header__thesis">Amplifies the product-mnemonic colored squares — currently 16×16 utility chips in the captured footer — into a decorative motif system. Mnemonic squares become list bullets (color-coded per product), section markers (which tool the moment is about), and structural dividers. The reader develops a chromatic vocabulary for Adobe's product lineup, by repetition. Captured trait: product mnemonic icons elevated.</p>
+        <div class="v-header__meta"><span>captured trait: mnemonic colour chips elevated</span><span>surprise: medium</span><span>chromatic vocabulary</span></div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">K · Mnemonic Tile Decorative</span>
+        <div class="vK">
+          <div class="vK__head">
+            <span class="vK__mnem vK__mnem--ps" aria-hidden="true"></span>
+            <span class="vK__mnem vK__mnem--ai" aria-hidden="true"></span>
+            <span class="vK__mnem vK__mnem--pr" aria-hidden="true"></span>
+            <span class="vK__mnem vK__mnem--lr" aria-hidden="true"></span>
+            <span class="vK__mnem vK__mnem--ac" aria-hidden="true"></span>
+            <span class="vK__mnem vK__mnem--ff" aria-hidden="true"></span>
+            <span class="vK__eyebrow" style="margin-left:8px;">Six tools, one mark each</span>
+          </div>
+          <h2 class="vK__h1">Read Adobe by colour.</h2>
+          <div class="vK__divider"><span class="vK__mnem vK__mnem--xs vK__mnem--ps"></span><span class="vK__divider-line"></span><span class="vK__mnem vK__mnem--xs vK__mnem--ai"></span></div>
+          <div class="vK__list">
+            <div class="vK__item"><span class="vK__mnem vK__mnem--sm vK__mnem--ps" aria-hidden="true"></span><div><h3 class="vK__item-h">Photoshop</h3><p class="vK__item-body">Composition, generative fill, photo retouching.</p></div></div>
+            <div class="vK__item"><span class="vK__mnem vK__mnem--sm vK__mnem--ai" aria-hidden="true"></span><div><h3 class="vK__item-h">Illustrator</h3><p class="vK__item-body">Vector graphics, type, branding systems.</p></div></div>
+            <div class="vK__item"><span class="vK__mnem vK__mnem--sm vK__mnem--pr" aria-hidden="true"></span><div><h3 class="vK__item-h">Premiere Pro</h3><p class="vK__item-body">Video editing, motion, cinematic colour.</p></div></div>
+            <div class="vK__item"><span class="vK__mnem vK__mnem--sm vK__mnem--lr" aria-hidden="true"></span><div><h3 class="vK__item-h">Lightroom</h3><p class="vK__item-body">Photography workflow, raw processing, presets.</p></div></div>
+            <div class="vK__item"><span class="vK__mnem vK__mnem--sm vK__mnem--ac" aria-hidden="true"></span><div><h3 class="vK__item-h">Acrobat</h3><p class="vK__item-body">PDF tools, e-signature, AI Assistant.</p></div></div>
+            <div class="vK__item"><span class="vK__mnem vK__mnem--sm vK__mnem--ff" aria-hidden="true"></span><div><h3 class="vK__item-h">Firefly</h3><p class="vK__item-body">Commercial-safe generative AI for images, video, audio.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ VARIANT L ═══════ -->
+    <section id="L">
+      <div class="v-header">
+        <p class="v-header__id">L · DIRECTION</p>
+        <h2 class="v-header__name">Tabular Type Display</h2>
+        <p class="v-header__thesis">Amplifies the refined-fidelity <code style="font-family:var(--f-mono);">font-variant-numeric: tabular-nums</code> treatment from a detail to a primary visual move. Pricing renders as art: huge tabular figures, aligned columns, ledger-like grids. Variance becomes legible — what costs what, what's included where, what's saved when — at a glance, without scanning. Captured trait: tabular-nums implementation choice elevated to display strategy.</p>
+        <div class="v-header__meta"><span>captured trait: tabular-nums treatment elevated</span><span>surprise: medium-high</span><span>specimen-led</span></div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">L · Tabular Type Display</span>
+        <div class="vL">
+          <div class="vL__head">
+            <h2 class="vL__h1">Plans, by the numbers.</h2>
+            <p class="vL__sub">Three tiers. Tabular figures. Aligned columns.</p>
+          </div>
+          <div class="vL__grid">
+            <div class="vL__plan">
+              <span class="vL__plan-name">Acrobat Reader</span>
+              <span class="vL__plan-price">$0</span>
+              <span class="vL__plan-price-sub">free, forever</span>
+              <ul class="vL__plan-features">
+                <li>View, print, share PDFs</li>
+                <li>Comment and collaborate</li>
+                <li>Desktop, web, mobile</li>
+              </ul>
+              <button class="vL__plan-cta">Download</button>
+            </div>
+            <div class="vL__plan vL__plan--feature">
+              <span class="vL__plan-name">Acrobat Pro</span>
+              <span class="vL__plan-price">$19.99</span>
+              <span class="vL__plan-price-sub">/mo · billed annually</span>
+              <ul class="vL__plan-features">
+                <li>70+ PDF tools</li>
+                <li>E-signature workflows</li>
+                <li>Form creation</li>
+                <li>Redact and protect</li>
+                <li>Compare PDFs</li>
+              </ul>
+              <button class="vL__plan-cta">Free trial</button>
+            </div>
+            <div class="vL__plan">
+              <span class="vL__plan-name">Acrobat Studio</span>
+              <span class="vL__plan-price">$24.99</span>
+              <span class="vL__plan-price-sub">/mo · annual</span>
+              <ul class="vL__plan-features">
+                <li>Everything in Pro</li>
+                <li>AI Assistant</li>
+                <li>PDF Spaces</li>
+                <li>Express Premium</li>
+              </ul>
+              <button class="vL__plan-cta">Free trial</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ VARIANT M ═══════ -->
+    <section id="M">
+      <div class="v-header">
+        <p class="v-header__id">M · DIRECTION</p>
+        <h2 class="v-header__name">Backdrop Cards on Photography</h2>
+        <p class="v-header__thesis">Amplifies two captured traits together — the nav-pill glassmorphism inversion AND the photo-led tile vocabulary from variant C — into a composite pattern. A single photographic substrate fills the section; glass cards float on top carrying content. The photograph becomes the section; the cards become the message. Distinct from variant C (which uses photography inside tiles) and J (which uses gradients as substrate). Captured trait: nav-glass × photo-tile composed.</p>
+        <div class="v-header__meta"><span>captured traits: glass + photo-led composed</span><span>surprise: high</span><span>composite</span></div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">M · Backdrop Cards on Photography</span>
+        <div class="vM">
+          <div class="vM__inner">
+            <div class="vM__hero-card">
+              <span class="vM__hero-card-eyebrow">Adobe Photoshop</span>
+              <h2 class="vM__hero-card-h">Transform how you share information.</h2>
+              <p class="vM__hero-card-body">Photoshop's new AI Generative Fill closes the gap between idea and image. Sketch a thought; finish a composition.</p>
+              <div class="vM__hero-card-row">
+                <a class="btn btn--sw">Free trial</a>
+                <a class="btn btn--gw">View plans and pricing</a>
+              </div>
+            </div>
+            <div class="vM__side">
+              <div class="vM__chip-card"><span class="vM__chip-card-eyebrow">Creative Cloud</span><span class="vM__chip-card-h">Save 50% Pro.</span><span class="vM__chip-card-body">3-month intro pricing.</span></div>
+              <div class="vM__chip-card"><span class="vM__chip-card-eyebrow">Acrobat Studio</span><span class="vM__chip-card-h">PDF + AI + brand.</span><span class="vM__chip-card-body">All-in-one. From $24.99/mo.</span></div>
+              <div class="vM__chip-card"><span class="vM__chip-card-eyebrow">Firefly</span><span class="vM__chip-card-h">New partner models.</span><span class="vM__chip-card-body">Gemini 2.5, FLUX.1 pro.</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="background: var(--c-dark); color: var(--c-knock); padding: 96px var(--grid-margin); margin-top: 96px; text-align: center;">
+      <p style="font-family: var(--f-mono); font-size: 12px; opacity: 0.64; letter-spacing: 0.08em;">STARDUST · GALLERY · 10 DIRECTIONS · 2026-05-23</p>
+      <p style="font-size: 14px; opacity: 0.72; margin-top: 16px; max-width: 56ch; margin-inline: auto;">Each direction is a Mode A captured-trait amplification. To promote a direction to a full prototype, run: <code style="font-family: var(--f-mono); background: rgba(255,255,255,0.10); padding: 2px 8px; border-radius: 4px;">/stardust:direct --add-variant &lt;ID&gt;</code></p>
+    </footer>
+
+  </div>
+
+<script>
+  // Variant H — Tab switch
+  document.querySelectorAll('.vH__tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      var name = tab.dataset.tab;
+      document.querySelectorAll('.vH__tab').forEach(function (t) { t.classList.toggle('is-active', t === tab); });
+      document.querySelectorAll('.vH__panel').forEach(function (p) {
+        p.classList.toggle('is-active', p.id === 'vH-' + name);
+      });
+    });
+  });
+</script>
+</body>
+</html>

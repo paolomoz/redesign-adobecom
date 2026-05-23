@@ -417,3 +417,35 @@ Next: $stardust prototype home --variant A
 - Once one is approved, the next move is prototyping a product page (express, photoshop, or one of the 4 features pages) under the approved variant to validate the spec on a second template.
 
 **Next:** Review the three side-by-side. Open `stardust/validation/home-A/desktop-reducedmotion.png`, `home-B/`, `home-C/` for visual comparison. Approve one variant with `approve home --variant <id>`, then proceed to a product page prototype OR iterate further on the selected variant.
+
+---
+
+## 2026-05-23T15:15:00-07:00 — Gallery: 10 additional Mode A directions (D-M)
+
+**Prompt:** Invent and craft 10 more directions.
+
+**Decisions:**
+- Authored `stardust/prototypes/more-directions-D-M.html` — a single comparison gallery containing 10 Mode A captured-trait amplifications beyond A/B/C. Compact format chosen over 10 separate full prototypes for budget + comparison utility; favorites can be promoted to `home-{X}-shape.md + home-{X}-proposed.html` later via `/stardust:direct --add-variant {ID}`.
+- Each variant amplifies a distinct captured trait, passes C-cliff (named amplification, not slider position), and inherits Mode A's palette + type + IA-priority audit:
+  - **D — Editorial Long-form** · amplifies marquee voice cadence into reading-length editorial with drop cap.
+  - **E — Brand-Red Forward** · elevates `#eb1000` from reserved to architectural (red rule, red period dot, red stat numerals). Adobe blue stays CTA discipline.
+  - **F — AI Sparkle Pervasive** · elevates the AI add-on gradient `linear-gradient(135deg, #8D88F2, #EB1000)` from one-off lockup to ambient AI affordance — eyebrows, card borders, gradient text.
+  - **G — Wordmark as Hero** · elevates the captured footer wordmark moment to first viewport at `clamp(96px, 26vw, 380px)`. Product mnemonics as typographic specimen below.
+  - **H — Tab-Routed Plans** · elevates the captured plans-page tab-bar (Individuals/Businesses/Students) to home IA. Tab swap functional in HTML/JS.
+  - **I — Nested-Radius Architecture** · elevates the merch-card outer-inset-inner radius pattern (16/4/12px) to universal — hierarchy via depth, not surface tone.
+  - **J — Glass Everywhere** · elevates the nav-glass Mode A inversion from single component to ambient layer. Photographic substrate; floating glass panels.
+  - **K — Mnemonic Tile Decorative** · elevates the footer product-mnemonic 16×16 colour squares to a chromatic vocabulary system — bullets, dividers, section markers.
+  - **L — Tabular Type Display** · elevates refined-fidelity `font-variant-numeric: tabular-nums` to primary visual — pricing as art specimen.
+  - **M — Backdrop Cards on Photography** · composes captured nav-glass + photo-led tile traits into a new pattern. Photographic substrate + glass cards.
+- Shared CSS at top inherits DESIGN-A.json tokens (palette, type stack, radius, motion). Per-variant rendering is ~150-200 lines of CSS+HTML showing the load-bearing move at compact viewport-height.
+- Validation: 0 errors at 1440×900, 0 horizontal overflow at 1440 or 360, 10 variant sections, 20 H2s (10 variant names + 10 hero H2s), 12,492px total scroll.
+
+**Artifacts touched:**
+- `stardust/prototypes/more-directions-D-M.html` — created (~2400 lines, self-contained)
+- `stardust/validation/more-directions-D-M/gallery-fullpage.png` — created (full-page comparison screenshot)
+- `stardust/journal.md` — this entry
+
+**Open questions:**
+- Promotion path for favorites: if user picks one, run `/stardust:direct --add-variant {ID}` to author `DESIGN-{ID}.{md,json}`, then `/stardust:prototype home --variant {ID}` to author the full shape brief + proposed file with full Discipline 9 gates.
+
+**Next:** User reviews the gallery. Pick favorites to promote, OR continue with another direction.
