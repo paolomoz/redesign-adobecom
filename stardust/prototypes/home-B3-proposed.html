@@ -610,8 +610,11 @@
     </div>
   </section>
 
-  <!-- IN-THE-NEWS + B3-NEW 3-STAGE SCROLL-SCRUB -->
-  <section class="ds-news" data-section="in-the-news" data-section-purpose="rich-text" data-motion="scroll-scrub-3-stage" data-stages="0.2,0.5,0.8" id="news">
+  <!-- IN-THE-NEWS + B3-NEW 3-STAGE SCROLL-SCRUB
+       Stages tightened from [0.2, 0.5, 0.8] → [0.10, 0.25, 0.40] so all 3 items
+       are fully visible once the section is in viewport (not only after the
+       section scrolls past). Verified via diagnose-motion.mjs. -->
+  <section class="ds-news" data-section="in-the-news" data-section-purpose="rich-text" data-motion="scroll-scrub-3-stage" data-stages="0.10,0.25,0.40" id="news">
     <div class="ds-container">
       <div class="ds-news__head">
         <h2 class="title-3 ds-news__h2">In the news</h2>
@@ -838,17 +841,23 @@
       requestAnimationFrame(function () { measure(); requestAnimationFrame(tutTick); });
     })();
 
-    /* ── CHOREOGRAPHY 4 (B3-NEW): Featured-products parallax ── */
+    /* ── CHOREOGRAPHY 4 (B3-NEW): Featured-products parallax ──
+       Translate magnitude tightened from (progress - 0.5) * rect.height * 0.4
+       to (progress - 0.5) * rect.height * 0.12. Old magnitude could exceed
+       the .ds-feature-card__media's inset:-10% 0 container buffer, exposing
+       empty bands at scroll extremes. 0.12 multiplier keeps translate within
+       buffer at typical card heights (≈40px on a 660px card vs 67px buffer).
+       Verified via tools/playwright/diagnose-motion.mjs. */
     (function () {
       var featuredEl = document.getElementById('featured');
       if (!featuredEl || reduce) return;
       var mediaEls = featuredEl.querySelectorAll('[data-parallax-target]');
-      var rate = 0.6;
+      var magnitude = 0.12; /* was 0.4 — see comment above */
       function tick() {
         var rect = featuredEl.getBoundingClientRect();
         var vh = window.innerHeight;
         var progress = clamp((vh - rect.top) / (vh + rect.height), 0, 1);
-        var ty = (progress - 0.5) * rect.height * (1 - rate);
+        var ty = (progress - 0.5) * rect.height * magnitude;
         mediaEls.forEach(function (m) {
           m.style.transform = 'translateY(' + ty.toFixed(2) + 'px)';
         });
@@ -857,12 +866,17 @@
       requestAnimationFrame(tick);
     })();
 
-    /* ── CHOREOGRAPHY 5 (B3-NEW): News 3-stage scroll-scrub ── */
+    /* ── CHOREOGRAPHY 5 (B3-NEW): News 3-stage scroll-scrub ──
+       Stages tightened to [0.10, 0.25, 0.40] (was [0.2, 0.5, 0.8]).
+       Old wide stages left items 2 and 3 invisible until section had
+       scrolled mostly past the viewport. Tight stages ensure all 3 items
+       are fully revealed once the section's top crosses the viewport top.
+       Verified via tools/playwright/diagnose-motion.mjs. */
     (function () {
       var newsEl = document.getElementById('news');
       if (!newsEl || reduce) return;
       var items = newsEl.querySelectorAll('.ds-news-item');
-      var stages = [0.2, 0.5, 0.8];
+      var stages = [0.10, 0.25, 0.40];
       function tick() {
         var rect = newsEl.getBoundingClientRect();
         var vh = window.innerHeight;

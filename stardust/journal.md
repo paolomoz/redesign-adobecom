@@ -602,3 +602,41 @@ Next: $stardust prototype home --variant A
 - B3 vs B side-by-side comparison — useful to test the "how loud is too loud" hypothesis.
 
 **Next:** Review B3 alongside B (the calmer version). Comparison is the load-bearing question for this variant. Or continue promoting other B sub-variants (B1/B2/B4/B5) via `--add-variant`.
+
+---
+
+## 2026-05-23T21:00:00-07:00 — B3 motion diagnostic + 2 fixes (news scrub timing + parallax magnitude)
+
+**Prompt:** Verify with Playwright and fix issues. Make sure there are no hidden content components and no overlapping section motions if not designed to be so.
+
+**Decisions:**
+- Authored `tools/playwright/diagnose-motion.mjs` — scrolls through key positions in the prototype and reports (a) elements with opacity < 0.05 inside viewport (potential stuck-invisible), (b) section bounding-rect overlaps (potential layout collisions), (c) per-scroll-position visible section list.
+- Ran the diagnostic against `home-B3-proposed.html` and also tested no-JS state + reduced-motion state.
+- **Verified working as designed (not bugs):**
+  - Hero text opacity 0 at mid-scroll (rawP > 0.6): intentional text fade-out as video grows.
+  - Hero overlay opacity 0 at top (rawP < 0.35): intentional overlay-fade-in-on-scroll.
+  - Section "overlap" reports for site-header: measurement artifact (header is `position: fixed`, its bounding rect's docY grows with scroll but its actual layout position doesn't move).
+  - Section overlap between featured-products and studio-banner garage-door (974px): intentional — the garage-door CSS `animation-timeline: view(block)` keeps the banner at `translateY(-50vh)` initial state, animating to `translateY(0)` as the user scrolls. The "overlap" IS the garage-door reveal effect.
+  - 8px overlap between studio-banner and news section: intentional rounded-top transition (`border-radius: 32px 32px 0 0; margin-top: -8px`).
+  - Featured cards anim-enter at scrollY=3173 (mid-page): cards' rect.top=872 means they're at the very bottom edge of viewport (only 28px visible). Anim-enter triggers when sY + 0.85*vh > triggerTop (universal pattern shared with A/B/C/F). Cards reveal as user scrolls another ~120px. Not perceptibly hidden — below the visible fold.
+- **Identified and fixed 2 real bugs:**
+  1. **News scroll-scrub stages too wide [0.2/0.5/0.8]** — fixed to [0.10/0.25/0.40]. Old stages left items 2 and 3 stuck at opacity 0 when the news section was fully in viewport. After fix: all 3 items reach opacity 1.00 by the time section.top reaches viewport top.
+  2. **Featured-products parallax magnitude too large** — fixed `(progress - 0.5) * rect.height * 0.4` → `* 0.12`. Old magnitude reached ±133px on a ~666px-tall media, exceeding the container's `inset: -10% 0` buffer (~67px). At scroll extremes, empty bands appeared above or below the parallaxed gradient. After fix: translate ranges -15px to +25px — well within buffer.
+- **Validated no-JS state** via Playwright `javaScriptEnabled: false`: 0 hidden target elements. The `<noscript>` fallback overrides `.anim-enter` + `.ds-news-item` + `.ds-feature-card__media` initial states correctly.
+- **Validated reduced-motion state** via `reducedMotion: 'reduce'`: 0 hidden target elements in viewport. The `@media (prefers-reduced-motion: reduce)` block in CSS correctly disables motion-driven hiding.
+
+**Artifacts touched:**
+- `tools/playwright/diagnose-motion.mjs` — created (reusable diagnostic for any prototype variant)
+- `stardust/prototypes/home-B3-proposed.html` — 2 edits (news scrub stages + featured parallax magnitude) with inline comments documenting the fix + diagnostic provenance
+- `stardust/validation/home-B3/{nojs-check, fix-news-allvisible, fix-featured-parallax, desktop-reducedmotion}.png` — created/regenerated
+
+**Findings worth flagging:**
+1. **The diagnostic tool is reusable.** Run it against any variant: `node tools/playwright/diagnose-motion.mjs <path>`. Useful as a regression check before approving any prototype.
+2. **Universal anim-enter pattern's 85% trigger threshold is fragile at section boundaries.** When a section's top enters viewport, its contents are technically "in-view" by bounding-rect math but invisible per the trigger. Not a bug — works correctly for scrolling users — but worth knowing for static screenshots / browser back-forward landing.
+3. **CSS animation-timeline: view(block) confuses bounding-rect-based diagnostics.** The garage-door banner's `translateY(-50vh)` initial state means its rect overlaps the section above it by half-a-viewport. Diagnostic reports a 974px overlap which is real visually (the banner sits half above its in-flow position before scroll) but intentional per the captured pattern. Future diagnostics should account for transform-aware section boundaries.
+
+**Open questions:**
+- Whether to lower the universal anim-enter trigger threshold from 85% to 75% for variant B3 specifically (more aggressive reveal). Decision: hold for now — would create a B3-specific deviation from the universal pattern shared across A/B/C/F.
+- Whether to add a `data-motion-disabled` flag elsewhere to allow per-page motion opt-out for accessibility audits beyond `prefers-reduced-motion`. Not needed for now.
+
+**Next:** B3 is verified clean. Continue with other tasks — promote remaining B sub-variants, approve a variant, prototype a product page, etc.
