@@ -317,10 +317,15 @@
     .ds-banner {
       animation: gd-grow ease-out both;
       animation-timeline: view(block);
-      animation-range: entry 0% cover 40%;
+      animation-range: entry 0% cover 15%;
     }
     @media (min-width: 1280px) {
-      .ds-banner { --gd-grow-from: -110vh; --gd-reveal-from: 50vh; animation-range: entry 0% cover 50%; }
+      /* Tightened — was: --gd-grow-from: -110vh; --gd-reveal-from: 50vh; range entry 0% cover 50%
+         At large widths the banner element & content stayed translated until cover ≥50%, meaning
+         the content was rendered 450px below its position even when the banner was fully visible
+         (clipped by overflow: clip). Reduced magnitudes + tightened range so the garage-door
+         reveal completes by the time the banner is centered in viewport. */
+      .ds-banner { --gd-grow-from: -60vh; --gd-reveal-from: 24vh; animation-range: entry 0% cover 20%; }
     }
   }
   @keyframes gd-grow { from { transform: translateY(var(--gd-grow-from)); } to { transform: translateY(0); } }
@@ -339,7 +344,12 @@
   .ds-banner__overlay { position: absolute; inset: 0; z-index: 0; pointer-events: none; background: linear-gradient(180deg, #000 0%, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 65%, #000 100%); }
   .ds-banner__content { position: relative; z-index: 1; text-align: center; padding: var(--s-6xl) var(--s-lg) var(--s-4xl); max-width: 1064px; width: 100%; display: flex; flex-direction: column; gap: var(--s-md); align-items: center; }
   @supports (animation-timeline: view(block)) {
-    .ds-banner__content { animation: gd-reveal ease-out both; animation-timeline: view(block); animation-range: cover -10% cover 100%; }
+    /* Range tightened from cover -10% cover 100% → cover -10% cover 20%.
+       Old range completed only when the banner had fully scrolled past the viewport,
+       which meant the content stayed translated below its position the whole time the
+       banner was readable. Now reveal completes by cover 20% (when banner is just past
+       centered) so content is settled into place by the time the user is reading it. */
+    .ds-banner__content { animation: gd-reveal ease-out both; animation-timeline: view(block); animation-range: cover -10% cover 20%; }
   }
   .ds-banner__eyebrow { color: rgba(255, 255, 255, 0.64); }
   .ds-banner__title { color: var(--c-knock); }

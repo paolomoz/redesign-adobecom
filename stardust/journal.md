@@ -640,3 +640,38 @@ Next: $stardust prototype home --variant A
 - Whether to add a `data-motion-disabled` flag elsewhere to allow per-page motion opt-out for accessibility audits beyond `prefers-reduced-motion`. Not needed for now.
 
 **Next:** B3 is verified clean. Continue with other tasks — promote remaining B sub-variants, approve a variant, prototype a product page, etc.
+
+---
+
+## 2026-05-23T22:00:00-07:00 — B3 studio-banner content invisible at large widths
+
+**Prompt:** Banner copy ("Acrobat Studio" eyebrow + AI-powered-hub title) not visible at big window widths.
+
+**Decisions:**
+- Wrote `tools/playwright/banner-all-widths.mjs` — finds the visually-centered scroll position for the studio-banner across mobile/tablet/desktop+ widths, reads element transforms + content visibility, and saves clean screenshots.
+- **Root cause: two compounding bugs in the garage-door scroll-driven choreography at ≥1280px.**
+  1. **Banner element grow-from too aggressive.** `--gd-grow-from: -110vh` at ≥1280px meant the banner box was rendered 990px above its in-flow position throughout the entry phase. By the time the animation completed (`entry 0% cover 50%`), the user had scrolled past the in-flow position — banner only settled when exiting viewport.
+  2. **Content reveal animation-range too long.** `animation-range: cover -10% cover 100%` for `.ds-banner__content` meant the content's translateY(50vh) → translateY(0) only completed when the section had FULLY scrolled past viewport (cover 100%). At cover ~50% (banner visually centered), content was still translated ~450px DOWN — below banner bottom edge — clipped by `overflow: clip`. Net visual: dark banner box with no readable copy.
+- **Quantified via Playwright probe** at vw=1440 / 1920 / 2560: pre-fix at sY=4584 (banner fully visible at 1440px), banner.tx=-899, content.tx=+410. Only 167 of 513px of content visible (rest clipped). Post-fix at sY=4640 (banner visually centered at 1440px), banner.tx=0, content.tx=0. Eyebrow at y=279, title at y=315–520. Full content visible.
+- **Applied two CSS edits:**
+  1. ≥1280px override: `--gd-grow-from: -110vh` → `-60vh`; `--gd-reveal-from: 50vh` → `24vh`; `animation-range: entry 0% cover 50%` → `entry 0% cover 20%`.
+  2. Content animation-range (all widths): `cover -10% cover 100%` → `cover -10% cover 20%`.
+- **Verified across mobile (390×844) / tablet (768×1024) / desktop (1440×900) / 1920 / 2560**: eyebrow, title, subtitle, CTA pair all visible at the readable scroll position. Default-width animation untouched (sub-1280px default `--gd-grow-from: -50vh` and `--gd-reveal-from: 20vh` worked fine; only the animation-range was tightened).
+- **Verified no regressions** via `diagnose-motion.mjs`: hidden-in-viewport entries unchanged (2 featured cards by-design). Section overlap between featured-products and studio-banner-garage-door reduced from 974px → 524px (because banner now starts at -60vh translate instead of -110vh; less doors-open-from-way-up-there energy but still a clear reveal).
+
+**Artifacts touched:**
+- `stardust/prototypes/home-B3-proposed.html` — 2 CSS edits with inline comments documenting cause + previous values
+- `tools/playwright/banner-all-widths.mjs` — created (reusable: scrolls progressively to settle lazy layout, reads in-flow offsetTop, scrolls to visually-centered, reports visibility, saves screenshots per breakpoint)
+- `stardust/validation/home-B3/fix-banner-{mobile,tablet,desktop,1440,1920,2560}.png` — clean-pass screenshots
+
+**Findings worth flagging:**
+1. **Garage-door choreographies need range-aware tuning.** The captured pattern (negative translateY initial state + `animation-timeline: view(block)`) creates NON-MONOTONIC visual motion during the animation range: banner moves DOWN in viewport as user scrolls down (negative-translate-toward-zero adds positive Y faster than natural scroll subtracts Y). Animation MUST complete before the banner's in-flow position reaches the user's natural reading sightline, or the banner will only appear to settle after the user has scrolled past it.
+2. **Content-inside-clipped-container animations need tight timing alignment.** When inner content has its own translateY animation and parent has `overflow: clip`, the timing windows for both must be coupled. A reveal range of `cover -10% to cover 100%` looks correct on paper ("content reveals during section's visible window") but is wrong in practice because most of the content's translate magnitude is consumed AFTER the readable moment.
+3. **`view(block)` animation-range tuning happens by reduction, not initial guess.** First instinct for B3's "scroll-cinema amplified" register was to crank both magnitude and range. The fix went the opposite way: shrink range, reduce magnitude. Choreography still reads as a garage-door reveal but the content lands in time.
+4. **Pre-existing diagnostic tool didn't catch this.** `diagnose-motion.mjs` reads at fixed scrollY checkpoints based on document totalH percentages. It missed this because (a) the banner content technically had `opacity: 1` (it's translateY-driven, not opacity-driven); (b) the bounding-rect-based "hidden in viewport" check sees the element's rect (which moves with translate) but doesn't compute whether the parent's `overflow: clip` would actually clip it. Future improvement: add a check for "element's rect overlaps an ancestor with `overflow: clip|hidden` such that ≥50% of the element is outside the ancestor's content box."
+
+**Open questions:**
+- Whether to also tighten default-width (sub-1280px) `--gd-grow-from: -50vh` for consistency. Decision: leave — sub-1280px already worked correctly with the default magnitude + the (now-tightened) animation-range. Changing it would alter the captured-pattern energy at the most-common viewing widths.
+- Whether B3's "loud register" surface fork is now meaningfully different from B at the studio-banner. Reduced magnitudes bring B3 closer to B here. Decision: accept — the other 4 B3 choreographies still differentiate; the studio-banner is 1 of 5 motion surfaces and doesn't need to carry the whole amplification.
+
+**Next:** Studio-banner verified clean across all widths.
