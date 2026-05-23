@@ -1,0 +1,592 @@
+<!doctype html>
+<!--
+  _provenance:
+    writtenBy: stardust:prototype (gallery mode — B sub-variants)
+    writtenAt: 2026-05-23T18:00:00-07:00
+    purpose: "5 B sub-variants exploring scroll-cinema surface tunings. Compact gallery for comparison; promote favorites to full prototypes via /stardust:direct --add-variant BN."
+    parent: B
+    variants: ["B1 Studio", "B2 Quiet", "B3 Loud", "B4 Architectural", "B5 Editorial pace"]
+    sharedTokens: "DESIGN-B.json → DESIGN-A.json"
+    note: "Static gallery. Motion timing differences are conveyed via type/density/composition deltas (the visual character). Full motion verification happens in promoted prototypes."
+    stardustVersion: 0.7.1
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B sub-variants — Studio Cinema explored (B1-B5)</title>
+<style>
+  :root {
+    --c-bg: #ffffff;
+    --c-surface: #f8f8f8;
+    --c-dark: #000000;
+    --c-ai-substrate: #0a0a14;
+    --c-text: #2c2c2c;
+    --c-text-soft: rgba(0, 0, 0, 0.64);
+    --c-knock: #ffffff;
+    --c-knock-soft: rgba(255, 255, 255, 0.64);
+    --c-primary: #3b63fb;
+    --c-primary-hover: #274dea;
+    --c-red: #eb1000;
+    --c-border: rgba(0, 0, 0, 0.08);
+    --c-border-knock: rgba(255, 255, 255, 0.16);
+    --c-focus: rgba(59, 99, 251, 0.2);
+
+    --f-h: "Adobe Clean Display", "Adobe Clean", system-ui, -apple-system, sans-serif;
+    --f-b: "Adobe Clean", system-ui, -apple-system, sans-serif;
+    --f-mono: ui-monospace, "SF Mono", Menlo, monospace;
+
+    --r-sm: 8px; --r-md: 16px; --r-lg: 32px; --r-xl: 40px; --r-pill: 999px;
+
+    --grid-margin: 24px;
+    --container-max: 1440px;
+
+    --e-default: cubic-bezier(0.42, 0, 0, 1);
+    --d-fast: 200ms; --d-base: 400ms;
+  }
+  @media (min-width: 768px) { :root { --grid-margin: 8.333vw; } }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { hanging-punctuation: first; }
+  body { font-family: var(--f-b); color: var(--c-text); background: var(--c-surface); line-height: 1.5; }
+  h1, h2, h3, h4 { font-family: var(--f-h); font-weight: 900; text-wrap: balance; }
+  p { text-wrap: pretty; max-width: 80ch; }
+  a { text-decoration: none; color: inherit; }
+  :focus-visible { outline: 3px solid var(--c-focus); outline-offset: 2px; border-radius: 4px; }
+
+  /* ───── GALLERY CHROME ───── */
+  .g-page { background: var(--c-bg); }
+  .g-intro {
+    padding: 96px var(--grid-margin) 64px;
+    max-width: var(--container-max); margin-inline: auto;
+  }
+  .g-intro__eyebrow { font-family: var(--f-mono); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; color: var(--c-text-soft); margin-bottom: 16px; }
+  .g-intro__h1 { font-size: clamp(40px, 6.25vw, 80px); line-height: 0.95; letter-spacing: clamp(-3.2px, -0.25vw, -1.5px); margin-bottom: 24px; }
+  .g-intro__body { font-size: 18px; max-width: 65ch; color: var(--c-text-soft); margin-bottom: 32px; }
+  .g-intro__nav { display: flex; flex-wrap: wrap; gap: 8px; }
+  .g-intro__chip { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 999px; background: var(--c-surface); font-size: 13px; font-weight: 700; color: var(--c-text); border: 1px solid var(--c-border); }
+  .g-intro__chip strong { color: var(--c-primary); font-family: var(--f-mono); }
+
+  .v-header {
+    padding: 64px var(--grid-margin) 24px;
+    max-width: var(--container-max); margin-inline: auto;
+  }
+  .v-header__id { font-family: var(--f-mono); font-size: 13px; letter-spacing: 0.1em; color: var(--c-primary); font-weight: 700; margin-bottom: 12px; }
+  .v-header__name { font-size: clamp(32px, 4.375vw, 56px); line-height: 1.0; letter-spacing: clamp(-1.68px, -0.13vw, -0.8px); margin-bottom: 16px; }
+  .v-header__thesis { font-size: 18px; color: var(--c-text-soft); max-width: 72ch; font-style: italic; }
+  .v-header__deltas { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; font-family: var(--f-mono); font-size: 11px; }
+  .v-header__delta { padding: 4px 10px; background: var(--c-surface); border-radius: 4px; color: var(--c-text); border: 1px solid var(--c-border); }
+  .v-header__delta--up { border-color: rgba(34, 197, 94, 0.32); color: rgb(21, 128, 61); background: rgba(34, 197, 94, 0.06); }
+  .v-header__delta--down { border-color: rgba(217, 119, 6, 0.32); color: rgb(154, 84, 0); background: rgba(217, 119, 6, 0.06); }
+
+  .v-render {
+    margin: 0 var(--grid-margin) 24px;
+    max-width: calc(var(--container-max) - 2 * var(--grid-margin));
+    margin-inline: auto;
+    border-radius: var(--r-lg);
+    overflow: hidden;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.06);
+    position: relative;
+  }
+  .v-render__badge {
+    position: absolute; top: 16px; right: 16px; z-index: 10;
+    padding: 4px 10px; border-radius: 4px;
+    background: rgba(255, 255, 255, 0.94); backdrop-filter: blur(8px);
+    font-family: var(--f-mono); font-size: 11px; font-weight: 700;
+    color: var(--c-text);
+  }
+  .v-render__motion-key {
+    position: absolute; top: 16px; left: 16px; z-index: 10;
+    padding: 4px 10px; border-radius: 4px;
+    background: rgba(0, 0, 0, 0.64); backdrop-filter: blur(8px);
+    font-family: var(--f-mono); font-size: 10px; font-weight: 700;
+    color: rgba(255, 255, 255, 0.84);
+    letter-spacing: 0.04em;
+  }
+
+  /* BTN */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 40px; padding: 0 24px; border-radius: var(--r-md); font: 700 14px/1.29 var(--f-b); border: 1.5px solid transparent; transition: background var(--d-fast) var(--e-default); white-space: nowrap; cursor: pointer; }
+  .btn--sm { height: 32px; padding: 0 18px; }
+  .btn--p { background: var(--c-primary); color: #fff; }
+  .btn--p:hover { background: var(--c-primary-hover); }
+  .btn--o { background: transparent; color: var(--c-text); border-color: var(--c-text); }
+  .btn--sw { background: #fff; color: #000; }
+  .btn--sw:hover { background: rgba(255, 255, 255, 0.88); }
+  .btn--gw { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.5); }
+  .btn--gw:hover { background: rgba(255, 255, 255, 0.08); }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     B1 — STUDIO (samples-faithful baseline)
+     Tokens: 900/700/400 · clamp(40,6.25vw,80) · 64px pad · easeOut3 · neutral · standard
+     ═══════════════════════════════════════════════════════════════════ */
+  .vB1 { background: #ffffff; padding: 0; overflow: hidden; }
+  .vB1__hero {
+    background: #0a0a14;
+    color: #fff;
+    padding: 64px var(--grid-margin) 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .vB1__hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 70% 30%, rgba(255,162,95,0.20), transparent 50%), radial-gradient(ellipse at 30% 70%, rgba(59,99,251,0.14), transparent 55%); pointer-events: none; }
+  .vB1__hero-inner { position: relative; display: grid; grid-template-columns: 5fr 7fr; gap: 64px; align-items: center; max-width: 1200px; margin-inline: auto; }
+  @media (max-width: 900px) { .vB1__hero-inner { grid-template-columns: 1fr; gap: 32px; } }
+  .vB1__eyebrow { font-size: 14px; font-weight: 700; letter-spacing: -0.2px; color: rgba(255,255,255,0.64); margin-bottom: 16px; }
+  .vB1__h1 { font-size: clamp(40px, 6.25vw, 80px); line-height: 0.95; letter-spacing: clamp(-3.2px, -0.25vw, -1.5px); font-weight: 900; color: #fff; margin-bottom: 16px; }
+  .vB1__body { font-size: 20px; line-height: 1.2; color: rgba(255,255,255,0.84); max-width: 44ch; margin-bottom: 24px; }
+  .vB1__ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+  .vB1__media { aspect-ratio: 16/9; border-radius: 16px; background: radial-gradient(ellipse at 70% 40%, rgba(255,162,95,0.32), transparent 50%), radial-gradient(ellipse at 30% 70%, rgba(141,136,242,0.20), transparent 55%), linear-gradient(135deg, #2a1810 0%, #0a0612 100%); position: relative; box-shadow: 0 12px 40px -8px rgba(0,0,0,0.4); }
+  .vB1__media-tag { position: absolute; bottom: 12px; left: 12px; font-family: var(--f-mono); font-size: 10px; font-weight: 700; color: rgba(255,255,255,0.56); letter-spacing: 0.04em; }
+  .vB1__stories { background: #fff; padding: 48px var(--grid-margin); }
+  .vB1__stories-head { text-align: center; margin-bottom: 24px; }
+  .vB1__stories-h { font-size: clamp(28px, 3.125vw, 40px); line-height: 1.05; letter-spacing: -0.8px; }
+  .vB1__stories-track { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; max-width: 1200px; margin-inline: auto; }
+  @media (max-width: 767px) { .vB1__stories-track { grid-template-columns: 1fr; } }
+  .vB1__stories-card { background: #f8f8f8; border-radius: 16px; padding: 24px; min-height: 200px; display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+  .vB1__stories-card--dark { background: #0a0a14; color: #fff; }
+  .vB1__card-h { font-size: 24px; line-height: 1.0; letter-spacing: -0.48px; font-weight: 900; }
+  .vB1__card-body { font-size: 16px; line-height: 1.25; color: rgba(0,0,0,0.64); margin-bottom: 12px; }
+  .vB1__stories-card--dark .vB1__card-body { color: rgba(255,255,255,0.64); }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     B2 — QUIET (concentrated cinema)
+     Tokens: 900/400 · 1.25 ratio (smaller) · 96px airy · easeOut3 · cool · generous
+     Only hero scroll-grow + wordmark wipe. Below: calm static.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vB2 { background: #ffffff; padding: 0; }
+  .vB2__hero {
+    background: #0a0a14;
+    color: #fff;
+    padding: 96px var(--grid-margin) 120px;
+    position: relative; overflow: hidden;
+  }
+  .vB2__hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 65% 35%, rgba(180,160,200,0.16), transparent 55%), radial-gradient(ellipse at 35% 65%, rgba(80,90,140,0.12), transparent 60%); pointer-events: none; }
+  .vB2__hero-inner { position: relative; display: grid; grid-template-columns: 5fr 7fr; gap: 80px; align-items: center; max-width: 1200px; margin-inline: auto; }
+  @media (max-width: 900px) { .vB2__hero-inner { grid-template-columns: 1fr; gap: 48px; } }
+  .vB2__eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: rgba(255,255,255,0.48); margin-bottom: 32px; }
+  .vB2__h1 { font-size: clamp(36px, 5vw, 60px); line-height: 1.0; letter-spacing: -1.2px; font-weight: 900; color: #fff; margin-bottom: 32px; }
+  .vB2__body { font-size: 18px; line-height: 1.55; font-weight: 400; color: rgba(255,255,255,0.72); max-width: 50ch; margin-bottom: 40px; }
+  .vB2__ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+  .vB2__media { aspect-ratio: 4/3; border-radius: 16px; background: linear-gradient(135deg, #1a1a26 0%, #0a0a14 100%); position: relative; box-shadow: 0 8px 32px -8px rgba(0,0,0,0.32); }
+  .vB2__below { background: #ffffff; padding: 144px var(--grid-margin) 96px; }
+  .vB2__below-inner { max-width: 800px; margin-inline: auto; text-align: center; }
+  .vB2__below-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(0,0,0,0.48); margin-bottom: 20px; }
+  .vB2__below-h { font-size: clamp(28px, 3.125vw, 40px); line-height: 1.05; letter-spacing: -0.8px; margin-bottom: 24px; }
+  .vB2__below-body { font-size: 17px; line-height: 1.65; color: rgba(0,0,0,0.64); max-width: 60ch; margin-inline: auto; }
+  .vB2__below-marker { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.08em; color: rgba(0,0,0,0.4); margin-top: 64px; padding-top: 24px; border-top: 1px solid rgba(0,0,0,0.08); }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     B3 — LOUD (maximal cinema)
+     Tokens: 900/700/400 · 1.5 ratio (perfect-fifth, large) · 48px packed · warm · compact
+     5 choreographies. Saturation as personality.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vB3 { background: #ffffff; }
+  .vB3__hero {
+    background: #0a0a14; color: #fff; padding: 48px var(--grid-margin) 48px;
+    position: relative; overflow: hidden;
+  }
+  .vB3__hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 65% 30%, rgba(255,140,40,0.32), transparent 50%), radial-gradient(ellipse at 30% 70%, rgba(255,80,40,0.20), transparent 55%); pointer-events: none; }
+  .vB3__hero-inner { position: relative; display: grid; grid-template-columns: 5fr 7fr; gap: 48px; align-items: center; max-width: 1200px; margin-inline: auto; }
+  @media (max-width: 900px) { .vB3__hero-inner { grid-template-columns: 1fr; gap: 32px; } }
+  .vB3__eyebrow { font-size: 14px; font-weight: 700; letter-spacing: -0.2px; color: #ffba70; margin-bottom: 12px; }
+  .vB3__h1 { font-size: clamp(48px, 8vw, 108px); line-height: 0.9; letter-spacing: -3.5px; font-weight: 900; color: #fff; margin-bottom: 16px; }
+  .vB3__body { font-size: 20px; line-height: 1.2; font-weight: 700; color: rgba(255,255,255,0.92); max-width: 40ch; margin-bottom: 20px; }
+  .vB3__ctas { display: flex; gap: 8px; flex-wrap: wrap; }
+  .vB3__media { aspect-ratio: 16/9; border-radius: 12px; background: radial-gradient(ellipse at 70% 40%, rgba(255,180,60,0.40), transparent 50%), radial-gradient(ellipse at 30% 70%, rgba(255,80,40,0.24), transparent 55%), linear-gradient(135deg, #3a1808 0%, #180a04 100%); box-shadow: 0 12px 48px -8px rgba(255,140,40,0.24); }
+  .vB3__signals { background: #1f0a08; padding: 24px var(--grid-margin); border-bottom: 1px solid rgba(255,140,40,0.16); }
+  .vB3__signals-inner { display: flex; gap: 20px; flex-wrap: wrap; align-items: center; max-width: 1200px; margin-inline: auto; font-family: var(--f-mono); font-size: 11px; color: rgba(255,255,255,0.7); }
+  .vB3__signals-label { font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #ffba70; }
+  .vB3__signal { padding: 4px 10px; background: rgba(255,140,40,0.10); border: 1px solid rgba(255,140,40,0.32); border-radius: 4px; }
+  .vB3__below { background: #fff; padding: 32px var(--grid-margin); }
+  .vB3__below-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; max-width: 1200px; margin-inline: auto; }
+  @media (max-width: 900px) { .vB3__below-grid { grid-template-columns: 1fr; } }
+  .vB3__below-card { background: #f8f8f8; border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 6px; min-height: 160px; justify-content: space-between; }
+  .vB3__below-card-h { font-size: 22px; line-height: 1.0; font-weight: 900; letter-spacing: -0.6px; }
+  .vB3__below-card-body { font-size: 14px; color: rgba(0,0,0,0.64); }
+  .vB3__below-card-tag { font-family: var(--f-mono); font-size: 10px; color: var(--c-primary); font-weight: 700; letter-spacing: 0.04em; }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     B4 — ARCHITECTURAL (boundaries choreographed)
+     Tokens: standard · balanced 64px · standard · neutral · section-boundary-aware
+     Section transitions are mechanically coordinated against scroll.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vB4 { background: #ffffff; }
+  .vB4__hero {
+    background: #0a0a14; color: #fff; padding: 64px var(--grid-margin) 64px;
+    position: relative; overflow: hidden;
+  }
+  .vB4__hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 70% 35%, rgba(255,162,95,0.22), transparent 50%), radial-gradient(ellipse at 30% 70%, rgba(59,99,251,0.14), transparent 55%); pointer-events: none; }
+  .vB4__hero-inner { position: relative; display: grid; grid-template-columns: 5fr 7fr; gap: 64px; align-items: center; max-width: 1200px; margin-inline: auto; }
+  @media (max-width: 900px) { .vB4__hero-inner { grid-template-columns: 1fr; gap: 32px; } }
+  .vB4__eyebrow { font-size: 14px; font-weight: 700; letter-spacing: -0.2px; color: rgba(255,255,255,0.64); margin-bottom: 16px; }
+  .vB4__h1 { font-size: clamp(40px, 6.25vw, 80px); line-height: 0.95; letter-spacing: -2.4px; font-weight: 900; color: #fff; margin-bottom: 16px; }
+  .vB4__body { font-size: 20px; line-height: 1.2; color: rgba(255,255,255,0.84); max-width: 44ch; margin-bottom: 24px; }
+  .vB4__ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+  .vB4__media { aspect-ratio: 16/9; border-radius: 16px; background: radial-gradient(ellipse at 70% 40%, rgba(255,162,95,0.32), transparent 50%), linear-gradient(135deg, #2a1810 0%, #0a0612 100%); }
+  /* THE architectural moment — the boundary is the visual hero */
+  .vB4__boundary-marker {
+    position: relative; padding: 0 var(--grid-margin); height: 80px;
+    background: linear-gradient(to bottom, #0a0a14 0%, #0a0a14 50%, #ffffff 50%, #ffffff 100%);
+    overflow: hidden;
+  }
+  .vB4__boundary-edge {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 0 -8px 24px -8px rgba(0,0,0,0.16);
+  }
+  .vB4__boundary-annotation {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.94); backdrop-filter: blur(8px);
+    padding: 6px 16px; border-radius: 4px;
+    font-family: var(--f-mono); font-size: 11px; font-weight: 700; color: var(--c-primary);
+    border: 1px solid var(--c-border); z-index: 10;
+    letter-spacing: 0.04em;
+  }
+  .vB4__stories { background: #ffffff; padding: 64px var(--grid-margin); }
+  .vB4__stories-h { font-size: clamp(28px, 3.125vw, 40px); line-height: 1.05; letter-spacing: -0.8px; text-align: center; margin-bottom: 32px; }
+  .vB4__stories-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; max-width: 1200px; margin-inline: auto; }
+  @media (max-width: 767px) { .vB4__stories-grid { grid-template-columns: 1fr; } }
+  .vB4__stories-card { background: #f8f8f8; border-radius: 16px; padding: 24px; min-height: 180px; display: flex; flex-direction: column; gap: 8px; }
+  .vB4__stories-card-h { font-size: 22px; line-height: 1.0; letter-spacing: -0.48px; font-weight: 900; }
+  .vB4__stories-card-body { font-size: 15px; color: rgba(0,0,0,0.64); }
+
+  /* ═══════════════════════════════════════════════════════════════════
+     B5 — EDITORIAL PACE (slow + type-led)
+     Tokens: 900/700/500/400 · standard · 72px+ · easeOut5 slow · warm-cream · reading-paced
+     Hero held longer, body line-height generous, lead paragraph weight 500.
+     ═══════════════════════════════════════════════════════════════════ */
+  .vB5 { background: #fefcf8; }
+  .vB5__hero {
+    background: #0d0a08; color: #f8f4ec; padding: 96px var(--grid-margin) 96px;
+    position: relative; overflow: hidden;
+  }
+  .vB5__hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 70% 35%, rgba(255,180,120,0.18), transparent 55%), radial-gradient(ellipse at 30% 65%, rgba(200,150,90,0.12), transparent 60%); pointer-events: none; }
+  .vB5__hero-inner { position: relative; display: grid; grid-template-columns: 1fr; gap: 48px; align-items: center; max-width: 1100px; margin-inline: auto; }
+  @media (min-width: 900px) { .vB5__hero-inner { grid-template-columns: 5fr 6fr; gap: 72px; } }
+  .vB5__eyebrow { font-family: var(--f-b); font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(248,244,236,0.56); margin-bottom: 24px; }
+  .vB5__h1 { font-family: var(--f-h); font-size: clamp(44px, 6vw, 72px); line-height: 1.0; letter-spacing: -1.5px; font-weight: 900; color: #f8f4ec; margin-bottom: 28px; }
+  .vB5__lead { font-size: 22px; line-height: 1.55; font-weight: 500; color: rgba(248,244,236,0.92); max-width: 50ch; margin-bottom: 24px; }
+  .vB5__body { font-size: 17px; line-height: 1.7; font-weight: 400; color: rgba(248,244,236,0.72); max-width: 54ch; margin-bottom: 40px; }
+  .vB5__ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+  .vB5__media { aspect-ratio: 4/3; border-radius: 16px; background: linear-gradient(135deg, #2a1808 0%, #150a04 100%); position: relative; box-shadow: 0 12px 40px -8px rgba(0,0,0,0.4); }
+  .vB5__media-cap { position: absolute; left: 16px; bottom: 16px; right: 16px; font-family: var(--f-mono); font-size: 10px; color: rgba(255,255,255,0.48); letter-spacing: 0.04em; }
+  .vB5__below { background: #fefcf8; padding: 96px var(--grid-margin) 64px; }
+  .vB5__below-inner { max-width: 700px; margin-inline: auto; }
+  .vB5__below-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(0,0,0,0.48); margin-bottom: 16px; }
+  .vB5__below-h { font-size: clamp(28px, 3.125vw, 44px); line-height: 1.05; letter-spacing: -0.8px; margin-bottom: 28px; }
+  .vB5__below-body { font-size: 18px; line-height: 1.7; color: var(--c-text); margin-bottom: 20px; }
+  .vB5__below-body--soft { color: rgba(0,0,0,0.64); }
+  .vB5__below-rule { width: 48px; height: 2px; background: var(--c-text); margin: 40px 0 24px; }
+  .vB5__below-sig { font-family: var(--f-mono); font-size: 12px; color: rgba(0,0,0,0.48); letter-spacing: 0.08em; }
+
+  /* GALLERY FOOTER */
+  .g-footer { background: var(--c-dark); color: #fff; padding: 64px var(--grid-margin); margin-top: 64px; text-align: center; }
+  .g-footer p { margin: 0 auto 12px; max-width: 64ch; color: rgba(255,255,255,0.72); font-size: 14px; }
+  .g-footer code { font-family: var(--f-mono); background: rgba(255,255,255,0.08); padding: 2px 8px; border-radius: 4px; font-size: 13px; }
+</style>
+</head>
+<body>
+
+  <div class="g-page">
+
+    <!-- INTRO -->
+    <header class="g-intro">
+      <p class="g-intro__eyebrow">STARDUST · B SUB-VARIANTS · 5 SURFACE FORKS</p>
+      <h1 class="g-intro__h1">Studio Cinema, explored five ways.</h1>
+      <p class="g-intro__body">Variant B's <em>scroll cinema</em> thesis — the bizpro-hub sample's choreography vocabulary — tuned across five surface axes. All inherit Mode A's palette + type + IA-priority audit. They differ on type-weight, type-scale, density, motion energy, color temperature, and spacing rhythm.</p>
+      <nav class="g-intro__nav" aria-label="B sub-variant index">
+        <a class="g-intro__chip" href="#B1"><strong>B1</strong> Studio (samples-faithful)</a>
+        <a class="g-intro__chip" href="#B2"><strong>B2</strong> Quiet (concentrated)</a>
+        <a class="g-intro__chip" href="#B3"><strong>B3</strong> Loud (maximal)</a>
+        <a class="g-intro__chip" href="#B4"><strong>B4</strong> Architectural (boundary-aware)</a>
+        <a class="g-intro__chip" href="#B5"><strong>B5</strong> Editorial pace (slow + type-led)</a>
+      </nav>
+    </header>
+
+    <!-- ═══════ B1 — STUDIO ═══════ -->
+    <section id="B1">
+      <div class="v-header">
+        <p class="v-header__id">B1 · STUDIO</p>
+        <h2 class="v-header__name">Samples-faithful baseline.</h2>
+        <p class="v-header__thesis">The variant a designer who built `bizpro-hub.html` would recognize as "their work, made into a real page." All five captured patterns deployed at sample-fidelity. The floor of the B family.</p>
+        <div class="v-header__deltas">
+          <span class="v-header__delta">type-weight: 900/700/400</span>
+          <span class="v-header__delta">scale: clamp(40,6.25vw,80) — A inherited</span>
+          <span class="v-header__delta">density: balanced 64px</span>
+          <span class="v-header__delta">motion: 3 choreographies + CSS + wipe</span>
+          <span class="v-header__delta">temp: neutral</span>
+          <span class="v-header__delta">spacing: standard</span>
+        </div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">B1 · Studio</span>
+        <span class="v-render__motion-key">scroll-grow · mouse-pan · reverse-hero · garage-door · wordmark-wipe</span>
+        <div class="vB1">
+          <div class="vB1__hero">
+            <div class="vB1__hero-inner">
+              <div class="vB1__copy">
+                <p class="vB1__eyebrow">Adobe Photoshop</p>
+                <h3 class="vB1__h1">Transform how you share information.</h3>
+                <p class="vB1__body">Photoshop's new AI Generative Fill removes the gap between idea and image. Sketch a thought; finish a composition.</p>
+                <div class="vB1__ctas">
+                  <a class="btn btn--sw">Free trial</a>
+                  <a class="btn btn--gw">View plans and pricing</a>
+                </div>
+              </div>
+              <div class="vB1__media" aria-hidden="true">
+                <p class="vB1__media-tag">Captured: Generative Fill demo · scroll-grow @ rawP 0.45</p>
+              </div>
+            </div>
+          </div>
+          <div class="vB1__stories">
+            <div class="vB1__stories-head">
+              <h4 class="vB1__stories-h">Save when you commit.</h4>
+            </div>
+            <div class="vB1__stories-track">
+              <article class="vB1__stories-card">
+                <h5 class="vB1__card-h">Save 50% on Creative Cloud Pro.</h5>
+                <p class="vB1__card-body">Creative AI tools, on sale. For the first 3 months, terms apply.</p>
+                <a class="btn btn--p btn--sm" style="align-self:flex-start">View plans and pricing</a>
+              </article>
+              <article class="vB1__stories-card vB1__stories-card--dark">
+                <h5 class="vB1__card-h">Save 30% and go unlimited.</h5>
+                <p class="vB1__card-body">Get unlimited access on select models for a year, save on Creative Cloud Pro.</p>
+                <a class="btn btn--sw btn--sm" style="align-self:flex-start">Buy now</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ B2 — QUIET ═══════ -->
+    <section id="B2">
+      <div class="v-header">
+        <p class="v-header__id">B2 · QUIET</p>
+        <h2 class="v-header__name">Concentrated cinema.</h2>
+        <p class="v-header__thesis">Two beats, executed perfectly, beat seven beats fighting for attention. Hero scroll-grow + footer wordmark wipe only. Stories, tutorial collapse to static. The hero carries the entire variant. Reads as confident restraint.</p>
+        <div class="v-header__deltas">
+          <span class="v-header__delta v-header__delta--down">type-weight: 900 + 400 (no 700 body)</span>
+          <span class="v-header__delta v-header__delta--down">scale: major-third 1.25 (tighter)</span>
+          <span class="v-header__delta v-header__delta--up">density: airy 96px</span>
+          <span class="v-header__delta v-header__delta--down">motion: 2 choreographies</span>
+          <span class="v-header__delta">temp: cool-leaning</span>
+          <span class="v-header__delta v-header__delta--up">spacing: generous</span>
+        </div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">B2 · Quiet</span>
+        <span class="v-render__motion-key">scroll-grow · wordmark-wipe · static below-fold</span>
+        <div class="vB2">
+          <div class="vB2__hero">
+            <div class="vB2__hero-inner">
+              <div class="vB2__copy">
+                <p class="vB2__eyebrow">Adobe Photoshop</p>
+                <h3 class="vB2__h1">Transform how you share information.</h3>
+                <p class="vB2__body">Photoshop's new AI Generative Fill removes the gap between idea and image. Sketch a thought; finish a composition.</p>
+                <div class="vB2__ctas">
+                  <a class="btn btn--sw">Free trial</a>
+                  <a class="btn btn--gw">Plans and pricing</a>
+                </div>
+              </div>
+              <div class="vB2__media" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="vB2__below">
+            <div class="vB2__below-inner">
+              <p class="vB2__below-eyebrow">Below the hero</p>
+              <h4 class="vB2__below-h">Calm catalog.</h4>
+              <p class="vB2__below-body">Stories, tutorial, featured sections sit static. The page settles after the hero. No further choreography until the footer wordmark wipes in. The brand spent its motion budget on one moment.</p>
+              <p class="vB2__below-marker">B2 · ≤2 CHOREOGRAPHIES · STATIC BELOW-FOLD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ B3 — LOUD ═══════ -->
+    <section id="B3">
+      <div class="v-header">
+        <p class="v-header__id">B3 · LOUD</p>
+        <h2 class="v-header__name">Maximal cinema.</h2>
+        <p class="v-header__thesis">Adobe's full motion bench, on every primary surface. Adds parallax-translate on featured-products + 3-stage scroll-scrub on news photo grid on top of B1's three choreographies. DESIGN-B's ≤3-cap rule gets a B3-specific override to ≤5.</p>
+        <div class="v-header__deltas">
+          <span class="v-header__delta v-header__delta--up">type-weight: 900/700 body</span>
+          <span class="v-header__delta v-header__delta--up">scale: perfect-fifth 1.5 (loud)</span>
+          <span class="v-header__delta v-header__delta--down">density: packed 48px</span>
+          <span class="v-header__delta v-header__delta--up">motion: 5 choreographies</span>
+          <span class="v-header__delta v-header__delta--up">temp: warm-leaning</span>
+          <span class="v-header__delta v-header__delta--down">spacing: compact</span>
+        </div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">B3 · Loud</span>
+        <span class="v-render__motion-key">scroll-grow · mouse-pan · reverse-hero · garage-door · wipe · +parallax · +scroll-scrub</span>
+        <div class="vB3">
+          <div class="vB3__hero">
+            <div class="vB3__hero-inner">
+              <div class="vB3__copy">
+                <p class="vB3__eyebrow">Adobe Photoshop</p>
+                <h3 class="vB3__h1">Transform how you share information.</h3>
+                <p class="vB3__body">Photoshop's new AI Generative Fill removes the gap between idea and image. Sketch a thought; finish a composition.</p>
+                <div class="vB3__ctas">
+                  <a class="btn btn--sw">Free trial</a>
+                  <a class="btn btn--gw">View plans and pricing</a>
+                </div>
+              </div>
+              <div class="vB3__media" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="vB3__signals">
+            <div class="vB3__signals-inner">
+              <span class="vB3__signals-label">Choreographies on this page:</span>
+              <span class="vB3__signal">hero-scroll-grow</span>
+              <span class="vB3__signal">stories-mouse-pan</span>
+              <span class="vB3__signal">tutorial-reverse-hero</span>
+              <span class="vB3__signal">garage-door-css</span>
+              <span class="vB3__signal">+featured-parallax</span>
+              <span class="vB3__signal">+news-scroll-scrub</span>
+              <span class="vB3__signal">wordmark-wipe</span>
+            </div>
+          </div>
+          <div class="vB3__below">
+            <div class="vB3__below-grid">
+              <article class="vB3__below-card">
+                <span class="vB3__below-card-tag">parallax-translate</span>
+                <h5 class="vB3__below-card-h">Featured imagery moves slower than the page.</h5>
+                <p class="vB3__below-card-body">Image translates at 60% scroll velocity, container at 100%.</p>
+              </article>
+              <article class="vB3__below-card">
+                <span class="vB3__below-card-tag">scroll-scrub</span>
+                <h5 class="vB3__below-card-h">News photo grid reveals in 3 stages.</h5>
+                <p class="vB3__below-card-body">Item 1 → 2 → 3 fades in at scroll rawP 0.2 / 0.5 / 0.8.</p>
+              </article>
+              <article class="vB3__below-card">
+                <span class="vB3__below-card-tag">density · packed</span>
+                <h5 class="vB3__below-card-h">Section padding tightens to 48px.</h5>
+                <p class="vB3__below-card-body">Tighter rhythm reinforces the loud register.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ B4 — ARCHITECTURAL ═══════ -->
+    <section id="B4">
+      <div class="v-header">
+        <p class="v-header__id">B4 · ARCHITECTURAL</p>
+        <h2 class="v-header__name">Boundaries choreographed.</h2>
+        <p class="v-header__thesis">Sections like rooms. The hero scroll-grow completes <em>exactly</em> when the next section's rounded-top crosses the viewport. Section transitions coordinated mechanically against each other, not just to scroll position. Each room hands off to the next on a beat.</p>
+        <div class="v-header__deltas">
+          <span class="v-header__delta">type-weight: standard</span>
+          <span class="v-header__delta">scale: A inherited</span>
+          <span class="v-header__delta">density: balanced 64px</span>
+          <span class="v-header__delta">motion: 3 coordinated</span>
+          <span class="v-header__delta">temp: neutral</span>
+          <span class="v-header__delta v-header__delta--up">spacing: boundary-aware (40px transitions)</span>
+        </div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">B4 · Architectural</span>
+        <span class="v-render__motion-key">choreographies-coordinate-on-section-boundaries · ResizeObserver-driven</span>
+        <div class="vB4">
+          <div class="vB4__hero">
+            <div class="vB4__hero-inner">
+              <div class="vB4__copy">
+                <p class="vB4__eyebrow">Adobe Photoshop</p>
+                <h3 class="vB4__h1">Transform how you share information.</h3>
+                <p class="vB4__body">Photoshop's new AI Generative Fill removes the gap between idea and image.</p>
+                <div class="vB4__ctas">
+                  <a class="btn btn--sw">Free trial</a>
+                  <a class="btn btn--gw">View plans and pricing</a>
+                </div>
+              </div>
+              <div class="vB4__media" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="vB4__boundary-marker">
+            <span class="vB4__boundary-annotation">hero.rawP === 1.0 ⟺ stories.top === viewport.bottom</span>
+            <div class="vB4__boundary-edge"></div>
+          </div>
+          <div class="vB4__stories">
+            <h4 class="vB4__stories-h">Save when you commit.</h4>
+            <div class="vB4__stories-grid">
+              <article class="vB4__stories-card">
+                <h5 class="vB4__stories-card-h">Save 50% on Creative Cloud Pro.</h5>
+                <p class="vB4__stories-card-body">Creative AI tools, on sale. For the first 3 months.</p>
+                <a class="btn btn--p btn--sm" style="align-self:flex-start">View plans and pricing</a>
+              </article>
+              <article class="vB4__stories-card">
+                <h5 class="vB4__stories-card-h">Save 30% and go unlimited.</h5>
+                <p class="vB4__stories-card-body">Unlimited access on select models for a year.</p>
+                <a class="btn btn--o btn--sm" style="align-self:flex-start">Buy now</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ B5 — EDITORIAL PACE ═══════ -->
+    <section id="B5">
+      <div class="v-header">
+        <p class="v-header__id">B5 · EDITORIAL PACE</p>
+        <h2 class="v-header__name">Slow + type-led.</h2>
+        <p class="v-header__thesis">Scroll cinema at the speed of a Sunday newspaper, not a SaaS demo. Hero held longer (400vh container). easeOut3 → easeOut5. Body line-height generous (1.7). Lead paragraphs picked up to weight 500. Reading paces with the motion.</p>
+        <div class="v-header__deltas">
+          <span class="v-header__delta v-header__delta--up">type-weight: 900/700/500/400 (lead 500)</span>
+          <span class="v-header__delta">scale: A inherited</span>
+          <span class="v-header__delta v-header__delta--up">density: 72px (slightly more)</span>
+          <span class="v-header__delta v-header__delta--down">motion: 3 dilated (easeOut5)</span>
+          <span class="v-header__delta v-header__delta--up">temp: warm-cream (#fefcf8 surfaces)</span>
+          <span class="v-header__delta v-header__delta--up">spacing: reading-paced (lh 1.7)</span>
+        </div>
+      </div>
+      <div class="v-render">
+        <span class="v-render__badge">B5 · Editorial pace</span>
+        <span class="v-render__motion-key">hero 400vh · easeOut5 · scroll-scrub 100ms dwell · reading-pace below</span>
+        <div class="vB5">
+          <div class="vB5__hero">
+            <div class="vB5__hero-inner">
+              <div class="vB5__copy">
+                <p class="vB5__eyebrow">Adobe Photoshop · Generative Fill</p>
+                <h3 class="vB5__h1">Transform how you share information.</h3>
+                <p class="vB5__lead">Photoshop's new AI Generative Fill removes the gap between idea and image.</p>
+                <p class="vB5__body">What started in 1989 as a tool for cutting out backgrounds has become, in 2026, the most direct line between a creative impulse and a piece of work. The path from one to many has changed; the pixel has not.</p>
+                <div class="vB5__ctas">
+                  <a class="btn btn--sw">Read more</a>
+                  <a class="btn btn--gw">Free trial</a>
+                </div>
+              </div>
+              <div class="vB5__media" aria-hidden="true">
+                <p class="vB5__media-cap">A composition mid-edit · Photoshop · 2026</p>
+              </div>
+            </div>
+          </div>
+          <div class="vB5__below">
+            <div class="vB5__below-inner">
+              <p class="vB5__below-eyebrow">Below the hero</p>
+              <h4 class="vB5__below-h">A page that paces with the reader.</h4>
+              <p class="vB5__below-body">Stories don't pan on flinch; the mouse must dwell 100ms before the track responds. The tutorial carousel's reverse-hero entrance dilates from 1.6s to 2.4s. The garage-door reveal extends. Each motion lasts longer than the reader expects, which is the point.</p>
+              <p class="vB5__below-body vB5__below-body--soft">Reading paces with motion. The hero holds for an extra heartbeat. The body type sits at 1.7 line-height. The brand exhales between paragraphs.</p>
+              <div class="vB5__below-rule"></div>
+              <p class="vB5__below-sig">B5 · EDITORIAL PACE · DILATED TIMING + READING EMPHASIS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY FOOTER -->
+    <footer class="g-footer">
+      <p style="font-family: var(--f-mono); font-size: 12px; opacity: 0.64; letter-spacing: 0.08em; margin-bottom: 16px;">STARDUST · B SUB-VARIANTS · 2026-05-23</p>
+      <p>Five surface forks within variant B's scroll-cinema discipline. To promote one to a full prototype, run <code>/stardust:direct --add-variant B1</code> (or B2-B5), then <code>/stardust:prototype home --variant B1</code>.</p>
+      <p style="font-size: 12px; margin-top: 16px;">Parent: <code>DESIGN-B.json</code> · Inherits: <code>DESIGN-A.json</code> tokens.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>

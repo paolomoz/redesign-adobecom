@@ -496,3 +496,31 @@ Next: $stardust prototype home --variant A
 - Future iterations on F: real Adobe imagery in hero, real AI product mnemonics with brand-correct icon glyphs (currently abstract gradient blocks).
 
 **Next:** Review F alongside A/B/C. Open all four. Then approve one and proceed to a product page prototype OR continue iterating.
+
+---
+
+## 2026-05-23T18:00:00-07:00 — Gallery: 5 B sub-variants (B1-B5) surface forks
+
+**Prompt:** Focus on direction B; design 5 variant directions for B with stardust; preview before crafting; user picked option (b) — compact gallery format.
+
+**Decisions:**
+- Authored `stardust/prototypes/b-directions-B1-B5.html` — compact gallery exploring 5 surface forks of variant B's scroll-cinema discipline. All inherit B's parent thesis + Mode A pins (palette, type, IA-priority).
+- **Preview-before-craft gate:** showed conceptual preview with 5 directions + surface delta table; user picked option (b) (compact gallery); rendered the gallery.
+- 5 sub-variants differ on the 6 surface axes per `direct/SKILL.md § Phase 2.6 verbatim fork rules`:
+  - **B1 Studio** — samples-faithful baseline (all 5 captured patterns, balanced density 64px, neutral, 3 choreographies)
+  - **B2 Quiet** — concentrated cinema (hero scroll-grow + wordmark wipe only, airy 96px, cool-leaning, 2 choreographies)
+  - **B3 Loud** — maximal cinema (adds parallax + scroll-scrub on top of B1, packed 48px, warm, 5 choreographies, DESIGN-B ≤3-cap rule overridden to ≤5 for B3)
+  - **B4 Architectural** — boundaries choreographed (hero.rawP === 1.0 coordinated with stories.top === viewport.bottom; ResizeObserver-driven; 40px transitions vs 32px; section-boundary-aware spacing)
+  - **B5 Editorial pace** — slow + type-led (400vh hero container, easeOut5 not easeOut3, body lh 1.7, lead paragraph weight 500, warm-cream substrate #fefcf8)
+- Validation: 0 errors at 1440x900, 0 horizontal overflow at 1440 or 360, 5 variant sections, 5 H2s, 8350px scroll.
+- Static gallery format — motion-timing differences conveyed via type/density/composition deltas rather than live scroll choreography (the live patterns live in promoted prototypes).
+
+**Artifacts touched:**
+- `stardust/prototypes/b-directions-B1-B5.html` — created (~1100 lines, self-contained)
+- `stardust/validation/b-directions-B1-B5/gallery-fullpage.png` — full-page comparison screenshot
+
+**Open questions:**
+- Promotion path for favorites: `/stardust:direct --add-variant B1` (etc.), then `/stardust:prototype home --variant B1`. Each becomes a full prototype inheriting from B → A.
+- Strongest candidates by character: **B1** is the safest first promotion (formalises current `home-B` as canonical); **B5** is the strongest companion to D (Editorial Long-form) from the D-M gallery; **B4** is technically interesting but fragile (coordination math); **B3** is high-risk-high-reward; **B2** is the calm option.
+
+**Next:** Review the B1-B5 gallery. Pick one or more to promote, OR continue with another direction.
