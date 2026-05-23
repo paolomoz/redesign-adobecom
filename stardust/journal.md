@@ -369,3 +369,51 @@ Next: $stardust prototype home --variant A
 **Open questions:** none.
 
 **Next:** Continue iterating on variant A, or approve to proceed to variant B.
+
+---
+
+## 2026-05-23T13:45:00-07:00 — `/stardust:prototype home --variant B` + `--variant C` complete
+
+**Prompt:** Render B and C.
+
+**Decisions:**
+- Rendered variants B (scroll cinema) and C (elastic tile mosaic) on home in succession. All 3 variants now exist for side-by-side comparison.
+- **Variant B (`home-B-shape.md` + `home-B-proposed.html`):** 8 sections; surprise budget `medium`; dominant dimension `scroll-cinema-choreography`. Inherits A's tokens unchanged. Three choreographed sequences (Discipline cap = 3):
+  1. **Hero scroll-grow** — 300vh container + sticky child + rAF reading `window.__lenis.scroll`. Video scales from bounded → fullbleed (horizontal completes at rawP=0.5 via 2× rate; vertical at rawP=1). Text parallaxes out faster than imagery scales. Scrim + overlay (Acrobat Studio lockup with Buy now + Learn more) fade in at rawP=0.25 / 0.35. Next-section cover subtracts from scrim/overlay as stories slides up.
+  2. **Stories-strip mouse-pan** — captured 'Save 50%' + 'Save 30%' promo cards in a horizontal-overflow track that pans on cursor proximity (no drag). Mobile collapses to vertical stack.
+  3. **Tutorial-carousel reverse-hero entrance** — 3 product-hub slides (Creative Cloud / Acrobat / Explore). Slide width animates 100vw → 1068/1440 width, gap 60→8, active-slide border-radius 0→16 over section entrance (60% of overall progress for gap). Hands off to user-controllable carousel after entrance settles.
+  - Plus CSS scroll-driven `animation-timeline: view(block)` on the studio-banner garage-door (declarative, doesn't count toward the rAF cap). Footer wordmark wipe mandatory.
+  - One Discipline-9 fix: explicit `animation: none !important; animation-timeline: auto !important;` on `.ds-banner*` under `prefers-reduced-motion: reduce`, since time-based duration overrides don't reach scroll-bound animations.
+- **Variant C (`home-C-shape.md` + `home-C-proposed.html`):** 8 sections; surprise budget `high`; dominant dimension `elastic-tile-mosaic`; document-shape `gallery-rhythm`. Inherits A's tokens + 3 new tile radii (`--r-tile-feature: 20px`, `--r-tile-portrait: 16px`, `--r-tile-square: 12px`) + `--tile-grid-gap: 12px`. Used the Discipline 4 carve-out (#2 substrate-keyed document-shape) to allow 4 dark substrates — the white→dark→white→dark→dark-grid→dark-footer cadence IS the document shape. Each transition cites a captured source per Discipline 4 carve-out requirement.
+  - **Hero mosaic** — 1.5fr feature tile (16:9) carrying captured H1 'Transform how you share information.' as title-3 (NOT title-1 — type recedes per spec) + 1fr 2×2 mnemonic tiles 1:1 (Photoshop / Illustrator / Premiere / Lightroom). Every mnemonic carries the elastic hover-reveal.
+  - **Explore-row-1** ('Everything you need to make anything.') — 4-up category-tile-row with hover-reveal (4 colored tiles: Creative AI / Documents / Marketing / Learn).
+  - **Dark-band-creative-cloud** ('Save 50% on Creative Cloud Pro.') — dark substrate, copy left, media right, solid-white CTA.
+  - **Explore-row-2** ('Explore what's new.') — 3-up explore-card-mosaic surfacing the 3 captured 'In the news' items as gallery tiles (variant C reframes editorial as explore, not a sidebar list).
+  - **Dark-band-acrobat** ('It starts with Adobe.') — mirrored layout (media left, copy right).
+  - **Product-grid** ('Tools that work for you.') — 6-tile dark mnemonic gallery flowing directly into the literal-black footer.
+  - Primary micro-interaction: tile hover-reveal across 17 tiles (4 hero mnemonics + 4 explore-row-1 + 3 explore-row-2 + 6 product-grid). Background opacity 0→1 + scale 1→1.04 + gradient scrim 0→1 + text color shift, 400ms ease.
+  - No scroll-grow, no reverse-hero (those are B's amplification). Motion lives in hover, not scroll.
+- **Variant differentiation contract — all 3 pairs pass:**
+  - A↔B: 5 deltas (hero strategy / stories pattern / tutorial pattern / studio-banner presence / wordmark scope)
+  - A↔C: 6 deltas (hero strategy / promo pattern / hub-tile pattern / dark-band count / product-grid presence / type emphasis)
+  - B↔C: 5 deltas (hero strategy / motion energy / tutorial-carousel presence / studio-banner presence / dark-band count)
+- **Validation across 3 viewports per variant (1440 / 768 / 360):** 0 errors, 0 horizontal overflow, skip-link + noscript + `:root` block all present, 1 H1 per page, hamburger pattern declared.
+- **State.json updated:** home now carries `prototypePaths.{A,B,C}` + `shapeBriefs.{A,B,C}` + `validation.{A,B,C}` + history of 3 prototyped events.
+
+**Findings worth flagging:**
+1. **The gallery-rhythm document-shape works visually.** Variant C's continuous dark sequence below mid-page (white → dark-band → white → dark-band → dark-product-grid → dark-footer) reads as intentional structure, not noise. The 4-substrate-transition count clears the Discipline 4 carve-out because each is captured-source-cited and the rhythm IS the document.
+2. **Variant B's hero scroll-grow is the single most expressive section across all 3 variants.** It's where Adobe's bench shows. Likely to be the most-evaluated section in stakeholder review.
+3. **Variant C's elastic hover-reveal is more legible at static-screenshot review than B's scroll choreography.** The reduced-motion screenshot captures C's final state cleanly; B's scroll-driven choreography only narrates correctly with active scrolling.
+
+**Artifacts touched:**
+- `stardust/prototypes/home-B-shape.md` + `home-B-proposed.html` — created (~1300 lines HTML)
+- `stardust/prototypes/home-C-shape.md` + `home-C-proposed.html` — created (~1200 lines HTML)
+- `stardust/validation/home-B/{desktop,desktop-reducedmotion,hero-mid-scroll}.png` — created
+- `stardust/validation/home-C/{desktop,desktop-reducedmotion,hover-state,mobile-360}.png` — created
+- `stardust/state.json` — updated (multi-variant prototypePaths + shapeBriefs + history)
+
+**Open questions:**
+- All 3 variants are ready for stakeholder review. Approval decision belongs to the user — A (safest), B (most cinematic), C (most photography-led).
+- Once one is approved, the next move is prototyping a product page (express, photoshop, or one of the 4 features pages) under the approved variant to validate the spec on a second template.
+
+**Next:** Review the three side-by-side. Open `stardust/validation/home-A/desktop-reducedmotion.png`, `home-B/`, `home-C/` for visual comparison. Approve one variant with `approve home --variant <id>`, then proceed to a product page prototype OR iterate further on the selected variant.

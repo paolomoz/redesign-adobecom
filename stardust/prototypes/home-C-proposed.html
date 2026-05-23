@@ -1,0 +1,818 @@
+<!doctype html>
+<!--
+  _provenance:
+    writtenBy: impeccable:craft (via stardust:prototype)
+    writtenAt: 2026-05-23T13:30:00-07:00
+    variant: C
+    variantRole: One captured trait amplified — elastic tile mosaic
+    variantThesis: "adobe.com as creative-product gallery — photography-led tiles, elastic hover-reveals, intensified dark-band rhythm. Type recedes; imagery leads."
+    fidelity: refined
+    surprise: high
+    dominantDimension: elastic-tile-mosaic
+    documentShape: gallery-rhythm
+    substrateCarveOut: "Discipline 4 cap waived per Phase 1 § substrateTransitions — surprise: high + substrate-keyed document-shape (gallery-rhythm). 4 dark sections legal; each transition carries a per-section captured-source citation in the brief."
+    inputs:
+      brief: stardust/prototypes/home-C-shape.md
+      designJson: DESIGN-C.json (inherits DESIGN-A.json)
+      capturedSource: stardust/current/pages/home.json
+      amplificationSource: samples/live/snapshots/sr-homepage.html
+      improvements: stardust/prototypes/home-improvements.md
+    brandFaithfulInversionsHonored:
+      - "pure-surfaces (#000, #ffffff legal)"
+      - "backdrop-blur-nav"
+      - "hex-not-OKLCH"
+    motionStack: "baseline only — page-load entrances + scroll-driven section reveal + per-tile hover-reveals; no GSAP, no ScrollTrigger, no IntersectionObserver, no scroll-grow"
+    primaryMicroInteraction: "tile hover-reveal (background-image opacity 0→1 + scale 1.04 + gradient scrim 0→1 + text shift, 400ms ease)"
+    iaPriorityAuditPreserved: ["commercial-conversion (hero feature + dark-band CTAs)", "audience-routing (nav)", "product-mnemonic-discoverability (hero 2×2 + product-grid 6-up)", "trust-signals (dark-band-creative-cloud + dark-band-acrobat)", "persistent-help (footer)"]
+    againstDirection: "stardust/direction.md @ 2026-05-22T14:55:00-07:00 (Active section)"
+    stardustVersion: 0.7.1
+    impeccableVersion: 3.0.1
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="description" content="Adobe is changing the world through digital experiences.">
+<title>Adobe: Creative, marketing and document management solutions — variant C</title>
+<style>
+  :root {
+    /* COLORS (inherits A) */
+    --c-background: #ffffff;
+    --c-surface: #f8f8f8;
+    --c-surface-dark: #000000;
+    --c-text-primary: #2c2c2c;
+    --c-text-secondary: rgba(0, 0, 0, 0.64);
+    --c-text-knockout: #ffffff;
+    --c-text-knockout-soft: rgba(255, 255, 255, 0.64);
+    --c-primary: #3b63fb;
+    --c-primary-hover: #274dea;
+    --c-border-subtle: rgba(0, 0, 0, 0.08);
+    --c-border-knockout: rgba(255, 255, 255, 0.16);
+    --c-brand-mnemonic-red: #eb1000;
+    --c-focus-ring: rgba(59, 99, 251, 0.2);
+
+    /* TYPE (inherits A) */
+    --f-heading: "Adobe Clean Display", "Adobe Clean", system-ui, -apple-system, "Helvetica Neue", sans-serif;
+    --f-body: "Adobe Clean", system-ui, -apple-system, "Helvetica Neue", sans-serif;
+    --t-title-2-size: clamp(32px, 4.375vw, 56px);
+    --t-title-2-lh: 1.0;
+    --t-title-2-track: clamp(-1.68px, -0.13vw, -0.8px);
+    --t-title-3-size: clamp(28px, 3.125vw, 48px);
+    --t-title-3-lh: 1.05;
+    --t-title-3-track: clamp(-1.2px, -0.11vw, -0.8px);
+    --t-title-4-size: 24px;
+    --t-title-4-lh: 1.0;
+    --t-title-4-track: -0.48px;
+    --t-body-lg-size: 20px;
+    --t-body-lg-lh: 1.2;
+    --t-body-md-size: 16px;
+    --t-body-md-lh: 1.25;
+    --t-body-md-track: 0.16px;
+    --t-eyebrow-size: 16px;
+    --t-eyebrow-lh: 1.25;
+    --t-eyebrow-track: -0.2px;
+    --t-label-size: 14px;
+
+    /* SPACING (inherits A) */
+    --s-xs: 8px; --s-sm: 12px; --s-md: 16px; --s-lg: 24px; --s-xl: 32px;
+    --s-2xl: 40px; --s-3xl: 48px; --s-4xl: 64px; --s-5xl: 80px; --s-6xl: 96px;
+    --section-pad: 32px;
+    --container-max: 1440px;
+    --grid-gap: 8px;
+    --grid-margin: 24px;
+
+    /* RADIUS (inherits A + variant C additions) */
+    --r-sm: 8px; --r-md: 16px; --r-lg: 32px; --r-pill: 999px;
+    --r-tile-feature: 20px;
+    --r-tile-portrait: 16px;
+    --r-tile-square: 12px;
+    --tile-grid-gap: 12px;
+
+    /* MOTION */
+    --d-fast: 200ms;
+    --d-base: 400ms;
+    --d-entrance: 600ms;
+    --e-default: cubic-bezier(0.42, 0, 0, 1);
+    --e-entrance: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    /* LAYOUT */
+    --nav-outer-pad: 8px;
+    --nav-inner-h: 64px;
+  }
+  @media (min-width: 768px) {
+    :root { --section-pad: 48px; --grid-margin: 8.333vw; }
+  }
+  @media (min-width: 1024px) {
+    :root { --section-pad: 64px; }
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; hanging-punctuation: first; -webkit-text-size-adjust: 100%; }
+  body { font-family: var(--f-body); color: var(--c-text-primary); background: var(--c-background); overflow-x: hidden; line-height: 1.5; }
+  a { text-decoration: none; color: inherit; }
+  button { font-family: inherit; cursor: pointer; }
+  img, svg { display: block; max-width: 100%; }
+  h1, h2, h3, h4 { font-family: var(--f-heading); font-weight: 900; text-wrap: balance; }
+  p { text-wrap: pretty; max-width: 80ch; }
+  :focus-visible { outline: 3px solid var(--c-focus-ring); outline-offset: 2px; border-radius: 4px; }
+
+  /* TYPE HELPERS */
+  .eyebrow { font-family: var(--f-body); font-size: var(--t-eyebrow-size); line-height: var(--t-eyebrow-lh); letter-spacing: var(--t-eyebrow-track); font-weight: 700; color: var(--c-text-secondary); }
+  .title-2 { font-size: var(--t-title-2-size); line-height: var(--t-title-2-lh); letter-spacing: var(--t-title-2-track); }
+  .title-3 { font-size: var(--t-title-3-size); line-height: var(--t-title-3-lh); letter-spacing: var(--t-title-3-track); }
+  .title-4 { font-size: var(--t-title-4-size); line-height: var(--t-title-4-lh); letter-spacing: var(--t-title-4-track); }
+  .body-lg { font-family: var(--f-body); font-size: var(--t-body-lg-size); line-height: var(--t-body-lg-lh); font-weight: 400; }
+  .body-md { font-family: var(--f-body); font-size: var(--t-body-md-size); line-height: var(--t-body-md-lh); letter-spacing: var(--t-body-md-track); font-weight: 400; }
+
+  /* BUTTONS */
+  .ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 40px; padding-inline: var(--s-lg); border-radius: var(--r-md); font: 700 var(--t-label-size)/1.29 var(--f-body); border: 1.5px solid transparent; transition: background var(--d-fast) var(--e-default), border-color var(--d-fast) var(--e-default), color var(--d-fast) var(--e-default); white-space: nowrap; }
+  .ds-btn--sm { height: 32px; padding-inline: 18px; }
+  .ds-btn--primary { background: var(--c-primary); color: #fff; }
+  .ds-btn--primary:hover { background: var(--c-primary-hover); }
+  .ds-btn--outline { background: transparent; color: var(--c-text-primary); border-color: var(--c-text-primary); }
+  .ds-btn--outline:hover { background: rgba(0, 0, 0, 0.04); }
+  .ds-btn--solid-white { background: #fff; color: #000; }
+  .ds-btn--solid-white:hover { background: rgba(255, 255, 255, 0.88); }
+  .ds-btn--ghost-white { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.5); }
+  .ds-btn--ghost-white:hover { background: rgba(255, 255, 255, 0.08); }
+
+  /* CONTAINER */
+  .ds-container { width: 100%; padding-inline: var(--grid-margin); margin-inline: auto; }
+  @media (min-width: 1441px) { .ds-container { max-width: var(--container-max); padding-inline: 0; } }
+
+  /* SKIP LINK */
+  .ds-skip-link { position: absolute; top: 8px; left: 8px; z-index: 1000; padding: 12px 18px; background: var(--c-text-primary); color: var(--c-text-knockout); border-radius: var(--r-md); font-weight: 700; font-size: 14px; text-decoration: none; transform: translateY(-200%); transition: transform var(--d-fast) var(--e-default); }
+  .ds-skip-link:focus, .ds-skip-link:focus-visible { transform: translateY(0); }
+
+  /* ENTRANCE */
+  @keyframes enterDown { from { opacity: 0; transform: translateY(-16px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes enterUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* SITE-HEADER */
+  .ds-nav-wrap { position: fixed; top: 0; left: 0; right: 0; padding: var(--nav-outer-pad) var(--nav-outer-pad) 0; z-index: 200; pointer-events: none; }
+  .ds-nav { height: var(--nav-inner-h); backdrop-filter: blur(64px); -webkit-backdrop-filter: blur(64px); background: rgba(255, 255, 255, 0.64); border-radius: var(--r-md); display: flex; align-items: center; justify-content: space-between; padding-inline: var(--s-md); pointer-events: all; transition: box-shadow var(--d-fast) ease, background var(--d-fast) ease; animation: enterDown var(--d-entrance) var(--e-entrance) both; }
+  .ds-nav.is-scrolled { box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08); background: rgba(255, 255, 255, 0.84); }
+  .ds-nav__left { display: flex; align-items: center; gap: var(--s-lg); height: 100%; min-width: 0; }
+  .ds-nav__logo { display: flex; align-items: center; flex-shrink: 0; }
+  .ds-nav__logo svg { width: 67px; height: 16px; }
+  .ds-nav__slash { width: 1px; height: 16px; background: rgba(0, 0, 0, 0.16); flex-shrink: 0; display: none; }
+  .ds-nav__links { display: none; list-style: none; align-items: center; height: 100%; gap: 0; }
+  @media (min-width: 900px) { .ds-nav__slash { display: block; } .ds-nav__links { display: flex; } }
+  .ds-nav__links li a { display: flex; align-items: center; gap: 4px; padding: 0 12px; height: var(--nav-inner-h); font-size: var(--t-label-size); font-weight: 700; color: var(--c-text-secondary); white-space: nowrap; transition: color var(--d-fast) ease; }
+  .ds-nav__links li a:hover { color: var(--c-text-primary); }
+  .ds-nav__links li a[aria-current="page"] { color: var(--c-text-primary); box-shadow: inset 0 -2px 0 var(--c-text-primary); }
+  .ds-nav__right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+  .ds-nav__icon-btn { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; background: transparent; border: none; color: var(--c-text-secondary); border-radius: var(--r-sm); transition: background var(--d-fast) ease, color var(--d-fast) ease; }
+  .ds-nav__icon-btn:hover { background: rgba(0, 0, 0, 0.06); color: var(--c-text-primary); }
+  .ds-nav__icon-btn svg { width: 18px; height: 18px; }
+  .ds-nav-burger { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: transparent; border: none; color: var(--c-text-primary); border-radius: var(--r-sm); }
+  .ds-nav-burger:hover { background: rgba(0, 0, 0, 0.06); }
+  .ds-nav-burger svg { width: 18px; height: 18px; }
+  @media (min-width: 900px) { .ds-nav-burger { display: none; } }
+  @media (max-width: 640px) { .ds-nav__primary-cta { display: none; } .ds-nav { padding-inline: var(--s-sm); } }
+
+  /* ───── HERO MOSAIC (asymmetric — variant C amplification) ───── */
+  .ds-hero-mosaic {
+    padding-top: calc(var(--nav-inner-h) + var(--s-4xl));
+    padding-bottom: var(--section-pad);
+    background: var(--c-background);
+  }
+  .ds-hero-mosaic__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--tile-grid-gap);
+  }
+  @media (min-width: 900px) {
+    .ds-hero-mosaic__grid {
+      grid-template-columns: 1.5fr 1fr;
+    }
+  }
+  .ds-hero-mosaic__mnemonics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--tile-grid-gap);
+  }
+
+  /* Photo tile feature (16:9) */
+  .ds-tile-feature {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--r-tile-feature);
+    aspect-ratio: 16 / 9;
+    background:
+      radial-gradient(ellipse at 70% 40%, rgba(255, 162, 95, 0.32), transparent 50%),
+      radial-gradient(ellipse at 30% 70%, rgba(59, 99, 251, 0.18), transparent 55%),
+      linear-gradient(135deg, #d8c4b0 0%, #a07e64 50%, #4a3a2a 100%);
+    color: var(--c-text-knockout);
+  }
+  .ds-tile-feature::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.0) 55%);
+    pointer-events: none;
+  }
+  .ds-tile-feature__overlay {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: var(--s-xl);
+    z-index: 1;
+    gap: var(--s-md);
+  }
+  .ds-tile-feature__eyebrow { color: rgba(255, 255, 255, 0.72); }
+  .ds-tile-feature__title { color: #fff; max-width: 28ch; }
+  .ds-tile-feature__cta { align-self: flex-start; margin-top: var(--s-xs); }
+
+  /* Photo tile square (mnemonic) — elastic hover-reveal */
+  .ds-tile-mnemonic {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--r-tile-square);
+    aspect-ratio: 1 / 1;
+    background: var(--c-surface);
+    color: var(--c-text-primary);
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: var(--s-md);
+    cursor: pointer;
+    transition: background var(--d-base) var(--e-default);
+  }
+  .ds-tile-mnemonic__bg {
+    position: absolute; inset: 0;
+    opacity: 0;
+    transition: opacity var(--d-base) ease, transform var(--d-base) ease;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .ds-tile-mnemonic--photoshop .ds-tile-mnemonic__bg { background: radial-gradient(ellipse at 50% 50%, rgba(31, 79, 250, 0.42), transparent 60%), linear-gradient(135deg, #0a2566 0%, #001e6e 100%); }
+  .ds-tile-mnemonic--illustrator .ds-tile-mnemonic__bg { background: radial-gradient(ellipse at 50% 50%, rgba(255, 102, 0, 0.42), transparent 60%), linear-gradient(135deg, #1f0c00 0%, #5a1a00 100%); }
+  .ds-tile-mnemonic--premiere .ds-tile-mnemonic__bg { background: radial-gradient(ellipse at 50% 50%, rgba(155, 89, 255, 0.42), transparent 60%), linear-gradient(135deg, #1f0033 0%, #320052 100%); }
+  .ds-tile-mnemonic--lightroom .ds-tile-mnemonic__bg { background: radial-gradient(ellipse at 50% 50%, rgba(49, 168, 255, 0.42), transparent 60%), linear-gradient(135deg, #001f33 0%, #003352 100%); }
+  .ds-tile-mnemonic::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.18) 55%, transparent 100%);
+    opacity: 0;
+    transition: opacity var(--d-base) ease;
+    pointer-events: none;
+    z-index: 1;
+  }
+  .ds-tile-mnemonic:hover .ds-tile-mnemonic__bg { opacity: 1; transform: scale(1.04); }
+  .ds-tile-mnemonic:hover::after { opacity: 1; }
+  .ds-tile-mnemonic:hover { color: var(--c-text-knockout); }
+  .ds-tile-mnemonic__icon {
+    width: 28px; height: 28px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #2a5cff, #001a8d);
+    z-index: 2; position: relative;
+  }
+  .ds-tile-mnemonic--illustrator .ds-tile-mnemonic__icon { background: linear-gradient(135deg, #ff7a00, #a83a00); }
+  .ds-tile-mnemonic--premiere .ds-tile-mnemonic__icon { background: linear-gradient(135deg, #b884ff, #4d1182); }
+  .ds-tile-mnemonic--lightroom .ds-tile-mnemonic__icon { background: linear-gradient(135deg, #44b8ff, #0072c6); }
+  .ds-tile-mnemonic__copy { z-index: 2; position: relative; display: flex; flex-direction: column; gap: 2px; }
+  .ds-tile-mnemonic__eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.04em; opacity: 0.64; }
+  .ds-tile-mnemonic__name { font-family: var(--f-heading); font-size: 18px; line-height: 1.1; font-weight: 900; letter-spacing: -0.3px; }
+
+  /* ───── EXPLORE ROW (4-up + 3-up tile-mosaic with hover-reveal) ─── */
+  .ds-explore { padding-block: var(--section-pad); background: var(--c-background); }
+  .ds-explore__head { text-align: center; margin-bottom: var(--s-2xl); padding-inline: var(--grid-margin); }
+  .ds-explore__head h2 { color: var(--c-text-primary); }
+  .ds-explore__grid { display: grid; grid-template-columns: 1fr; gap: var(--tile-grid-gap); padding-inline: var(--grid-margin); }
+  .ds-explore--4up .ds-explore__grid { grid-template-columns: 1fr 1fr; }
+  @media (min-width: 1024px) {
+    .ds-explore--4up .ds-explore__grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  .ds-explore--3up .ds-explore__grid { grid-template-columns: 1fr; }
+  @media (min-width: 900px) {
+    .ds-explore--3up .ds-explore__grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (min-width: 1441px) {
+    .ds-explore__head, .ds-explore__grid { max-width: var(--container-max); margin-inline: auto; padding-inline: 0; }
+  }
+
+  .ds-explore-tile {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--r-tile-square);
+    aspect-ratio: 4 / 3;
+    background: var(--c-surface);
+    color: var(--c-text-primary);
+    display: flex; flex-direction: column;
+    padding: var(--s-lg);
+    cursor: pointer;
+    transition: background var(--d-base) var(--e-default), color var(--d-base) var(--e-default);
+  }
+  .ds-explore-tile__bg {
+    position: absolute; inset: 0; opacity: 0;
+    transition: opacity var(--d-base) ease, transform var(--d-base) ease;
+    pointer-events: none; z-index: 0;
+  }
+  /* Tile bg color themes per category */
+  .ds-explore-tile--c0 .ds-explore-tile__bg { background: radial-gradient(ellipse at 70% 40%, rgba(255, 102, 0, 0.42), transparent 55%), linear-gradient(135deg, #2a1100 0%, #5a2400 100%); }
+  .ds-explore-tile--c1 .ds-explore-tile__bg { background: radial-gradient(ellipse at 50% 50%, rgba(235, 16, 0, 0.30), transparent 60%), linear-gradient(135deg, #1a0000 0%, #420000 100%); }
+  .ds-explore-tile--c2 .ds-explore-tile__bg { background: radial-gradient(ellipse at 40% 60%, rgba(59, 99, 251, 0.42), transparent 55%), linear-gradient(135deg, #00071f 0%, #001a52 100%); }
+  .ds-explore-tile--c3 .ds-explore-tile__bg { background: radial-gradient(ellipse at 50% 50%, rgba(141, 88, 250, 0.42), transparent 55%), linear-gradient(135deg, #11002a 0%, #2b0052 100%); }
+  .ds-explore-tile--c4 .ds-explore-tile__bg { background: radial-gradient(ellipse at 60% 50%, rgba(0, 168, 132, 0.42), transparent 55%), linear-gradient(135deg, #001a14 0%, #003a2c 100%); }
+  .ds-explore-tile--c5 .ds-explore-tile__bg { background: radial-gradient(ellipse at 50% 50%, rgba(255, 153, 51, 0.42), transparent 55%), linear-gradient(135deg, #2a1700 0%, #582f00 100%); }
+  .ds-explore-tile::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.18) 55%, transparent 100%);
+    opacity: 0;
+    transition: opacity var(--d-base) ease;
+    pointer-events: none; z-index: 1;
+  }
+  .ds-explore-tile:hover .ds-explore-tile__bg { opacity: 1; transform: scale(1.04); }
+  .ds-explore-tile:hover::after { opacity: 1; }
+  .ds-explore-tile:hover { color: var(--c-text-knockout); }
+  .ds-explore-tile__content { display: flex; flex-direction: column; gap: var(--s-xs); height: 100%; z-index: 2; position: relative; }
+  .ds-explore-tile__icon { width: 28px; height: 28px; border-radius: 6px; background: linear-gradient(135deg, currentColor, currentColor); opacity: 0.16; flex-shrink: 0; transition: opacity var(--d-base) ease; }
+  .ds-explore-tile:hover .ds-explore-tile__icon { opacity: 0.32; }
+  .ds-explore-tile__eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; opacity: 0.64; margin-top: auto; padding-top: var(--s-md); }
+  .ds-explore-tile__name { font-family: var(--f-heading); font-size: 20px; line-height: 1.15; font-weight: 900; letter-spacing: -0.4px; margin-top: 4px; }
+  .ds-explore-tile__body { font-size: var(--t-body-sm-size); line-height: 1.3; margin-top: 8px; opacity: 0.72; max-width: 32ch; }
+
+  /* ───── DARK BAND (Creative Cloud / Acrobat anchors) ──────────── */
+  .ds-dark-band {
+    position: relative;
+    background: var(--c-surface-dark);
+    color: var(--c-text-knockout);
+    padding-block: var(--s-5xl);
+    border-radius: var(--r-lg) var(--r-lg) 0 0;
+    margin-top: calc(-1 * var(--r-lg));
+    z-index: 2;
+  }
+  .ds-dark-band__inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--s-2xl);
+    align-items: center;
+    padding-inline: var(--grid-margin);
+    max-width: var(--container-max);
+    margin-inline: auto;
+  }
+  @media (min-width: 900px) {
+    .ds-dark-band__inner { grid-template-columns: 1fr 1fr; gap: var(--s-4xl); }
+    .ds-dark-band--reverse .ds-dark-band__inner { direction: rtl; }
+    .ds-dark-band--reverse .ds-dark-band__copy,
+    .ds-dark-band--reverse .ds-dark-band__media { direction: ltr; }
+  }
+  .ds-dark-band__copy {
+    display: flex; flex-direction: column;
+    gap: var(--s-md);
+    max-width: 50ch;
+  }
+  .ds-dark-band__eyebrow { color: rgba(255, 255, 255, 0.64); }
+  .ds-dark-band__title { color: var(--c-text-knockout); }
+  .ds-dark-band__body { color: rgba(255, 255, 255, 0.84); max-width: 50ch; }
+  .ds-dark-band__cta { align-self: flex-start; margin-top: var(--s-md); }
+  .ds-dark-band__media {
+    aspect-ratio: 4 / 3;
+    border-radius: var(--r-tile-feature);
+    overflow: hidden;
+  }
+  .ds-dark-band--cc .ds-dark-band__media { background: radial-gradient(ellipse at 30% 50%, rgba(255, 102, 0, 0.38), transparent 55%), radial-gradient(ellipse at 70% 50%, rgba(59, 99, 251, 0.30), transparent 55%), linear-gradient(135deg, #2a1810 0%, #1a0d05 100%); }
+  .ds-dark-band--acrobat .ds-dark-band__media { background: radial-gradient(ellipse at 60% 50%, rgba(235, 16, 0, 0.30), transparent 55%), linear-gradient(135deg, #1f0a08 0%, #0a0202 100%); }
+
+  /* ───── PRODUCT GRID (6-tile dark mnemonic gallery) ─────────── */
+  .ds-product-grid-section {
+    background: var(--c-surface-dark);
+    color: var(--c-text-knockout);
+    padding-block: var(--s-5xl) var(--s-6xl);
+  }
+  .ds-product-grid-section__head { text-align: center; margin-bottom: var(--s-2xl); }
+  .ds-product-grid-section__h2 { color: var(--c-text-knockout); }
+  .ds-product-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: var(--grid-gap);
+    padding-inline: var(--grid-margin);
+    max-width: var(--container-max);
+    margin-inline: auto;
+  }
+  @media (min-width: 768px) {
+    .ds-product-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (min-width: 1441px) {
+    .ds-product-grid-section__head { padding-inline: 0; }
+    .ds-product-grid { padding-inline: 0; }
+  }
+  .ds-product-tile {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--r-tile-square);
+    aspect-ratio: 4 / 3;
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--c-text-knockout);
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: var(--s-lg);
+    cursor: pointer;
+    transition: background var(--d-base) var(--e-default);
+  }
+  .ds-product-tile__bg {
+    position: absolute; inset: 0; opacity: 0;
+    transition: opacity var(--d-base) ease, transform var(--d-base) ease;
+    pointer-events: none; z-index: 0;
+  }
+  .ds-product-tile--photoshop .ds-product-tile__bg { background: radial-gradient(ellipse at 50% 50%, rgba(31, 79, 250, 0.55), transparent 60%), linear-gradient(135deg, #0a2566 0%, #001e6e 100%); }
+  .ds-product-tile--illustrator .ds-product-tile__bg { background: radial-gradient(ellipse at 50% 50%, rgba(255, 102, 0, 0.55), transparent 60%), linear-gradient(135deg, #2a0e00 0%, #5a1a00 100%); }
+  .ds-product-tile--premiere .ds-product-tile__bg { background: radial-gradient(ellipse at 50% 50%, rgba(155, 89, 255, 0.55), transparent 60%), linear-gradient(135deg, #1f0033 0%, #320052 100%); }
+  .ds-product-tile--lightroom .ds-product-tile__bg { background: radial-gradient(ellipse at 50% 50%, rgba(49, 168, 255, 0.55), transparent 60%), linear-gradient(135deg, #001f33 0%, #003352 100%); }
+  .ds-product-tile--acrobat .ds-product-tile__bg { background: radial-gradient(ellipse at 50% 50%, rgba(235, 16, 0, 0.55), transparent 60%), linear-gradient(135deg, #2a0500 0%, #5a0a00 100%); }
+  .ds-product-tile--firefly .ds-product-tile__bg { background: radial-gradient(ellipse at 50% 50%, rgba(255, 84, 117, 0.55), transparent 60%), linear-gradient(135deg, #2a0010 0%, #520020 100%); }
+  .ds-product-tile:hover .ds-product-tile__bg { opacity: 1; transform: scale(1.04); }
+  .ds-product-tile__icon {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    z-index: 2; position: relative;
+    transition: background var(--d-base) ease;
+  }
+  .ds-product-tile:hover .ds-product-tile__icon { background: rgba(255, 255, 255, 0.20); }
+  .ds-product-tile__name { font-family: var(--f-heading); font-size: 22px; line-height: 1.0; font-weight: 900; letter-spacing: -0.5px; z-index: 2; position: relative; }
+
+  /* ───── SITE-FOOTER (inherits A baseline) ──────────────────── */
+  .ds-footer { background: var(--c-surface-dark); color: var(--c-text-knockout); padding-top: var(--s-4xl); position: relative; }
+  .ds-footer__main { padding-inline: var(--grid-margin); max-width: var(--container-max); margin-inline: auto; display: flex; flex-direction: column; gap: var(--s-2xl); }
+  .ds-footer__cols { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px 20px; }
+  @media (min-width: 900px) { .ds-footer__cols { grid-template-columns: repeat(6, 1fr); gap: 0 var(--s-xs); } }
+  .ds-footer__col { display: flex; flex-direction: column; gap: var(--s-lg); }
+  .ds-footer__col-title { font-size: var(--t-eyebrow-size); font-weight: 700; color: var(--c-text-knockout); line-height: var(--t-eyebrow-lh); letter-spacing: var(--t-eyebrow-track); }
+  .ds-footer__col ul { list-style: none; display: flex; flex-direction: column; gap: var(--s-xs); }
+  .ds-footer__col ul li a { font-size: var(--t-body-md-size); font-weight: 400; color: var(--c-text-knockout-soft); line-height: var(--t-body-md-lh); letter-spacing: var(--t-body-md-track); transition: color var(--d-fast) ease; }
+  .ds-footer__col ul li a:hover { color: rgba(255, 255, 255, 0.9); }
+  .ds-footer__featured { display: flex; flex-direction: column; gap: var(--s-lg); }
+  .ds-footer__feat-label { font-size: var(--t-eyebrow-size); font-weight: 700; color: var(--c-text-knockout); }
+  .ds-footer__prods { display: flex; gap: var(--s-lg); flex-wrap: wrap; align-items: center; }
+  .ds-footer__prod { display: flex; align-items: center; gap: var(--s-xs); color: var(--c-text-knockout); font-size: 12px; font-weight: 700; }
+  .ds-footer__prod-icon { width: 16px; height: 16px; border-radius: 4px; background: linear-gradient(135deg, #ff8a00, #e94e1b); flex-shrink: 0; }
+  .ds-footer__prod:nth-child(2) .ds-footer__prod-icon { background: linear-gradient(135deg, #9b59ff, #ff5575); }
+  .ds-footer__prod:nth-child(3) .ds-footer__prod-icon { background: linear-gradient(135deg, #ff3cac, #ff7a5a); }
+  .ds-footer__prod:nth-child(4) .ds-footer__prod-icon { background: linear-gradient(135deg, #31a8ff, #0083bd); }
+  .ds-footer__bottom { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--s-md); padding-block: var(--s-lg); border-top: 1px solid var(--c-border-knockout); }
+  .ds-footer__legal { display: flex; gap: var(--s-xl); flex-wrap: wrap; font-size: 12px; font-weight: 700; color: var(--c-text-knockout-soft); letter-spacing: 0.02em; }
+  .ds-footer__legal a { color: var(--c-text-knockout-soft); }
+  .ds-footer__social { display: flex; gap: var(--s-md); align-items: center; }
+  .ds-footer__social a { width: 18px; height: 18px; color: var(--c-text-knockout); opacity: 0.72; transition: opacity var(--d-fast) ease; }
+  .ds-footer__social a:hover { opacity: 1; }
+  .ds-footer__wordmark { width: 100%; aspect-ratio: 1440 / 338; margin-top: var(--s-3xl); position: relative; overflow: hidden; }
+  .ds-footer__wordmark-text { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: var(--f-heading); font-weight: 900; font-size: clamp(120px, 24vw, 360px); line-height: 0.7; color: var(--c-text-knockout); letter-spacing: -0.04em; will-change: clip-path; }
+
+  /* ───── SCROLL-DRIVEN ENTRANCE + REDUCED MOTION ─────────────── */
+  .anim-enter { opacity: 0; transform: translateY(40px); will-change: opacity, transform; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-delay: 0ms !important; transition-duration: 0.01ms !important; }
+    .anim-enter { opacity: 1 !important; transform: none !important; }
+    .ds-footer__wordmark-text { clip-path: none !important; }
+    /* Hover-reveal short-circuit — reduced-motion sees tiles in their default state,
+       no instant fade-in on hover (keeps the discovery affordance without animation). */
+    .ds-tile-mnemonic:hover .ds-tile-mnemonic__bg,
+    .ds-explore-tile:hover .ds-explore-tile__bg,
+    .ds-product-tile:hover .ds-product-tile__bg { transform: none !important; }
+  }
+</style>
+<noscript>
+  <style>
+    .anim-enter { opacity: 1 !important; transform: none !important; }
+    .ds-footer__wordmark-text { clip-path: none !important; }
+  </style>
+</noscript>
+</head>
+<body>
+
+  <a href="#main" class="ds-skip-link">Skip to main content</a>
+
+  <!-- SITE-HEADER -->
+  <div class="ds-nav-wrap">
+    <header class="ds-nav" data-component="site-header" data-system-component="header" data-nav-collapse="hamburger" id="site-header">
+      <div class="ds-nav__left">
+        <a href="/" class="ds-nav__logo" aria-label="Adobe home">
+          <svg viewBox="0 0 240 60" fill="none" aria-hidden="true"><path d="M178.95 19.95L209.4 60H187.05L177.45 39.6 167.1 60H146.4L177 19.95h2zM62.7 0L93.6 60H72.45L62.4 39.6 52.05 60H32.7L62.4 0h.3zM104.7 17.4q5.7-3.3 12.6-3.3 6.9 0 12.6 3.3 5.7 3.3 9 9.45 3.3 6.15 3.3 14.55 0 8.4-3.3 14.55-3.3 6.15-9 9.45-5.7 3.3-12.6 3.3-6.9 0-12.6-3.3-5.7-3.3-9-9.45-3.3-6.15-3.3-14.55 0-8.4 3.3-14.55 3.3-6.15 9-9.45zm21.45 13.05q-3.6-4.05-8.85-4.05-5.25 0-8.85 4.05-3.6 4.05-3.6 11.55t3.6 11.4q3.6 3.9 8.85 3.9 5.25 0 8.85-3.9 3.6-3.9 3.6-11.4t-3.6-11.55z" fill="#EB1000"/></svg>
+        </a>
+        <div class="ds-nav__slash" aria-hidden="true"></div>
+        <ul class="ds-nav__links">
+          <li><a href="#creativity"><span>Creativity &amp; Design</span><svg viewBox="0 0 8 5" fill="none" aria-hidden="true"><path d="M1 1l3 3 3-3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+          <li><a href="#pdf" aria-current="page">PDF &amp; E-signatures</a></li>
+          <li><a href="#marketing"><span>Marketing &amp; Commerce</span><svg viewBox="0 0 8 5" fill="none" aria-hidden="true"><path d="M1 1l3 3 3-3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+          <li><a href="#help">Help &amp; Support</a></li>
+        </ul>
+      </div>
+      <div class="ds-nav__right">
+        <button type="button" class="ds-nav-burger" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M2 5h14M2 9h14M2 13h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+        <button type="button" class="ds-nav__icon-btn" aria-label="All apps"><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><rect x="1" y="1" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="7" y="1" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="13" y="1" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="1" y="7" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="7" y="7" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="13" y="7" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="1" y="13" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="7" y="13" width="4" height="4" rx="0.5" fill="currentColor"/><rect x="13" y="13" width="4" height="4" rx="0.5" fill="currentColor"/></svg></button>
+        <a href="#pricing" class="ds-btn ds-btn--primary ds-btn--sm ds-nav__primary-cta">View plans and pricing</a>
+        <a href="#signin" class="ds-btn ds-btn--outline ds-btn--sm">Sign In</a>
+      </div>
+    </header>
+  </div>
+
+  <!-- HERO MOSAIC -->
+  <section class="ds-hero-mosaic" data-section="hero-mosaic" data-section-purpose="marquee" data-variant="C" data-layout="asymmetric-mosaic-1.5fr-1fr" id="main">
+    <div class="ds-container">
+      <div class="ds-hero-mosaic__grid">
+        <div class="ds-tile-feature">
+          <div class="ds-tile-feature__overlay">
+            <p class="eyebrow ds-tile-feature__eyebrow">Adobe Photoshop</p>
+            <h1 class="title-3 ds-tile-feature__title">Transform how you share information.</h1>
+            <a href="#trial" class="ds-btn ds-btn--solid-white ds-tile-feature__cta">Free trial</a>
+          </div>
+        </div>
+        <div class="ds-hero-mosaic__mnemonics">
+          <a href="#photoshop" class="ds-tile-mnemonic ds-tile-mnemonic--photoshop">
+            <div class="ds-tile-mnemonic__bg" aria-hidden="true"></div>
+            <div class="ds-tile-mnemonic__icon" aria-hidden="true"></div>
+            <div class="ds-tile-mnemonic__copy">
+              <span class="ds-tile-mnemonic__eyebrow">Photoshop</span>
+              <span class="ds-tile-mnemonic__name">Edit and create images</span>
+            </div>
+          </a>
+          <a href="#illustrator" class="ds-tile-mnemonic ds-tile-mnemonic--illustrator">
+            <div class="ds-tile-mnemonic__bg" aria-hidden="true"></div>
+            <div class="ds-tile-mnemonic__icon" aria-hidden="true"></div>
+            <div class="ds-tile-mnemonic__copy">
+              <span class="ds-tile-mnemonic__eyebrow">Illustrator</span>
+              <span class="ds-tile-mnemonic__name">Design vector graphics</span>
+            </div>
+          </a>
+          <a href="#premiere" class="ds-tile-mnemonic ds-tile-mnemonic--premiere">
+            <div class="ds-tile-mnemonic__bg" aria-hidden="true"></div>
+            <div class="ds-tile-mnemonic__icon" aria-hidden="true"></div>
+            <div class="ds-tile-mnemonic__copy">
+              <span class="ds-tile-mnemonic__eyebrow">Premiere</span>
+              <span class="ds-tile-mnemonic__name">Edit video and motion</span>
+            </div>
+          </a>
+          <a href="#lightroom" class="ds-tile-mnemonic ds-tile-mnemonic--lightroom">
+            <div class="ds-tile-mnemonic__bg" aria-hidden="true"></div>
+            <div class="ds-tile-mnemonic__icon" aria-hidden="true"></div>
+            <div class="ds-tile-mnemonic__copy">
+              <span class="ds-tile-mnemonic__eyebrow">Lightroom</span>
+              <span class="ds-tile-mnemonic__name">Master your photography</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPLORE-ROW-1 (4-up — "Everything you need to make anything.") -->
+  <section class="ds-explore ds-explore--4up" data-section="explore-row-1" data-section-purpose="navigation" data-pattern="explore-card-mosaic-4up">
+    <div class="ds-explore__head anim-enter">
+      <h2 class="title-3">Everything you need to make anything.</h2>
+    </div>
+    <div class="ds-explore__grid">
+      <a href="#firefly" class="ds-explore-tile ds-explore-tile--c0 anim-enter">
+        <div class="ds-explore-tile__bg" aria-hidden="true"></div>
+        <div class="ds-explore-tile__content">
+          <div class="ds-explore-tile__icon" aria-hidden="true"></div>
+          <span class="ds-explore-tile__eyebrow">Creative AI</span>
+          <span class="ds-explore-tile__name">Generate with Firefly</span>
+          <span class="ds-explore-tile__body">Images, video, audio. From a prompt to a final asset.</span>
+        </div>
+      </a>
+      <a href="#documents" class="ds-explore-tile ds-explore-tile--c1 anim-enter">
+        <div class="ds-explore-tile__bg" aria-hidden="true"></div>
+        <div class="ds-explore-tile__content">
+          <div class="ds-explore-tile__icon" aria-hidden="true"></div>
+          <span class="ds-explore-tile__eyebrow">Documents</span>
+          <span class="ds-explore-tile__name">PDFs with AI Assistant</span>
+          <span class="ds-explore-tile__body">Edit, sign, summarize, and collaborate in PDF Spaces.</span>
+        </div>
+      </a>
+      <a href="#marketing" class="ds-explore-tile ds-explore-tile--c2 anim-enter">
+        <div class="ds-explore-tile__bg" aria-hidden="true"></div>
+        <div class="ds-explore-tile__content">
+          <div class="ds-explore-tile__icon" aria-hidden="true"></div>
+          <span class="ds-explore-tile__eyebrow">Marketing</span>
+          <span class="ds-explore-tile__name">Personalization at scale</span>
+          <span class="ds-explore-tile__body">Content supply chain, journey orchestration, GenStudio.</span>
+        </div>
+      </a>
+      <a href="#learn" class="ds-explore-tile ds-explore-tile--c3 anim-enter">
+        <div class="ds-explore-tile__bg" aria-hidden="true"></div>
+        <div class="ds-explore-tile__content">
+          <div class="ds-explore-tile__icon" aria-hidden="true"></div>
+          <span class="ds-explore-tile__eyebrow">Learn</span>
+          <span class="ds-explore-tile__name">Adobe Express templates</span>
+          <span class="ds-explore-tile__body">500,000+ professional templates and on-brand assets.</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- DARK-BAND-CREATIVE-CLOUD -->
+  <section class="ds-dark-band ds-dark-band--cc" data-section="dark-band-creative-cloud" data-section-purpose="conversion" data-substrate="dark">
+    <div class="ds-dark-band__inner">
+      <div class="ds-dark-band__copy">
+        <p class="eyebrow ds-dark-band__eyebrow">Creative Cloud</p>
+        <h2 class="title-2 ds-dark-band__title">Save 50% on Creative Cloud Pro.</h2>
+        <p class="body-lg ds-dark-band__body">Creative AI tools, on sale. For the first 3 months — terms apply.</p>
+        <a href="#cc-pricing" class="ds-btn ds-btn--solid-white ds-dark-band__cta">View plans and pricing</a>
+      </div>
+      <div class="ds-dark-band__media" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- EXPLORE-ROW-2 (3-up — "Explore what's new.") -->
+  <section class="ds-explore ds-explore--3up" data-section="explore-row-2" data-section-purpose="rich-text" data-pattern="explore-card-mosaic-3up">
+    <div class="ds-explore__head anim-enter">
+      <h2 class="title-3">Explore what's new.</h2>
+    </div>
+    <div class="ds-explore__grid">
+      <a href="#generative-fill" class="ds-explore-tile ds-explore-tile--c4 anim-enter">
+        <div class="ds-explore-tile__bg" aria-hidden="true"></div>
+        <div class="ds-explore-tile__content">
+          <div class="ds-explore-tile__icon" aria-hidden="true"></div>
+          <span class="ds-explore-tile__eyebrow">Photoshop</span>
+          <span class="ds-explore-tile__name">New partner AI models in Generative Fill.</span>
+          <span class="ds-explore-tile__body">Create with Gemini 2.5 (with Nano Banana Pro) and FLUX.1 pro.</span>
+        </div>
+      </a>
+      <a href="#acrobat-ai" class="ds-explore-tile ds-explore-tile--c5 anim-enter">
+        <div class="ds-explore-tile__bg" aria-hidden="true"></div>
+        <div class="ds-explore-tile__content">
+          <div class="ds-explore-tile__icon" aria-hidden="true"></div>
+          <span class="ds-explore-tile__eyebrow">Acrobat</span>
+          <span class="ds-explore-tile__name">Get more done with new AI features in Acrobat.</span>
+          <span class="ds-explore-tile__body">Quickly create polished presentations, podcast overviews, and more.</span>
+        </div>
+      </a>
+      <a href="#sundance" class="ds-explore-tile ds-explore-tile--c2 anim-enter">
+        <div class="ds-explore-tile__bg" aria-hidden="true"></div>
+        <div class="ds-explore-tile__content">
+          <div class="ds-explore-tile__icon" aria-hidden="true"></div>
+          <span class="ds-explore-tile__eyebrow">Creative Cloud</span>
+          <span class="ds-explore-tile__name">Adobe apps are top choice for Sundance filmmakers.</span>
+          <span class="ds-explore-tile__body">Pros depend on Premiere, After Effects, and cutting-edge tools.</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- DARK-BAND-ACROBAT -->
+  <section class="ds-dark-band ds-dark-band--acrobat ds-dark-band--reverse" data-section="dark-band-acrobat" data-section-purpose="brand-statement" data-substrate="dark">
+    <div class="ds-dark-band__inner">
+      <div class="ds-dark-band__copy">
+        <p class="eyebrow ds-dark-band__eyebrow">Adobe for Business</p>
+        <h2 class="title-2 ds-dark-band__title">It starts with Adobe.</h2>
+        <p class="body-lg ds-dark-band__body">From AI to marketing ROI, every B2C and B2B story, content, and workflow ends with Adobe AI.</p>
+        <a href="#business" class="ds-btn ds-btn--solid-white ds-dark-band__cta">Learn more</a>
+      </div>
+      <div class="ds-dark-band__media" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- PRODUCT-GRID (6-up dark mnemonic gallery — "Tools that work for you.") -->
+  <section class="ds-product-grid-section" data-section="product-grid" data-section-purpose="navigation" data-substrate="dark" data-pattern="mnemonic-gallery-6up">
+    <div class="ds-product-grid-section__head anim-enter">
+      <h2 class="title-3 ds-product-grid-section__h2">Tools that work for you.</h2>
+    </div>
+    <div class="ds-product-grid">
+      <a href="#photoshop" class="ds-product-tile ds-product-tile--photoshop">
+        <div class="ds-product-tile__bg" aria-hidden="true"></div>
+        <div class="ds-product-tile__icon" aria-hidden="true"></div>
+        <span class="ds-product-tile__name">Photoshop</span>
+      </a>
+      <a href="#illustrator" class="ds-product-tile ds-product-tile--illustrator">
+        <div class="ds-product-tile__bg" aria-hidden="true"></div>
+        <div class="ds-product-tile__icon" aria-hidden="true"></div>
+        <span class="ds-product-tile__name">Illustrator</span>
+      </a>
+      <a href="#premiere" class="ds-product-tile ds-product-tile--premiere">
+        <div class="ds-product-tile__bg" aria-hidden="true"></div>
+        <div class="ds-product-tile__icon" aria-hidden="true"></div>
+        <span class="ds-product-tile__name">Premiere Pro</span>
+      </a>
+      <a href="#lightroom" class="ds-product-tile ds-product-tile--lightroom">
+        <div class="ds-product-tile__bg" aria-hidden="true"></div>
+        <div class="ds-product-tile__icon" aria-hidden="true"></div>
+        <span class="ds-product-tile__name">Lightroom</span>
+      </a>
+      <a href="#acrobat" class="ds-product-tile ds-product-tile--acrobat">
+        <div class="ds-product-tile__bg" aria-hidden="true"></div>
+        <div class="ds-product-tile__icon" aria-hidden="true"></div>
+        <span class="ds-product-tile__name">Acrobat</span>
+      </a>
+      <a href="#firefly" class="ds-product-tile ds-product-tile--firefly">
+        <div class="ds-product-tile__bg" aria-hidden="true"></div>
+        <div class="ds-product-tile__icon" aria-hidden="true"></div>
+        <span class="ds-product-tile__name">Firefly</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- SITE-FOOTER -->
+  <footer class="ds-footer" data-component="site-footer" data-system-component="footer" id="site-footer">
+    <div class="ds-footer__main">
+      <div class="ds-footer__cols">
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">For individuals<br>&amp; small business</h3><ul><li><a href="#">Creative AI</a></li><li><a href="#">Photography</a></li><li><a href="#">Design &amp; Illustration</a></li><li><a href="#">Video &amp; animation</a></li><li><a href="#">PDF</a></li><li><a href="#">View all products</a></li></ul></div>
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">For medium<br>&amp; large business</h3><ul><li><a href="#">Personalization at scale</a></li><li><a href="#">Content supply chain</a></li><li><a href="#">Unified customer experience</a></li><li><a href="#">B2B GTM orchestration</a></li><li><a href="#">View all products</a></li></ul></div>
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">For<br>Organizations</h3><ul><li><a href="#">Education</a></li><li><a href="#">Nonprofits</a></li><li><a href="#">Government</a></li></ul></div>
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">Support</h3><ul><li><a href="#">Help Center</a></li><li><a href="#">Download and install</a></li><li><a href="#">Adobe Community</a></li><li><a href="#">Adobe Learn</a></li></ul></div>
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">Contact</h3><ul><li><a href="#">Chat with sales</a></li><li><a href="#">Request information</a></li></ul></div>
+        <div class="ds-footer__col"><h3 class="ds-footer__col-title">Adobe</h3><ul><li><a href="#">Log into your account</a></li><li><a href="#">About</a></li><li><a href="#">Careers</a></li><li><a href="#">Trust Center</a></li><li><a href="#">Terms</a></li><li><a href="#">Privacy</a></li></ul></div>
+      </div>
+      <div class="ds-footer__featured">
+        <p class="ds-footer__feat-label">Featured Products</p>
+        <div class="ds-footer__prods">
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Acrobat Reader</span>
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Firefly</span>
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Adobe Express</span>
+          <span class="ds-footer__prod"><span class="ds-footer__prod-icon" aria-hidden="true"></span>Photoshop</span>
+        </div>
+      </div>
+      <div class="ds-footer__bottom">
+        <div class="ds-footer__legal">
+          <a href="#region">🌐 Change region</a>
+          <span>© 2026 Adobe Inc. All rights reserved.</span>
+          <a href="#dns">Do not sell or share my personal information</a>
+        </div>
+        <div class="ds-footer__social" aria-label="Social media">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M9 0a9 9 0 100 18A9 9 0 009 0zM7 14V9.5H5.5V8H7V6.5C7 5.5 7.5 4 9.5 4H11v1.5h-1c-.5 0-.5.25-.5.5V8h1.5l-.25 1.5H9.5V14H7z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M14 3h-2L9 7.5 6 3H3l4 6-4 6h2l3.5-5 3 5h3l-4-6 3.5-6z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="14" height="14" rx="4"/><circle cx="9" cy="9" r="3"/><circle cx="13" cy="5" r="0.5" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M3 6h2v9H3V6zm1-3a1 1 0 110 2 1 1 0 010-2zM7 6h2v1.3c.4-.7 1.4-1.5 2.8-1.5C13.7 5.8 15 7 15 9.5V15h-2v-4.7c0-1.4-.5-2.2-1.7-2.2-1 0-1.5.6-1.8 1.3-.1.3-.1.6-.1.9V15H7V6z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="ds-footer__wordmark" aria-hidden="true">
+      <span class="ds-footer__wordmark-text" id="wordmark-text">Adobe</span>
+    </div>
+  </footer>
+
+<script>
+  (function () {
+    'use strict';
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function clamp(v, lo, hi) { return v < lo ? lo : v > hi ? hi : v; }
+    function easeOut3(t) { return 1 - Math.pow(1 - t, 3); }
+
+    window.__lenis = { scroll: window.scrollY, lerp: reduce ? 1 : 0.1 };
+    window.addEventListener('scroll', function () { window.__lenis.scroll = window.scrollY; }, { passive: true });
+
+    var nav = document.getElementById('site-header');
+    function syncNavScroll() { if (nav) nav.classList.toggle('is-scrolled', window.scrollY > 8); }
+    window.addEventListener('scroll', syncNavScroll, { passive: true });
+    syncNavScroll();
+
+    /* Scroll-driven section entrance (baseline; no scroll-grow / no reverse-hero in variant C) */
+    if (!reduce) {
+      var items = [];
+      function registerAll() {
+        var nodes = document.querySelectorAll('.anim-enter');
+        items.length = 0;
+        nodes.forEach(function (el) {
+          var docTop = el.getBoundingClientRect().top + window.scrollY;
+          var parent = el.parentElement;
+          var sibIndex = 0;
+          if (parent) {
+            var sibs = Array.prototype.filter.call(parent.children, function (c) { return c.classList && c.classList.contains('anim-enter'); });
+            sibIndex = sibs.indexOf(el);
+          }
+          items.push({ el: el, triggerTop: docTop, staggerDelay: Math.min(sibIndex * 0.06, 0.4) });
+        });
+      }
+      function tick() {
+        var sY = window.scrollY;
+        var vh = window.innerHeight;
+        for (var i = 0; i < items.length; i++) {
+          var item = items[i];
+          var raw = (sY + vh * 0.85 - item.triggerTop) / (vh * 0.30);
+          var p = easeOut3(clamp(raw - item.staggerDelay, 0, 1));
+          item.el.style.opacity = String(p);
+          item.el.style.transform = 'translateY(' + ((1 - p) * 40).toFixed(2) + 'px)';
+        }
+        requestAnimationFrame(tick);
+      }
+      window.addEventListener('resize', registerAll, { passive: true });
+      requestAnimationFrame(function () { registerAll(); requestAnimationFrame(tick); });
+    }
+
+    /* Footer wordmark clip-path wipe (baseline — not mandatory in variant C) */
+    var wordmark = document.getElementById('wordmark-text');
+    if (wordmark && !reduce) {
+      wordmark.style.clipPath = 'inset(60% 0 0 0)';
+      function wmTick() {
+        var rect = wordmark.getBoundingClientRect();
+        var vh = window.innerHeight;
+        var wmTop = rect.top + window.scrollY;
+        var raw = (window.scrollY + vh - wmTop) / (vh * 0.5);
+        var p = raw < 0 ? 0 : raw > 1 ? 1 : 1 - Math.pow(1 - raw, 3);
+        wordmark.style.clipPath = 'inset(' + ((1 - p) * 60).toFixed(2) + '% 0 0 0)';
+        requestAnimationFrame(wmTick);
+      }
+      requestAnimationFrame(wmTick);
+    } else if (wordmark) {
+      wordmark.style.clipPath = 'none';
+    }
+
+    /* Burger stub */
+    var burger = document.querySelector('.ds-nav-burger');
+    if (burger) burger.addEventListener('click', function () {
+      var expanded = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', String(!expanded));
+    });
+  })();
+</script>
+
+</body>
+</html>
